@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "AI Summarize",
       "summary": "Create note summaries and folder digests with an OpenAI model.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ba9bb25e2b8753bb2603da9ec19c900d4c28add53e8fa7fcf80b257606e723fd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "AI Summarize",
       "summary": "使用 OpenAI 模型生成笔记摘要与文件夹内容汇总。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "36e99616f985813bc4b8c101b157f5958184e680e1380d234adee326f6582aa7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

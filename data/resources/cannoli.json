@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Cannoli",
       "summary": "Build executable AI workflows with cards and arrows in Obsidian Canvas.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "581dba129ac91acecc1359bb4a071bf7b9ca169ef33ce151cbb9595673bbf7f2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Cannoli",
       "summary": "用 Obsidian Canvas 中的卡片和连线搭建可运行的 AI 工作流。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "92a5704f88c32e619537a92c1c4afd0be479540b33075c38e44a96ce3c66a27f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

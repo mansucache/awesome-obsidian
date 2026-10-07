@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Prism",
       "summary": "Customize light and dark layouts with multiple color schemes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c111504d25f0634d818f4cf498f8e368b50aa9debeca5184e9c339693da6f25e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -84,7 +84,7 @@
       "title": "Prism",
       "summary": "用多种配色定制浅色与深色界面。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8d461053a6d39546349687941cb010123cbd6a2fc684ea6d979aa9d73fbccbbd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

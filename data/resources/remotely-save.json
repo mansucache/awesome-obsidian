@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Remotely Save",
       "summary": "Sync notes with supported cloud storage, with optional paid sync features.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "497a012e16028b8849811ea72954ece903fa9b5989ca6f2fef54e9c42f6eff48",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Remotely Save",
       "summary": "通过支持的云存储同步笔记，部分同步功能可选付费。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c866bdea108699ac7453fe0399adadc8802a79db259887401a378ac0e78b9de9",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

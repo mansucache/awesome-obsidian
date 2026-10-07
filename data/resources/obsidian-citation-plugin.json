@@ -28,7 +28,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -52,13 +52,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Citations",
       "summary": "Search BibTeX or CSL-JSON bibliographies and insert citations into notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "016bfb4c8779a26411be3477a196b9a2c3fecc419fcd38e83d03dea91e222e23",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -66,7 +66,7 @@
       "title": "Citations",
       "summary": "搜索 BibTeX 或 CSL-JSON 书目，将引用插入笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "814b74b132d6eaac99317c9287b56a07ea9a9cf12a1cee7d64c58a26edfb59a7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

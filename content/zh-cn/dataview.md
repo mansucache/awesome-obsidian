@@ -1,3 +1,9 @@
 # Dataview
 
-[Dataview](https://github.com/blacksmithgu/obsidian-dataview) — 查询笔记属性，自动生成阅读清单、任务视图和数据表格。
+[Dataview](https://github.com/blacksmithgu/obsidian-dataview) — 把分散笔记中的属性汇总成动态列表和表格，例如待读书单、项目索引或研究资料表。
+
+适合愿意维护统一字段、希望少做手工汇总的人；查询依赖已索引的属性，不等于对整库正文做语义搜索。
+
+## 从哪里开始
+
+先在几篇笔记中统一状态或主题字段，再做一个只筛选这些笔记的列表；确认结果后再增加排序与分组。

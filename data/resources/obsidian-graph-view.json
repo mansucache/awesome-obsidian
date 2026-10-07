@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Graph View",
       "summary": "Explore connections across the vault or around a single note.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b3262ff29658c7ca75e38db694e2bc95ace1f7568c8aae390ac47822fd564aeb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Graph View",
       "summary": "查看整个资料库或单篇笔记周围的链接关系。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5734d6b681cb0065d1efe095fe4ed727892b3c7cf23f7d8cb7eccab00f9c512c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

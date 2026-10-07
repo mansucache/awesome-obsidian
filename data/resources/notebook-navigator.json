@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Notebook Navigator",
       "summary": "Browse notes with a two-pane file navigator, previews and a calendar.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d637e86e53e0928a209dc96ea6147392dd9ed490457f5d76b66a4abb0594dc88",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Notebook Navigator",
       "summary": "通过双栏文件导航、笔记预览与日历浏览资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "70494723a432536bce343b95304dbbf44806415ef9fdb338d41e8fe42687313d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

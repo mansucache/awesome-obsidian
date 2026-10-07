@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Modular CSS Layout",
       "summary": "Use CSS snippets to add multi-column notes, wide views and gallery cards.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "083abb319be1dc855f810617b884c44256ea70b59a810b881a45892d1a15874e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Modular CSS Layout",
       "summary": "通过 CSS 片段实现多栏笔记、宽幅视图与卡片图库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3bff334ed8c7f735f68e6358f7777da3444c05981dc7ec8b4a90d160234a4563",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

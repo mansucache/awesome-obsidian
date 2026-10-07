@@ -1,0 +1,73 @@
+{
+  "id": "skill-obsidian-cli",
+  "type": "skill",
+  "category": "ai",
+  "secondary_categories": [],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "skill-obsidian-cli",
+    "skill"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Skill files are free; agent or model usage may have separate charges.",
+    "zh-cn": "技能文件免费，Agent 或模型使用可能另收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "agent-dependent"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian CLI Skill",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-cli/SKILL.md",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian CLI Skill",
+      "summary": "Guide an agent in interacting with a vault through the CLI and checking available commands.",
+      "context": "Useful for app operations beyond file editing; requires Obsidian running with its CLI enabled.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1ccf10cbded399b4ad3c1d842908ddf607e37e82ea74628f9c2d6844eeab7680",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "Obsidian CLI Skill",
+      "summary": "指导 Agent 通过 CLI 与资料库交互，并查询当前可用命令。",
+      "context": "适合需要操作应用而不只是编辑文件的任务；要求 Obsidian 运行并启用 CLI。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c7bc8c351cc406eaa0301e86d9258aeab71d70b146dcba0e4b38bcca171d066a",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "show_cost": true
+}

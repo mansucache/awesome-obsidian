@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,23 +49,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Templates for Zettelkasten",
       "summary": "Reuse note templates for books, quotes, concepts and other parts of a Zettelkasten.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "e2257095e8e2f704a2758467d3083a45f596c4ff2700af19f40ce716f91c85d7",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "efb5ca131e14bc72871eb13f91fdaba0212c0c74bd239b6f36260e17662203e3",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful as a consistent starting point; keep fields that support ideas and source links rather than copying every convention."
     },
     "zh-cn": {
       "title": "Obsidian Templates for Zettelkasten",
       "summary": "复用书籍、引文、概念等卡片盒笔记模板。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "6ec2a69edc69cf384ffd0e3b5dffc984fde2fee31813c542b253376fc312a7b9",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "0b3b611d8f05eadc3bac11e812d574b624399f28b8dc241cce96e5b345394d39",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合建立固定的记录起点；保留有助于表达观点与连接来源的字段，不必照搬全部结构。"
     }
   }
 }

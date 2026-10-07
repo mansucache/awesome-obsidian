@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Pomodoro Timer",
       "summary": "Run adjustable work and break intervals to structure focused sessions.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "588b48f02e224cb8cfa06762e0cb371648edc92f423291aa2148e94e672078c3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Pomodoro Timer",
       "summary": "用可调节的工作与休息计时组织专注时段。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8ff2a5536272d028fff07414b1e6ca52d4f80a664e048a2e75f447ecce20ac16",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

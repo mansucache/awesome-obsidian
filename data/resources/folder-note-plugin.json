@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Folder Note",
       "summary": "Attach an overview note to a folder and show its contents as cards.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f863e5b797779e861eb52567fa203ede9c49b0b47bf0e8f35eb42f0ab4f507b3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Folder Note",
       "summary": "为文件夹添加概览笔记，并用卡片展示内容。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6f0d4595d55e91dd97b3f2e4a306d16f2511e37891797af5af972254f250532c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

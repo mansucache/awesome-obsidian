@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Word Sprint",
       "summary": "Run timed writing sprints and track words produced during each session.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "521682915290769ba28f0e282c7daac0cf64dfc78a014277ebb27c478da27def",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Word Sprint",
       "summary": "进行限时写作冲刺，记录每次完成的字词数量。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "57e31431d9ff2caa8e98236f72cd70ceec9d1a2fc026e47af4998303f6abe16e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

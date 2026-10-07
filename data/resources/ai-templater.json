@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "AI for Templater",
       "summary": "Call OpenAI-compatible language models from Templater scripts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "660251c9280f6bdbf65752418d35609015fc8586b05f8856c512ae43eb126d34",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "AI for Templater",
       "summary": "在 Templater 脚本中调用兼容 OpenAI 的语言模型。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c225b19f05d081023626811f1babf8d652ef0c768e43f4183423252ccea0f5ca",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

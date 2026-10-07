@@ -2,6 +2,11 @@ name: Suggest a resource / 推荐资源
 description: Share a useful Obsidian resource / 推荐有用途的 Obsidian 资源
 title: "[Resource] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Search the catalog and existing issues first. English or Chinese is welcome; no JSON, translation or technical checks are needed to suggest a resource.
+        请先搜索目录和已有 Issue。中英文任选一种，无需准备 JSON、翻译或运行检查。
   - type: input
     id: name
     attributes:
@@ -17,8 +22,8 @@ body:
   - type: textarea
     id: purpose
     attributes:
-      label: One sentence explaining the use case / 用一句话说明用途
-      description: English or Chinese is welcome. / 中英文均可。
+      label: Purpose and reason to include / 用途与推荐理由
+      description: Describe a task it helps with and why it belongs here. A short example is welcome. / 说明它能帮助完成什么任务、为何值得收录，可附简短场景。
     validations:
       required: true
   - type: input
@@ -29,3 +34,10 @@ body:
     id: cost
     attributes:
       label: Cost, dependencies and supporting links / 费用、依赖与依据链接
+  - type: input
+    id: relationship
+    attributes:
+      label: Relationship to the resource / 与资源的关系
+      description: Author, contributor, sponsor, user, or none; self-recommendations are welcome. / 作者、贡献者、赞助者、使用者或无关联；欢迎自荐。
+    validations:
+      required: true

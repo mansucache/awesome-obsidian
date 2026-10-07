@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Starter Templates",
       "summary": "Explore research-project and technology-radar vaults built around linked notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f1631a1f12c09e3cf6726bc73121b982c458ee26fdc06f8b24d78ec7050c2c56",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Starter Templates",
       "summary": "参考围绕双向链接组织的研究项目与技术雷达示例库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fb51141f1610fdb609d78fcd72e8f4d012e0213aedd361d803a9b454fe7cbf48",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

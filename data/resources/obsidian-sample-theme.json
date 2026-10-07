@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Sample Theme",
       "summary": "Use the official starter files to create and submit an Obsidian theme.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "10dd16147b4bc22d1c28e736f9b525c603785d9b41da0cfc3bf0582786d2c644",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Obsidian Sample Theme",
       "summary": "使用官方起步文件制作并提交 Obsidian 主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "eb0e0e40be75935d09056d09a894eac82078148fd2a6e5fff345d3aac43adfba",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

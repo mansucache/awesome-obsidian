@@ -1,3 +1,9 @@
 # Tasks
 
-[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) — 跨笔记汇总任务，支持截止日期、重复任务与筛选视图。
+[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) — 跨笔记查询待办事项，按日期与条件组织任务，并从汇总视图更新完成状态。
+
+适合任务分散在会议、项目和日记中的用法；需要先约定任务日期与记录方式。
+
+## 从哪里开始
+
+先建立一个只显示当前项目待办的查询，再加入到期和重复任务；检查勾选后原笔记是否同步更新。

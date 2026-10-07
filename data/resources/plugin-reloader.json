@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Plugin Reloader",
       "summary": "Reload a selected plugin from a command or hotkey during development.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d37da2b24b20f6a4e572401f7fe0422040af6a63096e5c59bd3fc724530cc84b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Plugin Reloader",
       "summary": "开发时通过命令或快捷键重新加载指定插件。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "47e7e03b0ed42de06814017feb7429f27858213a45e0fb53cc6e32030c1913e7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

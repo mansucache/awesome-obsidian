@@ -15,11 +15,11 @@
   ],
   "pricing": "optional-payment",
   "cost_note": {
-    "en": "Free entry with optional paid features, services or courses.",
-    "zh-cn": "提供免费入口，部分功能、服务或课程另收费。"
+    "zh-cn": "可使用自有 Agent 账户、模型密钥或本地模型；供应商费用另计，托管模型及部分功能需要付费方案。",
+    "en": "Use your own agent account, model key or local model; provider charges are separate, and hosted models or some features require a paid plan."
   },
   "openness": "open-source",
-  "license": null,
+  "license": "AGPL-3.0",
   "platforms": [
     "unknown"
   ],
@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -35,6 +35,12 @@
       "url": "https://github.com/logancyang/obsidian-copilot",
       "checked_at": "2026-10-07",
       "supports": "Chat with note context and run agents such as Codex or Claude Code inside Obsidian."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/logancyang/obsidian-copilot/blob/master/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: AGPL-3.0"
     }
   ],
   "verification": {
@@ -51,23 +57,26 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Copilot",
-      "summary": "Chat with note context and run agents such as Codex or Claude Code inside Obsidian.",
+      "summary": "Chat with note context inside Obsidian, or connect agents such as Codex and Claude Code.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "fdd4d08dc67af17f449efae7bb932f9db51979c887a01f39774b2f08fd463f5b",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "d30bebc97369d97923b0b466983c4155a3a03f4e8a5024c78301d4fcf937485f",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for AI work within the note interface; agent backends run local processes and are desktop features, while mobile has a different feature set."
     },
     "zh-cn": {
       "title": "Copilot",
-      "summary": "结合笔记上下文对话，并在 Obsidian 中运行 Codex、Claude Code 等 Agent。",
+      "summary": "在 Obsidian 内结合笔记上下文对话，也可接入 Codex、Claude Code 等 Agent 完成工作。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "3d255fc97bddf4769ba427044acb10c75fcdd13b5c7151a1a287512a054fb0bf",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "3a067910fd04c202cfc13f0f7bf7532c9e6fdba53c56cf2198642044df4bac39",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合希望留在笔记界面开展 AI 工作的人；Agent 后端运行本地进程，属于桌面功能，移动端功能范围不同。"
     }
-  }
+  },
+  "show_cost": true
 }

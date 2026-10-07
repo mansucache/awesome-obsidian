@@ -30,7 +30,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -54,13 +54,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "AI LaTeX Generator",
       "summary": "Convert a selected natural-language formula description into LaTeX using Ollama.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "86beae6a31ee03ab64d7d73905ab2c6143903ecdbb41059288dfd84913cdd89a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -68,7 +68,7 @@
       "title": "AI LaTeX Generator",
       "summary": "通过 Ollama，将选中的自然语言公式描述转换为 LaTeX。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "95ebd079e3e9ee97aeb81d45cbd14d1850ac2ca5e5753780eed38ee8bf944cd3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

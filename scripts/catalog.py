@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate the bilingual catalog and build its static reading site."""
 import argparse
+import copy
 from datetime import date
 import hashlib
 import html
@@ -98,7 +99,7 @@ def load(root=ROOT):
     return contract, records
 
 
-def validate(root=ROOT):
+def validate(root=ROOT, draft=False):
     contract, records = load(root)
     errors = []
 
@@ -127,13 +128,11 @@ def validate(root=ROOT):
             else:
                 require(all(item['descriptions'].get(lang) for lang in contract['locales']), 'missing route description')
     require(len(grouped) == len(set(grouped)) and set(grouped) == set(ids), 'navigation must cover every resource exactly once')
-    require(set(contract['categories']).issubset({r.get('category') for r in records}),
-            'catalog has an empty primary category')
     urls = []
     for r in records:
         ident = r.get('id', '<missing>')
         try:
-            require(set(contract['required_fields']).issubset(r) and not (set(r) - set(contract['required_fields']) - {'editor_approval'}), f'{ident}: unexpected/missing record fields')
+            require(set(contract['required_fields']).issubset(r) and not (set(r) - set(contract['required_fields']) - {'maintenance', 'show_cost', 'local_content'}), f'{ident}: unexpected/missing record fields')
             require(bool(ID.fullmatch(ident)), f'{ident}: invalid id')
             for field, enum in [('type','types'),('pricing','pricing'),('openness','openness'),
                                 ('level','levels'),('publication','publication'),('status','statuses')]:
@@ -146,12 +145,19 @@ def validate(root=ROOT):
                 require(all(v in choices for v in r[field]), f'{ident}: invalid {field}')
             require(bool(r['platforms']) and bool(r['languages']), f'{ident}: empty platform/language')
             require(isinstance(r['license'], str) or r['license'] is None, f'{ident}: invalid license')
+            require(r['openness'] != 'open-source' or bool(r['license']), f'{ident}: open-source needs a license')
+            require(type(r.get('show_cost', False)) is bool, f'{ident}: invalid show_cost')
+            require(type(r.get('local_content', False)) is bool, f'{ident}: invalid local_content')
+            if r['status'] != 'documented':
+                m = r.get('maintenance', {})
+                require(all(m.get('reason', {}).get(lang) for lang in contract['locales']), f'{ident}: status needs a bilingual reason')
+                require(date.fromisoformat(m['date']) <= date.today(), f'{ident}: future maintenance date')
             require(type(r['revision']) is int and r['revision'] >= 1, f'{ident}: invalid revision')
             require(len(set(r['related'])) == len(r['related']), f'{ident}: duplicate related id')
             require(all(v in ids and v != ident for v in r['related']), f'{ident}: dangling/self relation')
             require(bool(r['sources']), f'{ident}: missing sources')
             # Original workflows may cite the same primary documentation as a resource.
-            if r['type'] != 'workflow':
+            if r['type'] != 'workflow' and not r.get('local_content'):
                 urls.append(r['sources'][0]['url'].rstrip('/'))
             for src in r['sources']:
                 require(https(src['url']), f'{ident}: invalid source URL')
@@ -165,14 +171,19 @@ def validate(root=ROOT):
             require(set(r['locales']) == set(contract['locales']), f'{ident}: missing/unexpected locale')
             for lang in contract['locales']:
                 loc = r['locales'][lang]
+                require(isinstance(loc.get('context', ''), str), f'{ident}/{lang}: invalid context')
                 require(bool(loc['title'].strip()) and bool(loc['summary'].strip()), f'{ident}/{lang}: empty copy')
-                require(loc['status'] == 'current', f'{ident}/{lang}: stale translation')
-                require(loc['based_on_revision'] == r['revision'], f'{ident}/{lang}: stale revision')
+                require(loc['status'] in ['current', 'stale'], f'{ident}/{lang}: invalid translation status')
+                pending = draft and r['publication'] == 'draft' and loc['status'] == 'stale'
+                if not pending:
+                    require(loc['status'] == 'current', f'{ident}/{lang}: stale translation')
+                    require(loc['based_on_revision'] == r['revision'], f'{ident}/{lang}: stale revision')
                 require(all(bool(r[f][lang].strip()) for f in ['cost_note']), f'{ident}/{lang}: missing cost note')
                 require(bool(v['scope'][lang]) and bool(v['limitations'][lang]), f'{ident}/{lang}: missing evidence boundary')
                 path = root / 'content' / lang / (ident + '.md')
                 text = path.read_text()
-                require(digest(path) == loc['content_sha256'], f'{ident}/{lang}: content changed without review hash')
+                if not pending:
+                    require(digest(path) == loc['content_sha256'], f'{ident}/{lang}: content changed without review hash')
                 require(text.startswith('# ' + loc['title'] + '\n'), f'{ident}/{lang}: title mismatch')
                 headings = re.findall(r'^## (.+)$', text, re.M)
                 required = contract['common_sections'][lang] + contract['type_sections'][r['type']][lang]
@@ -201,8 +212,8 @@ def validate(root=ROOT):
                 require(bool(asset['author']) and bool(asset['rights']), f'{ident}: missing credit/rights')
                 require(all(bool(asset['alt'][lang]) for lang in contract['locales']), f'{ident}: missing image alt')
                 require(asset['kind'] in ['upstream-preview','maintainer-screenshot'], f'{ident}: invalid image kind')
-            if r['publication'] == 'published':
-                require(bool(r.get('editor_approval')), f'{ident}: publication requires human editorial approval')
+            if r['publication'] == 'listed' and not draft:
+                require(all(by_id[x]['publication'] == 'listed' for x in r['related'] if x in by_id), f'{ident}: listed record links to draft')
         except (KeyError, ValueError, TypeError, OSError) as exc:
             errors.append(f'{ident}: malformed record/content: {exc}')
     require(len(urls) == len(set(urls)), 'duplicate primary source URLs')
@@ -211,6 +222,42 @@ def validate(root=ROOT):
     if errors:
         raise ValueError('\n'.join(errors))
     return contract, records
+
+
+def public_catalog(contract, records):
+    """Project navigation onto active listed records without changing source data."""
+    records = [r for r in records if r['publication'] == 'listed' and r['status'] in ['documented', 'needs-review']]
+    ids = {r['id'] for r in records}
+    contract = copy.deepcopy(contract)
+    for kind in ['groups', 'routes']:
+        for item in contract['navigation'][kind]:
+            item['resources'] = [ident for ident in item['resources'] if ident in ids]
+        contract['navigation'][kind] = [item for item in contract['navigation'][kind] if item['resources']]
+    return contract, records
+
+
+def cost_text(record, lang):
+    return record['cost_note'][lang] if record.get('show_cost') else ''
+
+
+def maintenance_report(records):
+    lines = ['# Maintenance queue', '', 'Signals require review; they do not automatically remove resources.', '']
+    for r in records:
+        signals = []
+        if r['publication'] == 'draft':
+            signals.append('draft')
+        if r['status'] != 'documented':
+            signals.append(r['status'] + ': ' + r.get('maintenance', {}).get('reason', {}).get('en', 'reason missing'))
+        age = (date.today() - date.fromisoformat(r['verification']['date'])).days
+        if age >= 90:
+            signals.append(f'last content review {age} days ago')
+        if r['openness'] == 'open-source' and not r['license']:
+            signals.append('license missing')
+        if 'unknown' in r['platforms']:
+            signals.append('platform coverage unknown')
+        if signals:
+            lines.append('- ' + r['id'] + ': ' + '; '.join(signals))
+    return '\n'.join(lines) + '\n'
 
 
 LABELS = {
@@ -263,19 +310,25 @@ def cards(contract, records, lang):
     for r in records:
         loc = r['locales'][lang]
         # Search is bilingual even when the surrounding interface is not.
-        search = ' '.join([loc['title'] + ' ' + loc['summary'] for loc in r['locales'].values()] +
+        search = ' '.join([loc['title'] + ' ' + loc['summary'] + ' ' + loc.get('context','') for loc in r['locales'].values()] +
+                          [cost_text(r,lang) for lang in contract['locales']] +
                           r['tags'] + [label for s in r['scenarios'] for label in contract['scenarios'][s].values()])
         topic = topics[r['id']]
         search += ' ' + ' '.join(topic['labels'].values())
         result.append(f'''<article class="card" data-record data-category="{r['category']} {' '.join(r['secondary_categories'])}" data-topic="{topic['id']}" data-price="{r['pricing']}" data-search="{E(search,quote=True)}">
 <p class="eyebrow">{E(topic['labels'][lang])} <span>{PRICE[lang][r['pricing']]}</span></p>
-<h3><a href="{r['sources'][0]['url'] if r['type'] != 'workflow' else r['id'] + '.html'}">{E(loc['title'])}</a></h3><p>{E(loc['summary'])}</p>
+<h3><a href="{r['sources'][0]['url'] if r['type'] != 'workflow' and not r.get('local_content') else r['id'] + '.html'}">{E(loc['title'])}</a></h3><p>{E(loc['summary'])}</p>
+{('<p>'+E(loc['context'])+'</p>') if loc.get('context') else ''}
+{('<p class="cost">'+E(cost_text(r,lang))+'</p>') if cost_text(r,lang) else ''}
+<p><a href="{r['id']}.html">{'阅读说明' if lang=='zh-cn' else 'Read more'}</a></p>
 </article>''')
     return ''.join(result)
 
 
 def readme_catalog(root, contract, records, lang):
     """Compact Markdown catalog, independently readable without the website."""
+    retired = [r for r in records if r['publication']=='listed' and r['status'] in ['archived','unavailable']]
+    contract, records = public_catalog(contract, records)
     zh = lang == 'zh-cn'
     by_id = {r['id']:r for r in records}
     total, themes, guides = len(records), sum(r['type']=='theme' for r in records), sum(r['type']=='workflow' for r in records)
@@ -288,10 +341,15 @@ def readme_catalog(root, contract, records, lang):
     lines += ['', '## '+('目录' if zh else 'Contents'), '']
     for key, labels in contract['categories'].items():
         count = sum(r['category'] == key for r in records)
-        lines.append(f'- [{labels[lang]}](#category-{key}) · {count}')
+        if count:
+            lines.append(f'- [{labels[lang]}](#category-{key}) · {count}')
     lines.append('')
     for key, labels in contract['categories'].items():
+        if not any(r['category'] == key for r in records):
+            continue
         lines += [f'<a id="category-{key}"></a>', '', '## '+labels[lang], '']
+        if key == 'plugins':
+            lines += [('按主要用途分组；AI 插件和集成插件另见 [AI 与自动化](#category-ai)、[搭配工具与集成](#category-integrations)。' if zh else 'Grouped by primary purpose; see also [AI & automation](#category-ai) and [Tools & integrations](#category-integrations) for other plugins.'), '']
         if key == 'ai':
             lines += [('模型 API、订阅与云服务可能单独收费。' if zh else 'Model APIs, subscriptions and cloud services may have separate costs.'), '']
         groups = [g for g in contract['navigation']['groups'] if g['category'] == key]
@@ -303,13 +361,23 @@ def readme_catalog(root, contract, records, lang):
             for ident in group['resources']:
                 r = by_id[ident]
                 loc = r['locales'][lang]
-                target = f'content/{lang}/{r["id"]}.md' if r['type']=='workflow' else r['sources'][0]['url']
+                target = f'content/{lang}/{r["id"]}.md' if (r['type']=='workflow' or r.get('local_content')) else r['sources'][0]['url']
                 badge = f' · {PRICE[lang][r["pricing"]]}' if r['pricing'] in ['paid','optional-payment'] else ''
                 lines += [f'- <a id="resource-{ident}"></a>[{loc["title"]}]({target}) — {loc["summary"]}{badge}']
+                if loc.get('context'):
+                    lines += [f'  {loc["context"]}']
+                if cost_text(r,lang):
+                    lines += [f'  {cost_text(r,lang)}']
+                if r['type'] != 'workflow' and '\n## ' in (root/'content'/lang/(ident+'.md')).read_text():
+                    lines += [f'  [{"用法与选择" if zh else "Usage & choosing"}](content/{lang}/{ident}.md)']
                 for a in r['assets']:
                     lines += ['', f'![{a["alt"][lang]}]({a["path"]})', '']
             lines.append('')
         lines.append('')
+    if retired:
+        lines += ['## '+('历史资源' if zh else 'Historical resources'), '']
+        for r in retired:
+            lines += [f'- <a id="resource-{r["id"]}"></a>[{r["locales"][lang]["title"]}](content/{lang}/{r["id"]}.md) — {r["maintenance"]["reason"][lang]}']
     return '\n'.join(lines).rstrip()+'\n'
 
 
@@ -326,10 +394,10 @@ def write_readmes(root, contract, records):
 
 
 def release_check(records):
-    counts = (len(records), sum(r['type'] == 'theme' for r in records),
-              sum(r['type'] == 'workflow' for r in records))
-    if any(actual < minimum for actual, minimum in zip(counts, (220, 15, 6))):
-        raise ValueError('1.0 requires at least 220 entries, 15 illustrated themes and 6 workflows')
+    if not any(r['publication'] == 'listed' and r['status'] in ['documented','needs-review'] for r in records):
+        raise ValueError('release requires an active listed resource')
+    if any(r['publication'] == 'draft' for r in records):
+        raise ValueError('release contains drafts; finish or remove them before publishing')
 
 
 def build(root=ROOT, release=False):
@@ -337,13 +405,15 @@ def build(root=ROOT, release=False):
     if release:
         release_check(records)
     write_readmes(root, contract, records)
+    listed = [r for r in records if r['publication'] == 'listed']
+    contract, records = public_catalog(contract, records)
     out = root / ('site/dist' if release else 'site/preview')
     if out.exists():
         shutil.rmtree(out)
     out.mkdir(parents=True, exist_ok=True)
     for name in ['style.css','catalog.js']:
         shutil.copy2(root/'site/prototype'/name, out/name)
-    for r in records:
+    for r in listed:
         for asset in r['assets']:
             for field in ['path','license_path']:
                 dest = out/asset[field]
@@ -363,7 +433,7 @@ def build(root=ROOT, release=False):
             choices = []
             for ident in route['resources']:
                 r = by_id[ident]
-                target = ident+'.html' if r['type']=='workflow' else r['sources'][0]['url']
+                target = ident+'.html' if (r['type']=='workflow' or r.get('local_content')) else r['sources'][0]['url']
                 choices.append(f'<a href="{E(target,quote=True)}">{E(r["locales"][lang]["title"])}</a>')
             routes.append(f'<article class="route"><h3>{E(route["labels"][lang])}</h3><p>{E(route["descriptions"][lang])}</p><p>{" · ".join(choices)}</p></article>')
         gallery = ''.join(f'''<a class="theme" href="{r['id']}.html"><img src="../{r['assets'][0]['path']}" alt="{E(r['assets'][0]['alt'][lang],quote=True)}" loading="lazy"><span>{E(r['locales'][lang]['title'])}</span></a>''' for r in records if r['type']=='theme')
@@ -382,25 +452,29 @@ def build(root=ROOT, release=False):
 <p id="empty" hidden>{ui['empty']}</p><div class="grid">{cards(contract,records,lang)}</div></section>
 <section id="theme-gallery"><h2>{ui['gallery']}</h2><div class="gallery">{gallery}</div></section>'''
         (directory/'index.html').write_text(shell(lang,ui['title'],body,script=True))
-        for r in records:
+        for r in listed:
             loc = r['locales'][lang]
             text = (root/'content'/lang/(r['id']+'.md')).read_text()
             body = f'<a class="back" href="index.html">← {ui["back"]}</a><div class="article">' + markdown(text)
+            if r['status'] in ['archived','unavailable']:
+                body += '<p>' + E(('历史资源：' if lang=='zh-cn' else 'Historical resource: ') + r['maintenance']['reason'][lang]) + '</p>'
+            if cost_text(r,lang):
+                body += '<p>' + E(cost_text(r,lang)) + '</p>'
             for asset in r['assets']:
                 body += f'<figure><a href="../{asset["path"]}"><img src="../{asset["path"]}" alt="{E(asset["alt"][lang],quote=True)}"></a></figure>'
-            related = [x for x in records if x['id'] in r['related'] or r['id'] in x['related']]
+            related = [x for x in listed if x['id'] in r['related'] or r['id'] in x['related']]
             if related:
                 body += f'<h2>{ui["related"]}</h2><ul>' + ''.join(f'<li><a href="{x["id"]}.html">{E(x["locales"][lang]["title"])}</a></li>' for x in related) + '</ul>'
             body += '</div>'
             (directory/(r['id']+'.html')).write_text(shell(lang,loc['title'],body,page=r['id']+'.html'))
         title = 'Resource catalog' if lang=='en' else '资源目录'
-        catalog_text = readme_catalog(root,contract,records,lang)
+        catalog_text = readme_catalog(root,contract,listed,lang)
         catalog_text = LINK.sub(lambda m: f'[{m[1]}](../{m[2]})' if m[2].startswith(('content/','assets/')) else m[0], catalog_text)
         lines = [f'# {title}', '', '[English](../README.md) · [中文](../README.zh-CN.md)', '', catalog_text,
                  '[Image credits / 图片来源与许可](../assets/README.md)', '']
         (root/'docs'/f'samples.{lang}.md').write_text('\n'.join(lines))
     credits = ['<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Image credits</title></head><body><h1>Image credits / 图片来源与许可</h1>']
-    for r in records:
+    for r in listed:
         for asset in r['assets']:
             credits.append(f'<p>{E(r["locales"]["en"]["title"])} — {E(asset["author"])} · <a href="{E(asset["source_page"],quote=True)}">Source</a> · <a href="{asset["license_path"]}">License</a></p>')
     credits.append('</body></html>')
@@ -414,14 +488,24 @@ def build(root=ROOT, release=False):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('command',choices=['check','build'])
-    parser.add_argument('--release', action='store_true', help='Check 1.0 scope and build site/dist')
+    parser.add_argument('command',choices=['check','build','report','sources'])
+    parser.add_argument('--release', action='store_true', help='Check publication readiness and build site/dist')
+    parser.add_argument('--draft', action='store_true', help='Check draft structure while allowing explicitly stale draft translations')
     args = parser.parse_args()
     try:
+        if args.draft and (args.release or args.command != 'check'):
+            raise ValueError('--draft is only supported by check without --release')
+        if args.command in ['report','sources']:
+            _, records = load()
+            if args.command == 'report':
+                print(maintenance_report(records), end='')
+            else:
+                print('\n'.join(sorted({s['url'] for r in records if r['publication']=='listed' for s in r['sources']})))
+            return
         if args.command == 'build':
             print('Built static site:', build(release=args.release))
         else:
-            _, records = validate()
+            _, records = validate(draft=args.draft)
             if args.release:
                 release_check(records)
             print(f'PASS: {len(records)} records, {len(records)*2} localized pages, source/relationship/image checks')

@@ -16,7 +16,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -32,6 +32,12 @@
       "url": "https://github.com/jackyzha0/quartz",
       "checked_at": "2026-10-07",
       "supports": "Turn Markdown notes into a website with backlinks, search and a graph view."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/jackyzha0/quartz/blob/v5/LICENSE.txt",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -48,23 +54,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Quartz",
       "summary": "Turn Markdown notes into a website with backlinks, search and a graph view.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "6f961c9d3773d02227d984630d236b83899b3de36b7aa7e0dc1dae2ffa70a29f",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "3983dc4bc9d5feac802d5783896131cb5f400cffa4418ed83e519086d2b5379f",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful when you want control over publishing and site styling; expect to configure builds and hosting."
     },
     "zh-cn": {
       "title": "Quartz",
       "summary": "把 Markdown 笔记生成带反向链接、搜索和图谱的网站。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "70f7da4c7b8c5b6ef8102ac9cbcda557cf0193dae52811f07169517846033f7f",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "7eefdf826d5e7f9ae377ba06f6245e3462fd8e990b3279cec8dd6e2873761a7c",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合希望自行管理发布流程和站点样式的人；需要承担构建与托管配置。"
     }
   }
 }

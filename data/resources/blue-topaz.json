@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -69,13 +69,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Blue Topaz",
       "summary": "A blue-accented theme with configurable layouts and visual styles.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f03abe085baa0be39bc5a00279db967b017ba6408c8df7c3d242ffafada38dbf",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -83,7 +83,7 @@
       "title": "Blue Topaz",
       "summary": "以蓝色为主调，可配置布局和视觉样式的主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "dd36be6ac48b03df0a4cc2db4acc6fc9ae03852c3b585d234665a65e14eb97df",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Bookmarks",
       "summary": "Keep frequently used notes, searches and headings within reach.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8c534ee895692581ddf2e77d7a18e6c2df374ed211b954e0fbdaa91f5241e4ce",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Bookmarks",
       "summary": "收藏常用笔记、搜索与标题，便于再次打开。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8108fb624f0f5a259aed264d35866be71fef99ac5d9ae5117372f423b0687058",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

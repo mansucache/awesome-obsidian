@@ -30,7 +30,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -54,13 +54,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "PDF++",
       "summary": "Annotate PDFs and link notes to passages or regions inside a document.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "dd10a8f1d9a908480487ac3d2e3ab1a46e4fd47f0e828c4219a3c87a41fe3296",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -68,7 +68,7 @@
       "title": "PDF++",
       "summary": "批注 PDF，并把笔记链接到文档中的段落或区域。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a698d3d08064500732a7ed3c1e0a3e5c6f0a41fab87405ecb1a6d991c9d8c573",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

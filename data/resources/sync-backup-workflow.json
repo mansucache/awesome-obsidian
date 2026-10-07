@@ -1,0 +1,74 @@
+{
+  "id": "sync-backup-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "sync"
+  ],
+  "tags": [
+    "sync-backup-workflow",
+    "workflow"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": "MIT",
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "curated",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "From device sync to recoverable backups",
+      "url": "https://help.obsidian.md/backup",
+      "checked_at": "2026-10-07",
+      "supports": "Primary documentation for the described capability; local templates and workflow steps are original editorial material."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "From device sync to recoverable backups",
+      "summary": "Choose a sync method, keep independent backups and verify them with a restore exercise.",
+      "context": "Use when adding devices, migrating a vault or changing sync methods.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "619229892f595dd05c2a12aa658d8e169fbacdde388251bfe3f590400227ee1c",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "从多设备同步到可恢复备份",
+      "summary": "先选同步方式，再建立独立备份，并用一次恢复演练检查是否真正可用。",
+      "context": "适合新加设备、迁移资料库或调整同步方案时使用。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "618d87bb31a7851b20b2e449409e1c2e0a127771b47734255af9dc039e085d45",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "local_content": true
+}

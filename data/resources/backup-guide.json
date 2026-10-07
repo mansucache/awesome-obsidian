@@ -1,0 +1,72 @@
+{
+  "id": "backup-guide",
+  "type": "article",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "sync"
+  ],
+  "tags": [
+    "backup-guide",
+    "article"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Back up your Obsidian files",
+      "url": "https://help.obsidian.md/backup",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Back up your Obsidian files",
+      "summary": "Explains the difference between sync and backup and how to keep recoverable vault copies.",
+      "context": "Read before adding devices or migrating; the goal is restoring an earlier state, not merely seeing the same files elsewhere.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "435df2ed5b6de5ee61f616ce016931af365d33001ed03e280169a03828f6ca30",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "Obsidian 官方备份指南",
+      "summary": "解释同步与备份的区别，并介绍如何为资料库保留可恢复的副本。",
+      "context": "适合开始多设备使用或准备迁移前阅读；重点是能恢复到过去状态，而非只在另一台设备看到同样文件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0a69aebf0e0bb6966616ee74fd2fc7758c246057e9770f0da5b7a98285f69b56",
+      "review": "source-backed bilingual editorial revision"
+    }
+  }
+}

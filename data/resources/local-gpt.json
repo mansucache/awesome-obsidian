@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,23 +51,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Local GPT",
       "summary": "Summarize or rewrite selected text using configurable AI actions and local model support.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "db6ad9bb0b0a5be06799e3537a168c9829c8b8f1f3540e052bdd218d13a95008",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "15ea0fdd5e817d83b777a7a7a969fe9677d09a1722d66231dc92d80323540df2",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for focused actions on selected text; whether processing is local depends on the configured model endpoint."
     },
     "zh-cn": {
       "title": "Local GPT",
       "summary": "通过可配置的 AI 动作总结或改写选中文本，支持本地模型。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "12e336faaddf8485d9919c5e6b5b94f284f5d4721e9c8b2e79123a8789b5bfee",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "d9e5c1c75b3a57f492aa859a0b9df18f3d2ff53b1bcc99de52c65702dab1c232",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合围绕选中文本执行明确的处理动作；“本地”是否成立取决于配置的模型端点。"
     }
   }
 }

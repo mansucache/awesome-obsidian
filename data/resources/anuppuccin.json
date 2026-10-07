@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -69,13 +69,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "AnuPpuccin",
       "summary": "Customize palettes, layouts and colorful folders through Style Settings.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c70fa5dbdc1d04e5edacda7781025c48c38e3084c39be80cc858bab646dcf2dc",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -83,7 +83,7 @@
       "title": "AnuPpuccin",
       "summary": "通过 Style Settings 调整配色、布局和彩色文件夹。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fe01ed29ebe74afc100bcfc71cc12c5c24d347bc5d7fd1c4ed9a043041eb9b7d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

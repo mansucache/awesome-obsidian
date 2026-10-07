@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Better Word Count",
       "summary": "Count words in selected text while editing a draft.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "676905e3709d01603cb8d9d503e512f829b510b30043a0e935f9bc81d468f3e7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Better Word Count",
       "summary": "编辑文稿时统计选中文本的字词数量。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f75fd468e8ff275e8a158b935c1b2798ba4cd619e25158db686a6c796d939b85",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Perlite",
       "summary": "Browse a Markdown vault through a self-hosted web interface.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "64c93b8de8057b1ec83a1928f39bac13b7ce15aa03bc99f0b1d871cc33d630b8",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Perlite",
       "summary": "通过自托管网页浏览 Markdown 资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9d451055cecc7e7d1fcdaae1e394f2ad9c48490ff54dfc78b35a9cefafc0de12",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

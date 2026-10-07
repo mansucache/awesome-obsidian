@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Auto Note Mover",
       "summary": "Move notes to folders according to rules based on tags or titles.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3b729ef71bc4becbc24b14e5e6d44b60795f2968ff5710ac74ce6ffba8ddaf80",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Auto Note Mover",
       "summary": "按标签或标题规则将笔记移动到指定文件夹。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "bddeb6e763808bcdbd96457d7ead0598db04f341669ed2e3700cd2c1e2cd6fda",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Blue Topaz Example Vault",
       "summary": "Explore a Chinese example vault combining dashboards, plugins and theme layouts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "927c0dc02c98279ffb2e2cba051b349ecc2ec6f132f19f3a8413189da4cdab03",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Blue Topaz Example Vault",
       "summary": "通过中文示例库了解仪表盘、插件与主题布局的组合。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9d4279c853c212bd03942ebfd23f9c4914b296dccdca5adb8aedf5d4884ff46e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

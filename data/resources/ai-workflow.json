@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,22 +53,22 @@
     "obsidian-skills"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Use AI with a focused set of notes",
       "summary": "Ask source-based questions and review proposed note changes before applying them.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "a26b943974561a920dded421289baeb526355afd36ee1ae443d91883cfc6bd24",
+      "based_on_revision": 2,
+      "content_sha256": "62fd23318953b2a5f9e00a1558faf982fba894030140f257ebeb256a260c0dba",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
     "zh-cn": {
       "title": "围绕明确资料使用 AI",
       "summary": "围绕指定来源提问，审阅修改建议后再更新笔记。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "9c00c4379a6cbf585430c6244ec867baf21b0267e972d824ab2f570873e611a8",
+      "based_on_revision": 2,
+      "content_sha256": "1cf73930b34e41c7a852dc5fbaa8d3bff38176dbbda865310ec98b346d482750",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }
   }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Writing Goals",
       "summary": "Set writing targets for individual notes or folders and track progress.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9acdb1595091bc7cff596d2b2f2a95dfef3cf16942e6b4edd1e03b5bcd68db00",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Writing Goals",
       "summary": "为单篇笔记或文件夹设置写作目标并跟踪进度。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2752860749001c682b4c445a266cf2228785009f885add294f84a9423e7a0d66",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

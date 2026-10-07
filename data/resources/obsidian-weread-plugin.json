@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Weread",
       "summary": "Sync highlights and annotations from WeRead into reading notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a1aa48883d1658e05fb1aadbb19dc6b5b142cae934c7152ac3c7092e046c9bc0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Weread",
       "summary": "将微信读书中的划线与批注同步为阅读笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "733a2b644a0746a0348bbf775ac85a4992cd03cc7b8f053bb280642f549ddd16",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Image Captions",
       "summary": "Display Markdown-compatible captions beneath embedded images.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ece8ca523e8dc34113815f06c6713e5d8963affd73c1d406c5e4a24e5b03d9a9",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Image Captions",
       "summary": "在嵌入图片下显示兼容 Markdown 的图注。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3f9475a74c1d569a2dc2408320979594cc6668f924007bd419eef0e2a7d8199b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

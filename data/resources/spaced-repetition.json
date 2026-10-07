@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Spaced Repetition",
       "summary": "Review flashcards and notes on a spaced-repetition schedule inside Obsidian.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fc63acb72edf6a0fa57b4777b250c73a248e65457f2f4d7e5f1e09e360d64e30",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Spaced Repetition",
       "summary": "在 Obsidian 中按间隔重复计划复习闪卡与笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "91bb5f55fcae7355cf858da82b443a1f99c1a09c8367f9d734e4bc7fa5cf5fc3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

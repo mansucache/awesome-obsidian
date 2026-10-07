@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Image Toolkit",
       "summary": "Open images in a viewer with zoom, rotation and other viewing controls.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9988c904303f7935fb493d8b67844709a9435d412f24204f59723e29e7a69f20",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Image Toolkit",
       "summary": "在支持缩放、旋转等操作的查看器中打开图片。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "219964037962dc113ee7c10f57c649773b9843767ea6400e9d23f75d75c4b0be",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -20,3 +20,14 @@ Ask source-based questions and review proposed note changes before applying them
 ## Optional extensions
 
 Use [LLM Workspace](llm-workspace.md) to select context, [Local GPT](local-gpt.md) for configurable model actions, or [Obsidian Skills](obsidian-skills.md) with a coding agent.
+
+## Choose an integration
+
+- For selected text, start with an existing model action and define its input and output.
+- For questions over a few sources, select context first and request source locations.
+- For Markdown, Bases or Canvas edits, choose the matching format skill, request proposed changes, then inspect the files.
+- To operate the running Obsidian app, use a CLI integration after checking the app and commands are available.
+
+## Check an edit
+
+Keep a restore point and limit the scope to one folder. Compare titles, properties and links before and after. Keep unsupported new conclusions as questions rather than writing them into factual notes.

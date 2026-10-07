@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Evergreen notes",
       "summary": "Learn to develop connected, concept-focused notes through repeated revision.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b1e653f5d09f010861062f2b3a8b9beadd9c832c8bada84a984ee03cb1d21ad4",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "常青笔记",
       "summary": "学习通过持续修订，积累围绕概念组织、彼此连接的笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e616db41fe65819091140a6432edcf5adbcf443670f20ddbb0588129033d28af",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

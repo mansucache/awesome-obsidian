@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "S3 attachments storage",
       "summary": "Store and retrieve media attachments through S3-compatible object storage.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e95581e04160ad6c7ef4e938b1d0eb294437d92b98908ebc3bdd7a7b083f3da3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "S3 attachments storage",
       "summary": "通过兼容 S3 的对象存储保存和读取媒体附件。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "92e32cb4334bcbecac48ccbb17bc22e980fc621b1e1a7c852428022afc7b04fb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

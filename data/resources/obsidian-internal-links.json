@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Internal Links",
       "summary": "Link to notes, headings and blocks to connect ideas precisely.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5d44bd0ca4703c46a46581a0dd461cc9d2a5afd3b4f573d91bab5bc8344ec680",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Internal Links",
       "summary": "链接笔记、标题和文本块，精确连接相关内容。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fa3c8b368b931740fd53648906b17179561671bddfe066686a3f6c2121601447",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

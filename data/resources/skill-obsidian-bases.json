@@ -1,0 +1,73 @@
+{
+  "id": "skill-obsidian-bases",
+  "type": "skill",
+  "category": "ai",
+  "secondary_categories": [],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "skill-obsidian-bases",
+    "skill"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Skill files are free; agent or model usage may have separate charges.",
+    "zh-cn": "技能文件免费，Agent 或模型使用可能另收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "agent-dependent"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Bases Skill",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-bases/SKILL.md",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Bases Skill",
+      "summary": "Guide an agent in creating and editing Bases views, filters and formulas.",
+      "context": "Useful for generating views over structured notes; standardize properties before checking filter results.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "00a35c319632853ebf2e0572fd18318296570ebd4c04b58e7ea782bc19e85f1c",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "Obsidian Bases Skill",
+      "summary": "指导 Agent 创建和修改 Bases 的视图、筛选与公式。",
+      "context": "适合已有结构化笔记、需要生成视图文件的人；先统一属性再检查筛选结果。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3b0be1abe24ef6288fc956b24de95e6750873f05a34a31e1e3865e7df57db0f6",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "show_cost": true
+}

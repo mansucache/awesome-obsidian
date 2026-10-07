@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Pandoc Plugin",
       "summary": "Export notes to DOCX, EPUB and other formats through an installed Pandoc converter.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "47d1f19d533915e5ee808a161e47fb79cfd415e8886b3ecd5ae79d70baed0f93",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Pandoc Plugin",
       "summary": "调用已安装的 Pandoc，将笔记导出为 DOCX、EPUB 等格式。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "596959c540dc39c3f4900f0de81fabcc1d6a3da1b5d7f5a311b6ff58fe2bad7d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

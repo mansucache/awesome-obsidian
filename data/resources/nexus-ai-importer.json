@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Nexus AI Chat Importer",
       "summary": "Import ChatGPT, Claude and other exported AI conversations as local Markdown notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8be5afc8a35d7211ec4247c4e785b197ea24fc99d0f582eb878173b6c2bf6b32",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Nexus AI Chat Importer",
       "summary": "把 ChatGPT、Claude 等平台导出的 AI 对话导入为本地 Markdown 笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "30bace2e44a80e342250a766f69b4fe3b9dd5bfb2968c16d634688540c3a74f5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

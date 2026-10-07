@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Commander",
       "summary": "Place frequently used commands in toolbars, menus and other interface locations.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a179aecd473efe0b18ac70f48defa11483960965b08f691531845c1263d6c49e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Commander",
       "summary": "把常用命令放到工具栏、菜单等界面位置。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b20b5a6bc913607865765818867926ab750c898f9efc8e02ab95a3f1fde57883",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

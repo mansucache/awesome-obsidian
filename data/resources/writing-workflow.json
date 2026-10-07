@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -52,13 +52,13 @@
     "obsidian-pandoc"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "From linked notes to a finished draft",
       "summary": "Turn source notes into an outline, draft and exportable article.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "834b9286c74cb15725077635fdc1ec168984543b56bdee78a66715a123ebbb72",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -66,7 +66,7 @@
       "title": "从关联笔记到完整初稿",
       "summary": "把来源笔记整理成提纲、初稿和可导出的文章。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a9d34305c7b50a1f96677fd5e5670e27df9859a8a7d29e74a689da8d0b8005ff",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

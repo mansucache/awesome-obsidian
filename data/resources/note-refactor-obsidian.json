@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Note Refactor",
       "summary": "Extract selected content into a new note or split a long note into smaller ones.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "751a09e525febb682a4662f361a031ad62ba3105b696954ab0a07de9a54a37ac",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Note Refactor",
       "summary": "把选中内容提取为新笔记，或将长笔记拆分为多篇。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a63f737d6f699089a43b04dc72ccebfbcd1e94c63dece8cc3438ad2c0120d5db",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -1,16 +1,32 @@
 name: Correct an entry / 修正条目
-description: Report a broken link, incorrect description or changed price / 报告链接、描述或费用变化
+description: Report broken links, inaccurate descriptions, price changes or project moves / 报告链接、描述、费用或项目状态变化
 title: "[Correction] "
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues first. English or Chinese is welcome. Report what you observed even if you do not know the fix.
+        请先搜索已有 Issue。中英文任选一种；不知道如何修正，也可以说明观察到的问题。
   - type: input
     id: resource
     attributes:
-      label: Resource name or page / 资源名称或页面
+      label: Resource name or catalog page / 资源名称或目录页面
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Current problem / 当前问题
+      description: What is incorrect or no longer works? For broken links, include the URL and observed error. / 哪里不准确或失效？链接问题请附地址和遇到的错误。
     validations:
       required: true
   - type: textarea
     id: correction
     attributes:
-      label: What changed? Include a primary source. / 哪里需要修改？请附原始来源。
-    validations:
-      required: true
+      label: Suggested correction / 建议修改
+      description: If known, provide the new description, price, URL or maintenance status. / 如已知，请提供新描述、费用、地址或维护状态。
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting links / 依据链接
+      description: Prefer official documentation, pricing or an author announcement. Leave blank if unavailable. / 优先提供官方文档、定价页或作者公告；找不到可以留空。

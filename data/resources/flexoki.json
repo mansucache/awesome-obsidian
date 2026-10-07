@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Flexoki",
       "summary": "Explore an ink-and-paper color palette available in themes such as Minimal.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "288b331cce2e7fbb403f03326f7cee05477b63331c194dd969ff25a5a44882f5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Flexoki",
       "summary": "了解以纸墨为灵感的配色，可在 Minimal 等主题中使用。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ea32de33b8d7964aadab5a5289a06690dc111e3b8d6b5894067131cd87a30b18",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

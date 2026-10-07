@@ -1,0 +1,73 @@
+{
+  "id": "skill-json-canvas",
+  "type": "skill",
+  "category": "ai",
+  "secondary_categories": [],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "skill-json-canvas",
+    "skill"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Skill files are free; agent or model usage may have separate charges.",
+    "zh-cn": "技能文件免费，Agent 或模型使用可能另收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "agent-dependent"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "JSON Canvas Skill",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/json-canvas/SKILL.md",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "JSON Canvas Skill",
+      "summary": "Guide an agent in building Canvas files with nodes, edges and groups.",
+      "context": "Useful for turning known relationships into a canvas; inspect layout and connection meaning after generation.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c79e36dceb0ffb712b3bca39f324294c6e33031f6b64a1d18a5c8ccd217e490e",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "JSON Canvas Skill",
+      "summary": "指导 Agent 用节点、连线和分组构建 Canvas 文件。",
+      "context": "适合把已整理的关系转成画布；生成后仍需打开检查布局和连线含义。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f94de128f8f1802f186f5886059edef3215517975e547ba144a6ff29c5e107c7",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "show_cost": true
+}

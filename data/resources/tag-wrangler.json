@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Tag Wrangler",
       "summary": "Rename or merge tags across notes from the tag pane.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e090d4d87c404a985abd65d54c9a07a2308ccf9fb02e35eb8bf232b5dcc4d27c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Tag Wrangler",
       "summary": "在标签面板中跨笔记重命名或合并标签。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "250473f6e4eae1da22304cb5cb9bac2c9e2960dbe91d1fb949d238bfd59bf4ad",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

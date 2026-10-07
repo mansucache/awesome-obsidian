@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Shimmering Focus",
       "summary": "Reduce interface chrome to focus on reading and writing.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a778d3dd33e54234c6b55f7162acf17542fc2be6597a5c1694ac8c1c64727683",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -84,7 +84,7 @@
       "title": "Shimmering Focus",
       "summary": "精简界面控件，让阅读和写作区域更突出。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7ed29bdd5b91d12a19aa7c894f49ff5c82f9ef6c89a8765c77cf8422448ae7a8",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

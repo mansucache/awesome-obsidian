@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Homepage",
       "summary": "Open a chosen note, canvas, base or workspace when the vault starts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "17f68c15a257e0a90c5fba13fa1540feef464564f8a324d9e5b08d7abb396f4e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Homepage",
       "summary": "启动资料库时打开指定笔记、画布、Bases 或工作区。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "34444d7e9f79d5968d0bd8a44b076f9b5c7131118cb9112d54f14b2d0b383314",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -52,23 +52,25 @@
     "kepano-vault"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Web Clipper Templates",
       "summary": "Capture structured references from sites such as arXiv, Goodreads and Wikipedia.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "3b0de52f8ad5b88ea3ad782dc02fa0d3f8604a88d440d7052636d61fc410cf1e",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "62bae1cc7891abf67ce14049c36799636c4e08c92c0c7eef177d569c10f590e4",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for customizing capture fields for frequently read sites; check titles, source URLs and extracted text after importing."
     },
     "zh-cn": {
       "title": "Web Clipper Templates",
       "summary": "使用站点模板，从 arXiv、Goodreads、维基百科等网页提取结构化资料。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "ca31c434173c740ecf64bdf2f39af20e1e234f30e5c83a576413f757fa2a53b5",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "6f6b3612618cfedc5def1573bc22a8aa1768e9b63cfe1c637af602fd7ceeb5d5",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合针对常读网站定制剪藏字段；导入后先检查标题、来源地址和正文提取结果。"
     }
   }
 }

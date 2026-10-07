@@ -9,6 +9,7 @@ import unittest
 from urllib.parse import urlsplit, unquote
 
 import catalog
+import review_record
 
 
 class CatalogChecks(unittest.TestCase):
@@ -30,8 +31,9 @@ class CatalogChecks(unittest.TestCase):
 
     def test_release_build_and_scope(self):
         _, records = catalog.validate(self.root)
-        with self.assertRaisesRegex(ValueError, '1.0 requires'):
-            catalog.release_check(records[:100])
+        catalog.release_check(records[:100])  # Legitimate removals must not require filler entries.
+        with self.assertRaisesRegex(ValueError, 'active listed'):
+            catalog.release_check([])
         out = catalog.build(self.root, release=True)
         self.assertEqual(out.name, 'dist')
         self.assertEqual(len(list(out.rglob('*.html'))), 2 * len(records) + 4)
@@ -48,6 +50,62 @@ class CatalogChecks(unittest.TestCase):
         self.change('dataview',lambda r:r.update(revision=r['revision']+1))
         with self.assertRaisesRegex(ValueError,'stale revision'):
             catalog.validate(self.root)
+
+    def test_draft_translation_is_checkable_but_not_releasable(self):
+        self.change('skill-json-canvas',lambda r:r.update(publication='draft',revision=r['revision']+1))
+        self.change('skill-json-canvas',lambda r:[loc.update(status='stale') for loc in r['locales'].values()])
+        _,records=catalog.validate(self.root,draft=True)
+        with self.assertRaisesRegex(ValueError,'drafts'):
+            catalog.release_check(records)
+        with self.assertRaisesRegex(ValueError,'stale translation'):
+            catalog.validate(self.root)
+
+    def test_retirement_removes_discovery_but_keeps_compatible_pages(self):
+        self.change('minimal',lambda r:r.update(status='archived',maintenance={'date':'2026-10-07','reason':{'en':'Test retirement','zh-cn':'测试归档'}}))
+        out=catalog.build(self.root,release=True)
+        home=(out/'en/index.html').read_text()
+        self.assertNotIn('href="minimal.html"',home)
+        self.assertIn('Test retirement',(out/'en/minimal.html').read_text())
+        self.assertTrue((out/'assets/themes/minimal/preview.png').exists())
+        text=(self.root/'README.md').read_text()
+        self.assertIn('Historical resources',text)
+        self.assertIn('Test retirement',text)
+        self.assertNotIn('](assets/themes/minimal/preview.png)',text)
+
+    def test_review_helper_does_not_publish_or_verify_sources(self):
+        p=self.root/'data/resources/dataview.json'
+        before=json.loads(p.read_text())
+        r=review_record.review(self.root,'dataview',['en'],bump=True)
+        self.assertEqual(r['publication'],'draft')
+        self.assertEqual(r['locales']['zh-cn']['status'],'stale')
+        self.assertEqual(r['verification'],before['verification'])
+        self.assertEqual(r['sources'],before['sources'])
+        r=review_record.review(self.root,'dataview',['zh-cn'])
+        self.assertEqual(r['publication'],'draft')
+
+    def test_reader_context_and_specific_costs_reach_both_surfaces(self):
+        contract,records=catalog.validate(self.root)
+        r=next(r for r in records if r['id']=='copilot')
+        for lang in ['en','zh-cn']:
+            md=catalog.readme_catalog(self.root,contract,records,lang)
+            cards=catalog.cards(contract,records,lang)
+            self.assertIn(r['locales'][lang]['context'],md)
+            self.assertIn(r['cost_note'][lang],md)
+            self.assertIn(catalog.E(r['cost_note'][lang]),cards)
+
+    def test_missing_license_and_retirement_reason_rejected(self):
+        self.change('dataview',lambda r:r.update(license=None))
+        self.change('minimal',lambda r:r.update(status='archived'))
+        with self.assertRaisesRegex(ValueError,'license'):
+            catalog.validate(self.root)
+
+    def test_draft_is_not_discoverable(self):
+        contract,records=catalog.load(self.root)
+        record=next(r for r in records if r['id']=='minimal')
+        record['publication']='draft'
+        public,active=catalog.public_catalog(contract,records)
+        self.assertNotIn('minimal',[r['id'] for r in active])
+        self.assertNotIn('minimal',[i for group in public['navigation']['groups'] for i in group['resources']])
 
     def test_unreviewed_copy_rejected(self):
         path = self.root/'content/en/dataview.md'
@@ -144,7 +202,7 @@ class CatalogChecks(unittest.TestCase):
             self.assertTrue(text.endswith('Manual footer\n'))
             for r in records:
                 self.assertIn('['+r['locales'][lang]['title']+'](',text)
-                if r['type'] != 'workflow':
+                if r['type'] != 'workflow' and not r.get('local_content'):
                     self.assertIn(r['sources'][0]['url'],text)
             catalog_text = text.split('<!-- catalog:start -->')[1].split('<!-- catalog:end -->')[0]
             self.assertEqual(catalog_text.count('!['),sum(len(r['assets']) for r in records))

@@ -19,7 +19,7 @@
     "zh-cn": "扩展免费；可选模型服务的费用另计。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "browser"
   ],
@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -47,6 +47,12 @@
       "url": "https://obsidian.md/help/web-clipper/interpreter",
       "checked_at": "2026-10-07",
       "supports": "Optional model processing and external/local provider data flow."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/obsidianmd/obsidian-clipper/blob/main/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -65,23 +71,25 @@
     "reading-workflow"
   ],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Obsidian Web Clipper",
       "summary": "Save web pages and highlights to Obsidian, with optional AI processing.",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "892d4db8570dcacbf5f5fba0b8e82376bac5e1b0678fef61aa944a6ab0db5811",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "a0268b6a4520ccef379443805b664f34cff2212266dc7ad7a8cf1cc3e417c5d8",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for capturing pages before making reading notes; add your own summary and purpose so the vault is more than copied pages."
     },
     "zh-cn": {
       "title": "Obsidian Web Clipper",
       "summary": "将网页与高亮内容保存到 Obsidian，可选用 AI 处理。",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "72a050f9548ad67fe3cb2f55e2c273257e058c1a11b44f8db81f21ac31535b3d",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "23ae801585c2b85243f9047491de5898a70266b2fe1a05e42e278628d714813c",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合先收集网页再整理阅读笔记；保存后补充自己的摘要和用途，避免资料库只剩网页副本。"
     }
   }
 }

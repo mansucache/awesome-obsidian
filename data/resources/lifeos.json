@@ -26,7 +26,7 @@
     "zh-cn"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -50,13 +50,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "LifeOS",
       "summary": "Start a personal management vault with PARA folders and periodic-note templates.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "843003ed8c9c4109120758ea6ee145cb4dc1e23e7ca45070896e1c9b6cf7a509",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -64,7 +64,7 @@
       "title": "LifeOS",
       "summary": "用 PARA 文件夹与周期笔记模板搭建个人管理资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c59b1bb01be39b4c17174247964894c57fce2e87ec964614549950d811354e30",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

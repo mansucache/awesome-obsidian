@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
     "tasks"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "From a project goal to next actions",
       "summary": "Connect outcomes, tasks and weekly reviews in a project note.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "39ac7b6a48e0f4de0e409d00e28eb78d5b66ff8f8ae49cf2a22e3b8ef7bd381a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "从项目目标到下一步行动",
       "summary": "用项目笔记连接交付目标、任务与每周复盘。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "24ce07149707b6bbea87368f1de9113226fadc8ab119774972199b1e87a58df6",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

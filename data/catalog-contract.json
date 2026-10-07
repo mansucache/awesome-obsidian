@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "locales": [
     "en",
     "zh-cn"
@@ -134,8 +134,8 @@
     "curated"
   ],
   "publication": [
-    "sample",
-    "published"
+    "draft",
+    "listed"
   ],
   "statuses": [
     "documented",

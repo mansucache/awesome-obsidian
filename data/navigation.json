@@ -139,19 +139,6 @@
       ]
     },
     {
-      "id": "plugins-manage",
-      "category": "plugins",
-      "labels": {
-        "en": "Import, backup & settings",
-        "zh-cn": "导入、备份与设置"
-      },
-      "resources": [
-        "importer",
-        "obsidian-git",
-        "style-settings"
-      ]
-    },
-    {
       "id": "appearance-themes",
       "category": "appearance",
       "labels": {
@@ -184,6 +171,7 @@
         "zh-cn": "CSS 片段与布局"
       },
       "resources": [
+        "style-settings",
         "modular-css",
         "css-snippets",
         "sailkite-snippets",
@@ -233,7 +221,10 @@
       "resources": [
         "zettelkasten-templates",
         "clipper-templates",
-        "dashboard-gallery"
+        "dashboard-gallery",
+        "meeting-note-template",
+        "reading-note-template",
+        "project-review-template"
       ]
     },
     {
@@ -281,7 +272,11 @@
         "loom",
         "chat-stream",
         "smart-templates",
-        "ai-templater"
+        "ai-templater",
+        "skill-obsidian-markdown",
+        "skill-obsidian-bases",
+        "skill-json-canvas",
+        "skill-obsidian-cli"
       ]
     },
     {
@@ -322,6 +317,7 @@
         "zh-cn": "阅读与迁移"
       },
       "resources": [
+        "importer",
         "web-clipper",
         "readwise-reader",
         "yarle",
@@ -372,7 +368,8 @@
         "writing-workflow",
         "learning-workflow",
         "projects-workflow",
-        "ai-workflow"
+        "ai-workflow",
+        "sync-backup-workflow"
       ]
     },
     {
@@ -408,11 +405,10 @@
       "id": "learning-learn",
       "category": "learning",
       "labels": {
-        "en": "Articles & courses",
-        "zh-cn": "文章与课程"
+        "en": "Courses & author resources",
+        "zh-cn": "课程与作者资源"
       },
       "resources": [
-        "how-i-use-obsidian",
         "linking-your-thinking",
         "obsidian-blog",
         "building-second-brain"
@@ -541,6 +537,7 @@
         "zh-cn": "同步与存储"
       },
       "resources": [
+        "obsidian-git",
         "obsidian-livesync",
         "remotely-save",
         "s3-attachments-storage"
@@ -624,11 +621,15 @@
       "id": "learning-tutorials",
       "category": "learning",
       "labels": {
-        "en": "Focused tutorials & demonstrations",
-        "zh-cn": "专题教程与演示"
+        "en": "Articles & practical tutorials",
+        "zh-cn": "文章与实践教程"
       },
       "resources": [
-        "obsidian-rocks"
+        "how-i-use-obsidian",
+        "obsidian-rocks",
+        "backup-guide",
+        "sync-methods-guide",
+        "plugin-security-guide"
       ]
     }
   ],
@@ -788,6 +789,24 @@
       },
       "resources": [
         "learning-workflow"
+      ]
+    },
+    {
+      "id": "sync-backup",
+      "labels": {
+        "en": "Sync, back up and recover",
+        "zh-cn": "同步、备份与恢复笔记"
+      },
+      "descriptions": {
+        "en": "Choose by device, keep independent copies and practice recovery.",
+        "zh-cn": "按设备选择同步方案，保留独立副本并练习恢复。"
+      },
+      "resources": [
+        "sync-backup-workflow",
+        "sync-methods-guide",
+        "backup-guide",
+        "obsidian-sync",
+        "obsidian-git"
       ]
     }
   ]

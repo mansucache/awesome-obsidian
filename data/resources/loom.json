@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Loom",
       "summary": "Explore alternative continuations of a text through branching AI generations.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d420f12290541473b2b705e34a742c539c306c2a687acd79274175e15eb50d09",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Loom",
       "summary": "通过树状分支探索 AI 为文本生成的不同续写方向。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f2957257397bf992ba81e4d4c312493d144e9df5d0f118c5cf6b29378e97cfbb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

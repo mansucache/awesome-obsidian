@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -69,13 +69,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Catppuccin",
       "summary": "A pastel theme with one light and three dark color palettes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "4ea38d778ed5fb62be75c919c73f2142cc77c6991b2d8bae496c663ea6ee73a2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -83,7 +83,7 @@
       "title": "Catppuccin",
       "summary": "提供一种浅色与三种深色配色的柔和粉彩主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b2af3ec333f2fea9ee55eeee524afa54d3887be47552486fbe980d09fddea068",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

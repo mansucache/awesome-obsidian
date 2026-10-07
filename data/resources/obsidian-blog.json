@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Blog",
       "summary": "Follow official feature announcements, product updates and community highlights.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d3315fef7051709c0abff39403d40d77078e8ed3cc12b7314c83a88aa487cd32",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Obsidian 官方博客",
       "summary": "阅读官方功能介绍、产品更新和社区动态。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f642a9d298dfb6e18032e4436d80b94f9dcce7115318fbe057203b3b822db99d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

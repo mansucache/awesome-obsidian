@@ -15,11 +15,11 @@
   ],
   "pricing": "free",
   "cost_note": {
-    "en": "Free resource; external services may have separate charges.",
-    "zh-cn": "资源免费，外部服务可能单独收费。"
+    "zh-cn": "插件本身免费；云端模型服务按供应商方案计费，本地模型需要自行运行。",
+    "en": "The plugin is free; cloud models follow provider pricing, and local models require a local runtime."
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -35,6 +35,12 @@
       "url": "https://github.com/nhaouari/obsidian-textgenerator-plugin",
       "checked_at": "2026-10-07",
       "supports": "Generate and transform note content with prompt templates and local or cloud models."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/nhaouari/obsidian-textgenerator-plugin/blob/master/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -51,23 +57,26 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Text Generator",
-      "summary": "Generate and transform note content with prompt templates and local or cloud models.",
+      "summary": "Use prompt templates with cloud or local models for repeated note generation and rewriting tasks.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "f1434dae66a1db42eb3efbd1d53ef6ff77864de750b3b3e324f0999aa28f6149",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "abf39d16ebd58e0b1f3e743fa50f5025efa7173b0e2c96d53db64346e1002e87",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for tasks with a defined input and output, such as turning points into a draft; compare generated text with the source."
     },
     "zh-cn": {
       "title": "Text Generator",
-      "summary": "结合提示词模板与本地或云端模型，生成和改写笔记内容。",
+      "summary": "把提示词模板用于笔记生成与改写，连接云端服务或本地模型处理重复的文本任务。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "7dc56de19f982c94c0845c2407a17c20653669f5f1f57782aa9cfd87fd6e200d",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "354d2fb9a2d75a1ed0d58514059668ce49b72f2d968c13ecdf399568c276709d",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合已有明确输入与输出格式的操作，例如把要点整理成初稿；模型生成内容仍需要核对原文。"
     }
-  }
+  },
+  "show_cost": true
 }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Full Calendar",
       "summary": "Manage events in calendar views with each local event stored as a note.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "aa87850823cc1afb6f2d1f9f37ded4da4a2a41894ca44388e700b8aa22c10dc0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Full Calendar",
       "summary": "用日历视图管理事件，并将本地事件分别保存为笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "be0fbe475b54d124c5e26eed378d9f59f9e45dd969effeea72528004f05371a1",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

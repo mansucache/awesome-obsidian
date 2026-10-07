@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Maple",
       "summary": "Combine restrained colors with readable note typography.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "599525e35fc7a05507120d246ab855d3425bc97eca1741ef88f76263565a47cb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -84,7 +84,7 @@
       "title": "Maple",
       "summary": "结合克制的配色与易读的笔记排版。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3d287828f7b7da40ceb3f326873d9a8eecda7d61eea1de6e67c7b707451c0432",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

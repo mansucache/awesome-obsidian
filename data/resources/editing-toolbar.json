@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Editing Toolbar",
       "summary": "Apply formatting and custom editing commands from a configurable toolbar.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a4fa2359520975253b32252b24715c701342ec756643fcb265625d8500b7d99a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Editing Toolbar",
       "summary": "通过可配置工具栏应用格式与自定义编辑命令。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7f756a96fee312c1717b4c54b34480f0e18232d6809a13358bc00df66a83133d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

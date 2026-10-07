@@ -30,7 +30,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -54,13 +54,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Book Search",
       "summary": "Create book notes from title, author or ISBN searches and fetched metadata.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5fb01c4251adb22d3118b23590226eb37d0b90035334bcd18fb94a8f7160cf87",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -68,7 +68,7 @@
       "title": "Book Search",
       "summary": "按书名、作者或 ISBN 查找元数据并创建书籍笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "251a3560c3aa928cad7e2a7293f076d0c88f4b3626100fd01037c94db13f5b13",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

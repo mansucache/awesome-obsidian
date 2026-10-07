@@ -1,27 +1,28 @@
 # 内容模型
 
-资源事实保存于 data/resources，各语言正文保存于 content/en 与 content/zh-cn。机器契约见 [catalog-contract.json](../data/catalog-contract.json)。
+机器契约为 [catalog-contract.json](../data/catalog-contract.json) v2。资源事实存于 data/resources，双语正文存于 content/en 与 content/zh-cn。
 
-## 默认条目
+## 阅读层与数据层
 
-名称、原始链接、一句具体用途。用途里能自然体现场景最好，不再强制拆出收录理由、场景、限制、费用、验证等段落。
+- locales.summary：直接说明用途与场景，是 README 与网站卡片的共同介绍。
+- locales.context：可选的选择说明，补充适用人群、门槛或关键边界。不要重复 summary。
+- cost_note 与 show_cost：费用记录始终存在；只有具体且影响选择时才展示。
+- 正文：保留稳定 Markdown 地址；出现二级章节时，目录自动提供“用法与选择”入口。目录里的关键条件不能只藏在详情中。
+- local_content：用于本项目原创模板和指南，目录链接到仓库内正文，而非把参考资料当作原创资源的主页。
+- related：资源关系；正文中的本地资源链接必须登记，生成后保持同语言跳转。
 
-- 插件：说明做什么，例如查询属性生成阅读清单、任务视图和表格。
-- 主题：一句外观说明，并展示图片。
-- 模板、工具、Skills、文章、社区、开发项目：一句用途说明。
-- 收费资源：加简短收费标识。外部模型费用等信息只有影响选择时才写入介绍。
-- 工作流：允许独立长文，保留步骤和完成判据；目录中仍只放一句介绍和仓库内链接。
+完整写法与示例见 [编辑规范](editorial-policy.zh-cn.md)。不规定统一字数，不强迫所有资源写成长文。
 
-避免「最强大」「有史以来最好」等无法支持的评价，用具体功能表达价值。名称直接链接原始来源，不使用短链。
+## 双语与修订
 
-## 双语与生成
+revision 表示记录修订；based_on_revision 和 content_sha256 检查正文同步。哈希只证明文件版本一致，不代表事实或翻译已经审核。
 
-README.md 默认英文，README.zh-CN.md 为中文，均可独立阅读。网站提供搜索、筛选和图库增强，两者共用 summary 字段。生成区域以 catalog 标记界定，标记外的人工介绍不会被覆盖。
+修改正文后，编辑者核对两种语言，再运行 review_record.py 记录已审核语言。只完成一种语言时保留草稿，使用 check --draft；正式发布拒绝草稿和过期译文。
 
-普通条目不要求维护长文，只需要双语一句介绍。现有简短详情保留稳定地址，后续是否扩写由实际价值决定。
+## 收录与状态
 
-## 来源与维护
+publication 采用 draft / listed，表示是否进入目录，不表示由真人审核。原 sample 在本轮迁移为 listed，反映此前已经进入 README 的事实，不追加不存在的审核声明。
 
-来源 URL、日期、revision、译文 hash 和图像来源保存在结构化记录中，供维护使用，不自动显示到读者页面。图片署名和许可集中在 [图片来源文件](../assets/README.md)。目录、详情、图片说明与替代文本均不插入执行过程或审核状态。
+status 采用 documented / needs-review / archived / unavailable。待复核资源暂留主目录；归档和失效资源退出搜索、任务路线和主题图库，在 README 历史区保留原因与详情地址。历史详情与素材继续生成，避免旧链接失效。
 
-变更事实或说明时更新 revision，核对双语含义，更新正文 hash 与 based_on_revision。运行 check/build 后核对 README 和网站输出。
+非 documented 状态必须包含 maintenance.date 和双语 maintenance.reason。具体退出、恢复与定期复核规则见 [维护机制](maintenance.zh-cn.md)。

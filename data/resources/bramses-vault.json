@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Bramses’ Highly Opinionated Vault",
       "summary": "Explore a Zettelkasten-oriented vault with project workflows, templates and tutorials.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "aee05f99b60473ef84defe95f72969d8ca186ca80bdc73e2c0a1820334596d14",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Bramses’ Highly Opinionated Vault",
       "summary": "参考包含项目流程、模板与教程的卡片盒笔记示例库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "85cd7e1ef18a0d6d6ee9f74991385abce513131bed2b9336263fabb41a690eb7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

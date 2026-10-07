@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Help",
       "summary": "Look up setup instructions, core features and everyday operations in the official help.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e855c241d7172c4ae7a8d0ebd169dcb1799677c967f360c98f9a770768e1fbd9",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Obsidian 官方帮助",
       "summary": "查阅安装配置、核心功能和日常操作的官方说明。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1b0bf139b1a69b252f05296db1c38687e5182fbc30d5ac08bed3f663c8be7833",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

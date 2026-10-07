@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Breadcrumbs",
       "summary": "Navigate typed relationships such as parent, child, next and previous notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "70e976d72c32f79a8130e839455c5be8e0dcf86481bf41bd2906a53ff7fafc4d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Breadcrumbs",
       "summary": "沿父子、前后等明确关系浏览笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "465763993562b06a1d0172e0fb8bf8cb0d94546c31983fc8fbf2363089e70d2f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

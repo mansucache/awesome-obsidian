@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Image Converter",
       "summary": "Convert, resize and compress images inside your vault.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "436ee621dbb14f71d2ea6737fcae9cde16d020d7d83401007354297f122c903f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Image Converter",
       "summary": "在资料库内转换图片格式、调整尺寸和压缩图片。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f32e821b4be6bde0c98519c56b9b53159fb36b4820d74ce158c7696834a7beda",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

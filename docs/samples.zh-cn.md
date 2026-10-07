@@ -2,7 +2,7 @@
 
 [English](../README.md) · [中文](../README.zh-CN.md)
 
-221 条内容 · 15 个带图主题 · 6 篇场景指南
+232 条内容 · 15 个带图主题 · 7 篇场景指南
 
 ## 从你想做的事开始
 
@@ -18,18 +18,19 @@
 | 调整外观 | [Minimal](#resource-minimal) · [Things](#resource-things) · [Modular CSS Layout](#resource-modular-css) |
 | 完成一篇文章 | [从关联笔记到完整初稿](#resource-writing-workflow) |
 | 学习与复习 | [从课程笔记到可用知识](#resource-learning-workflow) |
+| 同步、备份与恢复笔记 | [从多设备同步到可恢复备份](#resource-sync-backup-workflow) · [跨设备同步方式指南](#resource-sync-methods-guide) · [Obsidian 官方备份指南](#resource-backup-guide) · [Obsidian Sync](#resource-obsidian-sync) · [Obsidian Git](#resource-obsidian-git) |
 
 ## 目录
 
 - [官方与基础功能](#category-official) · 22
-- [插件](#category-plugins) · 78
-- [主题与外观](#category-appearance) · 20
-- [模板与示例库](#category-templates) · 15
-- [AI 与自动化](#category-ai) · 28
-- [搭配工具与集成](#category-integrations) · 20
-- [场景与工作流](#category-workflows) · 6
+- [插件](#category-plugins) · 75
+- [主题与外观](#category-appearance) · 21
+- [模板与示例库](#category-templates) · 18
+- [AI 与自动化](#category-ai) · 32
+- [搭配工具与集成](#category-integrations) · 22
+- [场景与工作流](#category-workflows) · 7
 - [理念与方法](#category-methods) · 10
-- [学习与社区](#category-learning) · 9
+- [学习与社区](#category-learning) · 12
 - [开发与生态项目](#category-development) · 13
 
 <a id="category-official"></a>
@@ -53,8 +54,11 @@
 - <a id="resource-obsidian-bases"></a>[Bases](https://obsidian.md/help/bases) — 用属性筛选、排序和公式，把笔记组织成数据库式视图。
 - <a id="resource-obsidian-canvas"></a>[Canvas](https://obsidian.md/canvas) — 在无限画布中排列笔记、图片和网页，进行视觉化思考。
 - <a id="resource-obsidian-cli"></a>[Obsidian CLI](https://obsidian.md/cli) — 从终端读取、创建和搜索笔记，把 Obsidian 接入脚本流程。
-- <a id="resource-obsidian-sync"></a>[Obsidian Sync](https://obsidian.md/sync) — 在多台设备间同步笔记，支持选择性同步与版本历史。 · 收费
+- <a id="resource-obsidian-sync"></a>[Obsidian Sync](https://obsidian.md/sync) — 通过官方服务同步多台设备上的资料库，并使用选择性同步与版本历史。 · 收费
+  适合希望减少同步配置的人；同步会传播文件变化，仍应保留独立备份。
+  需要订阅；存储与历史保留范围取决于方案。
 - <a id="resource-obsidian-publish"></a>[Obsidian Publish](https://obsidian.md/publish) — 把选定笔记发布成在线知识库、维基或数字花园。 · 收费
+  适合希望直接发布选定笔记的人；发布前检查笔记中的附件与链接是否也适合公开。
 
 <a id="topic-official-linking"></a>
 
@@ -70,8 +74,10 @@
 
 ### 写作与结构
 
-- <a id="resource-obsidian-properties"></a>[Properties](https://help.obsidian.md/Editing+and+formatting/Properties) — 为笔记添加状态、日期、标签等结构化字段。
-- <a id="resource-obsidian-templates"></a>[Templates](https://help.obsidian.md/Plugins/Templates) — 将带日期、时间变量的可复用文本插入笔记。
+- <a id="resource-obsidian-properties"></a>[Properties](https://help.obsidian.md/Editing+and+formatting/Properties) — 为笔记记录状态、日期、数字和链接等结构化信息，让后续筛选有一致的依据。
+  适合把项目、书籍或资料整理成可查询集合；同名属性在整个资料库中共用类型，先统一命名再批量使用。
+- <a id="resource-obsidian-templates"></a>[Templates](https://help.obsidian.md/Plugins/Templates) — 把重复使用的笔记结构插入当前文件，并填入标题、日期或时间变量。
+  适合会议、阅读和复盘等固定格式；无需为了少量字段先安装脚本模板插件。
 - <a id="resource-obsidian-daily-notes"></a>[Daily Notes](https://help.obsidian.md/Plugins/Daily+notes) — 创建按日期组织的笔记，用于日志、随手记录和复盘。
 - <a id="resource-obsidian-note-composer"></a>[Note Composer](https://help.obsidian.md/Plugins/Note+composer) — 将选中文本提取到其他笔记，或合并笔记。
 - <a id="resource-obsidian-callouts"></a>[Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts) — 用提示块区分示例、问题和摘要。
@@ -90,14 +96,20 @@
 
 ## 插件
 
-[记录与模板](#topic-plugins-capture) · [任务与日程](#topic-plugins-tasks) · [搜索与导航](#topic-plugins-search) · [写作与排版](#topic-plugins-editing) · [查询与视觉思考](#topic-plugins-visual) · [研究与复习](#topic-plugins-study) · [导入、备份与设置](#topic-plugins-manage) · [表格与属性](#topic-plugins-tables) · [长文写作与语言](#topic-plugins-writing) · [链接与知识组织](#topic-plugins-knowledge) · [图片、音视频与附件](#topic-plugins-media) · [资料库维护](#topic-plugins-maintenance) · [工作区与界面操作](#topic-plugins-interface)
+按主要用途分组；AI 插件和集成插件另见 [AI 与自动化](#category-ai)、[搭配工具与集成](#category-integrations)。
+
+[记录与模板](#topic-plugins-capture) · [任务与日程](#topic-plugins-tasks) · [搜索与导航](#topic-plugins-search) · [写作与排版](#topic-plugins-editing) · [查询与视觉思考](#topic-plugins-visual) · [研究与复习](#topic-plugins-study) · [表格与属性](#topic-plugins-tables) · [长文写作与语言](#topic-plugins-writing) · [链接与知识组织](#topic-plugins-knowledge) · [图片、音视频与附件](#topic-plugins-media) · [资料库维护](#topic-plugins-maintenance) · [工作区与界面操作](#topic-plugins-interface)
 
 <a id="topic-plugins-capture"></a>
 
 ### 记录与模板
 
-- <a id="resource-quickadd"></a>[QuickAdd](https://github.com/chhoumann/quickadd) — 通过模板与宏快速记录想法、创建笔记和执行重复操作。
-- <a id="resource-templater"></a>[Templater](https://github.com/SilentVoid13/Templater) — 通过变量、函数和 JavaScript 自动生成笔记内容。
+- <a id="resource-quickadd"></a>[QuickAdd](https://github.com/chhoumann/quickadd) — 用快捷命令创建模板笔记、追加记录，或把多个动作组合成宏。
+  适合每天重复的收集动作，例如把想法追加到收件箱；先配置目标位置，再扩展自动化。
+  [用法与选择](../content/zh-cn/quickadd.md)
+- <a id="resource-templater"></a>[Templater](https://github.com/SilentVoid13/Templater) — 在模板中组合日期、输入提示与脚本，自动生成会议记录、日记或项目笔记。
+  当固定文本模板不够用时再引入；只有标题和日期需求，可以先用核心 Templates。
+  [用法与选择](../content/zh-cn/templater.md)
 - <a id="resource-natural-language-dates"></a>[Natural Language Dates](https://github.com/argenos/nldates-obsidian) — 把自然语言日期转换为日期文本或每日笔记链接。
 - <a id="resource-obsidian-auto-link-title"></a>[Auto Link Title](https://github.com/zolrath/obsidian-auto-link-title) — 粘贴网址时抓取网页标题，生成易读的链接。
 
@@ -105,8 +117,11 @@
 
 ### 任务与日程
 
-- <a id="resource-tasks"></a>[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) — 跨笔记汇总任务，支持截止日期、重复任务与筛选视图。
+- <a id="resource-tasks"></a>[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) — 跨笔记查询待办事项，按日期与条件组织任务，并从汇总视图更新完成状态。
+  适合任务分散在会议、项目和日记中的用法；需要先约定任务日期与记录方式。
+  [用法与选择](../content/zh-cn/tasks.md)
 - <a id="resource-kanban"></a>[Kanban](https://github.com/community-archive/obsidian-kanban) — 用看板组织任务，并将内容保存为 Markdown 笔记。
+  适合按阶段推进的任务，例如待办、进行中与完成；需要跨笔记汇总到期任务时，可搭配 Tasks。
 - <a id="resource-calendar"></a>[Calendar](https://github.com/liamcain/obsidian-calendar-plugin) — 通过侧边栏日历打开或创建每日笔记。
 - <a id="resource-periodic-notes"></a>[Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) — 按独立模板和文件夹创建日记、周记与月记。
 - <a id="resource-obsidian-day-planner"></a>[Day Planner](https://github.com/ivan-lednev/obsidian-day-planner) — 把任务安排到可编辑时间线上，并记录投入时间。
@@ -152,8 +167,11 @@
 
 ### 查询与视觉思考
 
-- <a id="resource-dataview"></a>[Dataview](https://github.com/blacksmithgu/obsidian-dataview) — 查询笔记属性，自动生成阅读清单、任务视图和数据表格。
+- <a id="resource-dataview"></a>[Dataview](https://github.com/blacksmithgu/obsidian-dataview) — 把分散笔记中的属性汇总成动态列表和表格，例如待读书单、项目索引或研究资料表。
+  适合愿意维护统一字段、希望少做手工汇总的人；查询依赖已索引的属性，不等于对整库正文做语义搜索。
+  [用法与选择](../content/zh-cn/dataview.md)
 - <a id="resource-excalidraw"></a>[Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) — 在资料库中使用 Excalidraw 绘制图表和视觉笔记。
+  适合梳理概念关系、会议白板与图文笔记；如果只需排列已有笔记，可先比较核心 Canvas。
 - <a id="resource-excalibrain"></a>[ExcaliBrain](https://github.com/zsviczian/excalibrain) — 通过基于 Excalidraw 的交互图谱浏览笔记之间的关系。
 - <a id="resource-obsidian-tracker"></a>[Tracker](https://github.com/pyrochlore/obsidian-tracker) — 从笔记收集数值，绘制习惯、进度等指标图表。
 - <a id="resource-obsidian-charts"></a>[Charts](https://github.com/phibr0/obsidian-charts) — 把笔记中的数据渲染为可交互图表。
@@ -171,14 +189,6 @@
 - <a id="resource-obsidian-citation-plugin"></a>[Citations](https://github.com/hans/obsidian-citation-plugin) — 搜索 BibTeX 或 CSL-JSON 书目，将引用插入笔记。
 - <a id="resource-obsidian-book-search-plugin"></a>[Book Search](https://github.com/anpigon/obsidian-book-search-plugin) — 按书名、作者或 ISBN 查找元数据并创建书籍笔记。
 - <a id="resource-flashcards-obsidian"></a>[Flashcards](https://github.com/reuseman/flashcards-obsidian) — 通过 Anki 集成，将笔记内容转换为闪卡。
-
-<a id="topic-plugins-manage"></a>
-
-### 导入、备份与设置
-
-- <a id="resource-importer"></a>[Importer](https://github.com/obsidianmd/obsidian-importer) — 把 Notion、Evernote、OneNote 等应用中的笔记转换为 Markdown。
-- <a id="resource-obsidian-git"></a>[Obsidian Git](https://github.com/Vinzent03/obsidian-git) — 提交资料库变更，并与 Git 仓库同步。
-- <a id="resource-style-settings"></a>[Style Settings](https://github.com/community-archive/obsidian-style-settings) — 在设置面板中调整兼容主题、插件和 CSS 片段的外观选项。
 
 <a id="topic-plugins-tables"></a>
 
@@ -266,7 +276,8 @@
 
 ![ITS Theme 主题](../assets/themes/its-theme/preview.png)
 
-- <a id="resource-minimal"></a>[Minimal](https://github.com/kepano/obsidian-minimal) — 可调整配色、字体与布局的简约主题。
+- <a id="resource-minimal"></a>[Minimal](https://github.com/kepano/obsidian-minimal) — 以简洁界面组织阅读与写作，并提供配色、字体和布局调整。
+  适合希望减少视觉干扰又保留定制空间的人；调整前可先用默认外观，再按需配置配套设置。
 
 ![Minimal 主题](../assets/themes/minimal/preview.png)
 
@@ -311,6 +322,8 @@
 
 ### CSS 片段与布局
 
+- <a id="resource-style-settings"></a>[Style Settings](https://github.com/community-archive/obsidian-style-settings) — 在设置面板中调整兼容主题、插件和 CSS 片段的外观选项。
+  适合已选定主题后微调外观；可调选项由兼容的主题、插件或片段提供。
 - <a id="resource-modular-css"></a>[Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout) — 通过 CSS 片段实现多栏笔记、宽幅视图与卡片图库。
 - <a id="resource-css-snippets"></a>[Obsidian CSS Snippets](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets) — 按需选用 CSS 片段，调整界面元素与笔记呈现。
 - <a id="resource-sailkite-snippets"></a>[sailKite's Snippets and Demos](https://github.com/sailKiteV/Obsidian-Snippets-and-Demos) — 用 CSS 片段与 Markdown 示例调整笔记布局。
@@ -329,6 +342,7 @@
 ### 个人管理示例库
 
 - <a id="resource-kepano-vault"></a>[kepano 的 Obsidian 示例库](https://github.com/kepano/kepano-obsidian) — 包含示例笔记、分类和可复用模板的个人资料库。
+  适合参考一个真实资料库如何组织文件；建议先选取有用的结构，再迁移自己的笔记。
 - <a id="resource-lifeos"></a>[LifeOS](https://github.com/quanru/obsidian-example-lifeos) — 用 PARA 文件夹与周期笔记模板搭建个人管理资料库。
 - <a id="resource-bramses-vault"></a>[Bramses’ Highly Opinionated Vault](https://github.com/bramses/bramses-highly-opinionated-vault-2023) — 参考包含项目流程、模板与教程的卡片盒笔记示例库。
 - <a id="resource-cyanvoxel-vault"></a>[CyanVoxel’s Vault Template](https://github.com/CyanVoxel/Obsidian-Vault-Template) — 参考搭配 CSS 片段的个人资料库布局，并结合作者视频了解配置。
@@ -343,6 +357,7 @@
 
 - <a id="resource-starter-templates"></a>[Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) — 参考围绕双向链接组织的研究项目与技术雷达示例库。
 - <a id="resource-dataview-example-vault"></a>[Dataview Example Vault](https://github.com/s-blu/obsidian_dataview_example_vault) — 在可下载的示例库中，结合样本数据学习 Dataview 查询与 JavaScript 用法。
+  适合边看查询结果边修改示例；先理解示例依赖的字段，再复制到自己的库。
 - <a id="resource-dataview-snippets"></a>[Dataview Snippets](https://github.com/Aetherinox/obsidian-dataview-snippets) — 复用 Dataview 查询制作索引、列表和图库。
 - <a id="resource-blue-topaz-vault"></a>[Blue Topaz Example Vault](https://github.com/cumany/Blue-topaz-examples) — 通过中文示例库了解仪表盘、插件与主题布局的组合。
 
@@ -351,8 +366,19 @@
 ### 单篇笔记与剪藏模板
 
 - <a id="resource-zettelkasten-templates"></a>[Obsidian Templates for Zettelkasten](https://github.com/groepl/Obsidian-Templates) — 复用书籍、引文、概念等卡片盒笔记模板。
+  适合建立固定的记录起点；保留有助于表达观点与连接来源的字段，不必照搬全部结构。
 - <a id="resource-clipper-templates"></a>[Web Clipper Templates](https://github.com/kepano/clipper-templates) — 使用站点模板，从 arXiv、Goodreads、维基百科等网页提取结构化资料。
+  适合针对常读网站定制剪藏字段；导入后先检查标题、来源地址和正文提取结果。
 - <a id="resource-dashboard-gallery"></a>[Obsidian Dashboard Gallery](https://github.com/InlitX/Obsidian-Dashboard-Gallery) — 复用仪表盘布局与查询，制作可视化资料库首页。
+- <a id="resource-meeting-note-template"></a>[会议决策与行动模板](../content/zh-cn/meeting-note-template.md) — 把议题、决定、负责人和下一步放在同一篇笔记里，便于会后追踪。
+  本项目原创的轻量模板。可将模板中的章节复制到模板文件夹，通过核心 Templates 插入；不依赖社区插件。
+  [用法与选择](../content/zh-cn/meeting-note-template.md)
+- <a id="resource-reading-note-template"></a>[阅读来源与观点模板](../content/zh-cn/reading-note-template.md) — 区分原文观点、自己的理解与待验证问题，保留回到原始资料的路径。
+  本项目原创的轻量模板。可将模板中的章节复制到模板文件夹，通过核心 Templates 插入；不依赖社区插件。
+  [用法与选择](../content/zh-cn/reading-note-template.md)
+- <a id="resource-project-review-template"></a>[项目复盘模板](../content/zh-cn/project-review-template.md) — 对照目标记录实际结果、原因与下一轮调整，避免复盘只剩流水账。
+  本项目原创的轻量模板。可将模板中的章节复制到模板文件夹，通过核心 Templates 插入；不依赖社区插件。
+  [用法与选择](../content/zh-cn/project-review-template.md)
 
 
 <a id="category-ai"></a>
@@ -367,9 +393,14 @@
 
 ### 对话与写作
 
-- <a id="resource-copilot"></a>[Copilot](https://github.com/logancyang/obsidian-copilot) — 结合笔记上下文对话，并在 Obsidian 中运行 Codex、Claude Code 等 Agent。 · 可选付费
+- <a id="resource-copilot"></a>[Copilot](https://github.com/logancyang/obsidian-copilot) — 在 Obsidian 内结合笔记上下文对话，也可接入 Codex、Claude Code 等 Agent 完成工作。 · 可选付费
+  适合希望留在笔记界面开展 AI 工作的人；Agent 后端运行本地进程，属于桌面功能，移动端功能范围不同。
+  可使用自有 Agent 账户、模型密钥或本地模型；供应商费用另计，托管模型及部分功能需要付费方案。
+  [用法与选择](../content/zh-cn/copilot.md)
 - <a id="resource-chatgpt-md"></a>[ChatGPT MD](https://github.com/bramses/chatgpt-md) — 在 Markdown 笔记中保存 AI 对话，可连接云端服务、Ollama 或 LM Studio。
-- <a id="resource-text-generator"></a>[Text Generator](https://github.com/nhaouari/obsidian-textgenerator-plugin) — 结合提示词模板与本地或云端模型，生成和改写笔记内容。
+- <a id="resource-text-generator"></a>[Text Generator](https://github.com/nhaouari/obsidian-textgenerator-plugin) — 把提示词模板用于笔记生成与改写，连接云端服务或本地模型处理重复的文本任务。
+  适合已有明确输入与输出格式的操作，例如把要点整理成初稿；模型生成内容仍需要核对原文。
+  插件本身免费；云端模型服务按供应商方案计费，本地模型需要自行运行。
 - <a id="resource-bmo-chatbot"></a>[BMO Chatbot](https://github.com/longy2k/obsidian-bmo-chatbot) — 通过本地或云端模型，与可配置角色的 AI 助手对话。
 - <a id="resource-companion"></a>[Companion](https://github.com/rizerphe/obsidian-companion) — 根据笔记上下文，在输入位置提供文本补全建议。
 - <a id="resource-tars"></a>[Tars](https://github.com/tarslab/obsidian-tars) — 通过标签触发提示词，调用多种模型服务生成文本。
@@ -381,6 +412,7 @@
 ### 本地模型与笔记检索
 
 - <a id="resource-local-gpt"></a>[Local GPT](https://github.com/pfrankov/obsidian-local-gpt) — 通过可配置的 AI 动作总结或改写选中文本，支持本地模型。
+  适合围绕选中文本执行明确的处理动作；“本地”是否成立取决于配置的模型端点。
 - <a id="resource-smart-connections"></a>[Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) — 使用本地向量模型，发现与当前内容语义相关的笔记和摘录。 · 可选付费
 - <a id="resource-llm-workspace"></a>[LLM Workspace](https://github.com/ofalvai/obsidian-llm-workspace) — 围绕手动选定的一组笔记对话，并查看检索使用的来源。
 - <a id="resource-ollama-chat"></a>[Ollama Chat](https://github.com/brumik/obsidian-ollama-chat) — 通过 Ollama 与本地检索配置，围绕笔记内容提问。
@@ -389,12 +421,27 @@
 
 ### Skills 与可视化自动化
 
-- <a id="resource-obsidian-skills"></a>[Obsidian Skills](https://github.com/kepano/obsidian-skills) — 让 AI Agent 编辑 Obsidian Markdown、Bases 和 Canvas，并使用 CLI。
+- <a id="resource-obsidian-skills"></a>[Obsidian Skills](https://github.com/kepano/obsidian-skills) — 为兼容的 AI Agent 提供 Obsidian 格式与 CLI 使用说明，覆盖 Markdown、Bases 和 Canvas 等任务。
+  这是技能集合，不是安装后即可独立运行的 Obsidian 插件；按实际任务选择技能，并配置相应 Agent。
+  技能文件免费；所用 Agent 或模型服务可能另收费。
+  [用法与选择](../content/zh-cn/obsidian-skills.md)
 - <a id="resource-cannoli"></a>[Cannoli](https://github.com/DeabLabs/cannoli) — 用 Obsidian Canvas 中的卡片和连线搭建可运行的 AI 工作流。
 - <a id="resource-loom"></a>[Loom](https://github.com/cosmicoptima/loom) — 通过树状分支探索 AI 为文本生成的不同续写方向。
 - <a id="resource-chat-stream"></a>[Chat Stream](https://github.com/rpggio/obsidian-chat-stream) — 在 Canvas 中分支展开 AI 对话，并选择上游笔记作为上下文。
 - <a id="resource-smart-templates"></a>[Smart Templates](https://github.com/brianpetro/obsidian-smart-templates) — 把 Markdown 模板与选定笔记上下文组合为可复用 AI 提示词。 · 可选付费
 - <a id="resource-ai-templater"></a>[AI for Templater](https://github.com/tfthacker/obsidian-ai-templater) — 在 Templater 脚本中调用兼容 OpenAI 的语言模型。
+- <a id="resource-skill-obsidian-markdown"></a>[Obsidian Markdown Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-markdown/SKILL.md) — 生成和修改带双向链接、嵌入、标注块和属性的笔记。
+  适合让 Agent 编辑笔记时遵循 Obsidian 语法；不负责运行中的应用控制。
+  技能文件免费，Agent 或模型使用可能另收费。
+- <a id="resource-skill-obsidian-bases"></a>[Obsidian Bases Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-bases/SKILL.md) — 指导 Agent 创建和修改 Bases 的视图、筛选与公式。
+  适合已有结构化笔记、需要生成视图文件的人；先统一属性再检查筛选结果。
+  技能文件免费，Agent 或模型使用可能另收费。
+- <a id="resource-skill-json-canvas"></a>[JSON Canvas Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/json-canvas/SKILL.md) — 指导 Agent 用节点、连线和分组构建 Canvas 文件。
+  适合把已整理的关系转成画布；生成后仍需打开检查布局和连线含义。
+  技能文件免费，Agent 或模型使用可能另收费。
+- <a id="resource-skill-obsidian-cli"></a>[Obsidian CLI Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-cli/SKILL.md) — 指导 Agent 通过 CLI 与资料库交互，并查询当前可用命令。
+  适合需要操作应用而不只是编辑文件的任务；要求 Obsidian 运行并启用 CLI。
+  技能文件免费，Agent 或模型使用可能另收费。
 
 <a id="topic-ai-organize"></a>
 
@@ -427,7 +474,9 @@
 
 ### 阅读与迁移
 
+- <a id="resource-importer"></a>[Importer](https://github.com/obsidianmd/obsidian-importer) — 把 Notion、Evernote、OneNote 等应用中的笔记转换为 Markdown。
 - <a id="resource-web-clipper"></a>[Obsidian Web Clipper](https://obsidian.md/clipper) — 将网页与高亮内容保存到 Obsidian，可选用 AI 处理。
+  适合先收集网页再整理阅读笔记；保存后补充自己的摘要和用途，避免资料库只剩网页副本。
 - <a id="resource-readwise-reader"></a>[Readwise Reader](https://readwise.io/read) — 阅读文章和 PDF，并通过 Readwise 将高亮内容导出到 Obsidian。 · 收费
 - <a id="resource-yarle"></a>[YARLE](https://github.com/akosbalasko/yarle) — 将 Evernote 导出文件转换为 Markdown，保留附件、元数据与笔记链接。
 - <a id="resource-obsidian-read-it-later"></a>[ReadItLater](https://github.com/dominikpieper/obsidian-ReadItLater) — 按不同来源类型使用模板，把网页内容保存为笔记。
@@ -440,6 +489,7 @@
 ### 发布与数字花园
 
 - <a id="resource-quartz"></a>[Quartz](https://github.com/jackyzha0/quartz) — 把 Markdown 笔记生成带反向链接、搜索和图谱的网站。
+  适合希望自行管理发布流程和站点样式的人；需要承担构建与托管配置。
 - <a id="resource-digital-garden"></a>[Digital Garden](https://github.com/oleeskild/obsidian-digital-garden) — 通过可配置的网站模板，把选定的 Obsidian 笔记发布成数字花园。
 - <a id="resource-perlite"></a>[Perlite](https://github.com/secure-77/Perlite) — 通过自托管网页浏览 Markdown 资料库。
 - <a id="resource-flowershow"></a>[Flowershow](https://github.com/flowershow/flowershow) — 将 Markdown 发布为网站，提供托管方案与开源代码。 · 可选付费
@@ -464,6 +514,9 @@
 
 ### 同步与存储
 
+- <a id="resource-obsidian-git"></a>[Obsidian Git](https://github.com/Vinzent03/obsidian-git) — 在资料库内查看差异、提交版本并与远端 Git 仓库同步，保留笔记修改历史。
+  适合熟悉 Git 的桌面用户；移动端实现仍有明显限制，不宜直接作为跨设备同步的默认选择。
+  [用法与选择](../content/zh-cn/obsidian-git.md)
 - <a id="resource-obsidian-livesync"></a>[Self-hosted LiveSync](https://github.com/vrtmrz/obsidian-livesync) — 通过自建 CouchDB 或支持的对象存储后端同步资料库。
 - <a id="resource-remotely-save"></a>[Remotely Save](https://github.com/remotely-save/remotely-save) — 通过支持的云存储同步笔记，部分同步功能可选付费。 · 可选付费
 - <a id="resource-s3-attachments-storage"></a>[S3 attachments storage](https://github.com/ttax00/obsidian-s3) — 通过兼容 S3 的对象存储保存和读取媒体附件。
@@ -479,6 +532,8 @@
 - <a id="resource-learning-workflow"></a>[从课程笔记到可用知识](../content/zh-cn/learning-workflow.md) — 练习回忆、记录错因，再用小任务检验理解。
 - <a id="resource-projects-workflow"></a>[从项目目标到下一步行动](../content/zh-cn/projects-workflow.md) — 用项目笔记连接交付目标、任务与每周复盘。
 - <a id="resource-ai-workflow"></a>[围绕明确资料使用 AI](../content/zh-cn/ai-workflow.md) — 围绕指定来源提问，审阅修改建议后再更新笔记。
+- <a id="resource-sync-backup-workflow"></a>[从多设备同步到可恢复备份](../content/zh-cn/sync-backup-workflow.md) — 先选同步方式，再建立独立备份，并用一次恢复演练检查是否真正可用。
+  适合新加设备、迁移资料库或调整同步方案时使用。
 
 
 <a id="category-methods"></a>
@@ -512,7 +567,7 @@
 
 ## 学习与社区
 
-[社区与知识目录](#topic-learning-community) · [文章与课程](#topic-learning-learn) · [专题教程与演示](#topic-learning-tutorials)
+[社区与知识目录](#topic-learning-community) · [课程与作者资源](#topic-learning-learn) · [文章与实践教程](#topic-learning-tutorials)
 
 <a id="topic-learning-community"></a>
 
@@ -525,18 +580,25 @@
 
 <a id="topic-learning-learn"></a>
 
-### 文章与课程
+### 课程与作者资源
 
-- <a id="resource-how-i-use-obsidian"></a>[How I use Obsidian](https://stephango.com/vault) — 了解 Steph Ango 如何用分类、属性、模板和链接组织个人资料库。
 - <a id="resource-linking-your-thinking"></a>[Linking Your Thinking](https://www.linkingyourthinking.com/) — 学习 Nick Milo 的链接笔记工作流，查找学习资源与工作坊。 · 可选付费
 - <a id="resource-obsidian-blog"></a>[Obsidian 官方博客](https://obsidian.md/blog/) — 阅读官方功能介绍、产品更新和社区动态。
 - <a id="resource-building-second-brain"></a>[Building a Second Brain](https://www.buildingasecondbrain.com/) — 通过书籍、资料与课程学习如何组织知识并用于创作。 · 可选付费
 
 <a id="topic-learning-tutorials"></a>
 
-### 专题教程与演示
+### 文章与实践教程
 
+- <a id="resource-how-i-use-obsidian"></a>[How I use Obsidian](https://stephango.com/vault) — 了解 Steph Ango 如何用分类、属性、模板和链接组织个人资料库。
+  适合观察作者的组织取舍；阅读时比较自己的输入和输出需求，不必复制整套工作方式。
 - <a id="resource-obsidian-rocks"></a>[Obsidian Rocks](https://obsidian.rocks/) — 阅读 Obsidian 功能、插件与日常工作流的实用教程。
+- <a id="resource-backup-guide"></a>[Obsidian 官方备份指南](https://help.obsidian.md/backup) — 解释同步与备份的区别，并介绍如何为资料库保留可恢复的副本。
+  适合开始多设备使用或准备迁移前阅读；重点是能恢复到过去状态，而非只在另一台设备看到同样文件。
+- <a id="resource-sync-methods-guide"></a>[跨设备同步方式指南](https://help.obsidian.md/sync-notes) — 对照官方同步、云盘与其他方式，了解不同设备上的配置差异。
+  先按自己的设备组合筛选，再看配置步骤；不要把桌面端可用直接理解成手机端同样可用。
+- <a id="resource-plugin-security-guide"></a>[社区插件权限与安全说明](https://help.obsidian.md/Extending+Obsidian/Plugin+security) — 了解社区插件能够访问哪些资源，以及受限模式的作用。
+  适合安装插件或让 AI 接入资料库前阅读；插件具有应用级访问能力，不能把插件目录收录视为细粒度权限隔离。
 
 
 <a id="category-development"></a>

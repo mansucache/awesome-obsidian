@@ -17,7 +17,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -33,6 +33,12 @@
       "url": "https://github.com/vslinko/obsidian-outliner",
       "checked_at": "2026-10-07",
       "supports": "Edit nested lists with outliner-style movement, indentation and folding."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/vslinko/obsidian-outliner/blob/main/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -49,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Outliner",
       "summary": "Edit nested lists with outliner-style movement, indentation and folding.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "87f2a4887769507f82b9cae314136fb22d47b505bec09c473e923b5c73f2794e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +69,7 @@
       "title": "Outliner",
       "summary": "用大纲式移动、缩进和折叠操作编辑多层列表。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f9c2d783031f8c99fc6c8428cb3f39cffddbc595b821250502701125fba25712",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

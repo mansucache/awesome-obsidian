@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Day Planner",
       "summary": "Schedule tasks as time blocks on an editable timeline and track time spent.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "10619a14d149902ea2cbbbc831d61144de087ef70ba3ccbc23422fcd4f8c2a08",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Day Planner",
       "summary": "把任务安排到可编辑时间线上，并记录投入时间。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9270a1b980861852e5aa1af9aeee2078d4d2113d28ad9e03e133dc72bee1d403",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

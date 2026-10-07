@@ -1,0 +1,73 @@
+{
+  "id": "skill-obsidian-markdown",
+  "type": "skill",
+  "category": "ai",
+  "secondary_categories": [],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "skill-obsidian-markdown",
+    "skill"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Skill files are free; agent or model usage may have separate charges.",
+    "zh-cn": "技能文件免费，Agent 或模型使用可能另收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "agent-dependent"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Markdown Skill",
+      "url": "https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-markdown/SKILL.md",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Markdown Skill",
+      "summary": "Create and edit notes with wikilinks, embeds, callouts and properties.",
+      "context": "Useful when an agent edits note syntax; it is not a control interface for the running app.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9afeead73396b6146dbb96460b8a70ddc7d79e794a2e9822fa9f4587646f0a4d",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "Obsidian Markdown Skill",
+      "summary": "生成和修改带双向链接、嵌入、标注块和属性的笔记。",
+      "context": "适合让 Agent 编辑笔记时遵循 Obsidian 语法；不负责运行中的应用控制。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2a3fbbe28832b814914525cc1a95d2d415b96874fb95b1d3bce153689275a649",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "show_cost": true
+}

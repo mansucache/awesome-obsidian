@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian CSS Snippets",
       "summary": "Pick individual CSS snippets to customize interface elements and note presentation.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ab30ee3934f965dfcd43183088ad40a584e31cb8c9b3f06d13d27155e446921b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Obsidian CSS Snippets",
       "summary": "按需选用 CSS 片段，调整界面元素与笔记呈现。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "0325797715a3b8f09a3fcd66d28a68605574f31b27998f7ef932131c538bb409",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

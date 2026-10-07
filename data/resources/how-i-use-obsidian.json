@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -50,23 +50,25 @@
     "kepano-vault"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "How I use Obsidian",
       "summary": "See how Steph Ango uses categories, properties, templates and links in a personal vault.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "0e1422d7fa167a2c9b965b0271c6aece02ff2805dcca8d045fd5463b7ca4e1ee",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "90d5ea06d044776701cebe7c8e1ce72abae422b6b03ed132bf188c10724b1411",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for examining the author’s organizational choices; compare your own inputs and outputs instead of copying the entire workflow."
     },
     "zh-cn": {
       "title": "How I use Obsidian",
       "summary": "了解 Steph Ango 如何用分类、属性、模板和链接组织个人资料库。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "55f98b3154fc008759a9523fe9118949fd0296947a5a8178f8e5cf88784b99b1",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "991d1be7a55136a7c2201b68573c11eaacc140196d6cbc399ed44e458fe2aaf6",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合观察作者的组织取舍；阅读时比较自己的输入和输出需求，不必复制整套工作方式。"
     }
   }
 }

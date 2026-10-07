@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Evergreen Notes Should Be Concept-Oriented",
       "summary": "Organize reusable notes around concepts rather than the source that introduced them.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "cb8b97345f4c89f6beeeedfce07eb43532933ee6df0c18dfb79b78be889407b3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Evergreen Notes Should Be Concept-Oriented",
       "summary": "围绕概念组织可复用笔记，而不只按资料来源分类。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "823da773a614b83b2aa24c931e161b0e4a9df60da9b6256a7194aa40c1b00dc3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

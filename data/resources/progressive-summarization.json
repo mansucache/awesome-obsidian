@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Progressive Summarization",
       "summary": "Layer highlights and summaries to make useful passages easier to rediscover.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "859f91ceae5c28c4b34ec62ee5ddb59806d48b0e8bdf2210e6a8a3a7f13a5369",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Progressive Summarization",
       "summary": "通过逐层高亮与摘要，让有用段落更容易被再次找到。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6f6d6d12b9d22bf3a07d2ca2a4c9693ea648b623e36fef3cee14e0b8bc4b0dc4",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Dashboard Gallery",
       "summary": "Reuse dashboard layouts and queries for a visual vault homepage.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "371de9d822a6cb2af2751d29e88f50fa328a9e4c143abf9ee69d217e12b6ae54",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Dashboard Gallery",
       "summary": "复用仪表盘布局与查询，制作可视化资料库首页。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8ecea385e367bcc1376d6ee9c950f2a9e57cd4e7e4acce02166cecab153356d4",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

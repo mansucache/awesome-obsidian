@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian",
       "summary": "Download Obsidian and explore its local Markdown notes, links and extensions.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "52962e6f1d13898e37e67deae350f76253bd19424df96fc35755be846c485051",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Obsidian",
       "summary": "下载 Obsidian，了解本地 Markdown 笔记、双向链接与扩展功能。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "de1c2c6dd0e250095570cb42704c8760f6d89001780f98e7e859cf586739e19b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

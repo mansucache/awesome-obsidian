@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
     "sample-plugin"
   ],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Obsidian Forum",
       "summary": "Find answers, share workflows and discuss plugins with the Obsidian community.",
       "status": "current",
-      "based_on_revision": 2,
+      "based_on_revision": 3,
       "content_sha256": "37a92a797d2a5924376de8248cde3e83b74bc761b7cde2eab03fd468b04724ed",
       "review": "ai-source-and-language-review; maintainer acceptance pending"
     },
@@ -65,7 +65,7 @@
       "title": "Obsidian 官方论坛",
       "summary": "查找问题解答、分享工作流，与社区讨论插件和用法。",
       "status": "current",
-      "based_on_revision": 2,
+      "based_on_revision": 3,
       "content_sha256": "eae0f1d1d61cd6d177132951d036d06670dbca30fffbe1113397cf3400b0a53c",
       "review": "ai-source-and-language-review; maintainer acceptance pending"
     }

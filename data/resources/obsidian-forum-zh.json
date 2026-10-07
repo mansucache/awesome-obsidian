@@ -24,7 +24,7 @@
     "zh-cn"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Chinese Forum",
       "summary": "Discuss plugins, note-taking methods and troubleshooting in Chinese.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f5d1783f3e8f9c472d9dcb312e5101cdf8d1700edb3169491cbd3da5c31de60d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Obsidian 中文论坛",
       "summary": "用中文讨论插件、笔记方法和使用问题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9378de2966ca1fea5f413882d7e75815ae1170538ac5693d5fcde469a3f9e7b3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

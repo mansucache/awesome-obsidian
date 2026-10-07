@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Evergreen Notes Should Be Atomic",
       "summary": "Keep a note focused on one idea so it can be reused in different contexts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9d331df876419d6d49021b49cc88b5508bcc07370a2c4b4b620d6f2114262f14",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Evergreen Notes Should Be Atomic",
       "summary": "让一篇笔记聚焦一个想法，便于在不同语境中复用。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "22a61698500b493c6ab91f5388e2160cb96bda6aed3c3b9c4346f42c66a9e3b6",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

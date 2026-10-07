@@ -25,7 +25,7 @@
     "zh-cn"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Easy Typing",
       "summary": "Format mixed Chinese and English text with automatic spacing, punctuation and paired symbols.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fe546fe0d8384ff8b668d4dda0d2e796b1e45f2a715181f7c07be72417c77bbf",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Easy Typing",
       "summary": "自动处理中英文混排的空格、标点与成对符号。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d6c0aab26bbff59e355fc62553f2d68b6dfaa1f89256f433f14c5a273ea4074c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

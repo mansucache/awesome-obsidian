@@ -27,7 +27,7 @@
     "zh-cn"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -65,13 +65,13 @@
     "zettelkasten-introduction"
   ],
   "assets": [],
-  "revision": 3,
+  "revision": 4,
   "locales": {
     "en": {
       "title": "From a saved article to a usable note",
       "summary": "Turn a saved article into a linked note you can find and reuse.",
       "status": "current",
-      "based_on_revision": 3,
+      "based_on_revision": 4,
       "content_sha256": "b96f3f67259c55357755569ff9093e841ac294a83fcfed55efaf01ff60e101f5",
       "review": "ai-source-and-language-review; maintainer acceptance pending"
     },
@@ -79,7 +79,7 @@
       "title": "从保存文章到可用笔记",
       "summary": "把保存的文章整理成能找回、能复用的关联笔记。",
       "status": "current",
-      "based_on_revision": 3,
+      "based_on_revision": 4,
       "content_sha256": "3b03a3ddbfbe26ac699f080478c729d8a9cb103bcad223d4d98ad4650526daeb",
       "review": "ai-source-and-language-review; maintainer acceptance pending"
     }

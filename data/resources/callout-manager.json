@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Callout Manager",
       "summary": "Browse, create and customize callout styles from one settings interface.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "39e8e9d020644b7f14b1b85ea8bdf28421a33fde2568a3df47bffee679dbcfd3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Callout Manager",
       "summary": "在统一设置界面中浏览、创建和调整 Callout 样式。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7b1bf149f7ccf6257f2ba5463dab3c9354dd0d4ec1bc1ebe8ea4b2d84b559183",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

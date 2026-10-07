@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "BRAT",
       "summary": "Install and update beta plugins or themes directly from their repositories.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "51dc13faa3215b18a5aba52e45fa728daa12b2d57e47fef679f1855505258dfb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "BRAT",
       "summary": "直接从仓库安装和更新插件或主题的测试版本。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a5194c4ff34c48aecaf0d322c0cd21c478a6ef07ae63e4480eed516d06b2538b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Admonition",
       "summary": "Create styled information blocks with configurable icons and appearance.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "51054e1fd761ac605b98ba4af11e98c7da2396eb420a31c4533c3fcb8e172840",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Admonition",
       "summary": "创建带可配置图标和外观的信息提示块。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fbad7d29516806d77e8185faeb0a605d0ccb8db8d941a84d3a59b36ef2c7f58b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

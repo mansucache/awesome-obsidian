@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Metadata Menu",
       "summary": "Edit note metadata through field controls and reusable field definitions.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f72a189b42476ea064d047cdfd76609237cb1539a0ae86d18db77199cbd87e24",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Metadata Menu",
       "summary": "通过字段控件与可复用字段定义维护笔记元数据。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9bea800938a5c42d0aff48320a6358673d55d4f50e5c256a5c9459139fbf2841",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

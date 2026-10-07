@@ -17,7 +17,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -33,6 +33,12 @@
       "url": "https://github.com/liamcain/obsidian-periodic-notes",
       "checked_at": "2026-10-07",
       "supports": "Create daily, weekly and monthly notes with separate templates and folders."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/liamcain/obsidian-periodic-notes/blob/main/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -51,13 +57,13 @@
     "calendar"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Periodic Notes",
       "summary": "Create daily, weekly and monthly notes with separate templates and folders.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6c2f1c03ec7cd0f2e648efd4673c96864c9fd06e498e376a165d57d353c5ee7d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +71,7 @@
       "title": "Periodic Notes",
       "summary": "按独立模板和文件夹创建日记、周记与月记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5136f489ceb736256c6c8c1b66890af3f921d4da7917621cab746ee9b29e6c12",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

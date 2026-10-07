@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,23 +48,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Kanban",
       "summary": "Organize tasks on boards stored as Markdown notes.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "561529e1acda584d3463f8d452fae84bc27f4123de1244079f480ef991789da8",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "0059074c73e88baebe854350413c6e9c682bc3084680d5ae298f5fd7e8ffaf13",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for stage-based work such as to-do, doing and done; pair with Tasks for due-date queries across notes."
     },
     "zh-cn": {
       "title": "Kanban",
       "summary": "用看板组织任务，并将内容保存为 Markdown 笔记。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "2dada915d909971122f2a281a505ca125dd9278d8a2e0ac492caee228137e08a",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "d450d99abd25331d08ec1e31ccacc36ffed68a82469e3955f59eef93fb19c4fb",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合按阶段推进的任务，例如待办、进行中与完成；需要跨笔记汇总到期任务时，可搭配 Tasks。"
     }
   }
 }

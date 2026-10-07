@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Shimmering Obsidian",
       "summary": "Search and create Obsidian notes from Alfred on macOS; requires Alfred Powerpack.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "040989b3705f0f1f4c19785e53465da6a0ea14799ca55be4f3ea63ecb721dae7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "Shimmering Obsidian",
       "summary": "在 macOS 上通过 Alfred 搜索和创建笔记，需 Alfred Powerpack。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "96aefb2b7183c99141a98f8ea765dbfda8600e27705b3a83a4eef600b084fd16",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

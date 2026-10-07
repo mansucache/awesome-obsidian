@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Everforest",
       "summary": "Use a forest-inspired palette with muted greens.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b9b43ae81b9c279e6e235461ad9bf592acb43b8e8da9aa462b1c37ddc5233d61",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -84,7 +84,7 @@
       "title": "Everforest",
       "summary": "使用以森林为灵感的柔和绿色配色。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8c04f8df607631c9fdb29908476eadb521d2455329522cce6daa16732f52672b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

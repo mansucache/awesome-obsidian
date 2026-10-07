@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -69,13 +69,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Dracula",
       "summary": "A dark theme with the Dracula palette and contrasting syntax colors.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "23fa87cd6df8a18691fd624074cb412b8fa15bd77c92b6abd8e9868759c76cc3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -83,7 +83,7 @@
       "title": "Dracula",
       "summary": "采用 Dracula 配色，突出语法颜色对比的深色主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1ec798efd6bd94914e4d4e55595201fa89850a454ca8bad0838a7940c0c013c1",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Execute Code",
       "summary": "Run supported code blocks locally and display their output beneath the code.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "06fc7c6fd9fc9869b3b0ed5edaf0d83eeae496618895b0d314c960cd8ba47c7e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Execute Code",
       "summary": "在本地运行支持的代码块，并在代码下显示输出。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "4bc8f7e440c0f9692464d983f11f0397006bea3f88faa768cd382c0da3815d61",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

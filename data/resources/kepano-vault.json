@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -58,23 +58,25 @@
     "reading-workflow"
   ],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "kepano’s Obsidian vault",
       "summary": "A personal vault template with example notes, categories and reusable templates.",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "89eb264ce357f9b869ec2da8a42984ab5889fa75b99c9fe79c5c14f18577b8dc",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "30b6e7885e90728fd5fd96a0fbf429d9e9b591b41c308cc68128597ac7e15ddb",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for studying how a real vault is organized; adopt useful structures before moving your own notes."
     },
     "zh-cn": {
       "title": "kepano 的 Obsidian 示例库",
       "summary": "包含示例笔记、分类和可复用模板的个人资料库。",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "44044f65005e947d844e104bff9fea79d9b5fad8c628fca89db07bf2f7b975f0",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "347b40b46f44b3be18bc5d5e9ca6a05754e83d46db773eba4616064346e929ef",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合参考一个真实资料库如何组织文件；建议先选取有用的结构，再迁移自己的笔记。"
     }
   }
 }

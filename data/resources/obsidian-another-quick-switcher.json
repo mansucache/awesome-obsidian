@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Another Quick Switcher",
       "summary": "Use configurable search commands to switch between notes and headings.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "80492d86388113e95567b7d90b5acf1deffe4ae5aa2ec0f7b7f4a26eb45dca19",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Another Quick Switcher",
       "summary": "通过可配置搜索命令在笔记与标题之间切换。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "68cb7f6853c0bc9bcf3deba4b835750e0b944f32402435b6847f456b5f0b7d9a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

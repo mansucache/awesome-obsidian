@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Flowershow",
       "summary": "Publish Markdown as a website with hosted plans and an open-source codebase.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "da608203b61afe499f720da777597fa7bdfc1d0c2f51b85271bec449ad3348d8",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Flowershow",
       "summary": "将 Markdown 发布为网站，提供托管方案与开源代码。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7319d723e02d898a84c63017e1536b5557fb6e9078ac352065b50a3ce95998fd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

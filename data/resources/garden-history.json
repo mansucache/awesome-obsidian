@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "A Brief History & Ethos of the Digital Garden",
       "summary": "Understand digital gardens as evolving, connected collections of public notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "960c32aab813687585a3a9ff1b796aaf4f80c2df4232749b11a462471890e722",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "A Brief History & Ethos of the Digital Garden",
       "summary": "理解数字花园如何通过持续更新、彼此连接的笔记公开思考。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e8e40f27564c72ad83aaf30b13e520d21cec957e7ed001c6a1b7c05de777569e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

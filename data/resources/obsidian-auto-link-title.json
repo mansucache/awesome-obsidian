@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Auto Link Title",
       "summary": "Fetch a pasted web address’s title to create a readable link.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3e86f1d0e88d3dcf86cc8821c8516e81011303541b615a091771bbd781f20869",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Auto Link Title",
       "summary": "粘贴网址时抓取网页标题，生成易读的链接。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6b631d6f3565eadf530c064e9bc8ba70b5849b6ca0158bcce030995cedf342a2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "ChatGPT MD",
       "summary": "Keep AI conversations in Markdown notes using cloud providers, Ollama or LM Studio.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "187e1e2aea9b8f3739e2cd72d374c3d6d48101c806df948a967cc18ed9794f79",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "ChatGPT MD",
       "summary": "在 Markdown 笔记中保存 AI 对话，可连接云端服务、Ollama 或 LM Studio。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5c663b71e06763ac66c30831046d5695730cc8e5802f243b6306a2646860b898",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

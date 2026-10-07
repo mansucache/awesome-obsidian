@@ -1,0 +1,73 @@
+{
+  "id": "plugin-security-guide",
+  "type": "article",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "ai",
+    "knowledge"
+  ],
+  "tags": [
+    "plugin-security-guide",
+    "article"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Community plugin security",
+      "url": "https://help.obsidian.md/Extending+Obsidian/Plugin+security",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Community plugin security",
+      "summary": "Understand community plugin capabilities and the role of Restricted Mode.",
+      "context": "Read before installing plugins or connecting AI to a vault; directory inclusion does not provide fine-grained permission isolation.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8090d5bb8e65ff943c913fca687671e682c42d537dd2a14a119b687a60be8c93",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "社区插件权限与安全说明",
+      "summary": "了解社区插件能够访问哪些资源，以及受限模式的作用。",
+      "context": "适合安装插件或让 AI 接入资料库前阅读；插件具有应用级访问能力，不能把插件目录收录视为细粒度权限隔离。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f0480bb1ad38735c292c21393e14b0a54071fc49c13fb93c2abd340b0b9ac5dd",
+      "review": "source-backed bilingual editorial revision"
+    }
+  }
+}

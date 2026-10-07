@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Note Composer",
       "summary": "Extract selected text into another note or merge notes together.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5a99e42d5fcbae42d444b9ed767c15043ccda7996d9f19e6531355a846703463",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Note Composer",
       "summary": "将选中文本提取到其他笔记，或合并笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2472c9057252cb772e174f23f1c95eeb428c85031a8d766265f25d6f565bb582",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

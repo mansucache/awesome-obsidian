@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "File over app",
       "summary": "Understand why durable, controllable files matter when choosing a note-taking system.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fde0c2b813875c48f51e04485c5dc51cddb78184bbfd606b4d0260eeef5c2b70",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "File over app",
       "summary": "理解选择笔记系统时，为什么应重视可长期保存和自主控制的文件。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "168bd28185063379c288cd26c628da454a0c98b31b6ecc368ae9c98553a4c488",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

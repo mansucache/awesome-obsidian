@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Omnisearch",
       "summary": "Find notes with relevance-ranked search and optional PDF and image text indexing.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fe2e3cbe9cc3265741ab78bfab71f6d285fe1adc2cd8f4dc2867201dcfbdb305",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Omnisearch",
       "summary": "按相关性搜索笔记，并可扩展到 PDF 和图片中的文字。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5052d7d03fb3baa303719b4960646230ff953f069d32fc10983939b234c0afed",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

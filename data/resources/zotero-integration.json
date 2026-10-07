@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Zotero Integration",
       "summary": "Import Zotero citations, bibliographies and PDF annotations into research notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a490e9838ef9d93bafcb47483867a5bf87e4e2866a8b6c4a4759fb225b809518",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Zotero Integration",
       "summary": "把 Zotero 引文、参考文献和 PDF 批注导入研究笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "40d9b6b28c68811dd655ca9c0aebbb33ba6958b3024d30e41d14263721830ef3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

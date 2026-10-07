@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -48,13 +48,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "YARLE",
       "summary": "Convert Evernote exports to Markdown while preserving attachments, metadata and note links.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "894a36ce5616de35f4034cf96b831a1f0f66022c1faf7a32609743132fa732ce",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +62,7 @@
       "title": "YARLE",
       "summary": "将 Evernote 导出文件转换为 Markdown，保留附件、元数据与笔记链接。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "be8029024cc8b497d69e65257b6a7c4545637cb348ba31295b38144d9f7caab5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

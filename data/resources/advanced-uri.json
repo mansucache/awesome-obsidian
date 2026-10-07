@@ -2,7 +2,9 @@
   "id": "advanced-uri",
   "type": "plugin",
   "category": "integrations",
-  "secondary_categories": [],
+  "secondary_categories": [
+    "plugins"
+  ],
   "scenarios": [
     "projects",
     "development"
@@ -17,7 +19,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -25,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -33,6 +35,12 @@
       "url": "https://github.com/Vinzent03/obsidian-advanced-uri",
       "checked_at": "2026-10-07",
       "supports": "Trigger Obsidian actions from links in shortcuts and other applications."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/Vinzent03/obsidian-advanced-uri/blob/master/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -49,13 +57,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Advanced URI",
       "summary": "Trigger Obsidian actions from links in shortcuts and other applications.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c8112f49243adc4be10a3050e3e95f20d23ed806a8c90fca37381b90f56d20e3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +71,7 @@
       "title": "Advanced URI",
       "summary": "通过链接从快捷指令或其他应用触发 Obsidian 操作。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5d0db1b0fd2fee79ea12d0bcdc68a85379a6458dc5cfcf62959a2fc00f96dddf",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

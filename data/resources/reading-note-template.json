@@ -1,0 +1,75 @@
+{
+  "id": "reading-note-template",
+  "type": "template",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing",
+    "projects"
+  ],
+  "tags": [
+    "reading-note-template",
+    "template"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": "MIT",
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "curated",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Reading sources and ideas",
+      "url": "https://help.obsidian.md/Plugins/Templates",
+      "checked_at": "2026-10-07",
+      "supports": "Primary documentation for the described capability; local templates and workflow steps are original editorial material."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Reading sources and ideas",
+      "summary": "Separate source claims, your interpretation and open questions while retaining a path to the original.",
+      "context": "An original lightweight template from this project. Copy its template sections into your template folder and insert them with core Templates; no community plugin is required.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b68f14e8b31642feec095ea557b8a766d3961b97e492c3e963e68ab0d7fe3ae8",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "阅读来源与观点模板",
+      "summary": "区分原文观点、自己的理解与待验证问题，保留回到原始资料的路径。",
+      "context": "本项目原创的轻量模板。可将模板中的章节复制到模板文件夹，通过核心 Templates 插入；不依赖社区插件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0b7956d1b695c315ea8b812147ee16c4a7a23cc932448f60bb0b84c42e65c6ac",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "local_content": true
+}

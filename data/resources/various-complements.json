@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Various Complements",
       "summary": "Complete words and links from your notes as you type.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "db8900b2fcb1c5070e553e3e246365b4102fbb6b8e8aa2733584bffd8cad02e3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Various Complements",
       "summary": "输入时补全笔记中的词语和链接。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d79290245e645de002d3faf1f902dd116e325584ba117cbfc7185cf1918bc5b8",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

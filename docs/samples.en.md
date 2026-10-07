@@ -2,7 +2,7 @@
 
 [English](../README.md) · [中文](../README.zh-CN.md)
 
-221 entries · 15 illustrated themes · 6 workflow guides
+232 entries · 15 illustrated themes · 7 workflow guides
 
 ## Start with a task
 
@@ -18,18 +18,19 @@
 | Customize the look | [Minimal](#resource-minimal) · [Things](#resource-things) · [Modular CSS Layout](#resource-modular-css) |
 | Finish a draft | [From linked notes to a finished draft](#resource-writing-workflow) |
 | Learn and review | [From course notes to usable knowledge](#resource-learning-workflow) |
+| Sync, back up and recover | [From device sync to recoverable backups](#resource-sync-backup-workflow) · [Sync your notes across devices](#resource-sync-methods-guide) · [Back up your Obsidian files](#resource-backup-guide) · [Obsidian Sync](#resource-obsidian-sync) · [Obsidian Git](#resource-obsidian-git) |
 
 ## Contents
 
 - [Official & core](#category-official) · 22
-- [Plugins](#category-plugins) · 78
-- [Themes & appearance](#category-appearance) · 20
-- [Templates & vaults](#category-templates) · 15
-- [AI & automation](#category-ai) · 28
-- [Tools & integrations](#category-integrations) · 20
-- [Workflows](#category-workflows) · 6
+- [Plugins](#category-plugins) · 75
+- [Themes & appearance](#category-appearance) · 21
+- [Templates & vaults](#category-templates) · 18
+- [AI & automation](#category-ai) · 32
+- [Tools & integrations](#category-integrations) · 22
+- [Workflows](#category-workflows) · 7
 - [Methods](#category-methods) · 10
-- [Learning & community](#category-learning) · 9
+- [Learning & community](#category-learning) · 12
 - [Development](#category-development) · 13
 
 <a id="category-official"></a>
@@ -53,8 +54,11 @@
 - <a id="resource-obsidian-bases"></a>[Bases](https://obsidian.md/help/bases) — Create database-style views of notes with property filters, sorting and formulas.
 - <a id="resource-obsidian-canvas"></a>[Canvas](https://obsidian.md/canvas) — Arrange notes, images and web pages on an infinite canvas for visual thinking.
 - <a id="resource-obsidian-cli"></a>[Obsidian CLI](https://obsidian.md/cli) — Control Obsidian from the terminal to read, create and search notes in scripts.
-- <a id="resource-obsidian-sync"></a>[Obsidian Sync](https://obsidian.md/sync) — Sync notes across devices with selective sync and version history. · Paid
+- <a id="resource-obsidian-sync"></a>[Obsidian Sync](https://obsidian.md/sync) — Sync vaults across devices with the official service, selective syncing and version history. · Paid
+  Useful when you want less sync configuration; file changes propagate, so keep a separate backup.
+  Requires a subscription; storage and history retention depend on the plan.
 - <a id="resource-obsidian-publish"></a>[Obsidian Publish](https://obsidian.md/publish) — Publish selected notes as an online knowledge base, wiki or digital garden. · Paid
+  Useful for publishing selected notes directly; check whether their attachments and links are suitable for public access.
 
 <a id="topic-official-linking"></a>
 
@@ -70,8 +74,10 @@
 
 ### Writing & structure
 
-- <a id="resource-obsidian-properties"></a>[Properties](https://help.obsidian.md/Editing+and+formatting/Properties) — Give notes structured fields such as status, date and tags.
-- <a id="resource-obsidian-templates"></a>[Templates](https://help.obsidian.md/Plugins/Templates) — Insert reusable text with date and time variables into notes.
+- <a id="resource-obsidian-properties"></a>[Properties](https://help.obsidian.md/Editing+and+formatting/Properties) — Store status, dates, numbers and links as structured note data for consistent filtering.
+  Useful for queryable project, book or source collections; a property name shares one type throughout a vault, so choose names consistently.
+- <a id="resource-obsidian-templates"></a>[Templates](https://help.obsidian.md/Plugins/Templates) — Insert a reusable note structure into the current file, with title, date and time variables.
+  A starting point for meeting, reading and review formats without adding a scripted template plugin.
 - <a id="resource-obsidian-daily-notes"></a>[Daily Notes](https://help.obsidian.md/Plugins/Daily+notes) — Create dated notes for daily logs, capture and reflection.
 - <a id="resource-obsidian-note-composer"></a>[Note Composer](https://help.obsidian.md/Plugins/Note+composer) — Extract selected text into another note or merge notes together.
 - <a id="resource-obsidian-callouts"></a>[Callouts](https://help.obsidian.md/Editing+and+formatting/Callouts) — Use labeled blocks to distinguish examples, questions and summaries.
@@ -90,14 +96,20 @@
 
 ## Plugins
 
-[Capture & templates](#topic-plugins-capture) · [Tasks & daily planning](#topic-plugins-tasks) · [Search & navigation](#topic-plugins-search) · [Writing & formatting](#topic-plugins-editing) · [Queries & visual thinking](#topic-plugins-visual) · [Research & review](#topic-plugins-study) · [Import, backup & settings](#topic-plugins-manage) · [Tables & properties](#topic-plugins-tables) · [Long writing & language](#topic-plugins-writing) · [Links & organization](#topic-plugins-knowledge) · [Images, audio & attachments](#topic-plugins-media) · [Vault maintenance](#topic-plugins-maintenance) · [Workspace & controls](#topic-plugins-interface)
+Grouped by primary purpose; see also [AI & automation](#category-ai) and [Tools & integrations](#category-integrations) for other plugins.
+
+[Capture & templates](#topic-plugins-capture) · [Tasks & daily planning](#topic-plugins-tasks) · [Search & navigation](#topic-plugins-search) · [Writing & formatting](#topic-plugins-editing) · [Queries & visual thinking](#topic-plugins-visual) · [Research & review](#topic-plugins-study) · [Tables & properties](#topic-plugins-tables) · [Long writing & language](#topic-plugins-writing) · [Links & organization](#topic-plugins-knowledge) · [Images, audio & attachments](#topic-plugins-media) · [Vault maintenance](#topic-plugins-maintenance) · [Workspace & controls](#topic-plugins-interface)
 
 <a id="topic-plugins-capture"></a>
 
 ### Capture & templates
 
-- <a id="resource-quickadd"></a>[QuickAdd](https://github.com/chhoumann/quickadd) — Capture ideas, create notes and run repeatable actions through templates and macros.
-- <a id="resource-templater"></a>[Templater](https://github.com/SilentVoid13/Templater) — Generate notes from templates with variables, functions and JavaScript.
+- <a id="resource-quickadd"></a>[QuickAdd](https://github.com/chhoumann/quickadd) — Create template notes, append captured text or combine actions into macros from a shortcut.
+  Useful for repeated capture, such as sending ideas to an inbox; configure the destination before adding automation.
+  [Usage & choosing](../content/en/quickadd.md)
+- <a id="resource-templater"></a>[Templater](https://github.com/SilentVoid13/Templater) — Combine dates, prompts and scripts in templates to create meeting, daily or project notes.
+  Use it when fixed text templates are insufficient; the core Templates plugin may suffice for titles and dates.
+  [Usage & choosing](../content/en/templater.md)
 - <a id="resource-natural-language-dates"></a>[Natural Language Dates](https://github.com/argenos/nldates-obsidian) — Turn natural-language date expressions into dates and links to daily notes.
 - <a id="resource-obsidian-auto-link-title"></a>[Auto Link Title](https://github.com/zolrath/obsidian-auto-link-title) — Fetch a pasted web address’s title to create a readable link.
 
@@ -105,8 +117,11 @@
 
 ### Tasks & daily planning
 
-- <a id="resource-tasks"></a>[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) — Track tasks across your vault with due dates, recurring tasks and filtered views.
+- <a id="resource-tasks"></a>[Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) — Query tasks across notes, organize them by dates and conditions, and update completion from an aggregated view.
+  Useful when tasks live in meeting, project and daily notes; agree on date and capture conventions first.
+  [Usage & choosing](../content/en/tasks.md)
 - <a id="resource-kanban"></a>[Kanban](https://github.com/community-archive/obsidian-kanban) — Organize tasks on boards stored as Markdown notes.
+  Useful for stage-based work such as to-do, doing and done; pair with Tasks for due-date queries across notes.
 - <a id="resource-calendar"></a>[Calendar](https://github.com/liamcain/obsidian-calendar-plugin) — Open and create daily notes from a calendar in the sidebar.
 - <a id="resource-periodic-notes"></a>[Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes) — Create daily, weekly and monthly notes with separate templates and folders.
 - <a id="resource-obsidian-day-planner"></a>[Day Planner](https://github.com/ivan-lednev/obsidian-day-planner) — Schedule tasks as time blocks on an editable timeline and track time spent.
@@ -152,8 +167,11 @@
 
 ### Queries & visual thinking
 
-- <a id="resource-dataview"></a>[Dataview](https://github.com/blacksmithgu/obsidian-dataview) — Query note properties to build reading lists, task views and tables.
+- <a id="resource-dataview"></a>[Dataview](https://github.com/blacksmithgu/obsidian-dataview) — Turn properties across notes into live lists and tables, such as reading queues, project indexes and research catalogs.
+  Useful when you maintain consistent fields and want less manual aggregation; queries use indexed data, not semantic search over all prose.
+  [Usage & choosing](../content/en/dataview.md)
 - <a id="resource-excalidraw"></a>[Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin) — Draw diagrams and visual notes with Excalidraw inside your vault.
+  Useful for concept sketches, meeting whiteboards and visual notes; compare core Canvas when you only need to arrange existing notes.
 - <a id="resource-excalibrain"></a>[ExcaliBrain](https://github.com/zsviczian/excalibrain) — Navigate note relationships through an interactive graph built with Excalidraw.
 - <a id="resource-obsidian-tracker"></a>[Tracker](https://github.com/pyrochlore/obsidian-tracker) — Collect values from notes and plot habits, progress or other personal metrics.
 - <a id="resource-obsidian-charts"></a>[Charts](https://github.com/phibr0/obsidian-charts) — Render interactive charts from data written in your notes.
@@ -171,14 +189,6 @@
 - <a id="resource-obsidian-citation-plugin"></a>[Citations](https://github.com/hans/obsidian-citation-plugin) — Search BibTeX or CSL-JSON bibliographies and insert citations into notes.
 - <a id="resource-obsidian-book-search-plugin"></a>[Book Search](https://github.com/anpigon/obsidian-book-search-plugin) — Create book notes from title, author or ISBN searches and fetched metadata.
 - <a id="resource-flashcards-obsidian"></a>[Flashcards](https://github.com/reuseman/flashcards-obsidian) — Turn note content into Anki flashcards through Anki integration.
-
-<a id="topic-plugins-manage"></a>
-
-### Import, backup & settings
-
-- <a id="resource-importer"></a>[Importer](https://github.com/obsidianmd/obsidian-importer) — Convert notes from apps such as Notion, Evernote and OneNote into Markdown.
-- <a id="resource-obsidian-git"></a>[Obsidian Git](https://github.com/Vinzent03/obsidian-git) — Commit vault changes and synchronize them with a Git repository.
-- <a id="resource-style-settings"></a>[Style Settings](https://github.com/community-archive/obsidian-style-settings) — Adjust supported theme, plugin and CSS snippet options from a settings panel.
 
 <a id="topic-plugins-tables"></a>
 
@@ -266,7 +276,8 @@
 
 ![ITS Theme theme](../assets/themes/its-theme/preview.png)
 
-- <a id="resource-minimal"></a>[Minimal](https://github.com/kepano/obsidian-minimal) — A customizable theme with adjustable colors, typography and layouts.
+- <a id="resource-minimal"></a>[Minimal](https://github.com/kepano/obsidian-minimal) — A restrained reading and writing interface with configurable colors, typography and layouts.
+  Useful for a quiet interface with room for customization; begin with defaults before adjusting companion settings.
 
 ![Minimal theme](../assets/themes/minimal/preview.png)
 
@@ -311,6 +322,8 @@
 
 ### CSS snippets & layouts
 
+- <a id="resource-style-settings"></a>[Style Settings](https://github.com/community-archive/obsidian-style-settings) — Adjust supported theme, plugin and CSS snippet options from a settings panel.
+  Useful for fine-tuning a chosen theme; available controls depend on compatible themes, plugins or snippets.
 - <a id="resource-modular-css"></a>[Modular CSS Layout](https://github.com/efemkay/obsidian-modular-css-layout) — Use CSS snippets to add multi-column notes, wide views and gallery cards.
 - <a id="resource-css-snippets"></a>[Obsidian CSS Snippets](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets) — Pick individual CSS snippets to customize interface elements and note presentation.
 - <a id="resource-sailkite-snippets"></a>[sailKite's Snippets and Demos](https://github.com/sailKiteV/Obsidian-Snippets-and-Demos) — Adapt CSS snippets and Markdown demonstrations for custom note layouts.
@@ -329,6 +342,7 @@
 ### Personal vault starters
 
 - <a id="resource-kepano-vault"></a>[kepano’s Obsidian vault](https://github.com/kepano/kepano-obsidian) — A personal vault template with example notes, categories and reusable templates.
+  Useful for studying how a real vault is organized; adopt useful structures before moving your own notes.
 - <a id="resource-lifeos"></a>[LifeOS](https://github.com/quanru/obsidian-example-lifeos) — Start a personal management vault with PARA folders and periodic-note templates.
 - <a id="resource-bramses-vault"></a>[Bramses’ Highly Opinionated Vault](https://github.com/bramses/bramses-highly-opinionated-vault-2023) — Explore a Zettelkasten-oriented vault with project workflows, templates and tutorials.
 - <a id="resource-cyanvoxel-vault"></a>[CyanVoxel’s Vault Template](https://github.com/CyanVoxel/Obsidian-Vault-Template) — Explore a personal vault layout with coordinated CSS snippets and a companion video tour.
@@ -343,6 +357,7 @@
 
 - <a id="resource-starter-templates"></a>[Obsidian Starter Templates](https://github.com/masonlr/obsidian-starter-templates) — Explore research-project and technology-radar vaults built around linked notes.
 - <a id="resource-dataview-example-vault"></a>[Dataview Example Vault](https://github.com/s-blu/obsidian_dataview_example_vault) — Learn Dataview with sample data, basic queries and JavaScript examples in a downloadable vault.
+  Useful for modifying queries alongside their results; understand the required fields before copying examples into your vault.
 - <a id="resource-dataview-snippets"></a>[Dataview Snippets](https://github.com/Aetherinox/obsidian-dataview-snippets) — Adapt reusable Dataview queries for indexes, lists and galleries.
 - <a id="resource-blue-topaz-vault"></a>[Blue Topaz Example Vault](https://github.com/cumany/Blue-topaz-examples) — Explore a Chinese example vault combining dashboards, plugins and theme layouts.
 
@@ -351,8 +366,19 @@
 ### Note & clipping templates
 
 - <a id="resource-zettelkasten-templates"></a>[Obsidian Templates for Zettelkasten](https://github.com/groepl/Obsidian-Templates) — Reuse note templates for books, quotes, concepts and other parts of a Zettelkasten.
+  Useful as a consistent starting point; keep fields that support ideas and source links rather than copying every convention.
 - <a id="resource-clipper-templates"></a>[Web Clipper Templates](https://github.com/kepano/clipper-templates) — Capture structured references from sites such as arXiv, Goodreads and Wikipedia.
+  Useful for customizing capture fields for frequently read sites; check titles, source URLs and extracted text after importing.
 - <a id="resource-dashboard-gallery"></a>[Obsidian Dashboard Gallery](https://github.com/InlitX/Obsidian-Dashboard-Gallery) — Reuse dashboard layouts and queries for a visual vault homepage.
+- <a id="resource-meeting-note-template"></a>[Meeting decisions and actions](../content/en/meeting-note-template.md) — Keep agenda, decisions, owners and next actions in one note for follow-up.
+  An original lightweight template from this project. Copy its template sections into your template folder and insert them with core Templates; no community plugin is required.
+  [Usage & choosing](../content/en/meeting-note-template.md)
+- <a id="resource-reading-note-template"></a>[Reading sources and ideas](../content/en/reading-note-template.md) — Separate source claims, your interpretation and open questions while retaining a path to the original.
+  An original lightweight template from this project. Copy its template sections into your template folder and insert them with core Templates; no community plugin is required.
+  [Usage & choosing](../content/en/reading-note-template.md)
+- <a id="resource-project-review-template"></a>[Project review](../content/en/project-review-template.md) — Compare goals with results, reasons and next changes rather than only logging events.
+  An original lightweight template from this project. Copy its template sections into your template folder and insert them with core Templates; no community plugin is required.
+  [Usage & choosing](../content/en/project-review-template.md)
 
 
 <a id="category-ai"></a>
@@ -367,9 +393,14 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 ### Chat & writing
 
-- <a id="resource-copilot"></a>[Copilot](https://github.com/logancyang/obsidian-copilot) — Chat with note context and run agents such as Codex or Claude Code inside Obsidian. · Optional payment
+- <a id="resource-copilot"></a>[Copilot](https://github.com/logancyang/obsidian-copilot) — Chat with note context inside Obsidian, or connect agents such as Codex and Claude Code. · Optional payment
+  Useful for AI work within the note interface; agent backends run local processes and are desktop features, while mobile has a different feature set.
+  Use your own agent account, model key or local model; provider charges are separate, and hosted models or some features require a paid plan.
+  [Usage & choosing](../content/en/copilot.md)
 - <a id="resource-chatgpt-md"></a>[ChatGPT MD](https://github.com/bramses/chatgpt-md) — Keep AI conversations in Markdown notes using cloud providers, Ollama or LM Studio.
-- <a id="resource-text-generator"></a>[Text Generator](https://github.com/nhaouari/obsidian-textgenerator-plugin) — Generate and transform note content with prompt templates and local or cloud models.
+- <a id="resource-text-generator"></a>[Text Generator](https://github.com/nhaouari/obsidian-textgenerator-plugin) — Use prompt templates with cloud or local models for repeated note generation and rewriting tasks.
+  Useful for tasks with a defined input and output, such as turning points into a draft; compare generated text with the source.
+  The plugin is free; cloud models follow provider pricing, and local models require a local runtime.
 - <a id="resource-bmo-chatbot"></a>[BMO Chatbot](https://github.com/longy2k/obsidian-bmo-chatbot) — Chat with configurable AI personas using local or cloud model providers.
 - <a id="resource-companion"></a>[Companion](https://github.com/rizerphe/obsidian-companion) — Suggest inline text completions using the surrounding note as context.
 - <a id="resource-tars"></a>[Tars](https://github.com/tarslab/obsidian-tars) — Generate text through tag-triggered prompts with multiple model providers.
@@ -381,6 +412,7 @@ Model APIs, subscriptions and cloud services may have separate costs.
 ### Local models & note retrieval
 
 - <a id="resource-local-gpt"></a>[Local GPT](https://github.com/pfrankov/obsidian-local-gpt) — Summarize or rewrite selected text using configurable AI actions and local model support.
+  Useful for focused actions on selected text; whether processing is local depends on the configured model endpoint.
 - <a id="resource-smart-connections"></a>[Smart Connections](https://github.com/brianpetro/obsidian-smart-connections) — Surface semantically related notes and excerpts with local embeddings. · Optional payment
 - <a id="resource-llm-workspace"></a>[LLM Workspace](https://github.com/ofalvai/obsidian-llm-workspace) — Chat with a manually selected set of notes and inspect the sources used for retrieval.
 - <a id="resource-ollama-chat"></a>[Ollama Chat](https://github.com/brumik/obsidian-ollama-chat) — Ask questions about your notes using Ollama and a local retrieval setup.
@@ -389,12 +421,27 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 ### Skills & visual automation
 
-- <a id="resource-obsidian-skills"></a>[Obsidian Skills](https://github.com/kepano/obsidian-skills) — Agent skills for editing Obsidian Markdown, Bases and Canvas and using the CLI.
+- <a id="resource-obsidian-skills"></a>[Obsidian Skills](https://github.com/kepano/obsidian-skills) — Provide compatible AI agents with instructions for Obsidian formats and CLI tasks, including Markdown, Bases and Canvas.
+  This is a skill collection rather than a standalone Obsidian plugin; choose skills for the task and configure an agent.
+  Skill files are free; the selected agent or model service may charge separately.
+  [Usage & choosing](../content/en/obsidian-skills.md)
 - <a id="resource-cannoli"></a>[Cannoli](https://github.com/DeabLabs/cannoli) — Build executable AI workflows with cards and arrows in Obsidian Canvas.
 - <a id="resource-loom"></a>[Loom](https://github.com/cosmicoptima/loom) — Explore alternative continuations of a text through branching AI generations.
 - <a id="resource-chat-stream"></a>[Chat Stream](https://github.com/rpggio/obsidian-chat-stream) — Branch AI conversations on Canvas while choosing which ancestor notes provide context.
 - <a id="resource-smart-templates"></a>[Smart Templates](https://github.com/brianpetro/obsidian-smart-templates) — Combine Markdown templates and selected vault context into repeatable AI prompts. · Optional payment
 - <a id="resource-ai-templater"></a>[AI for Templater](https://github.com/tfthacker/obsidian-ai-templater) — Call OpenAI-compatible language models from Templater scripts.
+- <a id="resource-skill-obsidian-markdown"></a>[Obsidian Markdown Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-markdown/SKILL.md) — Create and edit notes with wikilinks, embeds, callouts and properties.
+  Useful when an agent edits note syntax; it is not a control interface for the running app.
+  Skill files are free; agent or model usage may have separate charges.
+- <a id="resource-skill-obsidian-bases"></a>[Obsidian Bases Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-bases/SKILL.md) — Guide an agent in creating and editing Bases views, filters and formulas.
+  Useful for generating views over structured notes; standardize properties before checking filter results.
+  Skill files are free; agent or model usage may have separate charges.
+- <a id="resource-skill-json-canvas"></a>[JSON Canvas Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/json-canvas/SKILL.md) — Guide an agent in building Canvas files with nodes, edges and groups.
+  Useful for turning known relationships into a canvas; inspect layout and connection meaning after generation.
+  Skill files are free; agent or model usage may have separate charges.
+- <a id="resource-skill-obsidian-cli"></a>[Obsidian CLI Skill](https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-cli/SKILL.md) — Guide an agent in interacting with a vault through the CLI and checking available commands.
+  Useful for app operations beyond file editing; requires Obsidian running with its CLI enabled.
+  Skill files are free; agent or model usage may have separate charges.
 
 <a id="topic-ai-organize"></a>
 
@@ -427,7 +474,9 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 ### Reading & migration
 
+- <a id="resource-importer"></a>[Importer](https://github.com/obsidianmd/obsidian-importer) — Convert notes from apps such as Notion, Evernote and OneNote into Markdown.
 - <a id="resource-web-clipper"></a>[Obsidian Web Clipper](https://obsidian.md/clipper) — Save web pages and highlights to Obsidian, with optional AI processing.
+  Useful for capturing pages before making reading notes; add your own summary and purpose so the vault is more than copied pages.
 - <a id="resource-readwise-reader"></a>[Readwise Reader](https://readwise.io/read) — Read articles and PDFs, then export highlights to Obsidian through Readwise. · Paid
 - <a id="resource-yarle"></a>[YARLE](https://github.com/akosbalasko/yarle) — Convert Evernote exports to Markdown while preserving attachments, metadata and note links.
 - <a id="resource-obsidian-read-it-later"></a>[ReadItLater](https://github.com/dominikpieper/obsidian-ReadItLater) — Save web content as notes using templates tailored to different source types.
@@ -440,6 +489,7 @@ Model APIs, subscriptions and cloud services may have separate costs.
 ### Publishing & digital gardens
 
 - <a id="resource-quartz"></a>[Quartz](https://github.com/jackyzha0/quartz) — Turn Markdown notes into a website with backlinks, search and a graph view.
+  Useful when you want control over publishing and site styling; expect to configure builds and hosting.
 - <a id="resource-digital-garden"></a>[Digital Garden](https://github.com/oleeskild/obsidian-digital-garden) — Publish selected Obsidian notes to a digital garden using a configurable site template.
 - <a id="resource-perlite"></a>[Perlite](https://github.com/secure-77/Perlite) — Browse a Markdown vault through a self-hosted web interface.
 - <a id="resource-flowershow"></a>[Flowershow](https://github.com/flowershow/flowershow) — Publish Markdown as a website with hosted plans and an open-source codebase. · Optional payment
@@ -464,6 +514,9 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 ### Sync & storage
 
+- <a id="resource-obsidian-git"></a>[Obsidian Git](https://github.com/Vinzent03/obsidian-git) — Inspect changes, commit versions and sync with a remote Git repository from your vault.
+  Best suited to desktop users familiar with Git; substantial mobile limitations make it a poor default for cross-device sync.
+  [Usage & choosing](../content/en/obsidian-git.md)
 - <a id="resource-obsidian-livesync"></a>[Self-hosted LiveSync](https://github.com/vrtmrz/obsidian-livesync) — Sync vaults through a self-hosted CouchDB or supported object-storage backend.
 - <a id="resource-remotely-save"></a>[Remotely Save](https://github.com/remotely-save/remotely-save) — Sync notes with supported cloud storage, with optional paid sync features. · Optional payment
 - <a id="resource-s3-attachments-storage"></a>[S3 attachments storage](https://github.com/ttax00/obsidian-s3) — Store and retrieve media attachments through S3-compatible object storage.
@@ -479,6 +532,8 @@ Model APIs, subscriptions and cloud services may have separate costs.
 - <a id="resource-learning-workflow"></a>[From course notes to usable knowledge](../content/en/learning-workflow.md) — Practice recall, record mistakes and apply concepts in a small task.
 - <a id="resource-projects-workflow"></a>[From a project goal to next actions](../content/en/projects-workflow.md) — Connect outcomes, tasks and weekly reviews in a project note.
 - <a id="resource-ai-workflow"></a>[Use AI with a focused set of notes](../content/en/ai-workflow.md) — Ask source-based questions and review proposed note changes before applying them.
+- <a id="resource-sync-backup-workflow"></a>[From device sync to recoverable backups](../content/en/sync-backup-workflow.md) — Choose a sync method, keep independent backups and verify them with a restore exercise.
+  Use when adding devices, migrating a vault or changing sync methods.
 
 
 <a id="category-methods"></a>
@@ -512,7 +567,7 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 ## Learning & community
 
-[Communities & directories](#topic-learning-community) · [Articles & courses](#topic-learning-learn) · [Focused tutorials & demonstrations](#topic-learning-tutorials)
+[Communities & directories](#topic-learning-community) · [Courses & author resources](#topic-learning-learn) · [Articles & practical tutorials](#topic-learning-tutorials)
 
 <a id="topic-learning-community"></a>
 
@@ -525,18 +580,25 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 <a id="topic-learning-learn"></a>
 
-### Articles & courses
+### Courses & author resources
 
-- <a id="resource-how-i-use-obsidian"></a>[How I use Obsidian](https://stephango.com/vault) — See how Steph Ango uses categories, properties, templates and links in a personal vault.
 - <a id="resource-linking-your-thinking"></a>[Linking Your Thinking](https://www.linkingyourthinking.com/) — Explore Nick Milo’s linked-note workflows, learning resources and workshops. · Optional payment
 - <a id="resource-obsidian-blog"></a>[Obsidian Blog](https://obsidian.md/blog/) — Follow official feature announcements, product updates and community highlights.
 - <a id="resource-building-second-brain"></a>[Building a Second Brain](https://www.buildingasecondbrain.com/) — Explore books, resources and courses about organizing knowledge for creative work. · Optional payment
 
 <a id="topic-learning-tutorials"></a>
 
-### Focused tutorials & demonstrations
+### Articles & practical tutorials
 
+- <a id="resource-how-i-use-obsidian"></a>[How I use Obsidian](https://stephango.com/vault) — See how Steph Ango uses categories, properties, templates and links in a personal vault.
+  Useful for examining the author’s organizational choices; compare your own inputs and outputs instead of copying the entire workflow.
 - <a id="resource-obsidian-rocks"></a>[Obsidian Rocks](https://obsidian.rocks/) — Read practical tutorials on Obsidian features, plugins and everyday workflows.
+- <a id="resource-backup-guide"></a>[Back up your Obsidian files](https://help.obsidian.md/backup) — Explains the difference between sync and backup and how to keep recoverable vault copies.
+  Read before adding devices or migrating; the goal is restoring an earlier state, not merely seeing the same files elsewhere.
+- <a id="resource-sync-methods-guide"></a>[Sync your notes across devices](https://help.obsidian.md/sync-notes) — Compare official sync, cloud drives and other methods with their device-specific setup differences.
+  Filter by your device combination before following setup steps; desktop support does not imply equivalent mobile support.
+- <a id="resource-plugin-security-guide"></a>[Community plugin security](https://help.obsidian.md/Extending+Obsidian/Plugin+security) — Understand community plugin capabilities and the role of Restricted Mode.
+  Read before installing plugins or connecting AI to a vault; directory inclusion does not provide fine-grained permission isolation.
 
 
 <a id="category-development"></a>

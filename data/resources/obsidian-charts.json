@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Charts",
       "summary": "Render interactive charts from data written in your notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f292ef5e3c96e7bf7eca040c3fe298788abad4b6acee60227ad0a267e55a3fad",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Charts",
       "summary": "把笔记中的数据渲染为可交互图表。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e2226cf9ca9f8f15c800910ddc385ec73b4979be60e3328b9bdf4545ce7a4fe3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Hot Reload",
       "summary": "Reload plugins under development when their files change.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a8e692cfee40a9147dd72e108c08b2001d6dc40b3d325a70d84c92ca1b7f88e0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Hot Reload",
       "summary": "开发中的插件文件变化时，自动重新加载插件。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3f2baca590713945ef637d35a7b6ae5d53023052341224164523364f179feea5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -52,13 +52,13 @@
     "zotero-integration"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "From a question to a sourced answer",
       "summary": "Compare sources and connect each conclusion to its evidence.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ac92e16a718f92e5d183a5f208f92feaa9e2b725a045d7923aa78e97fdc5a2a3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -66,7 +66,7 @@
       "title": "从问题到有来源的答案",
       "summary": "比较来源，让每项结论都能追溯证据。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "050854411e82aa4926ca315ba78ccf4ffaf76294affb384984532d5452b7cf5b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

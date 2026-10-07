@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Hub",
       "summary": "Browse community knowledge online or download the shared vault to explore it in Obsidian.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "4917dc25000ef719aeb36f8785c01ee73a9cbc6a33079eeb5bb18588d02b3707",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Hub",
       "summary": "在线浏览社区知识，或下载共享资料库到 Obsidian 中阅读。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2e4fc6190ee9de01391226f4be5526bcaa43078490e3fdfbd191c09fd41af8e7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -52,13 +52,13 @@
     "spaced-repetition"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "From course notes to usable knowledge",
       "summary": "Practice recall, record mistakes and apply concepts in a small task.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "81f63b3ae14962a38c8711b49040122890e5ce91f971a3f53f38fc50829bfc23",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -66,7 +66,7 @@
       "title": "从课程笔记到可用知识",
       "summary": "练习回忆、记录错因，再用小任务检验理解。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "46b2276a1a474db8b703033ba310a8dc1c01b0d2fa298ce563384834ea78bf7a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

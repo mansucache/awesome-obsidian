@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Quick Switcher++",
       "summary": "Find open tabs, headings and other symbols through an extended quick switcher.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "68a8035e1f9efaa2141358dd1834bf5c6745349be2b0a0534f7362c60fd019a4",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Quick Switcher++",
       "summary": "通过增强快速切换器查找已打开标签页、标题等位置。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ba3ff7e32802754bed0f59a3b7215c02ec80733830707d867a9048eeae49e421",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

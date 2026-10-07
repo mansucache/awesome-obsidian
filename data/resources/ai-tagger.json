@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "AI Tagger",
       "summary": "Suggest tags from your existing vocabulary using a language model.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a035c8d8e0a40cd6b232036041773c2231e56134d4951e4202a0e37b7b25a02c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "AI Tagger",
       "summary": "通过语言模型，结合已有标签为笔记推荐标签。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e35bf5cc24f0d1bbecd1267c02102f14170c42a14eacbc3f56858d8631de7e1b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

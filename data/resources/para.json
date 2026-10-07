@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "The PARA Method",
       "summary": "Organize notes into Projects, Areas, Resources and Archives around actionable work.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "64327c0bd3c06065d96caf429ed77c81a69f3fcdbc7eecd036392bd29ff466e5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "PARA 方法",
       "summary": "围绕行动，把笔记组织为项目、领域、资源和归档四类。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6f6478e517c28bdcce3ad3dc273124cdc9064f6500791225cd6c2f5535ba77a9",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

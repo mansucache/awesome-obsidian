@@ -17,7 +17,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -33,6 +33,18 @@
       "url": "https://github.com/chhoumann/quickadd",
       "checked_at": "2026-10-07",
       "supports": "Capture ideas, create notes and run repeatable actions through templates and macros."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/chhoumann/quickadd/blob/master/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
+    },
+    {
+      "title": "Usage documentation",
+      "url": "https://quickadd.obsidian.guide/",
+      "checked_at": "2026-10-07",
+      "supports": "Use case, setup and selection notes."
     }
   ],
   "verification": {
@@ -49,23 +61,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "QuickAdd",
-      "summary": "Capture ideas, create notes and run repeatable actions through templates and macros.",
+      "summary": "Create template notes, append captured text or combine actions into macros from a shortcut.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "52070a1e47348ed2c55c89ccbd40d69a5bf458f900d41eb5cfd3019bbf96e108",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "51827f668cf35972aa40c265b97e949f425c006f8d7ca45a5307ef70290bc359",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for repeated capture, such as sending ideas to an inbox; configure the destination before adding automation."
     },
     "zh-cn": {
       "title": "QuickAdd",
-      "summary": "通过模板与宏快速记录想法、创建笔记和执行重复操作。",
+      "summary": "用快捷命令创建模板笔记、追加记录，或把多个动作组合成宏。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "9d2d2078a8914adc9e0e592cb3233a46270199d8025ef59d9aa0920f1d873d19",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "ec06339f380ad1c96b886ffcda842bea38116ea6f94916e89a15e4430d29d66c",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合每天重复的收集动作，例如把想法追加到收件箱；先配置目标位置，再扩展自动化。"
     }
   }
 }

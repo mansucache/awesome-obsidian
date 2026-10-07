@@ -2,7 +2,9 @@
   "id": "digital-garden",
   "type": "plugin",
   "category": "integrations",
-  "secondary_categories": [],
+  "secondary_categories": [
+    "plugins"
+  ],
   "scenarios": [
     "writing"
   ],
@@ -16,7 +18,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -24,7 +26,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -32,6 +34,12 @@
       "url": "https://github.com/oleeskild/obsidian-digital-garden",
       "checked_at": "2026-10-07",
       "supports": "Publish selected Obsidian notes to a digital garden using a configurable site template."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/oleeskild/obsidian-digital-garden/blob/main/LICENSE.md",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -48,13 +56,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Digital Garden",
       "summary": "Publish selected Obsidian notes to a digital garden using a configurable site template.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ded981e13e591d47de9d5c9a1cf733f5555c28aff92690600708c59ccbeb234e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -62,7 +70,7 @@
       "title": "Digital Garden",
       "summary": "通过可配置的网站模板，把选定的 Obsidian 笔记发布成数字花园。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "cc79f508e630b504095b8e672f0f0382d5a4f65afd83444c35cd0491463b2322",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

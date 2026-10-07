@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Smart Composer",
       "summary": "Ask questions with note context and apply suggested edits to the vault.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9f6c5eba54a37afc61f6d37916f31d8aac05dd881120a9c12d30d0bd7d2d815e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Smart Composer",
       "summary": "结合笔记上下文提问，并将建议修改应用到资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "645229dd5a85a6524e8132c3fe986cf514c85808d09e70c1986f21000b616483",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

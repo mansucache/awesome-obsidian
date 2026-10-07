@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Bases",
       "summary": "Create database-style views of notes with property filters, sorting and formulas.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "468aa746d7f8ad2fb7e2855154e8bf738711d08268ef0039b20c2a444ae3a3dd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Bases",
       "summary": "用属性筛选、排序和公式，把笔记组织成数据库式视图。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "93aaf90311381e0936ed96d9c573e593697bd093ac1a47e50778f7e0bc13388b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

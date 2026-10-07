@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "ReadItLater",
       "summary": "Save web content as notes using templates tailored to different source types.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "fdb7cef0acd10533d4419956c19056a9d7a8b31f0d36b35259af1345385709b5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "ReadItLater",
       "summary": "按不同来源类型使用模板，把网页内容保存为笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "46981ba0237ac5e6e1dc0cf155de3ae1351c71751e3b4e93f6f699e4a4b1c7cd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

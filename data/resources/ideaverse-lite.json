@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Ideaverse Lite",
       "summary": "Explore a free linked-note starter vault with maps and example notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3a0e83691579c809c2f177cc8aea8d9bc46d7b2bc37976c71bd3413a8d82aaa6",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Ideaverse Lite",
       "summary": "通过免费的起步资料库学习内容地图与笔记链接。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3f812c3ce994f05074b72185d570f23d8e9f26bdf0e84df0d7287229ace280cb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

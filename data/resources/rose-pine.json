@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Rose Pine",
       "summary": "Write with warm, subdued colors inspired by the Rosé Pine palette.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b87bb672bb65f0b694c5625d69c6866f9e67045a79788a3f89d36b38c57eb53c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -84,7 +84,7 @@
       "title": "Rose Pine",
       "summary": "使用 Rosé Pine 风格的温暖、柔和配色。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "39581b651508e562bc188cacd33b101d1ff484922110f78fef1d4e6632221a18",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Rocks",
       "summary": "Read practical tutorials on Obsidian features, plugins and everyday workflows.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d8f627084909fe26b10313aac8cbc0715d18868a75bcbd57a6f54f25980725cf",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Rocks",
       "summary": "阅读 Obsidian 功能、插件与日常工作流的实用教程。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d4146f66bec19f31d57b936036feb25a155ea50886d26d3e466b50727a3bd286",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

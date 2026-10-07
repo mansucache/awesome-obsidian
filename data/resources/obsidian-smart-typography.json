@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Smart Typography",
       "summary": "Convert typed quotes, dashes and dots into typographic punctuation.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "766abf815ef56dc4d92ac7e7c4e39bbffe290091fb895e62d4376f90fc9df876",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Smart Typography",
       "summary": "把输入的引号、连字符和句点转换为排版标点。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ae181670d564e981a80541922be0c12117d3a7d47cbdfacffbfdb038527113d2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

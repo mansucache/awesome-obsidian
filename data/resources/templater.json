@@ -26,7 +26,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -40,6 +40,12 @@
       "url": "https://silentvoid13.github.io/Templater/introduction.html",
       "checked_at": "2026-10-07",
       "supports": "Variables, functions and JavaScript execution."
+    },
+    {
+      "title": "Usage documentation",
+      "url": "https://silentvoid13.github.io/Templater/",
+      "checked_at": "2026-10-07",
+      "supports": "Use case, setup and selection notes."
     }
   ],
   "verification": {
@@ -59,23 +65,25 @@
     "reading-workflow"
   ],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Templater",
-      "summary": "Generate notes from templates with variables, functions and JavaScript.",
+      "summary": "Combine dates, prompts and scripts in templates to create meeting, daily or project notes.",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "842a609fc6334589998c8652bb5d90099c323b7574a31a720d40042978a18475",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "0494d5ccc6bf75df7df299c867eaf775468c828a4bb41823c14a022b94662387",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Use it when fixed text templates are insufficient; the core Templates plugin may suffice for titles and dates."
     },
     "zh-cn": {
       "title": "Templater",
-      "summary": "通过变量、函数和 JavaScript 自动生成笔记内容。",
+      "summary": "在模板中组合日期、输入提示与脚本，自动生成会议记录、日记或项目笔记。",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "b7b1391341ba6c551906899f1ad09f9602f76fdeb0f54af08b1d371c89ff026c",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "2ad277d541bb05ba2d6b151a5041b02ad0b7dc2da60017346bafea6f518e6aac",
+      "review": "source-backed bilingual editorial revision",
+      "context": "当固定文本模板不够用时再引入；只有标题和日期需求，可以先用核心 Templates。"
     }
   }
 }

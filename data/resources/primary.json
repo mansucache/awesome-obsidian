@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -69,13 +69,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Primary",
       "summary": "A warm, playful theme with light and dark modes and carefully styled interface details.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "93b4674e8a18585c856a12e3ac81dda4d2006e9ea890a8c2bc26fe20a2f12a1d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -83,7 +83,7 @@
       "title": "Primary",
       "summary": "配色温暖活泼、细致调整界面元素的明暗主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d868845ce9360c211643e046150bb96226b4ca437dfc472d3e0182ffe3dfa762",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

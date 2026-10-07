@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Callouts",
       "summary": "Use labeled blocks to distinguish examples, questions and summaries.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "445df853537d4ed8c5e545639ef3740e2babec3cf9e4c6d2ff572060a8d95b29",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Callouts",
       "summary": "用提示块区分示例、问题和摘要。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ee0ffa10dbbd5477a82d53e1f243133cb4fc1168dc3ddd10836b79588fc93612",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -2,7 +2,9 @@
   "id": "local-rest-api",
   "type": "plugin",
   "category": "integrations",
-  "secondary_categories": [],
+  "secondary_categories": [
+    "plugins"
+  ],
   "scenarios": [
     "development",
     "ai"
@@ -17,7 +19,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -25,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -33,6 +35,12 @@
       "url": "https://github.com/coddingtonbear/obsidian-local-rest-api",
       "checked_at": "2026-10-07",
       "supports": "Connect scripts and agents to your vault through a local REST API and MCP server."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/coddingtonbear/obsidian-local-rest-api/blob/main/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -49,13 +57,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Local REST API",
       "summary": "Connect scripts and agents to your vault through a local REST API and MCP server.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7477a90aa05842beb7fd50463332d80887eb56f21f4bfa2ff1dda9f226a94ce8",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +71,7 @@
       "title": "Local REST API",
       "summary": "通过本地 REST API 和 MCP 服务，让脚本与 Agent 访问资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f76b862be439ff254beb38c17287edcbff0555639831ad4764b69ca134d49f1b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

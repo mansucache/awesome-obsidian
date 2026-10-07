@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Smart Templates",
       "summary": "Combine Markdown templates and selected vault context into repeatable AI prompts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2fc78ea11a918abeb799d9a8e8f044e0987b3d7b2e2d8a55958c8827d70ea156",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Smart Templates",
       "summary": "把 Markdown 模板与选定笔记上下文组合为可复用 AI 提示词。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "eaa2ab46d483019f073a1ba86696f290b19bea3b7b7d7f71788b7b2c002ce71d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

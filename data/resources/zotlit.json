@@ -28,7 +28,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -52,13 +52,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "ZotLit",
       "summary": "Create literature notes and bring citations and annotations from Zotero into the vault.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3d5692ac00203ee4219aa64c97aa40b9a1c30c658dbf8adcdbcca35df15d549b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -66,7 +66,7 @@
       "title": "ZotLit",
       "summary": "从 Zotero 创建文献笔记，导入引文与批注。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d5d7e48027616d4f52aad6f13b3dc7352107899c03fb5b10a75512b88c04b9e1",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

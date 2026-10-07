@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian URI",
       "summary": "Open or create notes through links from other applications.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "852ba6d36e85da296c6d9a7ddec0174801b14a94d01dd77b0e5c5a562374a29b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian URI",
       "summary": "通过其他应用中的链接打开或创建笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "274ff2f4465da6edd43d9da57ea21be1a9daec69e10c72a9d6d2dc7ae045c4d9",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

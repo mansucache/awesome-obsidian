@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Dashboard++",
       "summary": "Build a home dashboard with linked sections and multi-column layouts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "df1224b73c0474500b15aecc3d3f82455069f9e41029252fdcab4cced1bbdf84",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Dashboard++",
       "summary": "用分区链接和多栏布局制作资料库首页。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6de14cacf521f4fd31609479e56d83bf39c161b7219c2a213e7e28a1399183e6",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

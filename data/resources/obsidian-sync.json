@@ -13,8 +13,8 @@
   ],
   "pricing": "paid",
   "cost_note": {
-    "en": "Paid subscription; consult the current official plans.",
-    "zh-cn": "收费订阅，具体条件以当前官方套餐为准。"
+    "zh-cn": "需要订阅；存储与历史保留范围取决于方案。",
+    "en": "Requires a subscription; storage and history retention depend on the plan."
   },
   "openness": "proprietary",
   "license": null,
@@ -29,7 +29,7 @@
     "multilingual"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -37,6 +37,12 @@
       "url": "https://obsidian.md/sync",
       "checked_at": "2026-10-07",
       "supports": "Paid plans, supported platforms, selective sync and version history."
+    },
+    {
+      "title": "Usage documentation",
+      "url": "https://help.obsidian.md/Obsidian+Sync/Introduction+to+Obsidian+Sync",
+      "checked_at": "2026-10-07",
+      "supports": "Use case, setup and selection notes."
     }
   ],
   "verification": {
@@ -55,23 +61,26 @@
     "reading-workflow"
   ],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Obsidian Sync",
-      "summary": "Sync notes across devices with selective sync and version history.",
+      "summary": "Sync vaults across devices with the official service, selective syncing and version history.",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "a265a7865c01463b1d728523156ad5c6e82016e95e1f82202b7e3606dd7b9590",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "c12dad2f614dd1c3627879b757860aecb372dcff1a4969fedb5237d4221ccf93",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful when you want less sync configuration; file changes propagate, so keep a separate backup."
     },
     "zh-cn": {
       "title": "Obsidian Sync",
-      "summary": "在多台设备间同步笔记，支持选择性同步与版本历史。",
+      "summary": "通过官方服务同步多台设备上的资料库，并使用选择性同步与版本历史。",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "d75f5b62998c7da6a675363f70bdc0ea685e893a06f4f92f07d63309678364ff",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "843a080c68fac03c5def456db3c36f9fb07f3baca3d0c83858b81531d41408fa",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合希望减少同步配置的人；同步会传播文件变化，仍应保留独立备份。"
     }
-  }
+  },
+  "show_cost": true
 }

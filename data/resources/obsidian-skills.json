@@ -13,8 +13,8 @@
   ],
   "pricing": "free",
   "cost_note": {
-    "en": "Skill files are free; agent subscriptions or model usage may cost extra.",
-    "zh-cn": "Skill 文件免费；Agent 订阅或模型调用可能另收费。"
+    "zh-cn": "技能文件免费；所用 Agent 或模型服务可能另收费。",
+    "en": "Skill files are free; the selected agent or model service may charge separately."
   },
   "openness": "open-source",
   "license": "MIT",
@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,23 +51,26 @@
     "reading-workflow"
   ],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Obsidian Skills",
-      "summary": "Agent skills for editing Obsidian Markdown, Bases and Canvas and using the CLI.",
+      "summary": "Provide compatible AI agents with instructions for Obsidian formats and CLI tasks, including Markdown, Bases and Canvas.",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "e6d5ffe2caf15328d4523ac55e8a6892f0420d33b5011bb42b5f74fc53098cf1",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "3117f427bcb76b2c657e4f98b42fab82f224edeb067c6f0ff901913b1b3d377f",
+      "review": "source-backed bilingual editorial revision",
+      "context": "This is a skill collection rather than a standalone Obsidian plugin; choose skills for the task and configure an agent."
     },
     "zh-cn": {
       "title": "Obsidian Skills",
-      "summary": "让 AI Agent 编辑 Obsidian Markdown、Bases 和 Canvas，并使用 CLI。",
+      "summary": "为兼容的 AI Agent 提供 Obsidian 格式与 CLI 使用说明，覆盖 Markdown、Bases 和 Canvas 等任务。",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "840ba9a6fb647f375bc5e5fafe7eeff13e598ed25ba3c9ade8f44a39a8942f43",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "185257d2af8a9dba9d24578cfb7b0e11ca1e00f276e53f19dc59f3e523da8469",
+      "review": "source-backed bilingual editorial revision",
+      "context": "这是技能集合，不是安装后即可独立运行的 Obsidian 插件；按实际任务选择技能，并配置相应 Agent。"
     }
-  }
+  },
+  "show_cost": true
 }

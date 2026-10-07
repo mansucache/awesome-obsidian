@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Tars",
       "summary": "Generate text through tag-triggered prompts with multiple model providers.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "12c63792ad755d7e2ca77270f2bc74ef87c178cb5416745453f23e909e661c9f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Tars",
       "summary": "通过标签触发提示词，调用多种模型服务生成文本。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "dcf6d32e6f9d397aff4cd983c040093414cca86808599b23d95a47f894c4db9d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -1,0 +1,75 @@
+{
+  "id": "meeting-note-template",
+  "type": "template",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing",
+    "projects"
+  ],
+  "tags": [
+    "meeting-note-template",
+    "template"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": "MIT",
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "curated",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Meeting decisions and actions",
+      "url": "https://help.obsidian.md/Plugins/Templates",
+      "checked_at": "2026-10-07",
+      "supports": "Primary documentation for the described capability; local templates and workflow steps are original editorial material."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Meeting decisions and actions",
+      "summary": "Keep agenda, decisions, owners and next actions in one note for follow-up.",
+      "context": "An original lightweight template from this project. Copy its template sections into your template folder and insert them with core Templates; no community plugin is required.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "4ccbd6ba16554a1e66bcfcb65d1bb605214cef18a0ccb04cd791395163b1e220",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "会议决策与行动模板",
+      "summary": "把议题、决定、负责人和下一步放在同一篇笔记里，便于会后追踪。",
+      "context": "本项目原创的轻量模板。可将模板中的章节复制到模板文件夹，通过核心 Templates 插入；不依赖社区插件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "773ae5697234ebfbd2d7d7ce0b2e675289382cbb9060cf68fecb6e9b7fe1e447",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "local_content": true
+}

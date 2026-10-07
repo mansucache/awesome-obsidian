@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Releases",
       "summary": "Find the official registries used to distribute community plugins and themes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b3d35ac61df641f4bc3bc9e2f2a0208f3be6f7eef959e5ef8f83b9e208cbfdfd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Releases",
       "summary": "查阅社区插件与主题分发所用的官方注册表。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1e28f75d2621a5dede8c41ce694c851dba18a2b7bae477a9d813712963d44f8e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Quiz Generator",
       "summary": "Turn selected notes into interactive practice questions with an AI model.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "bf318476780588b6cd85ea05dadc2c35c825ac2fc5120c304c8bb89e61d5004c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Quiz Generator",
       "summary": "用 AI 将选定笔记转换为可交互作答的练习题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "73daf54679edf88cdb3eba947600a68a22fea3f9f66a91aa6b46ce698adb2a39",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

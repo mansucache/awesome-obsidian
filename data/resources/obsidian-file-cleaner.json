@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "File Cleaner",
       "summary": "Locate empty notes and unused attachments for vault cleanup.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7ff9b3db716246e04a7bce563b952f87485322da54554530abc51dc89ce6b879",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "File Cleaner",
       "summary": "查找空笔记与未使用附件，清理资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8316bde7a60057f2ef694968223bf9346b5520801151033fffbfd85cf2dd6a8d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian ESLint Plugin",
       "summary": "Check plugin code against Obsidian-specific API and development rules.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "5e0671c514ba81162072c2fb970f4d08eee8bea0901a202460ec3283aac07bbd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Obsidian ESLint Plugin",
       "summary": "按 Obsidian API 与开发规则检查插件代码。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "886cb5b9489a456b17ccb7f638962757445cea5038356480014657890ca74732",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

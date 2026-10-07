@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Evergreen Notes — Steph Ango",
       "summary": "Write reusable ideas as notes that can develop and connect over time.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a2e120044e20a9024988535dc2b0f0c02d3c5087e744fc6a997edc0b134f6838",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Evergreen Notes — Steph Ango",
       "summary": "把可复用的想法写成能够持续发展、相互连接的笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8ee97a21841ddf4facae0032ee81a4f68d7456d107a6987d78528e0739843999",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

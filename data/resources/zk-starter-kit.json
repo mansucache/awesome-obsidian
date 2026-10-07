@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Zettelkasten Starter Kit",
       "summary": "Start a linked-note system with example notes and a ready-made vault structure.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ade506da0e703d3e92f1a5766918194ab4ee78ae6e32b058389c2dac426eebcd",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Zettelkasten Starter Kit",
       "summary": "通过示例笔记和现成目录建立卡片笔记资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ce95fd5f190d138852559b19dbc275e65fd4bcc2e8bafb7411fd20153fe9dc09",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

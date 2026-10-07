@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Tracker",
       "summary": "Collect values from notes and plot habits, progress or other personal metrics.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "45dfab85d72970de1ae91953f792c3979615674a4ddb26d1d77417aaccf94f7a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Tracker",
       "summary": "从笔记收集数值，绘制习惯、进度等指标图表。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "e53802e48258edd7fc6da353f4fede5960ebdb1bca15451d7fda96c666472e10",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

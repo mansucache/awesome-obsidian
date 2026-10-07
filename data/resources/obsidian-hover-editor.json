@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Hover Editor",
       "summary": "Edit linked notes in floating preview windows without leaving the current note.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6fc3222f0287ba4a1c855d86bab5cf62bf471fa2253e7bd2e6398a24866adca1",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Hover Editor",
       "summary": "在悬浮预览窗口中编辑链接笔记，无需离开当前笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "16ccd3a20f7e3085c1cb5bfc2a55e5cd4081a75cc5b090e1067228c503655c03",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -1,0 +1,75 @@
+{
+  "id": "project-review-template",
+  "type": "template",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing",
+    "projects"
+  ],
+  "tags": [
+    "project-review-template",
+    "template"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": "MIT",
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "curated",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Project review",
+      "url": "https://help.obsidian.md/Plugins/Templates",
+      "checked_at": "2026-10-07",
+      "supports": "Primary documentation for the described capability; local templates and workflow steps are original editorial material."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Project review",
+      "summary": "Compare goals with results, reasons and next changes rather than only logging events.",
+      "context": "An original lightweight template from this project. Copy its template sections into your template folder and insert them with core Templates; no community plugin is required.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d2719aa9ce50fc38cc40654fc67eac5036a13bd0360b4de11f37eb9ae21c46d3",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "项目复盘模板",
+      "summary": "对照目标记录实际结果、原因与下一轮调整，避免复盘只剩流水账。",
+      "context": "本项目原创的轻量模板。可将模板中的章节复制到模板文件夹，通过核心 Templates 插入；不依赖社区插件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "631c4466a6e39d233c9597b9526d155c4e1ac5eb7d14385023de4b2cf15f12d7",
+      "review": "source-backed bilingual editorial revision"
+    }
+  },
+  "local_content": true
+}

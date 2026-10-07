@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Workspaces",
       "summary": "Save and restore layouts for different kinds of work.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "05f656d48241e52448d0ea34eb5681a15e3191d5b7820b8830e1e7f4cfcfd23a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Workspaces",
       "summary": "保存并恢复适合不同工作的窗口布局。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "be131d93e271ea3a3a4befbf59d060cdf41f261374aed844ba0da4cd21d6615f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

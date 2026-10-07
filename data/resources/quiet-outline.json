@@ -26,7 +26,7 @@
     "zh-cn"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -50,13 +50,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Quiet Outline",
       "summary": "Search headings and control outline expansion to navigate long notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "b1864b9c49c1f00762d653dd9d8b4eee10ee3a633847e32c0c8573c859d1cee8",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -64,7 +64,7 @@
       "title": "Quiet Outline",
       "summary": "通过标题搜索与大纲展开控制，浏览和定位长笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "20a31eb3c30f141c598bbd9b2cb6dc8039293b6c56db78f5d3a07f71db7d79b3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

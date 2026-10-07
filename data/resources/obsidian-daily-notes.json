@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Daily Notes",
       "summary": "Create dated notes for daily logs, capture and reflection.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d465d6f0ab652a6a6504ddf60c318a0e57c6f4e59759b7c5b7e9d6e233ecf743",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Daily Notes",
       "summary": "创建按日期组织的笔记，用于日志、随手记录和复盘。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1fded3f66a30532e00403003498cfd267ebeb09af26f66c065141b5c98842139",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

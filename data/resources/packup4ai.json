@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "packUp4AI",
       "summary": "Bundle linked notes and backlinks into focused context for external AI tools.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "99d7bce1de125c4103d15f67d96f07ce40f81cbc5cb1cca3065fe0cc0cc5bca7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "packUp4AI",
       "summary": "将链接与反向链接关联的笔记打包，作为外部 AI 工具的上下文。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "45d9aa6e73cf7a8f8bc7fe13a21710271c62c0d01f02aeb35453606e55096ce4",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

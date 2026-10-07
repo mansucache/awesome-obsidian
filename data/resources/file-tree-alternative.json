@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "File Tree Alternative",
       "summary": "Browse folders and files in separate panes instead of one file tree.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8fe14848df1963e7ade52f747af9024907b5fa38197dd8f2604082cde00eab36",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "File Tree Alternative",
       "summary": "分别在文件夹和文件面板中浏览资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6970e2d8db45bb5a1ca380b20e7b5946820f72b57645d77870b786c6d9d40ca0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

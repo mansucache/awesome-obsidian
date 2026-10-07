@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "BMO Chatbot",
       "summary": "Chat with configurable AI personas using local or cloud model providers.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2b2d27cf2f5841ece2daf75034c30d4e4f822be06b552687edd85074a42ef29f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "BMO Chatbot",
       "summary": "通过本地或云端模型，与可配置角色的 AI 助手对话。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f740c0f4e8b163f767789d1042246a9865d77aeb967c6895796b0467dc0fa342",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

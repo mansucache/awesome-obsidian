@@ -1,0 +1,32 @@
+name: Catalog feedback / 目录与阅读体验
+description: Suggest coverage or navigation improvements, or report display problems / 反馈分类缺口、导航或显示问题
+title: "[Feedback] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        English or Chinese is welcome. Search existing issues first. For a plugin's own bugs, use its upstream issue tracker; this form is for the catalog, README and website. Do not attach private vault content.
+        中英文任选一种，请先搜索已有 Issue。插件自身故障请反馈至对应上游；这里处理目录、README 和网站问题。请勿附带私人笔记库内容。
+  - type: input
+    id: location
+    attributes:
+      label: Page or section / 页面或章节
+      description: A link or section name is enough. / 提供链接或章节名即可。
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Problem or missing coverage / 遇到的问题或内容缺口
+      description: Describe what you tried to find or do and what happened. / 说明你想找什么、完成什么，以及实际遇到的情况。
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement / 建议改进
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / 补充信息
+      description: For display issues, optionally include steps, browser/device and a screenshot with private information removed. / 显示问题可补充复现步骤、浏览器或设备，以及已去除私人信息的截图。

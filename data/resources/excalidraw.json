@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,23 +49,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Excalidraw",
       "summary": "Draw diagrams and visual notes with Excalidraw inside your vault.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "81194978a56682ccbed65e871197bf91f2e206ac892e18fff3ee46c2d3221df0",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "d3a0da1f484855b4eee54418817d36b24e4b91ee6ef34bedc543fcfa675e18f0",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for concept sketches, meeting whiteboards and visual notes; compare core Canvas when you only need to arrange existing notes."
     },
     "zh-cn": {
       "title": "Excalidraw",
       "summary": "在资料库中使用 Excalidraw 绘制图表和视觉笔记。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "4f0e18551e19823b1692024d8a2d18dba191429a1dc37a71ee07a0a8a5251e73",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "41bccaf6c76112c19c96bb3c34d69f2191fa6e3875b6ca5028e47142af903776",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合梳理概念关系、会议白板与图文笔记；如果只需排列已有笔记，可先比较核心 Canvas。"
     }
   }
 }

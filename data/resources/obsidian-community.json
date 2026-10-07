@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Community",
       "summary": "Browse the official directory of community plugins and themes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ced79036bc86bc9bbaa90eb66a96bb47af9058ad436f502f460e697de28bdde3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Community",
       "summary": "在官方社区目录中查找插件和主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a314df86962e0434b339a7e5f619f86f5e4cf6d526f23e95c2a5ed79186823c1",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

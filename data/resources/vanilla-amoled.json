@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Vanilla AMOLED",
       "summary": "Use a black-background variation of the default interface.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a9ee03468538ff82cc4c6871d572948dad1af49aef14624928b33ce04416912b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -84,7 +84,7 @@
       "title": "Vanilla AMOLED",
       "summary": "使用以黑色背景呈现的默认界面变体。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "86ae87e71287db0bc25c3631c8f8704716b5732232740a97f9b6b98d2b1996be",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Obsidian Typings",
       "summary": "Explore community TypeScript definitions that extend the official API types.",
       "status": "current",
-      "based_on_revision": 2,
+      "based_on_revision": 3,
       "content_sha256": "8a68a263351660a220bb08ded2f921142f365649a57c14d10126962fe2d3bce5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Typings",
       "summary": "查阅补充官方 API 类型的社区 TypeScript 定义。",
       "status": "current",
-      "based_on_revision": 2,
+      "based_on_revision": 3,
       "content_sha256": "55504706893ac0f48abf38753f8ba42fe82759e98d6422e0422a933f400bd98e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

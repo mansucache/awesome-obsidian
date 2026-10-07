@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "JG Method",
       "summary": "Explore a starter vault organized around goals, tasks and development work.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1d4d76323eff52f73c6a75e8e04c7031572ee513b327041b41fa8da0673e05f5",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "JG Method",
       "summary": "参考围绕目标、任务和开发工作组织的起步资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f09496b5621f1772277d2cc933fd5051959fe405720480f781158291309749a3",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Ollama Chat",
       "summary": "Ask questions about your notes using Ollama and a local retrieval setup.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9da49d75228dcddb26debfb845e78c003b41294c5c61ed203da1238058ceaafa",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Ollama Chat",
       "summary": "通过 Ollama 与本地检索配置，围绕笔记内容提问。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "bf410ccdfd38cfe02dc256a9a64f5da09bb0b1f5acf34d268c2f3eee42969229",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Media Extended",
       "summary": "Take timestamped notes while playing audio and video inside Obsidian.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9ee696ec26e2bc8912a86c8e6dbdee7289dabda89be1f807fbd9b99008fa7d66",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Media Extended",
       "summary": "在 Obsidian 中播放音视频，并记录带时间戳的笔记。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8edc653a9acb44ac632ce91ccca03ecb17ae10d2c34521a308f06c61fd897ae7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

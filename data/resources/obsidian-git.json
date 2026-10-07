@@ -1,8 +1,10 @@
 {
   "id": "obsidian-git",
   "type": "plugin",
-  "category": "plugins",
-  "secondary_categories": [],
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
   "scenarios": [
     "sync",
     "development"
@@ -17,7 +19,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -25,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -33,6 +35,12 @@
       "url": "https://github.com/Vinzent03/obsidian-git",
       "checked_at": "2026-10-07",
       "supports": "Commit vault changes and synchronize them with a Git repository."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/Vinzent03/obsidian-git/blob/master/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -49,23 +57,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Git",
-      "summary": "Commit vault changes and synchronize them with a Git repository.",
+      "summary": "Inspect changes, commit versions and sync with a remote Git repository from your vault.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "a6350cec77d43bb0ec40540eed0583b08a06af732cca51f55673dc6ae4fe739e",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "e901332c940e698a87f0c5df1b7ba86309fc527f220ba556add4da58fab7cdd2",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Best suited to desktop users familiar with Git; substantial mobile limitations make it a poor default for cross-device sync."
     },
     "zh-cn": {
       "title": "Obsidian Git",
-      "summary": "提交资料库变更，并与 Git 仓库同步。",
+      "summary": "在资料库内查看差异、提交版本并与远端 Git 仓库同步，保留笔记修改历史。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "59ae06665c21d6761e2ed4bdc24c4fea748405108747f93fd1ddd9cc11c421ba",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "b98fa058c0de39b8318080f44d977770868e4d790e6654d5accdb21051540bdb",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合熟悉 Git 的桌面用户；移动端实现仍有明显限制，不宜直接作为跨设备同步的默认选择。"
     }
   }
 }

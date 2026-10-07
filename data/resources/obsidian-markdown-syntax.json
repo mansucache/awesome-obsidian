@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Markdown Syntax",
       "summary": "Learn the headings, lists, tables and formatting supported in notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6713dcd1f0b5b75625396d52a909159d5eee5de9b1d78e9fcac409f8ad42e7ca",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Markdown Syntax",
       "summary": "了解笔记支持的标题、列表、表格与格式语法。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "0a1b9cc4a057b5c73b84292993c954c8554f2452d4fd2b19404ceb4d4df98b10",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

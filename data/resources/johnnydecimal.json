@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Johnny.Decimal",
       "summary": "Use numbered areas and categories to give files and notes predictable locations.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "ef73114f6e5da07f747a00fa3d69ca5aaafc09e9f5b4a380dc842c74605151c0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Johnny.Decimal",
       "summary": "用编号领域与分类，为文件和笔记建立清晰的位置。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9d39a4801231cdd3208c65f1e0ced723790b5a417d41e5eaec35669f98a840cc",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -16,7 +16,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "unknown"
   ],
@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -32,6 +32,18 @@
       "url": "https://github.com/obsidian-tasks-group/obsidian-tasks",
       "checked_at": "2026-10-07",
       "supports": "Track tasks across your vault with due dates, recurring tasks and filtered views."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/obsidian-tasks-group/obsidian-tasks/blob/main/LICENSE",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
+    },
+    {
+      "title": "Usage documentation",
+      "url": "https://publish.obsidian.md/tasks/Introduction",
+      "checked_at": "2026-10-07",
+      "supports": "Use case, setup and selection notes."
     }
   ],
   "verification": {
@@ -48,23 +60,25 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Tasks",
-      "summary": "Track tasks across your vault with due dates, recurring tasks and filtered views.",
+      "summary": "Query tasks across notes, organize them by dates and conditions, and update completion from an aggregated view.",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "bf3dfb3af1d100becf2f10575213ed06b3103d9fc8ced892383de773994abe25",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "4196e90805ad72fc9e5510320dc106ae8e00d33e7b37485859774a6034b19635",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful when tasks live in meeting, project and daily notes; agree on date and capture conventions first."
     },
     "zh-cn": {
       "title": "Tasks",
-      "summary": "跨笔记汇总任务，支持截止日期、重复任务与筛选视图。",
+      "summary": "跨笔记查询待办事项，按日期与条件组织任务，并从汇总视图更新完成状态。",
       "status": "current",
-      "based_on_revision": 1,
-      "content_sha256": "3bd913c5d6eb2adfa0d538fafaa8a4663143b195b39cb598bc902ffc493c6d5b",
-      "review": "primary-source-and-bilingual-copy-reviewed"
+      "based_on_revision": 2,
+      "content_sha256": "2d64f74a9de9f1ab839615ebf5b959fb207cf4736af4f3390a11bc5c800c636c",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合任务分散在会议、项目和日记中的用法；需要先约定任务日期与记录方式。"
     }
   }
 }

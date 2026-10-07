@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Number Headings",
       "summary": "Add or update hierarchical numbering across document headings.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "71bae07a867a0290787f07c5543fa126936ac0ac2e32c1197219554b461130bf",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Number Headings",
       "summary": "为文档标题添加或更新分级编号。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "3818bc9b058728fd4a2e7078e8f550883625c991caea9e9699f0a6ee289b15c2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

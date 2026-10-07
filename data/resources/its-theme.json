@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -69,13 +69,13 @@
       }
     }
   ],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "ITS Theme",
       "summary": "A customizable theme with light and dark modes and detailed reading styles.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a5868473326ad35508fef613456beb1a1f5243e77fc7d16b5c7b42468b98b9f2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -83,7 +83,7 @@
       "title": "ITS Theme",
       "summary": "提供明暗模式与细致阅读样式的可定制主题。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7e097a6ce3313a354675a16e94f38179f858eaeaaa7a2f8170ab5ebe044d0bac",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

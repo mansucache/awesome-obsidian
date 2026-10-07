@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Kindle",
       "summary": "Export notes and embedded content as EPUB through a configured conversion backend.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "32e662d784e6243130f1ca4c2e0c6713d9259e159564244abaace5745b74e55a",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Kindle",
       "summary": "通过配置的转换后端，将笔记与嵌入内容导出为 EPUB。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "db735f966b96303dd04f15a8acbd4d8eb83f11fb3d3e9c7ed49c9ac772f9bd99",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -70,13 +70,13 @@
       }
     }
   ],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Things",
       "summary": "A Things-inspired theme with light and dark modes and custom checkbox styles.",
       "status": "current",
-      "based_on_revision": 2,
+      "based_on_revision": 3,
       "content_sha256": "bf2508ee2751cb237199e195e97bf15fc0418d453c31c767f5a32743b51ce1b4",
       "review": "ai-source-and-language-review; maintainer acceptance pending"
     },
@@ -84,7 +84,7 @@
       "title": "Things",
       "summary": "借鉴 Things 设计风格，提供明暗模式和多种复选框样式。",
       "status": "current",
-      "based_on_revision": 2,
+      "based_on_revision": 3,
       "content_sha256": "a98416a83b088eebd5e004296fcf0a82b43de0e1a34da230715f3cf9b81ae9c5",
       "review": "ai-source-and-language-review; maintainer acceptance pending"
     }

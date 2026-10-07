@@ -1,0 +1,72 @@
+{
+  "id": "sync-methods-guide",
+  "type": "article",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "sync"
+  ],
+  "tags": [
+    "sync-methods-guide",
+    "article"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free to read or use.",
+    "zh-cn": "免费阅读或使用。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "listed",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Sync your notes across devices",
+      "url": "https://help.obsidian.md/sync-notes",
+      "checked_at": "2026-10-07",
+      "supports": "Purpose and usage described on the original page."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Sync your notes across devices",
+      "summary": "Compare official sync, cloud drives and other methods with their device-specific setup differences.",
+      "context": "Filter by your device combination before following setup steps; desktop support does not imply equivalent mobile support.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "69ed1f08e3cf34686ae35457a15fe49eb272d6e01038824c83af6f9aa69425d5",
+      "review": "source-backed bilingual editorial revision"
+    },
+    "zh-cn": {
+      "title": "跨设备同步方式指南",
+      "summary": "对照官方同步、云盘与其他方式，了解不同设备上的配置差异。",
+      "context": "先按自己的设备组合筛选，再看配置步骤；不要把桌面端可用直接理解成手机端同样可用。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "780bd3471e06b6cae112cc73f3b4e36759dee965c83de5a99a48f20f95e131b4",
+      "review": "source-backed bilingual editorial revision"
+    }
+  }
+}

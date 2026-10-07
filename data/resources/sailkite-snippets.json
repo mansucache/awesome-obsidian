@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "sailKite's Snippets and Demos",
       "summary": "Adapt CSS snippets and Markdown demonstrations for custom note layouts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1c37082db2e492453473db3e8a93cf6af70eed367bc5059e7b71146c138662cb",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "sailKite's Snippets and Demos",
       "summary": "用 CSS 片段与 Markdown 示例调整笔记布局。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6b490160ed031aa2c12f564acd4f13c66a1cd3840028aa62bfea8812adf67e7c",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

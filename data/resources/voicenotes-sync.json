@@ -32,7 +32,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -56,13 +56,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Voicenotes Sync",
       "summary": "Import recordings, transcripts and generated summaries from a Voicenotes account.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8eeebe9829d2ac93113ed633eea3e7cdd6a1d71bb5885c659f78a8c9307add84",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -70,7 +70,7 @@
       "title": "Voicenotes Sync",
       "summary": "从 Voicenotes 账户导入录音、转写文本与生成的摘要。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "4b7c654d7717585062904521988c5c9dfd2d19db0031b3b265d2e29b99e0cd8b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Dataview Snippets",
       "summary": "Adapt reusable Dataview queries for indexes, lists and galleries.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2a324210a9f36e3a50d70d4a4e178460efb5adb510607bac13320d8f3ecfb0ab",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Dataview Snippets",
       "summary": "复用 Dataview 查询制作索引、列表和图库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7ccf8e8009b954c5658a7a9cd5a7548b1a7e548cb519b818555226a36ebf399e",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

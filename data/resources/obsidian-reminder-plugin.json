@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Reminder",
       "summary": "Add date-and-time reminders to Markdown task items.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "1d55b731e05ed689bd64fe3087a869c1945818844a7ccbb519e83a05366d9f7f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Reminder",
       "summary": "为 Markdown 任务条目添加日期与时间提醒。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "445b4bb038abe47119401652eb2242d84209bc049b0cdf96868c63924a9490e0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

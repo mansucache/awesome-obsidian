@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Self-hosted LiveSync",
       "summary": "Sync vaults through a self-hosted CouchDB or supported object-storage backend.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "6e60d0ca1f12fa5c23b0416ddc616310c077fc8b3e4fc2770098999587ac2c75",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Self-hosted LiveSync",
       "summary": "通过自建 CouchDB 或支持的对象存储后端同步资料库。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "eb2a4c30d947a87f6eea3879c772c62e97d5b45318f5e7cd8a1f2730dcb79b1d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

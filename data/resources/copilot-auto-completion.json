@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Copilot auto completion",
       "summary": "Show configurable AI text completions beside the cursor as you write.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "74a5a1a09501b61d6a13b80f68d411b1fa6f88dcca8b83bebce9b9b614101693",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Copilot auto completion",
       "summary": "写作时在光标旁显示可配置的 AI 文本补全。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c3fc3ba653fec4b435ce68718c39e67c744b2db47e1e9fd4452d9cf88fccee2b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

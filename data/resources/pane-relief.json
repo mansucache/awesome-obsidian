@@ -27,7 +27,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -51,13 +51,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Pane Relief",
       "summary": "Navigate tab history and move between panes using keyboard shortcuts.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "2fb9cc8014f0fa4132609651cc7a502ba9c0cfb87f88fc772165df24445c994d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +65,7 @@
       "title": "Pane Relief",
       "summary": "用快捷键浏览标签页历史并在窗格之间切换。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "76918ab0a875e418706e386ddc65b1b494d3e0d5bd0bdcc526ddb6ea6ddbf231",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

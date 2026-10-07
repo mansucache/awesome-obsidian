@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Clear Unused Images",
       "summary": "Find and remove images no longer referenced by Markdown notes.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "de947113b66778815c1e4b03797dc2c3f01dbfe0d2ac38af62d61ec2f1212fe6",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Clear Unused Images",
       "summary": "查找并移除不再被 Markdown 笔记引用的图片。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "f665f50ba31de3f985cbc13d8b92ef9e913aa7bb3492f2c9cfe4d516b250b41d",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

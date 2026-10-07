@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Minimal Theme CSS Snippets",
       "summary": "Fine-tune Minimal with targeted interface and typography snippets.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c84e3022d1e04b7cc630911c3e32b59dff4f04e3fd9f1e11ff28aa5e8230f0a0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Minimal Theme CSS Snippets",
       "summary": "用针对 Minimal 的 CSS 片段调整界面和排版。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "bbdbca10f4f50b3c3f00cb887fc8dda00b4551a9e6285b28410f47728a1328d0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -50,13 +50,13 @@
     "obsidian-canvas"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "JSON Canvas",
       "summary": "Use the open canvas format to exchange nodes, edges and groups between tools.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d363723d1f4ae48a6db01c259c732f59503786d4709f714dc1f780a2750b35a7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -64,7 +64,7 @@
       "title": "JSON Canvas",
       "summary": "使用开放画布格式，在工具之间交换节点、连线和分组。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7201cf09976700fee14fb889e7b4bd3e685c68f836584e21ac322f0aa557fb8f",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

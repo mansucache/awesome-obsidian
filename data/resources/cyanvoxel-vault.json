@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "CyanVoxel’s Vault Template",
       "summary": "Explore a personal vault layout with coordinated CSS snippets and a companion video tour.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "8c0ad757a27e015275d41d9bf2ffd496c544d635d266e12484ab5b7257060109",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "CyanVoxel’s Vault Template",
       "summary": "参考搭配 CSS 片段的个人资料库布局，并结合作者视频了解配置。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "54f3b0ba87d068c30393cf3bf0c4f68faf275cdf55d5eb22aa80fd1d1034c548",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

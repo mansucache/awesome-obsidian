@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -49,13 +49,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Translations",
       "summary": "Contribute translations for Obsidian's interface.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "71bdcda1a76c0ad6ba020d39196b5a0614ed07df8852b3a3ab25d0201b93e039",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -63,7 +63,7 @@
       "title": "Obsidian Translations",
       "summary": "参与 Obsidian 界面翻译。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "d67b11907a6a2de541a789fba2cf82689a4cce61000e121d068de80d7ee76165",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

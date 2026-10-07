@@ -31,7 +31,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Companion",
       "summary": "Suggest inline text completions using the surrounding note as context.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "595f89998465581dbdb80919f14e9b1259479b09289dae769953c721b24472e9",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Companion",
       "summary": "根据笔记上下文，在输入位置提供文本补全建议。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "9200874abd9856f72e180f4147849202e7bbe48b82f43f6e06253723d8aeef67",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

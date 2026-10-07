@@ -16,7 +16,7 @@
     "zh-cn": "资源免费，外部服务可能单独收费。"
   },
   "openness": "open-source",
-  "license": null,
+  "license": "MIT",
   "platforms": [
     "not-applicable"
   ],
@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -32,6 +32,12 @@
       "url": "https://github.com/obsidianmd/obsidian-api",
       "checked_at": "2026-10-07",
       "supports": "Use the official TypeScript definitions when developing Obsidian plugins."
+    },
+    {
+      "title": "Upstream license",
+      "url": "https://github.com/obsidianmd/obsidian-api/blob/master/LICENSE.md",
+      "checked_at": "2026-10-07",
+      "supports": "Repository license: MIT"
     }
   ],
   "verification": {
@@ -51,13 +57,13 @@
     "developer-docs"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian API",
       "summary": "Use the official TypeScript definitions when developing Obsidian plugins.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "78535e6db7b5589f41c6ddf48c3942b5b9a179e092dc9a85485a3cb5128fca5b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -65,7 +71,7 @@
       "title": "Obsidian API",
       "summary": "开发 Obsidian 插件时使用官方 TypeScript 类型定义。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "501765742ea1ac66caa7672c9d2ee5ea6cf02ca62a2d26fc3663d1090b89c258",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

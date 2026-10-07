@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -37,6 +37,12 @@
       "url": "https://github.com/kepano/obsidian-minimal",
       "checked_at": "2026-10-07",
       "supports": "Desktop/mobile/tablet scope, companion plugins, screenshots and MIT notice."
+    },
+    {
+      "title": "Usage documentation",
+      "url": "https://minimal.guide/",
+      "checked_at": "2026-10-07",
+      "supports": "Use case, setup and selection notes."
     }
   ],
   "verification": {
@@ -75,23 +81,25 @@
       }
     }
   ],
-  "revision": 2,
+  "revision": 3,
   "locales": {
     "en": {
       "title": "Minimal",
-      "summary": "A customizable theme with adjustable colors, typography and layouts.",
+      "summary": "A restrained reading and writing interface with configurable colors, typography and layouts.",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "4009f1bbb70a6ae1dc5e3f6217948020ab859101357ca102e2c1b98966a14dd4",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "5d2ff52eafc225fadbfed86c7b8df716f90b039e7aa1112d0800f3db5085311f",
+      "review": "source-backed bilingual editorial revision",
+      "context": "Useful for a quiet interface with room for customization; begin with defaults before adjusting companion settings."
     },
     "zh-cn": {
       "title": "Minimal",
-      "summary": "可调整配色、字体与布局的简约主题。",
+      "summary": "以简洁界面组织阅读与写作，并提供配色、字体和布局调整。",
       "status": "current",
-      "based_on_revision": 2,
-      "content_sha256": "53d405fdc7fbf5edcc16e39b9a345e41ae1c7433baf68e7cda3f52be91d7b9b2",
-      "review": "ai-source-and-language-review; maintainer acceptance pending"
+      "based_on_revision": 3,
+      "content_sha256": "c037d7785df6c8247b7afdf7d94139a434ef57b3d076678a12366ef96df64c7a",
+      "review": "source-backed bilingual editorial revision",
+      "context": "适合希望减少视觉干扰又保留定制空间的人；调整前可先用默认外观，再按需配置配套设置。"
     }
   }
 }

@@ -25,7 +25,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -55,13 +55,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Readwise Reader",
       "summary": "Read articles and PDFs, then export highlights to Obsidian through Readwise.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "015ab967b8e1c7eb58c67851993691166a6b28553f52cea81cfb02f26f2c31fa",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -69,7 +69,7 @@
       "title": "Readwise Reader",
       "summary": "阅读文章和 PDF，并通过 Readwise 将高亮内容导出到 Obsidian。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "73e60f2b051263a9537361841f95803c73d6184eee461ab6cf69e27223aa70d7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

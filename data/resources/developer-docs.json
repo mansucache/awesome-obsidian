@@ -24,7 +24,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -50,13 +50,13 @@
     "sample-plugin"
   ],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Obsidian Developer Docs",
       "summary": "Read official guides for building plugins and themes and working with the API.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "a4f2270942f565729642bce985d3a4c116465a97a6712ef7eb003b7ddd9994a7",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -64,7 +64,7 @@
       "title": "Obsidian Developer Docs",
       "summary": "查阅插件、主题开发及 API 使用的官方文档。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "89d0307054857aabd621944b7ed826ac28fca1e7064be6cc128ca524adf23cb0",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

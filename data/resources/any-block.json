@@ -26,7 +26,7 @@
     "zh-cn"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -50,13 +50,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "AnyBlock",
       "summary": "Render lists and other Markdown blocks as tables, cards and alternative views.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "c1e3a5b24ccec94ce7b2ec59d1bc7892f083ac433eb8acf40c546c5d2ae7a3b2",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -64,7 +64,7 @@
       "title": "AnyBlock",
       "summary": "把列表等 Markdown 内容块渲染成表格、卡片和其他视图。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "078e4d3dd61c71890428714b7c67cbb5d065f000b3dbfdb3a006ec2e75917a2b",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }

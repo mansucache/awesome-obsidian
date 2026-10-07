@@ -29,7 +29,7 @@
     "en"
   ],
   "level": "index",
-  "publication": "sample",
+  "publication": "listed",
   "status": "documented",
   "sources": [
     {
@@ -53,13 +53,13 @@
   },
   "related": [],
   "assets": [],
-  "revision": 1,
+  "revision": 2,
   "locales": {
     "en": {
       "title": "Footnote Shortcut",
       "summary": "Create, navigate and edit footnotes with keyboard commands.",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "7a50407f52fd73a6af04d2fb2521c33c2f844f41733508532c320337395a5152",
       "review": "primary-source-and-bilingual-copy-reviewed"
     },
@@ -67,7 +67,7 @@
       "title": "Footnote Shortcut",
       "summary": "通过键盘命令创建、跳转和编辑脚注。",
       "status": "current",
-      "based_on_revision": 1,
+      "based_on_revision": 2,
       "content_sha256": "58ac86aca3d0b8292cb947d65ea0e60a0fb0595f940874030c94962406ca85a1",
       "review": "primary-source-and-bilingual-copy-reviewed"
     }
