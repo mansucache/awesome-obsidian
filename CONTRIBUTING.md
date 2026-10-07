@@ -59,7 +59,7 @@ Add each resource to exactly one primary group in `data/navigation.json`. Use ta
 
 ## Release build
 
-Run `python3 scripts/catalog.py check --release`, `python3 -m unittest discover -s scripts -p 'test_*.py'` and `python3 scripts/catalog.py build --release`. The static output is `site/dist`; commit generated README and catalog changes with the source changes. Python 3.10+ is required. The GitHub workflow checks the same commands without deploying.
+Run `python3 scripts/catalog.py check --release`, `python3 -m unittest discover -s scripts -p 'test_*.py'` and `python3 scripts/catalog.py build --release`. The static output is `site/dist`; commit generated README and catalog changes with the source changes. Python 3.10+ is required. The GitHub workflow runs these checks for PRs. Successful builds on `main` deploy `site/dist` to GitHub Pages; PRs never deploy.
 
 ## Maintenance and retirement
 
