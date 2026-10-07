@@ -1,0 +1,77 @@
+{
+  "id": "obsidian42-brat",
+  "type": "plugin",
+  "category": "development",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian42-brat",
+    "plugin",
+    "development-testing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "BRAT",
+      "url": "https://github.com/tfthacker/obsidian42-brat",
+      "checked_at": "2026-10-07",
+      "supports": "Install and update beta plugins or themes directly from their repositories."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "BRAT",
+      "summary": "Install and update beta plugins or themes directly from their repositories.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "51dc13faa3215b18a5aba52e45fa728daa12b2d57e47fef679f1855505258dfb",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "BRAT",
+      "summary": "直接从仓库安装和更新插件或主题的测试版本。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a5194c4ff34c48aecaf0d322c0cd21c478a6ef07ae63e4480eed516d06b2538b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

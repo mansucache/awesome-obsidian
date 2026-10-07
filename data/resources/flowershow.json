@@ -1,0 +1,71 @@
+{
+  "id": "flowershow",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "flowershow",
+    "integration",
+    "integrations-publish"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "AGPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Flowershow",
+      "url": "https://github.com/flowershow/flowershow",
+      "checked_at": "2026-10-07",
+      "supports": "Publish Markdown as a website with hosted plans and an open-source codebase."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Flowershow",
+      "summary": "Publish Markdown as a website with hosted plans and an open-source codebase.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "da608203b61afe499f720da777597fa7bdfc1d0c2f51b85271bec449ad3348d8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Flowershow",
+      "summary": "将 Markdown 发布为网站，提供托管方案与开源代码。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7319d723e02d898a84c63017e1536b5557fb6e9078ac352065b50a3ce95998fd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

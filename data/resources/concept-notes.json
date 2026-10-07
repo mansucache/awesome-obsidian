@@ -1,0 +1,71 @@
+{
+  "id": "concept-notes",
+  "type": "article",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "concept-notes",
+    "article",
+    "methods-design"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Evergreen Notes Should Be Concept-Oriented",
+      "url": "https://notes.andymatuschak.org/Evergreen_notes_should_be_concept-oriented",
+      "checked_at": "2026-10-07",
+      "supports": "Organize reusable notes around concepts rather than the source that introduced them."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Evergreen Notes Should Be Concept-Oriented",
+      "summary": "Organize reusable notes around concepts rather than the source that introduced them.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "cb8b97345f4c89f6beeeedfce07eb43532933ee6df0c18dfb79b78be889407b3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Evergreen Notes Should Be Concept-Oriented",
+      "summary": "围绕概念组织可复用笔记，而不只按资料来源分类。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "823da773a614b83b2aa24c931e161b0e4a9df60da9b6256a7194aa40c1b00dc3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

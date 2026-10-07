@@ -1,0 +1,16 @@
+name: Correct an entry / 修正条目
+description: Report a broken link, incorrect description or changed price / 报告链接、描述或费用变化
+title: "[Correction] "
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name or page / 资源名称或页面
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What changed? Include a primary source. / 哪里需要修改？请附原始来源。
+    validations:
+      required: true

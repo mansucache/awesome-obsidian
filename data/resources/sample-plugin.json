@@ -1,0 +1,74 @@
+{
+  "id": "sample-plugin",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "sample-plugin",
+    "developer"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "No mandatory payment identified in the cited resource; donations are separate.",
+    "zh-cn": "所引资源未列出强制付费；捐赠另计。"
+  },
+  "openness": "open-source",
+  "license": "0BSD",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Sample Plugin",
+      "url": "https://github.com/obsidianmd/obsidian-sample-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Official template, development and release instructions, 0BSD license."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "obsidian-forum"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Obsidian Sample Plugin",
+      "summary": "The official starter template for building Obsidian community plugins.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "0cd285082d1940695db76cf6859d9ffb4119541910f8b45193400ed0ae918b43",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Obsidian 插件开发模板",
+      "summary": "用于开发 Obsidian 社区插件的官方起始模板。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "b09a7791b0a1624a3285700dea6c2435788082748138fd5fc4d714cf92468d7e",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

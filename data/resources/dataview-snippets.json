@@ -1,0 +1,71 @@
+{
+  "id": "dataview-snippets",
+  "type": "template",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "dataview-snippets",
+    "template",
+    "templates-examples"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Dataview Snippets",
+      "url": "https://github.com/Aetherinox/obsidian-dataview-snippets",
+      "checked_at": "2026-10-07",
+      "supports": "Adapt reusable Dataview queries for indexes, lists and galleries."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Dataview Snippets",
+      "summary": "Adapt reusable Dataview queries for indexes, lists and galleries.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2a324210a9f36e3a50d70d4a4e178460efb5adb510607bac13320d8f3ecfb0ab",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Dataview Snippets",
+      "summary": "复用 Dataview 查询制作索引、列表和图库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7ccf8e8009b954c5658a7a9cd5a7548b1a7e548cb519b818555226a36ebf399e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "recent-files-obsidian",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "recent-files-obsidian",
+    "plugin",
+    "plugins-search"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Recent Files",
+      "url": "https://github.com/tgrosinger/recent-files-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Reopen recently viewed notes from a sidebar list."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Recent Files",
+      "summary": "Reopen recently viewed notes from a sidebar list.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0320f86c55e0b8a6f2b3374aa2f0100121da3e5d3161a8d373b9172f48a714aa",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Recent Files",
+      "summary": "从侧边栏列表重新打开最近查看的笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "855a27552eb244d3d3c36d2c522bdc1e6e187d1b098ffa814a147c7b8f0ec0de",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

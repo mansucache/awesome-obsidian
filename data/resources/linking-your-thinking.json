@@ -1,0 +1,71 @@
+{
+  "id": "linking-your-thinking",
+  "type": "community",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "learning"
+  ],
+  "tags": [
+    "linking-your-thinking",
+    "community"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Free entry with optional paid features, services or courses.",
+    "zh-cn": "提供免费入口，部分功能、服务或课程另收费。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Linking Your Thinking",
+      "url": "https://www.linkingyourthinking.com/",
+      "checked_at": "2026-10-07",
+      "supports": "Explore Nick Milo’s linked-note workflows, learning resources and workshops."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Linking Your Thinking",
+      "summary": "Explore Nick Milo’s linked-note workflows, learning resources and workshops.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "194b0e0743b1c1753d3a374340763643abbb1e89dd53a919da8cc4451b4d9a8b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Linking Your Thinking",
+      "summary": "学习 Nick Milo 的链接笔记工作流，查找学习资源与工作坊。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "713c9a2f7d0f2141bbbea7911786978f370b027789fde42186a4dd738af1ff3b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

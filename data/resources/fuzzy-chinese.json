@@ -1,0 +1,71 @@
+{
+  "id": "fuzzy-chinese",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "writing"
+  ],
+  "tags": [
+    "fuzzy-chinese",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "zh-cn"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Fuzzy Chinese Pinyin",
+      "url": "https://github.com/lazyloong/obsidian-fuzzy-chinese",
+      "checked_at": "2026-10-07",
+      "supports": "Find Chinese notes, headings and commands using pinyin or initials."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Fuzzy Chinese Pinyin",
+      "summary": "Find Chinese notes, headings and commands using pinyin or initials.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "08ce3454f90f0c256f477fbe5f05dedfb2f6d2b800ae9ac4750eb40055930f17",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Fuzzy Chinese Pinyin",
+      "summary": "用拼音或首字母搜索中文笔记、标题与命令。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0e0329490b9e5577f732e0d8d8e36a161ec03711548c48cf4f0493cf70307d1b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

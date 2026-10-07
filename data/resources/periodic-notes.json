@@ -1,0 +1,73 @@
+{
+  "id": "periodic-notes",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "projects"
+  ],
+  "tags": [
+    "periodic-notes",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Periodic Notes",
+      "url": "https://github.com/liamcain/obsidian-periodic-notes",
+      "checked_at": "2026-10-07",
+      "supports": "Create daily, weekly and monthly notes with separate templates and folders."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "calendar"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Periodic Notes",
+      "summary": "Create daily, weekly and monthly notes with separate templates and folders.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6c2f1c03ec7cd0f2e648efd4673c96864c9fd06e498e376a165d57d353c5ee7d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Periodic Notes",
+      "summary": "按独立模板和文件夹创建日记、周记与月记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5136f489ceb736256c6c8c1b66890af3f921d4da7917621cab746ee9b29e6c12",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "quickadd",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "projects"
+  ],
+  "tags": [
+    "quickadd",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "QuickAdd",
+      "url": "https://github.com/chhoumann/quickadd",
+      "checked_at": "2026-10-07",
+      "supports": "Capture ideas, create notes and run repeatable actions through templates and macros."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "QuickAdd",
+      "summary": "Capture ideas, create notes and run repeatable actions through templates and macros.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "52070a1e47348ed2c55c89ccbd40d69a5bf458f900d41eb5cfd3019bbf96e108",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "QuickAdd",
+      "summary": "通过模板与宏快速记录想法、创建笔记和执行重复操作。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9d2d2078a8914adc9e0e592cb3233a46270199d8025ef59d9aa0920f1d873d19",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "copilot-auto-completion",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "copilot-auto-completion",
+    "plugin",
+    "ai-chat"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Copilot auto completion",
+      "url": "https://github.com/j0rd1smit/obsidian-copilot-auto-completion",
+      "checked_at": "2026-10-07",
+      "supports": "Show configurable AI text completions beside the cursor as you write."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Copilot auto completion",
+      "summary": "Show configurable AI text completions beside the cursor as you write.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "74a5a1a09501b61d6a13b80f68d411b1fa6f88dcca8b83bebce9b9b614101693",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Copilot auto completion",
+      "summary": "写作时在光标旁显示可配置的 AI 文本补全。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c3fc3ba653fec4b435ce68718c39e67c744b2db47e1e9fd4452d9cf88fccee2b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "obsidian-blog",
+  "type": "community",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-blog",
+    "community"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Blog",
+      "url": "https://obsidian.md/blog/",
+      "checked_at": "2026-10-07",
+      "supports": "Follow official feature announcements, product updates and community highlights."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Blog",
+      "summary": "Follow official feature announcements, product updates and community highlights.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d3315fef7051709c0abff39403d40d77078e8ed3cc12b7314c83a88aa487cd32",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian 官方博客",
+      "summary": "阅读官方功能介绍、产品更新和社区动态。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f642a9d298dfb6e18032e4436d80b94f9dcce7115318fbe057203b3b822db99d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

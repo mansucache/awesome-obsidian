@@ -1,0 +1,75 @@
+{
+  "id": "metadata-menu",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "metadata-menu",
+    "plugin",
+    "plugins-tables"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Metadata Menu",
+      "url": "https://github.com/mdelobelle/metadatamenu",
+      "checked_at": "2026-10-07",
+      "supports": "Edit note metadata through field controls and reusable field definitions."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Metadata Menu",
+      "summary": "Edit note metadata through field controls and reusable field definitions.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f72a189b42476ea064d047cdfd76609237cb1539a0ae86d18db77199cbd87e24",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Metadata Menu",
+      "summary": "通过字段控件与可复用字段定义维护笔记元数据。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9bea800938a5c42d0aff48320a6358673d55d4f50e5c256a5c9459139fbf2841",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

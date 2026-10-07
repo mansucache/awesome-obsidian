@@ -1,0 +1,71 @@
+{
+  "id": "starter-templates",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "projects"
+  ],
+  "tags": [
+    "starter-templates",
+    "vault"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Starter Templates",
+      "url": "https://github.com/masonlr/obsidian-starter-templates",
+      "checked_at": "2026-10-07",
+      "supports": "Explore research-project and technology-radar vaults built around linked notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Starter Templates",
+      "summary": "Explore research-project and technology-radar vaults built around linked notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f1631a1f12c09e3cf6726bc73121b982c458ee26fdc06f8b24d78ec7050c2c56",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Starter Templates",
+      "summary": "参考围绕双向链接组织的研究项目与技术雷达示例库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fb51141f1610fdb609d78fcd72e8f4d012e0213aedd361d803a9b454fe7cbf48",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

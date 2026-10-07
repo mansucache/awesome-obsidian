@@ -1,0 +1,73 @@
+{
+  "id": "obsidian-forum",
+  "type": "community",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning",
+    "development"
+  ],
+  "tags": [
+    "obsidian-forum",
+    "community"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Public reading is free; participation follows the forum rules.",
+    "zh-cn": "公开阅读免费，参与遵循论坛规则。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "browser"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Forum",
+      "url": "https://forum.obsidian.md/",
+      "checked_at": "2026-10-07",
+      "supports": "Official discussion categories and community entry point."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "sample-plugin"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Obsidian Forum",
+      "summary": "Find answers, share workflows and discuss plugins with the Obsidian community.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "37a92a797d2a5924376de8248cde3e83b74bc761b7cde2eab03fd468b04724ed",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Obsidian 官方论坛",
+      "summary": "查找问题解答、分享工作流，与社区讨论插件和用法。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "eae0f1d1d61cd6d177132951d036d06670dbca30fffbe1113397cf3400b0a53c",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

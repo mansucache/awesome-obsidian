@@ -1,0 +1,75 @@
+{
+  "id": "waypoint",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "waypoint",
+    "plugin",
+    "plugins-knowledge"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Waypoint",
+      "url": "https://github.com/idreesinc/Waypoint",
+      "checked_at": "2026-10-07",
+      "supports": "Maintain folder-based maps of content that update as files change."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Waypoint",
+      "summary": "Maintain folder-based maps of content that update as files change.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d8ce46de963fdd8426de1576de2c44bd8a07cf90f4507b617e5fced84d8d3730",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Waypoint",
+      "summary": "根据文件夹内容自动维护随文件变化更新的索引笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "54417c9cf4d7f633acfd52c2baf2b18f2c18bc71f137e765e1a95b7a00f043b2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

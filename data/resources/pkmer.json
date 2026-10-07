@@ -1,0 +1,71 @@
+{
+  "id": "pkmer",
+  "type": "community",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning",
+    "knowledge"
+  ],
+  "tags": [
+    "pkmer",
+    "community"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Public tutorials are free; optional membership services are paid.",
+    "zh-cn": "公开教程免费，会员服务可选付费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "zh-cn"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "PKMer",
+      "url": "https://pkmer.cn/",
+      "checked_at": "2026-10-07",
+      "supports": "Find Chinese Obsidian tutorials, plugin guides and knowledge-management resources."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "PKMer",
+      "summary": "Find Chinese Obsidian tutorials, plugin guides and knowledge-management resources.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "35941f6416eb1ee082898b808625e195cdc0f40117a6794027ff3fb8ab18fd0d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "PKMer",
+      "summary": "查找中文 Obsidian 教程、插件指南与知识管理资料。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "bbbb9eae92d728d88d9f9ddaa01a1636051d38c0b7099e311956a39618562601",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "clipper-templates",
+  "type": "template",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "research"
+  ],
+  "tags": [
+    "clipper-templates",
+    "template"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Web Clipper Templates",
+      "url": "https://github.com/kepano/clipper-templates",
+      "checked_at": "2026-10-07",
+      "supports": "Capture structured references from sites such as arXiv, Goodreads and Wikipedia."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "web-clipper",
+    "kepano-vault"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Web Clipper Templates",
+      "summary": "Capture structured references from sites such as arXiv, Goodreads and Wikipedia.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3b0de52f8ad5b88ea3ad782dc02fa0d3f8604a88d440d7052636d61fc410cf1e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Web Clipper Templates",
+      "summary": "使用站点模板，从 arXiv、Goodreads、维基百科等网页提取结构化资料。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ca31c434173c740ecf64bdf2f39af20e1e234f30e5c83a576413f757fa2a53b5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

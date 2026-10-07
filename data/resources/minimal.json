@@ -1,0 +1,97 @@
+{
+  "id": "minimal",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance",
+    "reading"
+  ],
+  "tags": [
+    "minimal",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "No mandatory payment identified in the cited resource; donations are separate.",
+    "zh-cn": "所引资源未列出强制付费；捐赠另计。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Minimal repository",
+      "url": "https://github.com/kepano/obsidian-minimal",
+      "checked_at": "2026-10-07",
+      "supports": "Desktop/mobile/tablet scope, companion plugins, screenshots and MIT notice."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "things",
+    "kepano-vault"
+  ],
+  "assets": [
+    {
+      "id": "minimal",
+      "path": "assets/themes/minimal/preview.png",
+      "url": "https://raw.githubusercontent.com/kepano/obsidian-minimal/93321bdc23fc879966e1e3aa0cfeda77012f540f/docs/Images/minimal-variants.png",
+      "source_page": "https://github.com/kepano/obsidian-minimal/blob/93321bdc23fc879966e1e3aa0cfeda77012f540f/docs/Images/minimal-variants.png",
+      "commit": "93321bdc23fc879966e1e3aa0cfeda77012f540f",
+      "sha256": "55dace54b5a17615a37e52e9f141aa5c017707ed2edfc11d69db4af63ec7aae2",
+      "author": "Steph Ango (@kepano)",
+      "license_path": "assets/themes/minimal/LICENSE.upstream.txt",
+      "license": "MIT (upstream repository)",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Upstream repository MIT notice retained; screenshot is an upstream illustration, not our compatibility test. Third-party marks remain with their owners.",
+      "alt": {
+        "en": "Minimal theme",
+        "zh-cn": "Minimal 主题"
+      }
+    }
+  ],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Minimal",
+      "summary": "A customizable theme with adjustable colors, typography and layouts.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "4009f1bbb70a6ae1dc5e3f6217948020ab859101357ca102e2c1b98966a14dd4",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Minimal",
+      "summary": "可调整配色、字体与布局的简约主题。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "53d405fdc7fbf5edcc16e39b9a345e41ae1c7433baf68e7cda3f52be91d7b9b2",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

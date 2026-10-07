@@ -1,0 +1,70 @@
+{
+  "id": "shimmering-obsidian",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "shimmering-obsidian",
+    "integration"
+  ],
+  "pricing": "paid",
+  "cost_note": {
+    "en": "The workflow is free; Alfred Powerpack is required and paid.",
+    "zh-cn": "工作流免费，需付费的 Alfred Powerpack。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "macos"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Shimmering Obsidian",
+      "url": "https://github.com/chrisgrieser/shimmering-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Search and create Obsidian notes from Alfred on macOS; requires Alfred Powerpack."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Shimmering Obsidian",
+      "summary": "Search and create Obsidian notes from Alfred on macOS; requires Alfred Powerpack.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "040989b3705f0f1f4c19785e53465da6a0ea14799ca55be4f3ea63ecb721dae7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Shimmering Obsidian",
+      "summary": "在 macOS 上通过 Alfred 搜索和创建笔记，需 Alfred Powerpack。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "96aefb2b7183c99141a98f8ea765dbfda8600e27705b3a83a4eef600b084fd16",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

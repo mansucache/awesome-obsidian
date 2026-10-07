@@ -1,0 +1,76 @@
+{
+  "id": "obsidian-book-search-plugin",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "reading"
+  ],
+  "tags": [
+    "obsidian-book-search-plugin",
+    "plugin",
+    "plugins-study"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Book Search",
+      "url": "https://github.com/anpigon/obsidian-book-search-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Create book notes from title, author or ISBN searches and fetched metadata."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Book Search",
+      "summary": "Create book notes from title, author or ISBN searches and fetched metadata.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5fb01c4251adb22d3118b23590226eb37d0b90035334bcd18fb94a8f7160cf87",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Book Search",
+      "summary": "按书名、作者或 ISBN 查找元数据并创建书籍笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "251a3560c3aa928cad7e2a7293f076d0c88f4b3626100fd01037c94db13f5b13",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

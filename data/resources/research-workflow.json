@@ -1,0 +1,74 @@
+{
+  "id": "research-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "research-workflow",
+    "workflow",
+    "workflows-guides"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "From a question to a sourced answer",
+      "url": "https://help.obsidian.md/Linking+notes+and+files/Internal+links",
+      "checked_at": "2026-10-07",
+      "supports": "Compare sources and connect each conclusion to its evidence."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "dataview",
+    "zotero-integration"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "From a question to a sourced answer",
+      "summary": "Compare sources and connect each conclusion to its evidence.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ac92e16a718f92e5d183a5f208f92feaa9e2b725a045d7923aa78e97fdc5a2a3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "从问题到有来源的答案",
+      "summary": "比较来源，让每项结论都能追溯证据。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "050854411e82aa4926ca315ba78ccf4ffaf76294affb384984532d5452b7cf5b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

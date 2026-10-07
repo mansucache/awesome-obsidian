@@ -1,0 +1,71 @@
+{
+  "id": "johnnydecimal",
+  "type": "method",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "johnnydecimal",
+    "method",
+    "methods-principles"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Johnny.Decimal",
+      "url": "https://johnnydecimal.com/documentation/introduction",
+      "checked_at": "2026-10-07",
+      "supports": "Use numbered areas and categories to give files and notes predictable locations."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Johnny.Decimal",
+      "summary": "Use numbered areas and categories to give files and notes predictable locations.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ef73114f6e5da07f747a00fa3d69ca5aaafc09e9f5b4a380dc842c74605151c0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Johnny.Decimal",
+      "summary": "用编号领域与分类，为文件和笔记建立清晰的位置。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9d39a4801231cdd3208c65f1e0ced723790b5a417d41e5eaec35669f98a840cc",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

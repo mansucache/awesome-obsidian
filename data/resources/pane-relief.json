@@ -1,0 +1,73 @@
+{
+  "id": "pane-relief",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "pane-relief",
+    "plugin",
+    "plugins-interface"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Pane Relief",
+      "url": "https://github.com/pjeby/pane-relief",
+      "checked_at": "2026-10-07",
+      "supports": "Navigate tab history and move between panes using keyboard shortcuts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Pane Relief",
+      "summary": "Navigate tab history and move between panes using keyboard shortcuts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2fb9cc8014f0fa4132609651cc7a502ba9c0cfb87f88fc772165df24445c994d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Pane Relief",
+      "summary": "用快捷键浏览标签页历史并在窗格之间切换。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "76918ab0a875e418706e386ddc65b1b494d3e0d5bd0bdcc526ddb6ea6ddbf231",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

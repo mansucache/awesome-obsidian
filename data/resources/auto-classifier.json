@@ -1,0 +1,73 @@
+{
+  "id": "auto-classifier",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai",
+    "knowledge"
+  ],
+  "tags": [
+    "auto-classifier",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "The plugin is free; model or speech providers may charge separately.",
+    "zh-cn": "插件免费，模型或语音服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Auto Classifier",
+      "url": "https://github.com/HyeonseoNam/auto-classifier",
+      "checked_at": "2026-10-07",
+      "supports": "Suggest note tags using OpenAI-compatible models or Jina AI classification."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Auto Classifier",
+      "summary": "Suggest note tags using OpenAI-compatible models or Jina AI classification.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3adcdaad3428ddad4697ae1d0717e5af4734a0d2a1e9e17ddc326517660131b5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Auto Classifier",
+      "summary": "通过兼容 OpenAI 的模型或 Jina AI 分类服务，为笔记推荐标签。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e5b6c3ad95ad0c48e50a70bd4b6ad804da8075594172257adc09a69ce0edd950",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

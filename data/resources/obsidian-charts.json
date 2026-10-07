@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-charts",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-charts",
+    "plugin",
+    "plugins-visual"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "AGPL-3.0",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Charts",
+      "url": "https://github.com/phibr0/obsidian-charts",
+      "checked_at": "2026-10-07",
+      "supports": "Render interactive charts from data written in your notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Charts",
+      "summary": "Render interactive charts from data written in your notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f292ef5e3c96e7bf7eca040c3fe298788abad4b6acee60227ad0a267e55a3fad",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Charts",
+      "summary": "把笔记中的数据渲染为可交互图表。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e2226cf9ca9f8f15c800910ddc385ec73b4979be60e3328b9bdf4545ce7a4fe3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

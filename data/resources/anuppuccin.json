@@ -1,0 +1,91 @@
+{
+  "id": "anuppuccin",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "anuppuccin",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "AnuPpuccin",
+      "url": "https://github.com/AnubisNekhet/AnuPpuccin",
+      "checked_at": "2026-10-07",
+      "supports": "Customize palettes, layouts and colorful folders through Style Settings."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "anuppuccin",
+      "path": "assets/themes/anuppuccin/preview.webp",
+      "url": "https://raw.githubusercontent.com/AnubisNekhet/AnuPpuccin/82d207c646904e7af371ced499f682fbdfad1012/assets/gh-preview.webp",
+      "source_page": "https://github.com/AnubisNekhet/AnuPpuccin/blob/82d207c646904e7af371ced499f682fbdfad1012/assets/gh-preview.webp",
+      "commit": "82d207c646904e7af371ced499f682fbdfad1012",
+      "sha256": "b1012c445ce1db0b57e62d3cbf777e6065989d527379f62044c94cbd389061a5",
+      "author": "AnubisNekhet",
+      "license_path": "assets/themes/anuppuccin/LICENSE.upstream.txt",
+      "license": "GPL-3.0",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Unmodified image from AnubisNekhet/AnuPpuccin; upstream GPL-3.0 notice retained.",
+      "alt": {
+        "en": "AnuPpuccin theme",
+        "zh-cn": "AnuPpuccin 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "AnuPpuccin",
+      "summary": "Customize palettes, layouts and colorful folders through Style Settings.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c70fa5dbdc1d04e5edacda7781025c48c38e3084c39be80cc858bab646dcf2dc",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "AnuPpuccin",
+      "summary": "通过 Style Settings 调整配色、布局和彩色文件夹。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fe01ed29ebe74afc100bcfc71cc12c5c24d347bc5d7fd1c4ed9a043041eb9b7d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

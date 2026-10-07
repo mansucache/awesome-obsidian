@@ -1,0 +1,75 @@
+{
+  "id": "image-captions",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "image-captions",
+    "plugin",
+    "plugins-media"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Image Captions",
+      "url": "https://github.com/alangrainger/obsidian-image-captions",
+      "checked_at": "2026-10-07",
+      "supports": "Display Markdown-compatible captions beneath embedded images."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Image Captions",
+      "summary": "Display Markdown-compatible captions beneath embedded images.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ece8ca523e8dc34113815f06c6713e5d8963affd73c1d406c5e4a24e5b03d9a9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Image Captions",
+      "summary": "在嵌入图片下显示兼容 Markdown 的图注。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3f9475a74c1d569a2dc2408320979594cc6668f924007bd419eef0e2a7d8199b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

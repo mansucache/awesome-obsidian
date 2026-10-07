@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-another-quick-switcher",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-another-quick-switcher",
+    "plugin",
+    "plugins-search"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Another Quick Switcher",
+      "url": "https://github.com/tadashi-aikawa/obsidian-another-quick-switcher",
+      "checked_at": "2026-10-07",
+      "supports": "Use configurable search commands to switch between notes and headings."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Another Quick Switcher",
+      "summary": "Use configurable search commands to switch between notes and headings.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "80492d86388113e95567b7d90b5acf1deffe4ae5aa2ec0f7b7f4a26eb45dca19",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Another Quick Switcher",
+      "summary": "通过可配置搜索命令在笔记与标题之间切换。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "68cb7f6853c0bc9bcf3deba4b835750e0b944f32402435b6847f456b5f0b7d9a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

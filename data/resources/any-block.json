@@ -1,0 +1,72 @@
+{
+  "id": "any-block",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "writing"
+  ],
+  "tags": [
+    "any-block",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "AnyBlock",
+      "url": "https://github.com/any-block/any-block",
+      "checked_at": "2026-10-07",
+      "supports": "Render lists and other Markdown blocks as tables, cards and alternative views."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "AnyBlock",
+      "summary": "Render lists and other Markdown blocks as tables, cards and alternative views.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c1e3a5b24ccec94ce7b2ec59d1bc7892f083ac433eb8acf40c546c5d2ae7a3b2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "AnyBlock",
+      "summary": "把列表等 Markdown 内容块渲染成表格、卡片和其他视图。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "078e4d3dd61c71890428714b7c67cbb5d065f000b3dbfdb3a006ec2e75917a2b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

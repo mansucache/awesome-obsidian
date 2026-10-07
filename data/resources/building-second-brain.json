@@ -1,0 +1,71 @@
+{
+  "id": "building-second-brain",
+  "type": "community",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "building-second-brain",
+    "community",
+    "learning-learn"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Building a Second Brain",
+      "url": "https://www.buildingasecondbrain.com/",
+      "checked_at": "2026-10-07",
+      "supports": "Explore books, resources and courses about organizing knowledge for creative work."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Building a Second Brain",
+      "summary": "Explore books, resources and courses about organizing knowledge for creative work.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "34f29571b55077e43ab7cb016fd98fcf4bd23a126d8ddd537459692994f4de9a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Building a Second Brain",
+      "summary": "通过书籍、资料与课程学习如何组织知识并用于创作。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d58ea2784e04abfec7c78ec2f8e3e0bc71a1cd05888b7d5200694c4d158f5d4e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

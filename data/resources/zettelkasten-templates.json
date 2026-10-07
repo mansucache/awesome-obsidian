@@ -1,0 +1,71 @@
+{
+  "id": "zettelkasten-templates",
+  "type": "template",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "writing"
+  ],
+  "tags": [
+    "zettelkasten-templates",
+    "template"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Templates for Zettelkasten",
+      "url": "https://github.com/groepl/Obsidian-Templates",
+      "checked_at": "2026-10-07",
+      "supports": "Reuse note templates for books, quotes, concepts and other parts of a Zettelkasten."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Templates for Zettelkasten",
+      "summary": "Reuse note templates for books, quotes, concepts and other parts of a Zettelkasten.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e2257095e8e2f704a2758467d3083a45f596c4ff2700af19f40ce716f91c85d7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Templates for Zettelkasten",
+      "summary": "复用书籍、引文、概念等卡片盒笔记模板。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6ec2a69edc69cf384ffd0e3b5dffc984fde2fee31813c542b253376fc312a7b9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

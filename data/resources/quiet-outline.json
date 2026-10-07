@@ -1,0 +1,72 @@
+{
+  "id": "quiet-outline",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "writing"
+  ],
+  "tags": [
+    "quiet-outline",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Quiet Outline",
+      "url": "https://github.com/guopenghui/obsidian-quiet-outline",
+      "checked_at": "2026-10-07",
+      "supports": "Search headings and control outline expansion to navigate long notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Quiet Outline",
+      "summary": "Search headings and control outline expansion to navigate long notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b1864b9c49c1f00762d653dd9d8b4eee10ee3a633847e32c0c8573c859d1cee8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Quiet Outline",
+      "summary": "通过标题搜索与大纲展开控制，浏览和定位长笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "20a31eb3c30f141c598bbd9b2cb6dc8039293b6c56db78f5d3a07f71db7d79b3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

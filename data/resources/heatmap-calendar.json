@@ -1,0 +1,75 @@
+{
+  "id": "heatmap-calendar",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "heatmap-calendar",
+    "plugin",
+    "plugins-visual"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "Apache-2.0",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Heatmap Calendar",
+      "url": "https://github.com/richardsl/heatmap-calendar-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Display daily activity as a year-long heatmap using DataviewJS data."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Heatmap Calendar",
+      "summary": "Display daily activity as a year-long heatmap using DataviewJS data.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "83cb93c6dddc4a19a79d4573f3444e65272609165c5602f5ca4b8e5d12deadca",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Heatmap Calendar",
+      "summary": "基于 DataviewJS 数据，用年度热力图展示每日活动。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "35840012b43f2ccaffe046326702d2d44dd370b3af80c40d9cb67cea64694d11",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

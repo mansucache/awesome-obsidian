@@ -1,0 +1,77 @@
+{
+  "id": "hot-reload",
+  "type": "plugin",
+  "category": "development",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "hot-reload",
+    "plugin",
+    "development-testing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Hot Reload",
+      "url": "https://github.com/pjeby/hot-reload",
+      "checked_at": "2026-10-07",
+      "supports": "Reload plugins under development when their files change."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Hot Reload",
+      "summary": "Reload plugins under development when their files change.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a8e692cfee40a9147dd72e108c08b2001d6dc40b3d325a70d84c92ca1b7f88e0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Hot Reload",
+      "summary": "开发中的插件文件变化时，自动重新加载插件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3f2baca590713945ef637d35a7b6ae5d53023052341224164523364f179feea5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-plugin-toc",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-plugin-toc",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Table of Contents",
+      "url": "https://github.com/hipstersmoothie/obsidian-plugin-toc",
+      "checked_at": "2026-10-07",
+      "supports": "Generate a linked table of contents from the headings in a note."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Table of Contents",
+      "summary": "Generate a linked table of contents from the headings in a note.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3f51f2687ddfed63752d11b8324a0dcff502487746dd3bb0e424ec6cff615571",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Table of Contents",
+      "summary": "根据笔记标题生成带链接的目录。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0055fe8d75fb9d58cd0e533ae35da1a6e9f377f2092a2a849499b92427469ade",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "chatgpt-md",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai",
+    "writing"
+  ],
+  "tags": [
+    "chatgpt-md",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "The plugin is free; model or speech providers may charge separately.",
+    "zh-cn": "插件免费，模型或语音服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "ChatGPT MD",
+      "url": "https://github.com/bramses/chatgpt-md",
+      "checked_at": "2026-10-07",
+      "supports": "Keep AI conversations in Markdown notes using cloud providers, Ollama or LM Studio."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "ChatGPT MD",
+      "summary": "Keep AI conversations in Markdown notes using cloud providers, Ollama or LM Studio.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "187e1e2aea9b8f3739e2cd72d374c3d6d48101c806df948a967cc18ed9794f79",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "ChatGPT MD",
+      "summary": "在 Markdown 笔记中保存 AI 对话，可连接云端服务、Ollama 或 LM Studio。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5c663b71e06763ac66c30831046d5695730cc8e5802f243b6306a2646860b898",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "outliner",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing",
+    "projects"
+  ],
+  "tags": [
+    "outliner",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Outliner",
+      "url": "https://github.com/vslinko/obsidian-outliner",
+      "checked_at": "2026-10-07",
+      "supports": "Edit nested lists with outliner-style movement, indentation and folding."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Outliner",
+      "summary": "Edit nested lists with outliner-style movement, indentation and folding.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "87f2a4887769507f82b9cae314136fb22d47b505bec09c473e923b5c73f2794e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Outliner",
+      "summary": "用大纲式移动、缩进和折叠操作编辑多层列表。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f9c2d783031f8c99fc6c8428cb3f39cffddbc595b821250502701125fba25712",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "dracula",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "dracula",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Dracula",
+      "url": "https://github.com/dracula/obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "A dark theme with the Dracula palette and contrasting syntax colors."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "dracula",
+      "path": "assets/themes/dracula/preview.png",
+      "url": "https://raw.githubusercontent.com/dracula/obsidian/ddb95ec25babe3ef21907b8b612bbdb9fc2904c9/screenshot_1080p.png",
+      "source_page": "https://github.com/dracula/obsidian/blob/ddb95ec25babe3ef21907b8b612bbdb9fc2904c9/screenshot_1080p.png",
+      "commit": "ddb95ec25babe3ef21907b8b612bbdb9fc2904c9",
+      "sha256": "452ea95829b1ece69a92d8ac1f244998e098d8b17e912dc49a44adb3ec1b4ba3",
+      "author": "Dracula contributors",
+      "license_path": "assets/themes/dracula/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Unmodified image from dracula/obsidian; upstream MIT notice retained.",
+      "alt": {
+        "en": "Dracula theme",
+        "zh-cn": "Dracula 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Dracula",
+      "summary": "A dark theme with the Dracula palette and contrasting syntax colors.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "23fa87cd6df8a18691fd624074cb412b8fa15bd77c92b6abd8e9868759c76cc3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Dracula",
+      "summary": "采用 Dracula 配色，突出语法颜色对比的深色主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1ec798efd6bd94914e4d4e55595201fa89850a454ca8bad0838a7940c0c013c1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

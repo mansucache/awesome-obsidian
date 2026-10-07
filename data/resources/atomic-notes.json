@@ -1,0 +1,71 @@
+{
+  "id": "atomic-notes",
+  "type": "article",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "atomic-notes",
+    "article",
+    "methods-design"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Evergreen Notes Should Be Atomic",
+      "url": "https://notes.andymatuschak.org/Evergreen_notes_should_be_atomic",
+      "checked_at": "2026-10-07",
+      "supports": "Keep a note focused on one idea so it can be reused in different contexts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Evergreen Notes Should Be Atomic",
+      "summary": "Keep a note focused on one idea so it can be reused in different contexts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9d331df876419d6d49021b49cc88b5508bcc07370a2c4b4b620d6f2114262f14",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Evergreen Notes Should Be Atomic",
+      "summary": "让一篇笔记聚焦一个想法，便于在不同语境中复用。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "22a61698500b493c6ab91f5388e2160cb96bda6aed3c3b9c4346f42c66a9e3b6",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "version": 1,
+  "locales": [
+    "en",
+    "zh-cn"
+  ],
+  "default_locale": "en",
+  "categories": {
+    "official": {
+      "en": "Official & core",
+      "zh-cn": "官方与基础功能"
+    },
+    "plugins": {
+      "en": "Plugins",
+      "zh-cn": "插件"
+    },
+    "appearance": {
+      "en": "Themes & appearance",
+      "zh-cn": "主题与外观"
+    },
+    "templates": {
+      "en": "Templates & vaults",
+      "zh-cn": "模板与示例库"
+    },
+    "ai": {
+      "en": "AI & automation",
+      "zh-cn": "AI 与自动化"
+    },
+    "integrations": {
+      "en": "Tools & integrations",
+      "zh-cn": "搭配工具与集成"
+    },
+    "workflows": {
+      "en": "Workflows",
+      "zh-cn": "场景与工作流"
+    },
+    "methods": {
+      "en": "Methods",
+      "zh-cn": "理念与方法"
+    },
+    "learning": {
+      "en": "Learning & community",
+      "zh-cn": "学习与社区"
+    },
+    "development": {
+      "en": "Development",
+      "zh-cn": "开发与生态项目"
+    }
+  },
+  "scenarios": {
+    "reading": {
+      "en": "Reading",
+      "zh-cn": "阅读"
+    },
+    "writing": {
+      "en": "Writing",
+      "zh-cn": "写作"
+    },
+    "research": {
+      "en": "Research",
+      "zh-cn": "研究"
+    },
+    "learning": {
+      "en": "Learning",
+      "zh-cn": "学习"
+    },
+    "projects": {
+      "en": "Projects",
+      "zh-cn": "项目"
+    },
+    "knowledge": {
+      "en": "Knowledge management",
+      "zh-cn": "知识整理"
+    },
+    "appearance": {
+      "en": "Appearance",
+      "zh-cn": "外观"
+    },
+    "development": {
+      "en": "Development",
+      "zh-cn": "开发"
+    },
+    "sync": {
+      "en": "Sync & backup",
+      "zh-cn": "同步与备份"
+    },
+    "ai": {
+      "en": "AI assistance",
+      "zh-cn": "AI 辅助"
+    }
+  },
+  "types": [
+    "official",
+    "plugin",
+    "theme",
+    "vault",
+    "skill",
+    "integration",
+    "method",
+    "community",
+    "developer",
+    "workflow",
+    "template",
+    "article"
+  ],
+  "pricing": [
+    "free",
+    "optional-payment",
+    "paid",
+    "unknown",
+    "not-applicable"
+  ],
+  "openness": [
+    "open-source",
+    "proprietary",
+    "mixed",
+    "not-applicable",
+    "unknown",
+    "source-available"
+  ],
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android",
+    "browser",
+    "agent-dependent",
+    "not-applicable",
+    "unknown"
+  ],
+  "levels": [
+    "index",
+    "curated"
+  ],
+  "publication": [
+    "sample",
+    "published"
+  ],
+  "statuses": [
+    "documented",
+    "needs-review",
+    "archived",
+    "unavailable"
+  ],
+  "verification_levels": [
+    "source-reviewed",
+    "documentation-reviewed",
+    "hands-on"
+  ],
+  "required_fields": [
+    "id",
+    "type",
+    "category",
+    "secondary_categories",
+    "scenarios",
+    "tags",
+    "pricing",
+    "cost_note",
+    "openness",
+    "license",
+    "platforms",
+    "languages",
+    "level",
+    "publication",
+    "status",
+    "sources",
+    "verification",
+    "related",
+    "assets",
+    "revision",
+    "locales"
+  ],
+  "common_sections": {
+    "en": [],
+    "zh-cn": []
+  },
+  "type_sections": {
+    "official": {
+      "en": [],
+      "zh-cn": []
+    },
+    "plugin": {
+      "en": [],
+      "zh-cn": []
+    },
+    "theme": {
+      "en": [],
+      "zh-cn": []
+    },
+    "vault": {
+      "en": [],
+      "zh-cn": []
+    },
+    "skill": {
+      "en": [],
+      "zh-cn": []
+    },
+    "integration": {
+      "en": [],
+      "zh-cn": []
+    },
+    "method": {
+      "en": [],
+      "zh-cn": []
+    },
+    "community": {
+      "en": [],
+      "zh-cn": []
+    },
+    "developer": {
+      "en": [],
+      "zh-cn": []
+    },
+    "workflow": {
+      "en": [
+        "Steps",
+        "Acceptance",
+        "Optional extensions"
+      ],
+      "zh-cn": [
+        "操作步骤",
+        "完成判据",
+        "可选进阶"
+      ]
+    },
+    "template": {
+      "en": [],
+      "zh-cn": []
+    },
+    "article": {
+      "en": [],
+      "zh-cn": []
+    }
+  }
+}

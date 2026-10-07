@@ -1,0 +1,73 @@
+{
+  "id": "obsidian-cli",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "development",
+    "ai"
+  ],
+  "tags": [
+    "obsidian-cli",
+    "official"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian CLI",
+      "url": "https://obsidian.md/cli",
+      "checked_at": "2026-10-07",
+      "supports": "Control Obsidian from the terminal to read, create and search notes in scripts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "obsidian-skills"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian CLI",
+      "summary": "Control Obsidian from the terminal to read, create and search notes in scripts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2566a86627c31565a048d9098b941bc0ad92e1800e015e1186034c9bc4f72c6d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian CLI",
+      "summary": "从终端读取、创建和搜索笔记，把 Obsidian 接入脚本流程。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "bb38deaacd24702cf628ae43719b6130f00cdf657ef0c07e88d581cbac9729e9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

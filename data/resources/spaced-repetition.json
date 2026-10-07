@@ -1,0 +1,70 @@
+{
+  "id": "spaced-repetition",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "spaced-repetition",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Spaced Repetition",
+      "url": "https://github.com/st3v3nmw/obsidian-spaced-repetition",
+      "checked_at": "2026-10-07",
+      "supports": "Review flashcards and notes on a spaced-repetition schedule inside Obsidian."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Spaced Repetition",
+      "summary": "Review flashcards and notes on a spaced-repetition schedule inside Obsidian.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fc63acb72edf6a0fa57b4777b250c73a248e65457f2f4d7e5f1e09e360d64e30",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Spaced Repetition",
+      "summary": "在 Obsidian 中按间隔重复计划复习闪卡与笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "91bb5f55fcae7355cf858da82b443a1f99c1a09c8367f9d734e4bc7fa5cf5fc3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

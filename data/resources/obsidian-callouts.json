@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-callouts",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-callouts",
+    "official",
+    "official-writing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Callouts",
+      "url": "https://help.obsidian.md/Editing+and+formatting/Callouts",
+      "checked_at": "2026-10-07",
+      "supports": "Use labeled blocks to distinguish examples, questions and summaries."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Callouts",
+      "summary": "Use labeled blocks to distinguish examples, questions and summaries.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "445df853537d4ed8c5e545639ef3740e2babec3cf9e4c6d2ff572060a8d95b29",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Callouts",
+      "summary": "用提示块区分示例、问题和摘要。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ee0ffa10dbbd5477a82d53e1f243133cb4fc1168dc3ddd10836b79588fc93612",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

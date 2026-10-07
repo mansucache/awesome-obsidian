@@ -1,0 +1,74 @@
+{
+  "id": "zettelkasten-introduction",
+  "type": "method",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing",
+    "knowledge",
+    "reading"
+  ],
+  "tags": [
+    "zettelkasten-introduction",
+    "method"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "The linked reading page is publicly accessible; other products on the site are outside this entry.",
+    "zh-cn": "所链阅读页可公开访问；网站的其他产品不属于本条目。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Zettelkasten getting started",
+      "url": "https://zettelkasten.de/overview/",
+      "checked_at": "2026-10-07",
+      "supports": "Method introduction, connectivity, writing and reading topics; not Obsidian-specific instructions."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Zettelkasten: getting started",
+      "summary": "Learn how to connect notes into a Zettelkasten for reading and writing.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "9598c51a9a22e0377f1936c83d2cf44a36f6c8cba1d42629bad1f5da2fbf3b6d",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "卡片盒笔记法：入门导航",
+      "summary": "学习用卡片盒方法连接笔记，支持阅读积累与写作。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "1448a1a0d68e84b13aad1dfe9e4e9a0cea2d5e0f7f6c97431de14a80df63465d",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

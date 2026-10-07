@@ -1,0 +1,75 @@
+{
+  "id": "attachment-management",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "attachment-management",
+    "plugin",
+    "plugins-media"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Attachment Management",
+      "url": "https://github.com/trganda/obsidian-attachment-management",
+      "checked_at": "2026-10-07",
+      "supports": "Organize attachment locations and filenames using configurable variables."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Attachment Management",
+      "summary": "Organize attachment locations and filenames using configurable variables.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "366e32a88e29920755eb86a0ad2d2b7382f711bc1a8c3f09c63a9131e8bae4b1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Attachment Management",
+      "summary": "通过可配置变量组织附件保存路径与文件名。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "886594d4db4a891251f7f25018be9821a70a52d0f3ca76423e8d368731850452",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

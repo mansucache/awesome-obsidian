@@ -1,0 +1,71 @@
+{
+  "id": "linter",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing",
+    "knowledge"
+  ],
+  "tags": [
+    "linter",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Linter",
+      "url": "https://github.com/platers/obsidian-linter",
+      "checked_at": "2026-10-07",
+      "supports": "Apply configurable formatting rules to Markdown text and note properties."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Linter",
+      "summary": "Apply configurable formatting rules to Markdown text and note properties.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "14d97c28a3ca5d1250b122a90f5f4f127265338eaa4e675e11f69f173880823d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Linter",
+      "summary": "按可配置规则统一 Markdown 正文与笔记属性的格式。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c2b92d56770990db4e9136ad5a93be008fc33a2573061f3bdd8c5ab16c1b86aa",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

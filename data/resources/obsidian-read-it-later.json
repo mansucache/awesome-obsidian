@@ -1,0 +1,77 @@
+{
+  "id": "obsidian-read-it-later",
+  "type": "plugin",
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-read-it-later",
+    "plugin",
+    "integrations-collect"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "ReadItLater",
+      "url": "https://github.com/dominikpieper/obsidian-ReadItLater",
+      "checked_at": "2026-10-07",
+      "supports": "Save web content as notes using templates tailored to different source types."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "ReadItLater",
+      "summary": "Save web content as notes using templates tailored to different source types.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fdb7cef0acd10533d4419956c19056a9d7a8b31f0d36b35259af1345385709b5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "ReadItLater",
+      "summary": "按不同来源类型使用模板，把网页内容保存为笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "46981ba0237ac5e6e1dc0cf155de3ae1351c71751e3b4e93f6f699e4a4b1c7cd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

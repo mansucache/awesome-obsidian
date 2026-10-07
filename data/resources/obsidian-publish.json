@@ -1,0 +1,70 @@
+{
+  "id": "obsidian-publish",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-publish",
+    "official"
+  ],
+  "pricing": "paid",
+  "cost_note": {
+    "en": "Paid service; consult the current plans.",
+    "zh-cn": "收费服务，具体条件见当前套餐。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Publish",
+      "url": "https://obsidian.md/publish",
+      "checked_at": "2026-10-07",
+      "supports": "Publish selected notes as an online knowledge base, wiki or digital garden."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Publish",
+      "summary": "Publish selected notes as an online knowledge base, wiki or digital garden.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d5a3aa68c0800c97f779f0de11bd64fb355cf3f2153275cc07bb795e2eb9fb97",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Publish",
+      "summary": "把选定笔记发布成在线知识库、维基或数字花园。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5a4a4423511eb9ad59278bca15f8cb4842243b3dd7fd2f27afd97837ce9ca526",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

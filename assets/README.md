@@ -1,0 +1,17 @@
+# Theme images / 主题图片
+
+- anuppuccin — AnubisNekhet · [Source / 来源](https://github.com/AnubisNekhet/AnuPpuccin/blob/82d207c646904e7af371ced499f682fbdfad1012/assets/gh-preview.webp) · [License / 许可](../assets/themes/anuppuccin/LICENSE.upstream.txt)
+- blue-topaz — Blue Topaz contributors · [Source / 来源](https://github.com/PKM-er/Blue-Topaz_Obsidian-css/blob/54821893b8f293f9c738580f59d4f1beec5c4284/preview_Blue%20Topaz.png) · [License / 许可](../assets/themes/blue-topaz/LICENSE.upstream.txt)
+- border — akifyss · [Source / 来源](https://github.com/akifyss/obsidian-border/blob/dd59bd54438597f61b38eb5b967919e979526c41/cover.png) · [License / 许可](../assets/themes/border/LICENSE.upstream.txt)
+- catppuccin — Catppuccin contributors · [Source / 来源](https://github.com/catppuccin/obsidian/blob/95eac6d290622542306b2b19fd20d4700775a394/assets/screenshot-hq.png) · [License / 许可](../assets/themes/catppuccin/LICENSE.upstream.txt)
+- dracula — Dracula contributors · [Source / 来源](https://github.com/dracula/obsidian/blob/ddb95ec25babe3ef21907b8b612bbdb9fc2904c9/screenshot_1080p.png) · [License / 许可](../assets/themes/dracula/LICENSE.upstream.txt)
+- everforest — 0xglitchbyte · [Source / 来源](https://github.com/0xglitchbyte/obsidian_everforest/blob/0b125d77156e1965e0b9489caccece65034582fb/dark_v2.png) · [License / 许可](../assets/themes/everforest/LICENSE.upstream.txt)
+- its-theme — SlRvb · [Source / 来源](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/95924dce2d8025a116c54e586e8cf55e3150de68/Images/Darkmode.png) · [License / 许可](../assets/themes/its-theme/LICENSE.upstream.txt)
+- maple — subframe7536 · [Source / 来源](https://github.com/subframe7536/obsidian-theme-maple/blob/a4d4cb04894e47e711712955033bf0d1af68afcf/img/screenshot.png) · [License / 许可](../assets/themes/maple/LICENSE.upstream.txt)
+- minimal — Steph Ango (@kepano) · [Source / 来源](https://github.com/kepano/obsidian-minimal/blob/93321bdc23fc879966e1e3aa0cfeda77012f540f/docs/Images/minimal-variants.png) · [License / 许可](../assets/themes/minimal/LICENSE.upstream.txt)
+- primary — Primary theme contributors · [Source / 来源](https://github.com/primary-theme/obsidian/blob/789c99e357d8c0049058ef358a906ea9b350fb09/assets/desktop-1_light-mode.png) · [License / 许可](../assets/themes/primary/LICENSE.upstream.txt)
+- prism — damiankorcz · [Source / 来源](https://github.com/damiankorcz/Prism-Theme/blob/d1b0b2fad28778b96a19777020e42961e293d90a/assets/screenshots/Platforms.png) · [License / 许可](../assets/themes/prism/LICENSE.upstream.txt)
+- rose-pine — rose-pine · [Source / 来源](https://github.com/rose-pine/obsidian/blob/08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e/thumbnail.png) · [License / 许可](../assets/themes/rose-pine/LICENSE.upstream.txt)
+- shimmering-focus — Chris Grieser · [Source / 来源](https://github.com/chrisgrieser/shimmering-focus/blob/06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0/assets/promo-screenshot.webp) · [License / 许可](../assets/themes/shimmering-focus/LICENSE.upstream.txt)
+- things — Colin Eckert; theme derived from Minimal · [Source / 来源](https://github.com/colineckert/obsidian-things/blob/9b8bef93d3919f7693ac78597beaa35bbbd4cfff/assets/main-demo.png) · [License / 许可](../assets/themes/things/LICENSE.upstream.txt)
+- vanilla-amoled — sakuraisayeki · [Source / 来源](https://github.com/sakuraisayeki/vanilla-amoled-theme/blob/7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f/sample-screenshot-sm.png) · [License / 许可](../assets/themes/vanilla-amoled/LICENSE.upstream.txt)

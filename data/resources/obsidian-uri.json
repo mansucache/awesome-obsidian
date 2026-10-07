@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-uri",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-uri",
+    "official",
+    "official-workspace"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian URI",
+      "url": "https://help.obsidian.md/Extending+Obsidian/Obsidian+URI",
+      "checked_at": "2026-10-07",
+      "supports": "Open or create notes through links from other applications."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian URI",
+      "summary": "Open or create notes through links from other applications.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "852ba6d36e85da296c6d9a7ddec0174801b14a94d01dd77b0e5c5a562374a29b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian URI",
+      "summary": "通过其他应用中的链接打开或创建笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "274ff2f4465da6edd43d9da57ea21be1a9daec69e10c72a9d6d2dc7ae045c4d9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-jg-method",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-jg-method",
+    "vault",
+    "templates-personal"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "JG Method",
+      "url": "https://github.com/joshwingreene/obsidian-jg-method",
+      "checked_at": "2026-10-07",
+      "supports": "Explore a starter vault organized around goals, tasks and development work."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "JG Method",
+      "summary": "Explore a starter vault organized around goals, tasks and development work.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1d4d76323eff52f73c6a75e8e04c7031572ee513b327041b41fa8da0673e05f5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "JG Method",
+      "summary": "参考围绕目标、任务和开发工作组织的起步资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f09496b5621f1772277d2cc933fd5051959fe405720480f781158291309749a3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

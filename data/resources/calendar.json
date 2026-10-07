@@ -1,0 +1,72 @@
+{
+  "id": "calendar",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "calendar",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Calendar",
+      "url": "https://github.com/liamcain/obsidian-calendar-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Open and create daily notes from a calendar in the sidebar."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "periodic-notes"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Calendar",
+      "summary": "Open and create daily notes from a calendar in the sidebar.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6aacc1e7a4c5fde64a6e0b4185bba4c7ce2af0e585904bacfaff62f65bfb791f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Calendar",
+      "summary": "通过侧边栏日历打开或创建每日笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d812f4692ac482741cca20f146104c9d6e15e7676b2b1332ae820958654c7cc8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

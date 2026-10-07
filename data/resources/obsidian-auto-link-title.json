@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-auto-link-title",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-auto-link-title",
+    "plugin",
+    "plugins-capture"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Auto Link Title",
+      "url": "https://github.com/zolrath/obsidian-auto-link-title",
+      "checked_at": "2026-10-07",
+      "supports": "Fetch a pasted web address’s title to create a readable link."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Auto Link Title",
+      "summary": "Fetch a pasted web address’s title to create a readable link.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3e86f1d0e88d3dcf86cc8821c8516e81011303541b615a091771bbd781f20869",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Auto Link Title",
+      "summary": "粘贴网址时抓取网页标题，生成易读的链接。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6b631d6f3565eadf530c064e9bc8ba70b5849b6ca0158bcce030995cedf342a2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-community",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning",
+    "appearance"
+  ],
+  "tags": [
+    "obsidian-community",
+    "official"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Community",
+      "url": "https://community.obsidian.md/",
+      "checked_at": "2026-10-07",
+      "supports": "Browse the official directory of community plugins and themes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Community",
+      "summary": "Browse the official directory of community plugins and themes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ced79036bc86bc9bbaa90eb66a96bb47af9058ad436f502f460e697de28bdde3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Community",
+      "summary": "在官方社区目录中查找插件和主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a314df86962e0434b339a7e5f619f86f5e4cf6d526f23e95c2a5ed79186823c1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

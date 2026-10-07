@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-bookmarks",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-bookmarks",
+    "official",
+    "official-workspace"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Bookmarks",
+      "url": "https://help.obsidian.md/Plugins/Bookmarks",
+      "checked_at": "2026-10-07",
+      "supports": "Keep frequently used notes, searches and headings within reach."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Bookmarks",
+      "summary": "Keep frequently used notes, searches and headings within reach.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8c534ee895692581ddf2e77d7a18e6c2df374ed211b954e0fbdaa91f5241e4ce",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Bookmarks",
+      "summary": "收藏常用笔记、搜索与标题，便于再次打开。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8108fb624f0f5a259aed264d35866be71fef99ac5d9ae5117372f423b0687058",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

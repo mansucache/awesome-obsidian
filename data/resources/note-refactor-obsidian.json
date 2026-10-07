@@ -1,0 +1,75 @@
+{
+  "id": "note-refactor-obsidian",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "note-refactor-obsidian",
+    "plugin",
+    "plugins-knowledge"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Note Refactor",
+      "url": "https://github.com/lynchjames/note-refactor-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Extract selected content into a new note or split a long note into smaller ones."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Note Refactor",
+      "summary": "Extract selected content into a new note or split a long note into smaller ones.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "751a09e525febb682a4662f361a031ad62ba3105b696954ab0a07de9a54a37ac",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Note Refactor",
+      "summary": "把选中内容提取为新笔记，或将长笔记拆分为多篇。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a63f737d6f699089a43b04dc72ccebfbcd1e94c63dece8cc3438ad2c0120d5db",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "writing-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "writing-workflow",
+    "workflow",
+    "workflows-guides"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "From linked notes to a finished draft",
+      "url": "https://help.obsidian.md/Linking+notes+and+files/Internal+links",
+      "checked_at": "2026-10-07",
+      "supports": "Turn source notes into an outline, draft and exportable article."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "longform",
+    "obsidian-pandoc"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "From linked notes to a finished draft",
+      "summary": "Turn source notes into an outline, draft and exportable article.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "834b9286c74cb15725077635fdc1ec168984543b56bdee78a66715a123ebbb72",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "从关联笔记到完整初稿",
+      "summary": "把来源笔记整理成提纲、初稿和可导出的文章。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a9d34305c7b50a1f96677fd5e5670e27df9859a8a7d29e74a689da8d0b8005ff",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

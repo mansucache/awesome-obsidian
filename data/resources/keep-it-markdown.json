@@ -1,0 +1,71 @@
+{
+  "id": "keep-it-markdown",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "keep-it-markdown",
+    "integration",
+    "integrations-collect"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "Apache-2.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Keep It Markdown",
+      "url": "https://github.com/djsudduth/keep-it-markdown",
+      "checked_at": "2026-10-07",
+      "supports": "Export Google Keep notes into Markdown for migration and archiving."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Keep It Markdown",
+      "summary": "Export Google Keep notes into Markdown for migration and archiving.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "28d3c52ecc774a75fcc08f75bcd58e95c33cac9653647af6be9884a04d651af7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Keep It Markdown",
+      "summary": "将 Google Keep 笔记导出为 Markdown，便于迁移和归档。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d413d116121f7cc1dd59ca2660935eb414fc2ede1aaa5683f0de5f3961237718",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

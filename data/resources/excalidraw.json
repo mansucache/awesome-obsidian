@@ -1,0 +1,71 @@
+{
+  "id": "excalidraw",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "writing"
+  ],
+  "tags": [
+    "excalidraw",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "AGPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Excalidraw",
+      "url": "https://github.com/zsviczian/obsidian-excalidraw-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Draw diagrams and visual notes with Excalidraw inside your vault."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Excalidraw",
+      "summary": "Draw diagrams and visual notes with Excalidraw inside your vault.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "81194978a56682ccbed65e871197bf91f2e206ac892e18fff3ee46c2d3221df0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Excalidraw",
+      "summary": "在资料库中使用 Excalidraw 绘制图表和视觉笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "4f0e18551e19823b1692024d8a2d18dba191429a1dc37a71ee07a0a8a5251e73",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ai-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "ai-workflow",
+    "workflow",
+    "workflows-guides"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Use AI with a focused set of notes",
+      "url": "https://help.obsidian.md/Linking+notes+and+files/Internal+links",
+      "checked_at": "2026-10-07",
+      "supports": "Ask source-based questions and review proposed note changes before applying them."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "llm-workspace",
+    "local-gpt",
+    "obsidian-skills"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Use AI with a focused set of notes",
+      "summary": "Ask source-based questions and review proposed note changes before applying them.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a26b943974561a920dded421289baeb526355afd36ee1ae443d91883cfc6bd24",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "围绕明确资料使用 AI",
+      "summary": "围绕指定来源提问，审阅修改建议后再更新笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9c00c4379a6cbf585430c6244ec867baf21b0267e972d824ab2f570873e611a8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

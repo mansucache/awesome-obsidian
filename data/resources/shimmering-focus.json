@@ -1,0 +1,92 @@
+{
+  "id": "shimmering-focus",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "shimmering-focus",
+    "theme",
+    "appearance-themes"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Shimmering Focus",
+      "url": "https://github.com/chrisgrieser/shimmering-focus",
+      "checked_at": "2026-10-07",
+      "supports": "Reduce interface chrome to focus on reading and writing."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "shimmering-focus",
+      "path": "assets/themes/shimmering-focus/preview.webp",
+      "url": "https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0/assets/promo-screenshot.webp",
+      "source_page": "https://github.com/chrisgrieser/shimmering-focus/blob/06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0/assets/promo-screenshot.webp",
+      "commit": "06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0",
+      "sha256": "898de9560b2038c0f43ff743b5072bb609dd4a26f1f1adafd69aa6cacd94998d",
+      "author": "Chris Grieser",
+      "license_path": "assets/themes/shimmering-focus/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Image from chrisgrieser/shimmering-focus; upstream license retained.",
+      "alt": {
+        "en": "Shimmering Focus theme",
+        "zh-cn": "Shimmering Focus 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Shimmering Focus",
+      "summary": "Reduce interface chrome to focus on reading and writing.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a778d3dd33e54234c6b55f7162acf17542fc2be6597a5c1694ac8c1c64727683",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Shimmering Focus",
+      "summary": "精简界面控件，让阅读和写作区域更突出。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7ed29bdd5b91d12a19aa7c894f49ff5c82f9ef6c89a8765c77cf8422448ae7a8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

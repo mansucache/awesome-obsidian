@@ -1,0 +1,91 @@
+{
+  "id": "catppuccin",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "catppuccin",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Catppuccin",
+      "url": "https://github.com/catppuccin/obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "A pastel theme with one light and three dark color palettes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "catppuccin",
+      "path": "assets/themes/catppuccin/preview.png",
+      "url": "https://raw.githubusercontent.com/catppuccin/obsidian/95eac6d290622542306b2b19fd20d4700775a394/assets/screenshot-hq.png",
+      "source_page": "https://github.com/catppuccin/obsidian/blob/95eac6d290622542306b2b19fd20d4700775a394/assets/screenshot-hq.png",
+      "commit": "95eac6d290622542306b2b19fd20d4700775a394",
+      "sha256": "8ee7f889cbbe779d745a0345fd8564f5ea5d3eb605503440e58d97dc05efb7b7",
+      "author": "Catppuccin contributors",
+      "license_path": "assets/themes/catppuccin/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Unmodified image from catppuccin/obsidian; upstream MIT notice retained.",
+      "alt": {
+        "en": "Catppuccin theme",
+        "zh-cn": "Catppuccin 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Catppuccin",
+      "summary": "A pastel theme with one light and three dark color palettes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "4ea38d778ed5fb62be75c919c73f2142cc77c6991b2d8bae496c663ea6ee73a2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Catppuccin",
+      "summary": "提供一种浅色与三种深色配色的柔和粉彩主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b2af3ec333f2fea9ee55eeee524afa54d3887be47552486fbe980d09fddea068",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

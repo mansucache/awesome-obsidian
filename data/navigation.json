@@ -1,0 +1,794 @@
+{
+  "groups": [
+    {
+      "id": "official-start",
+      "category": "official",
+      "labels": {
+        "en": "Start here",
+        "zh-cn": "下载与入门"
+      },
+      "resources": [
+        "obsidian-home",
+        "obsidian-help",
+        "obsidian-community"
+      ]
+    },
+    {
+      "id": "official-core",
+      "category": "official",
+      "labels": {
+        "en": "Core features & services",
+        "zh-cn": "核心功能与服务"
+      },
+      "resources": [
+        "obsidian-bases",
+        "obsidian-canvas",
+        "obsidian-cli",
+        "obsidian-sync",
+        "obsidian-publish"
+      ]
+    },
+    {
+      "id": "plugins-capture",
+      "category": "plugins",
+      "labels": {
+        "en": "Capture & templates",
+        "zh-cn": "记录与模板"
+      },
+      "resources": [
+        "quickadd",
+        "templater",
+        "natural-language-dates",
+        "obsidian-auto-link-title"
+      ]
+    },
+    {
+      "id": "plugins-tasks",
+      "category": "plugins",
+      "labels": {
+        "en": "Tasks & daily planning",
+        "zh-cn": "任务与日程"
+      },
+      "resources": [
+        "tasks",
+        "kanban",
+        "calendar",
+        "periodic-notes",
+        "obsidian-day-planner",
+        "obsidian-full-calendar",
+        "obsidian-reminder-plugin",
+        "pomodoro-timer",
+        "obsidian-checklist-plugin"
+      ]
+    },
+    {
+      "id": "plugins-search",
+      "category": "plugins",
+      "labels": {
+        "en": "Search & navigation",
+        "zh-cn": "搜索与导航"
+      },
+      "resources": [
+        "omnisearch",
+        "fuzzy-chinese",
+        "quiet-outline",
+        "homepage",
+        "file-tree-alternative",
+        "notebook-navigator",
+        "darlal-switcher-plus",
+        "obsidian-another-quick-switcher",
+        "recent-files-obsidian"
+      ]
+    },
+    {
+      "id": "plugins-editing",
+      "category": "plugins",
+      "labels": {
+        "en": "Writing & formatting",
+        "zh-cn": "写作与排版"
+      },
+      "resources": [
+        "easy-typing",
+        "linter",
+        "outliner",
+        "any-block",
+        "editing-toolbar",
+        "various-complements",
+        "url-into-selection",
+        "obsidian-footnotes",
+        "lapel",
+        "obsidian-admonition",
+        "callout-manager",
+        "number-headings-obsidian",
+        "obsidian-plugin-toc",
+        "obsidian-smart-typography"
+      ]
+    },
+    {
+      "id": "plugins-visual",
+      "category": "plugins",
+      "labels": {
+        "en": "Queries & visual thinking",
+        "zh-cn": "查询与视觉思考"
+      },
+      "resources": [
+        "dataview",
+        "excalidraw",
+        "excalibrain",
+        "obsidian-tracker",
+        "obsidian-charts",
+        "heatmap-calendar"
+      ]
+    },
+    {
+      "id": "plugins-study",
+      "category": "plugins",
+      "labels": {
+        "en": "Research & review",
+        "zh-cn": "研究与复习"
+      },
+      "resources": [
+        "zotero-integration",
+        "spaced-repetition",
+        "pdf-plus",
+        "obsidian-annotator",
+        "zotlit",
+        "obsidian-citation-plugin",
+        "obsidian-book-search-plugin",
+        "flashcards-obsidian"
+      ]
+    },
+    {
+      "id": "plugins-manage",
+      "category": "plugins",
+      "labels": {
+        "en": "Import, backup & settings",
+        "zh-cn": "导入、备份与设置"
+      },
+      "resources": [
+        "importer",
+        "obsidian-git",
+        "style-settings"
+      ]
+    },
+    {
+      "id": "appearance-themes",
+      "category": "appearance",
+      "labels": {
+        "en": "Theme gallery",
+        "zh-cn": "主题图库"
+      },
+      "resources": [
+        "anuppuccin",
+        "blue-topaz",
+        "catppuccin",
+        "dracula",
+        "its-theme",
+        "minimal",
+        "primary",
+        "things",
+        "everforest",
+        "shimmering-focus",
+        "prism",
+        "border",
+        "maple",
+        "vanilla-amoled",
+        "rose-pine"
+      ]
+    },
+    {
+      "id": "appearance-css",
+      "category": "appearance",
+      "labels": {
+        "en": "CSS snippets & layouts",
+        "zh-cn": "CSS 片段与布局"
+      },
+      "resources": [
+        "modular-css",
+        "css-snippets",
+        "sailkite-snippets",
+        "minimal-snippets",
+        "flexoki"
+      ]
+    },
+    {
+      "id": "templates-personal",
+      "category": "templates",
+      "labels": {
+        "en": "Personal vault starters",
+        "zh-cn": "个人管理示例库"
+      },
+      "resources": [
+        "kepano-vault",
+        "lifeos",
+        "bramses-vault",
+        "cyanvoxel-vault",
+        "dashboard-plus-plus",
+        "zk-starter-kit",
+        "obsidian-jg-method",
+        "ideaverse-lite"
+      ]
+    },
+    {
+      "id": "templates-examples",
+      "category": "templates",
+      "labels": {
+        "en": "Research & query examples",
+        "zh-cn": "研究与查询示例库"
+      },
+      "resources": [
+        "starter-templates",
+        "dataview-example-vault",
+        "dataview-snippets",
+        "blue-topaz-vault"
+      ]
+    },
+    {
+      "id": "templates-notes",
+      "category": "templates",
+      "labels": {
+        "en": "Note & clipping templates",
+        "zh-cn": "单篇笔记与剪藏模板"
+      },
+      "resources": [
+        "zettelkasten-templates",
+        "clipper-templates",
+        "dashboard-gallery"
+      ]
+    },
+    {
+      "id": "ai-chat",
+      "category": "ai",
+      "labels": {
+        "en": "Chat & writing",
+        "zh-cn": "对话与写作"
+      },
+      "resources": [
+        "copilot",
+        "chatgpt-md",
+        "text-generator",
+        "bmo-chatbot",
+        "companion",
+        "tars",
+        "smart-composer",
+        "copilot-auto-completion"
+      ]
+    },
+    {
+      "id": "ai-retrieval",
+      "category": "ai",
+      "labels": {
+        "en": "Local models & note retrieval",
+        "zh-cn": "本地模型与笔记检索"
+      },
+      "resources": [
+        "local-gpt",
+        "smart-connections",
+        "llm-workspace",
+        "ollama-chat"
+      ]
+    },
+    {
+      "id": "ai-agents",
+      "category": "ai",
+      "labels": {
+        "en": "Skills & visual automation",
+        "zh-cn": "Skills 与可视化自动化"
+      },
+      "resources": [
+        "obsidian-skills",
+        "cannoli",
+        "loom",
+        "chat-stream",
+        "smart-templates",
+        "ai-templater"
+      ]
+    },
+    {
+      "id": "ai-organize",
+      "category": "ai",
+      "labels": {
+        "en": "Classification & conversation archives",
+        "zh-cn": "分类与对话归档"
+      },
+      "resources": [
+        "auto-classifier",
+        "nexus-ai-importer",
+        "ai-tagger",
+        "ai-summarize",
+        "packup4ai"
+      ]
+    },
+    {
+      "id": "ai-audio-study",
+      "category": "ai",
+      "labels": {
+        "en": "Audio & learning",
+        "zh-cn": "语音与学习"
+      },
+      "resources": [
+        "aloud",
+        "quiz-generator",
+        "whisper",
+        "ai-latex-generator",
+        "voicenotes-sync"
+      ]
+    },
+    {
+      "id": "integrations-collect",
+      "category": "integrations",
+      "labels": {
+        "en": "Reading & migration",
+        "zh-cn": "阅读与迁移"
+      },
+      "resources": [
+        "web-clipper",
+        "readwise-reader",
+        "yarle",
+        "obsidian-read-it-later",
+        "obsidian-weread-plugin",
+        "markdownload",
+        "keep-it-markdown"
+      ]
+    },
+    {
+      "id": "integrations-publish",
+      "category": "integrations",
+      "labels": {
+        "en": "Publishing & digital gardens",
+        "zh-cn": "发布与数字花园"
+      },
+      "resources": [
+        "quartz",
+        "digital-garden",
+        "perlite",
+        "flowershow"
+      ]
+    },
+    {
+      "id": "integrations-connect",
+      "category": "integrations",
+      "labels": {
+        "en": "App launchers, APIs & MCP",
+        "zh-cn": "启动器、API 与 MCP"
+      },
+      "resources": [
+        "advanced-uri",
+        "local-rest-api",
+        "shell-commands",
+        "shimmering-obsidian"
+      ]
+    },
+    {
+      "id": "workflows-guides",
+      "category": "workflows",
+      "labels": {
+        "en": "Practical guides",
+        "zh-cn": "实践指南"
+      },
+      "resources": [
+        "reading-workflow",
+        "research-workflow",
+        "writing-workflow",
+        "learning-workflow",
+        "projects-workflow",
+        "ai-workflow"
+      ]
+    },
+    {
+      "id": "methods-principles",
+      "category": "methods",
+      "labels": {
+        "en": "Organizing & connecting ideas",
+        "zh-cn": "组织与连接知识"
+      },
+      "resources": [
+        "zettelkasten-introduction",
+        "evergreen-notes",
+        "para",
+        "file-over-app",
+        "johnnydecimal"
+      ]
+    },
+    {
+      "id": "learning-community",
+      "category": "learning",
+      "labels": {
+        "en": "Communities & directories",
+        "zh-cn": "社区与知识目录"
+      },
+      "resources": [
+        "obsidian-forum",
+        "obsidian-forum-zh",
+        "obsidian-hub",
+        "pkmer"
+      ]
+    },
+    {
+      "id": "learning-learn",
+      "category": "learning",
+      "labels": {
+        "en": "Articles & courses",
+        "zh-cn": "文章与课程"
+      },
+      "resources": [
+        "how-i-use-obsidian",
+        "linking-your-thinking",
+        "obsidian-blog",
+        "building-second-brain"
+      ]
+    },
+    {
+      "id": "development-build",
+      "category": "development",
+      "labels": {
+        "en": "Build plugins & tools",
+        "zh-cn": "开发插件与工具"
+      },
+      "resources": [
+        "developer-docs",
+        "sample-plugin",
+        "obsidian-api",
+        "json-canvas",
+        "obsidian-sample-theme",
+        "obsidian-releases",
+        "obsidian-translations",
+        "obsidian-typings"
+      ]
+    },
+    {
+      "id": "plugins-tables",
+      "category": "plugins",
+      "labels": {
+        "en": "Tables & properties",
+        "zh-cn": "表格与属性"
+      },
+      "resources": [
+        "table-editor-obsidian",
+        "metadata-menu",
+        "obsidian-meta-bind-plugin"
+      ]
+    },
+    {
+      "id": "plugins-writing",
+      "category": "plugins",
+      "labels": {
+        "en": "Long writing & language",
+        "zh-cn": "长文写作与语言"
+      },
+      "resources": [
+        "better-word-count",
+        "languagetool",
+        "longform",
+        "obsidian-word-sprint",
+        "writing-goals"
+      ]
+    },
+    {
+      "id": "plugins-knowledge",
+      "category": "plugins",
+      "labels": {
+        "en": "Links & organization",
+        "zh-cn": "链接与知识组织"
+      },
+      "resources": [
+        "tag-wrangler",
+        "folder-note-plugin",
+        "waypoint",
+        "breadcrumbs",
+        "note-refactor-obsidian"
+      ]
+    },
+    {
+      "id": "plugins-media",
+      "category": "plugins",
+      "labels": {
+        "en": "Images, audio & attachments",
+        "zh-cn": "图片、音视频与附件"
+      },
+      "resources": [
+        "image-converter",
+        "obsidian-image-toolkit",
+        "image-captions",
+        "attachment-management",
+        "media-extended"
+      ]
+    },
+    {
+      "id": "plugins-maintenance",
+      "category": "plugins",
+      "labels": {
+        "en": "Vault maintenance",
+        "zh-cn": "资料库维护"
+      },
+      "resources": [
+        "oz-clear-unused-images",
+        "auto-note-mover",
+        "obsidian-file-cleaner"
+      ]
+    },
+    {
+      "id": "plugins-interface",
+      "category": "plugins",
+      "labels": {
+        "en": "Workspace & controls",
+        "zh-cn": "工作区与界面操作"
+      },
+      "resources": [
+        "cmdr",
+        "obsidian-hover-editor",
+        "pane-relief",
+        "iconic"
+      ]
+    },
+    {
+      "id": "integrations-export",
+      "category": "integrations",
+      "labels": {
+        "en": "Export & conversion",
+        "zh-cn": "导出与转换"
+      },
+      "resources": [
+        "obsidian-kindle-export",
+        "obsidian-pandoc"
+      ]
+    },
+    {
+      "id": "integrations-sync",
+      "category": "integrations",
+      "labels": {
+        "en": "Sync & storage",
+        "zh-cn": "同步与存储"
+      },
+      "resources": [
+        "obsidian-livesync",
+        "remotely-save",
+        "s3-attachments-storage"
+      ]
+    },
+    {
+      "id": "development-testing",
+      "category": "development",
+      "labels": {
+        "en": "Development & testing tools",
+        "zh-cn": "开发与测试工具"
+      },
+      "resources": [
+        "execute-code",
+        "obsidian42-brat",
+        "hot-reload",
+        "plugin-reloader",
+        "obsidian-linter-rules"
+      ]
+    },
+    {
+      "id": "official-linking",
+      "category": "official",
+      "labels": {
+        "en": "Links & discovery",
+        "zh-cn": "链接与发现"
+      },
+      "resources": [
+        "obsidian-backlinks",
+        "obsidian-search",
+        "obsidian-graph-view",
+        "obsidian-internal-links",
+        "obsidian-embed-files"
+      ]
+    },
+    {
+      "id": "official-writing",
+      "category": "official",
+      "labels": {
+        "en": "Writing & structure",
+        "zh-cn": "写作与结构"
+      },
+      "resources": [
+        "obsidian-properties",
+        "obsidian-templates",
+        "obsidian-daily-notes",
+        "obsidian-note-composer",
+        "obsidian-callouts",
+        "obsidian-markdown-syntax"
+      ]
+    },
+    {
+      "id": "official-workspace",
+      "category": "official",
+      "labels": {
+        "en": "Workspace & app links",
+        "zh-cn": "工作区与应用链接"
+      },
+      "resources": [
+        "obsidian-bookmarks",
+        "obsidian-workspaces",
+        "obsidian-uri"
+      ]
+    },
+    {
+      "id": "methods-design",
+      "category": "methods",
+      "labels": {
+        "en": "Note design & publishing",
+        "zh-cn": "笔记设计与公开写作"
+      },
+      "resources": [
+        "steph-evergreen",
+        "garden-history",
+        "progressive-summarization",
+        "atomic-notes",
+        "concept-notes"
+      ]
+    },
+    {
+      "id": "learning-tutorials",
+      "category": "learning",
+      "labels": {
+        "en": "Focused tutorials & demonstrations",
+        "zh-cn": "专题教程与演示"
+      },
+      "resources": [
+        "obsidian-rocks"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "start",
+      "labels": {
+        "en": "Start using Obsidian",
+        "zh-cn": "开始使用 Obsidian"
+      },
+      "descriptions": {
+        "en": "Read the basics, then explore a small example vault.",
+        "zh-cn": "先了解基础操作，再参考一个简单示例库。"
+      },
+      "resources": [
+        "obsidian-help",
+        "kepano-vault"
+      ]
+    },
+    {
+      "id": "reading",
+      "labels": {
+        "en": "Collect reading notes",
+        "zh-cn": "收集阅读资料"
+      },
+      "descriptions": {
+        "en": "Capture an article and turn it into a reusable note.",
+        "zh-cn": "剪藏文章，再整理成可复用的笔记。"
+      },
+      "resources": [
+        "web-clipper",
+        "reading-workflow"
+      ]
+    },
+    {
+      "id": "research",
+      "labels": {
+        "en": "Research a topic",
+        "zh-cn": "研究一个课题"
+      },
+      "descriptions": {
+        "en": "Bring in literature, then query notes and sources.",
+        "zh-cn": "导入文献资料，再查询笔记与来源。"
+      },
+      "resources": [
+        "research-workflow",
+        "zotero-integration",
+        "dataview",
+        "dataview-example-vault"
+      ]
+    },
+    {
+      "id": "projects",
+      "labels": {
+        "en": "Plan projects",
+        "zh-cn": "安排项目与任务"
+      },
+      "descriptions": {
+        "en": "Choose task queries, a board or a periodic review structure.",
+        "zh-cn": "按需选择任务查询、看板或周期复盘结构。"
+      },
+      "resources": [
+        "projects-workflow",
+        "tasks",
+        "kanban",
+        "lifeos"
+      ]
+    },
+    {
+      "id": "chinese",
+      "labels": {
+        "en": "Write and find Chinese notes",
+        "zh-cn": "改善中文输入与查找"
+      },
+      "descriptions": {
+        "en": "Format mixed-language text and search with pinyin.",
+        "zh-cn": "处理中英文混排，用拼音查找笔记。"
+      },
+      "resources": [
+        "easy-typing",
+        "fuzzy-chinese",
+        "pkmer"
+      ]
+    },
+    {
+      "id": "ai",
+      "labels": {
+        "en": "Use AI with your notes",
+        "zh-cn": "用 AI 处理笔记"
+      },
+      "descriptions": {
+        "en": "Choose local actions, a focused source set or agent skills.",
+        "zh-cn": "按需选择本地动作、指定来源对话或 Agent 技能。"
+      },
+      "resources": [
+        "ai-workflow",
+        "local-gpt",
+        "llm-workspace",
+        "obsidian-skills"
+      ]
+    },
+    {
+      "id": "publish",
+      "labels": {
+        "en": "Publish a knowledge garden",
+        "zh-cn": "发布知识花园"
+      },
+      "descriptions": {
+        "en": "Compare a hosted service with self-managed publishing tools.",
+        "zh-cn": "选择托管服务或自行管理的发布工具。"
+      },
+      "resources": [
+        "obsidian-publish",
+        "quartz",
+        "digital-garden"
+      ]
+    },
+    {
+      "id": "appearance",
+      "labels": {
+        "en": "Customize the look",
+        "zh-cn": "调整外观"
+      },
+      "descriptions": {
+        "en": "Choose a theme, then add only the layout changes you need.",
+        "zh-cn": "先选主题，再按需添加布局片段。"
+      },
+      "resources": [
+        "minimal",
+        "things",
+        "modular-css"
+      ]
+    },
+    {
+      "id": "writing",
+      "labels": {
+        "en": "Finish a draft",
+        "zh-cn": "完成一篇文章"
+      },
+      "descriptions": {
+        "en": "Turn linked notes into a structured draft.",
+        "zh-cn": "从关联笔记整理出结构完整的初稿。"
+      },
+      "resources": [
+        "writing-workflow"
+      ]
+    },
+    {
+      "id": "learning",
+      "labels": {
+        "en": "Learn and review",
+        "zh-cn": "学习与复习"
+      },
+      "descriptions": {
+        "en": "Practice recall and apply what you learn.",
+        "zh-cn": "通过回忆练习与应用任务检验学习。"
+      },
+      "resources": [
+        "learning-workflow"
+      ]
+    }
+  ]
+}

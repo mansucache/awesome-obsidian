@@ -1,0 +1,75 @@
+{
+  "id": "various-complements",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "various-complements",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Various Complements",
+      "url": "https://github.com/tadashi-aikawa/obsidian-various-complements-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Complete words and links from your notes as you type."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Various Complements",
+      "summary": "Complete words and links from your notes as you type.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "db8900b2fcb1c5070e553e3e246365b4102fbb6b8e8aa2733584bffd8cad02e3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Various Complements",
+      "summary": "输入时补全笔记中的词语和链接。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d79290245e645de002d3faf1f902dd116e325584ba117cbfc7185cf1918bc5b8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

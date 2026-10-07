@@ -1,0 +1,78 @@
+{
+  "id": "whisper",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "research",
+    "reading"
+  ],
+  "tags": [
+    "whisper",
+    "plugin",
+    "ai-audio-study"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Whisper",
+      "url": "https://github.com/nikdanilov/whisper-obsidian-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Transcribe recorded or uploaded audio through a Whisper-compatible API."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Whisper",
+      "summary": "Transcribe recorded or uploaded audio through a Whisper-compatible API.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e426b43f2a5460c92d982461ac666df3695073e45d8d3b9fed25a7caa5eb5cbb",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Whisper",
+      "summary": "通过兼容 Whisper 的 API，把录音或上传音频转成文字。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "516deaf6d3644d930ae37b6f8bdfc0e3295bafbad08019ea77d08622edfc8bd4",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

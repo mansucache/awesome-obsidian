@@ -1,0 +1,272 @@
+[
+  {
+    "id": "anuppuccin",
+    "path": "assets/themes/anuppuccin/preview.webp",
+    "url": "https://raw.githubusercontent.com/AnubisNekhet/AnuPpuccin/82d207c646904e7af371ced499f682fbdfad1012/assets/gh-preview.webp",
+    "source_page": "https://github.com/AnubisNekhet/AnuPpuccin/blob/82d207c646904e7af371ced499f682fbdfad1012/assets/gh-preview.webp",
+    "commit": "82d207c646904e7af371ced499f682fbdfad1012",
+    "sha256": "b1012c445ce1db0b57e62d3cbf777e6065989d527379f62044c94cbd389061a5",
+    "author": "AnubisNekhet",
+    "license_path": "assets/themes/anuppuccin/LICENSE.upstream.txt",
+    "license": "GPL-3.0",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Unmodified image from AnubisNekhet/AnuPpuccin; upstream GPL-3.0 notice retained.",
+    "alt": {
+      "en": "AnuPpuccin theme",
+      "zh-cn": "AnuPpuccin 主题"
+    }
+  },
+  {
+    "id": "blue-topaz",
+    "path": "assets/themes/blue-topaz/preview.png",
+    "url": "https://raw.githubusercontent.com/PKM-er/Blue-Topaz_Obsidian-css/54821893b8f293f9c738580f59d4f1beec5c4284/preview_Blue%20Topaz.png",
+    "source_page": "https://github.com/PKM-er/Blue-Topaz_Obsidian-css/blob/54821893b8f293f9c738580f59d4f1beec5c4284/preview_Blue%20Topaz.png",
+    "commit": "54821893b8f293f9c738580f59d4f1beec5c4284",
+    "sha256": "02f1e991a6a2068cc49ebcb114ccadc4b65bcfd750e9e3bd1ddff1b2579b1baa",
+    "author": "Blue Topaz contributors",
+    "license_path": "assets/themes/blue-topaz/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Unmodified image from PKM-er/Blue-Topaz_Obsidian-css; upstream MIT notice retained.",
+    "alt": {
+      "en": "Blue Topaz theme",
+      "zh-cn": "Blue Topaz 主题"
+    }
+  },
+  {
+    "id": "border",
+    "path": "assets/themes/border/preview.png",
+    "url": "https://raw.githubusercontent.com/akifyss/obsidian-border/dd59bd54438597f61b38eb5b967919e979526c41/cover.png",
+    "source_page": "https://github.com/akifyss/obsidian-border/blob/dd59bd54438597f61b38eb5b967919e979526c41/cover.png",
+    "commit": "dd59bd54438597f61b38eb5b967919e979526c41",
+    "sha256": "76421fec17e0bcfd192a8c0638a345bc9b858fe9793f0728955cfdd622766fa1",
+    "author": "akifyss",
+    "license_path": "assets/themes/border/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from akifyss/obsidian-border; upstream license retained.",
+    "alt": {
+      "en": "Border theme",
+      "zh-cn": "Border 主题"
+    }
+  },
+  {
+    "id": "catppuccin",
+    "path": "assets/themes/catppuccin/preview.png",
+    "url": "https://raw.githubusercontent.com/catppuccin/obsidian/95eac6d290622542306b2b19fd20d4700775a394/assets/screenshot-hq.png",
+    "source_page": "https://github.com/catppuccin/obsidian/blob/95eac6d290622542306b2b19fd20d4700775a394/assets/screenshot-hq.png",
+    "commit": "95eac6d290622542306b2b19fd20d4700775a394",
+    "sha256": "8ee7f889cbbe779d745a0345fd8564f5ea5d3eb605503440e58d97dc05efb7b7",
+    "author": "Catppuccin contributors",
+    "license_path": "assets/themes/catppuccin/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Unmodified image from catppuccin/obsidian; upstream MIT notice retained.",
+    "alt": {
+      "en": "Catppuccin theme",
+      "zh-cn": "Catppuccin 主题"
+    }
+  },
+  {
+    "id": "dracula",
+    "path": "assets/themes/dracula/preview.png",
+    "url": "https://raw.githubusercontent.com/dracula/obsidian/ddb95ec25babe3ef21907b8b612bbdb9fc2904c9/screenshot_1080p.png",
+    "source_page": "https://github.com/dracula/obsidian/blob/ddb95ec25babe3ef21907b8b612bbdb9fc2904c9/screenshot_1080p.png",
+    "commit": "ddb95ec25babe3ef21907b8b612bbdb9fc2904c9",
+    "sha256": "452ea95829b1ece69a92d8ac1f244998e098d8b17e912dc49a44adb3ec1b4ba3",
+    "author": "Dracula contributors",
+    "license_path": "assets/themes/dracula/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Unmodified image from dracula/obsidian; upstream MIT notice retained.",
+    "alt": {
+      "en": "Dracula theme",
+      "zh-cn": "Dracula 主题"
+    }
+  },
+  {
+    "id": "everforest",
+    "path": "assets/themes/everforest/preview.png",
+    "url": "https://raw.githubusercontent.com/0xglitchbyte/obsidian_everforest/0b125d77156e1965e0b9489caccece65034582fb/dark_v2.png",
+    "source_page": "https://github.com/0xglitchbyte/obsidian_everforest/blob/0b125d77156e1965e0b9489caccece65034582fb/dark_v2.png",
+    "commit": "0b125d77156e1965e0b9489caccece65034582fb",
+    "sha256": "9f57ff90124e993d046247125493daec7bbb17dcc9f6db8760b9095c169e2b43",
+    "author": "0xglitchbyte",
+    "license_path": "assets/themes/everforest/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from 0xglitchbyte/obsidian_everforest; upstream license retained.",
+    "alt": {
+      "en": "Everforest theme",
+      "zh-cn": "Everforest 主题"
+    }
+  },
+  {
+    "id": "its-theme",
+    "path": "assets/themes/its-theme/preview.png",
+    "url": "https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/95924dce2d8025a116c54e586e8cf55e3150de68/Images/Darkmode.png",
+    "source_page": "https://github.com/SlRvb/Obsidian--ITS-Theme/blob/95924dce2d8025a116c54e586e8cf55e3150de68/Images/Darkmode.png",
+    "commit": "95924dce2d8025a116c54e586e8cf55e3150de68",
+    "sha256": "cb2ad3ec1327e4ba31836d5e948a272c7344bea1db500114452f30cf2c727a23",
+    "author": "SlRvb",
+    "license_path": "assets/themes/its-theme/LICENSE.upstream.txt",
+    "license": "GPL-2.0",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Unmodified image from SlRvb/Obsidian--ITS-Theme; upstream GPL-2.0 notice retained.",
+    "alt": {
+      "en": "ITS Theme theme",
+      "zh-cn": "ITS Theme 主题"
+    }
+  },
+  {
+    "id": "maple",
+    "path": "assets/themes/maple/preview.png",
+    "url": "https://raw.githubusercontent.com/subframe7536/obsidian-theme-maple/a4d4cb04894e47e711712955033bf0d1af68afcf/img/screenshot.png",
+    "source_page": "https://github.com/subframe7536/obsidian-theme-maple/blob/a4d4cb04894e47e711712955033bf0d1af68afcf/img/screenshot.png",
+    "commit": "a4d4cb04894e47e711712955033bf0d1af68afcf",
+    "sha256": "842a26d23edcb1f8ca932a905de01287b7f8d62ad98487a697709098359e0217",
+    "author": "subframe7536",
+    "license_path": "assets/themes/maple/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from subframe7536/obsidian-theme-maple; upstream license retained.",
+    "alt": {
+      "en": "Maple theme",
+      "zh-cn": "Maple 主题"
+    }
+  },
+  {
+    "id": "minimal",
+    "path": "assets/themes/minimal/preview.png",
+    "url": "https://raw.githubusercontent.com/kepano/obsidian-minimal/93321bdc23fc879966e1e3aa0cfeda77012f540f/docs/Images/minimal-variants.png",
+    "source_page": "https://github.com/kepano/obsidian-minimal/blob/93321bdc23fc879966e1e3aa0cfeda77012f540f/docs/Images/minimal-variants.png",
+    "commit": "93321bdc23fc879966e1e3aa0cfeda77012f540f",
+    "sha256": "55dace54b5a17615a37e52e9f141aa5c017707ed2edfc11d69db4af63ec7aae2",
+    "author": "Steph Ango (@kepano)",
+    "license_path": "assets/themes/minimal/LICENSE.upstream.txt",
+    "license": "MIT (upstream repository)",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Upstream repository MIT notice retained; screenshot is an upstream illustration, not our compatibility test. Third-party marks remain with their owners.",
+    "alt": {
+      "en": "Minimal theme",
+      "zh-cn": "Minimal 主题"
+    }
+  },
+  {
+    "id": "primary",
+    "path": "assets/themes/primary/preview.png",
+    "url": "https://raw.githubusercontent.com/primary-theme/obsidian/789c99e357d8c0049058ef358a906ea9b350fb09/assets/desktop-1_light-mode.png",
+    "source_page": "https://github.com/primary-theme/obsidian/blob/789c99e357d8c0049058ef358a906ea9b350fb09/assets/desktop-1_light-mode.png",
+    "commit": "789c99e357d8c0049058ef358a906ea9b350fb09",
+    "sha256": "dbe25e30985c031bdd6b52c1a53c864148dd5582e357a6940da6f1a1fa06a4b2",
+    "author": "Primary theme contributors",
+    "license_path": "assets/themes/primary/LICENSE.upstream.txt",
+    "license": "GPL-3.0",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Unmodified image from primary-theme/obsidian; upstream GPL-3.0 notice retained.",
+    "alt": {
+      "en": "Primary theme",
+      "zh-cn": "Primary 主题"
+    }
+  },
+  {
+    "id": "prism",
+    "path": "assets/themes/prism/preview.png",
+    "url": "https://raw.githubusercontent.com/damiankorcz/Prism-Theme/d1b0b2fad28778b96a19777020e42961e293d90a/assets/screenshots/Platforms.png",
+    "source_page": "https://github.com/damiankorcz/Prism-Theme/blob/d1b0b2fad28778b96a19777020e42961e293d90a/assets/screenshots/Platforms.png",
+    "commit": "d1b0b2fad28778b96a19777020e42961e293d90a",
+    "sha256": "24b384ce82d14b0d0e7336c1e62d99e92c7bfdb5b0d8188de88f4dc28f355622",
+    "author": "damiankorcz",
+    "license_path": "assets/themes/prism/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from damiankorcz/Prism-Theme; upstream license retained.",
+    "alt": {
+      "en": "Prism theme",
+      "zh-cn": "Prism 主题"
+    }
+  },
+  {
+    "id": "rose-pine",
+    "path": "assets/themes/rose-pine/preview.png",
+    "url": "https://raw.githubusercontent.com/rose-pine/obsidian/08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e/thumbnail.png",
+    "source_page": "https://github.com/rose-pine/obsidian/blob/08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e/thumbnail.png",
+    "commit": "08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e",
+    "sha256": "7de5c94e13dad429e204f498e5c5c4c583bcedea09e94f46b6239c89e53c1afb",
+    "author": "rose-pine",
+    "license_path": "assets/themes/rose-pine/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from rose-pine/obsidian; upstream license retained.",
+    "alt": {
+      "en": "Rose Pine theme",
+      "zh-cn": "Rose Pine 主题"
+    }
+  },
+  {
+    "id": "shimmering-focus",
+    "path": "assets/themes/shimmering-focus/preview.webp",
+    "url": "https://raw.githubusercontent.com/chrisgrieser/shimmering-focus/06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0/assets/promo-screenshot.webp",
+    "source_page": "https://github.com/chrisgrieser/shimmering-focus/blob/06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0/assets/promo-screenshot.webp",
+    "commit": "06a5b0784d91e8862d3f6502c4e48b5bf2cc0fa0",
+    "sha256": "898de9560b2038c0f43ff743b5072bb609dd4a26f1f1adafd69aa6cacd94998d",
+    "author": "Chris Grieser",
+    "license_path": "assets/themes/shimmering-focus/LICENSE.upstream.txt",
+    "license": "MIT",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from chrisgrieser/shimmering-focus; upstream license retained.",
+    "alt": {
+      "en": "Shimmering Focus theme",
+      "zh-cn": "Shimmering Focus 主题"
+    }
+  },
+  {
+    "id": "things",
+    "path": "assets/themes/things/preview.png",
+    "url": "https://raw.githubusercontent.com/colineckert/obsidian-things/9b8bef93d3919f7693ac78597beaa35bbbd4cfff/assets/main-demo.png",
+    "source_page": "https://github.com/colineckert/obsidian-things/blob/9b8bef93d3919f7693ac78597beaa35bbbd4cfff/assets/main-demo.png",
+    "commit": "9b8bef93d3919f7693ac78597beaa35bbbd4cfff",
+    "sha256": "24535ca8596734a051812a46dd5184f88aac721cdf0ef178b522a5b867e68f79",
+    "author": "Colin Eckert; theme derived from Minimal",
+    "license_path": "assets/themes/things/LICENSE.upstream.txt",
+    "license": "MIT (upstream repository)",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Upstream repository MIT notice retained; screenshot is an upstream illustration, not our compatibility test. Third-party marks remain with their owners.",
+    "alt": {
+      "en": "Things theme",
+      "zh-cn": "Things 主题"
+    }
+  },
+  {
+    "id": "vanilla-amoled",
+    "path": "assets/themes/vanilla-amoled/preview.png",
+    "url": "https://raw.githubusercontent.com/sakuraisayeki/vanilla-amoled-theme/7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f/sample-screenshot-sm.png",
+    "source_page": "https://github.com/sakuraisayeki/vanilla-amoled-theme/blob/7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f/sample-screenshot-sm.png",
+    "commit": "7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f",
+    "sha256": "89031f70a5af76986b858469eba109e22fb4635bfbefda83ee82f15258ddc86d",
+    "author": "sakuraisayeki",
+    "license_path": "assets/themes/vanilla-amoled/LICENSE.upstream.txt",
+    "license": "ISC",
+    "mode": "mixed",
+    "kind": "upstream-preview",
+    "rights": "Image from sakuraisayeki/vanilla-amoled-theme; upstream license retained.",
+    "alt": {
+      "en": "Vanilla AMOLED theme",
+      "zh-cn": "Vanilla AMOLED 主题"
+    }
+  }
+]

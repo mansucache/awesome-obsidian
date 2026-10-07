@@ -1,0 +1,75 @@
+{
+  "id": "breadcrumbs",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "breadcrumbs",
+    "plugin",
+    "plugins-knowledge"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Breadcrumbs",
+      "url": "https://github.com/michaelpporter/breadcrumbs",
+      "checked_at": "2026-10-07",
+      "supports": "Navigate typed relationships such as parent, child, next and previous notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Breadcrumbs",
+      "summary": "Navigate typed relationships such as parent, child, next and previous notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "70e976d72c32f79a8130e839455c5be8e0dcf86481bf41bd2906a53ff7fafc4d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Breadcrumbs",
+      "summary": "沿父子、前后等明确关系浏览笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "465763993562b06a1d0172e0fb8bf8cb0d94546c31983fc8fbf2363089e70d2f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

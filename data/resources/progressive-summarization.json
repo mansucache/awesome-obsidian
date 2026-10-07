@@ -1,0 +1,71 @@
+{
+  "id": "progressive-summarization",
+  "type": "method",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "progressive-summarization",
+    "method",
+    "methods-design"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Progressive Summarization",
+      "url": "https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/",
+      "checked_at": "2026-10-07",
+      "supports": "Layer highlights and summaries to make useful passages easier to rediscover."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Progressive Summarization",
+      "summary": "Layer highlights and summaries to make useful passages easier to rediscover.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "859f91ceae5c28c4b34ec62ee5ddb59806d48b0e8bdf2210e6a8a3a7f13a5369",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Progressive Summarization",
+      "summary": "通过逐层高亮与摘要，让有用段落更容易被再次找到。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6f6d6d12b9d22bf3a07d2ca2a4c9693ea648b623e36fef3cee14e0b8bc4b0dc4",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

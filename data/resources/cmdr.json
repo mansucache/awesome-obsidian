@@ -1,0 +1,75 @@
+{
+  "id": "cmdr",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "cmdr",
+    "plugin",
+    "plugins-interface"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Commander",
+      "url": "https://github.com/jsmorabito/obsidian-commander",
+      "checked_at": "2026-10-07",
+      "supports": "Place frequently used commands in toolbars, menus and other interface locations."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Commander",
+      "summary": "Place frequently used commands in toolbars, menus and other interface locations.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a179aecd473efe0b18ac70f48defa11483960965b08f691531845c1263d6c49e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Commander",
+      "summary": "把常用命令放到工具栏、菜单等界面位置。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b20b5a6bc913607865765818867926ab750c898f9efc8e02ab95a3f1fde57883",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

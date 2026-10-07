@@ -1,0 +1,71 @@
+{
+  "id": "flexoki",
+  "type": "integration",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "flexoki",
+    "integration",
+    "appearance-css"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Flexoki",
+      "url": "https://stephango.com/flexoki",
+      "checked_at": "2026-10-07",
+      "supports": "Explore an ink-and-paper color palette available in themes such as Minimal."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Flexoki",
+      "summary": "Explore an ink-and-paper color palette available in themes such as Minimal.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "288b331cce2e7fbb403f03326f7cee05477b63331c194dd969ff25a5a44882f5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Flexoki",
+      "summary": "了解以纸墨为灵感的配色，可在 Minimal 等主题中使用。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ea32de33b8d7964aadab5a5289a06690dc111e3b8d6b5894067131cd87a30b18",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

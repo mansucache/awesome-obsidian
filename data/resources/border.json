@@ -1,0 +1,92 @@
+{
+  "id": "border",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "border",
+    "theme",
+    "appearance-themes"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Border",
+      "url": "https://github.com/akifyss/obsidian-border",
+      "checked_at": "2026-10-07",
+      "supports": "Separate workspace panels with clear boundaries and adjustable styling."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "border",
+      "path": "assets/themes/border/preview.png",
+      "url": "https://raw.githubusercontent.com/akifyss/obsidian-border/dd59bd54438597f61b38eb5b967919e979526c41/cover.png",
+      "source_page": "https://github.com/akifyss/obsidian-border/blob/dd59bd54438597f61b38eb5b967919e979526c41/cover.png",
+      "commit": "dd59bd54438597f61b38eb5b967919e979526c41",
+      "sha256": "76421fec17e0bcfd192a8c0638a345bc9b858fe9793f0728955cfdd622766fa1",
+      "author": "akifyss",
+      "license_path": "assets/themes/border/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Image from akifyss/obsidian-border; upstream license retained.",
+      "alt": {
+        "en": "Border theme",
+        "zh-cn": "Border 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Border",
+      "summary": "Separate workspace panels with clear boundaries and adjustable styling.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d06a581daecb0f51899db8ac263ad6fc491cd0958a0675dc0f85fc670e7e17ce",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Border",
+      "summary": "通过清晰的面板边界与可调样式组织工作区。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "db0890d29617388eaac83f5d21995dc1fa05112d5ddca8333c4d893155812104",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

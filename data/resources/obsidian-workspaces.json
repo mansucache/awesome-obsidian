@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-workspaces",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-workspaces",
+    "official",
+    "official-workspace"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Workspaces",
+      "url": "https://help.obsidian.md/Plugins/Workspaces",
+      "checked_at": "2026-10-07",
+      "supports": "Save and restore layouts for different kinds of work."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Workspaces",
+      "summary": "Save and restore layouts for different kinds of work.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "05f656d48241e52448d0ea34eb5681a15e3191d5b7820b8830e1e7f4cfcfd23a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Workspaces",
+      "summary": "保存并恢复适合不同工作的窗口布局。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "be131d93e271ea3a3a4befbf59d060cdf41f261374aed844ba0da4cd21d6615f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

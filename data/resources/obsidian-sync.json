@@ -1,0 +1,77 @@
+{
+  "id": "obsidian-sync",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "sync",
+    "reading"
+  ],
+  "tags": [
+    "obsidian-sync",
+    "official"
+  ],
+  "pricing": "paid",
+  "cost_note": {
+    "en": "Paid subscription; consult the current official plans.",
+    "zh-cn": "收费订阅，具体条件以当前官方套餐为准。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "multilingual"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Sync",
+      "url": "https://obsidian.md/sync",
+      "checked_at": "2026-10-07",
+      "supports": "Paid plans, supported platforms, selective sync and version history."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Obsidian Sync",
+      "summary": "Sync notes across devices with selective sync and version history.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "a265a7865c01463b1d728523156ad5c6e82016e95e1f82202b7e3606dd7b9590",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Obsidian Sync",
+      "summary": "在多台设备间同步笔记，支持选择性同步与版本历史。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "d75f5b62998c7da6a675363f70bdc0ea685e893a06f4f92f07d63309678364ff",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

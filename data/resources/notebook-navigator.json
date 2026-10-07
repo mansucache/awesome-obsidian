@@ -1,0 +1,75 @@
+{
+  "id": "notebook-navigator",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "notebook-navigator",
+    "plugin",
+    "plugins-search"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Notebook Navigator",
+      "url": "https://github.com/johansan/notebook-navigator",
+      "checked_at": "2026-10-07",
+      "supports": "Browse notes with a two-pane file navigator, previews and a calendar."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Notebook Navigator",
+      "summary": "Browse notes with a two-pane file navigator, previews and a calendar.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d637e86e53e0928a209dc96ea6147392dd9ed490457f5d76b66a4abb0594dc88",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Notebook Navigator",
+      "summary": "通过双栏文件导航、笔记预览与日历浏览资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "70494723a432536bce343b95304dbbf44806415ef9fdb338d41e8fe42687313d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

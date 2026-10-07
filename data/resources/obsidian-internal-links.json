@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-internal-links",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-internal-links",
+    "official",
+    "official-linking"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Internal Links",
+      "url": "https://help.obsidian.md/Linking+notes+and+files/Internal+links",
+      "checked_at": "2026-10-07",
+      "supports": "Link to notes, headings and blocks to connect ideas precisely."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Internal Links",
+      "summary": "Link to notes, headings and blocks to connect ideas precisely.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5d44bd0ca4703c46a46581a0dd461cc9d2a5afd3b4f573d91bab5bc8344ec680",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Internal Links",
+      "summary": "链接笔记、标题和文本块，精确连接相关内容。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fa3c8b368b931740fd53648906b17179561671bddfe066686a3f6c2121601447",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

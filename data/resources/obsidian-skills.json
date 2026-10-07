@@ -1,0 +1,73 @@
+{
+  "id": "obsidian-skills",
+  "type": "skill",
+  "category": "ai",
+  "secondary_categories": [],
+  "scenarios": [
+    "ai",
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-skills",
+    "skill"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Skill files are free; agent subscriptions or model usage may cost extra.",
+    "zh-cn": "Skill 文件免费；Agent 订阅或模型调用可能另收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "agent-dependent"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Skills repository",
+      "url": "https://github.com/kepano/obsidian-skills",
+      "checked_at": "2026-10-07",
+      "supports": "Skill formats, compatible agent concept, Markdown/Bases/Canvas/CLI coverage and MIT license."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Obsidian Skills",
+      "summary": "Agent skills for editing Obsidian Markdown, Bases and Canvas and using the CLI.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "e6d5ffe2caf15328d4523ac55e8a6892f0420d33b5011bb42b5f74fc53098cf1",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Obsidian Skills",
+      "summary": "让 AI Agent 编辑 Obsidian Markdown、Bases 和 Canvas，并使用 CLI。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "840ba9a6fb647f375bc5e5fafe7eeff13e598ed25ba3c9ade8f44a39a8942f43",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

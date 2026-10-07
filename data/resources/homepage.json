@@ -1,0 +1,75 @@
+{
+  "id": "homepage",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "homepage",
+    "plugin",
+    "plugins-search"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Homepage",
+      "url": "https://github.com/mirnovov/obsidian-homepage",
+      "checked_at": "2026-10-07",
+      "supports": "Open a chosen note, canvas, base or workspace when the vault starts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Homepage",
+      "summary": "Open a chosen note, canvas, base or workspace when the vault starts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "17f68c15a257e0a90c5fba13fa1540feef464564f8a324d9e5b08d7abb396f4e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Homepage",
+      "summary": "启动资料库时打开指定笔记、画布、Bases 或工作区。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "34444d7e9f79d5968d0bd8a44b076f9b5c7131118cb9112d54f14b2d0b383314",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

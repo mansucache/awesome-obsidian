@@ -1,0 +1,74 @@
+{
+  "id": "learning-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "learning-workflow",
+    "workflow",
+    "workflows-guides"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "From course notes to usable knowledge",
+      "url": "https://help.obsidian.md/Linking+notes+and+files/Internal+links",
+      "checked_at": "2026-10-07",
+      "supports": "Practice recall, record mistakes and apply concepts in a small task."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "atomic-notes",
+    "spaced-repetition"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "From course notes to usable knowledge",
+      "summary": "Practice recall, record mistakes and apply concepts in a small task.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "81f63b3ae14962a38c8711b49040122890e5ce91f971a3f53f38fc50829bfc23",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "从课程笔记到可用知识",
+      "summary": "练习回忆、记录错因，再用小任务检验理解。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "46b2276a1a474db8b703033ba310a8dc1c01b0d2fa298ce563384834ea78bf7a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

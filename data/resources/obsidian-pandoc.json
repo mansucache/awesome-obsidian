@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-pandoc",
+  "type": "plugin",
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-pandoc",
+    "plugin",
+    "integrations-export"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Pandoc Plugin",
+      "url": "https://github.com/oliverbalfour/obsidian-pandoc",
+      "checked_at": "2026-10-07",
+      "supports": "Export notes to DOCX, EPUB and other formats through an installed Pandoc converter."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Pandoc Plugin",
+      "summary": "Export notes to DOCX, EPUB and other formats through an installed Pandoc converter.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "47d1f19d533915e5ee808a161e47fb79cfd415e8886b3ecd5ae79d70baed0f93",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Pandoc Plugin",
+      "summary": "调用已安装的 Pandoc，将笔记导出为 DOCX、EPUB 等格式。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "596959c540dc39c3f4900f0de81fabcc1d6a3da1b5d7f5a311b6ff58fe2bad7d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

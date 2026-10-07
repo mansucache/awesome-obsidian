@@ -1,0 +1,91 @@
+{
+  "id": "primary",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "primary",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Primary",
+      "url": "https://github.com/primary-theme/obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "A warm, playful theme with light and dark modes and carefully styled interface details."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "primary",
+      "path": "assets/themes/primary/preview.png",
+      "url": "https://raw.githubusercontent.com/primary-theme/obsidian/789c99e357d8c0049058ef358a906ea9b350fb09/assets/desktop-1_light-mode.png",
+      "source_page": "https://github.com/primary-theme/obsidian/blob/789c99e357d8c0049058ef358a906ea9b350fb09/assets/desktop-1_light-mode.png",
+      "commit": "789c99e357d8c0049058ef358a906ea9b350fb09",
+      "sha256": "dbe25e30985c031bdd6b52c1a53c864148dd5582e357a6940da6f1a1fa06a4b2",
+      "author": "Primary theme contributors",
+      "license_path": "assets/themes/primary/LICENSE.upstream.txt",
+      "license": "GPL-3.0",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Unmodified image from primary-theme/obsidian; upstream GPL-3.0 notice retained.",
+      "alt": {
+        "en": "Primary theme",
+        "zh-cn": "Primary 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Primary",
+      "summary": "A warm, playful theme with light and dark modes and carefully styled interface details.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "93b4674e8a18585c856a12e3ac81dda4d2006e9ea890a8c2bc26fe20a2f12a1d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Primary",
+      "summary": "配色温暖活泼、细致调整界面元素的明暗主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d868845ce9360c211643e046150bb96226b4ca437dfc472d3e0182ffe3dfa762",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

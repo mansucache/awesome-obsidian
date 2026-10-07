@@ -1,0 +1,92 @@
+{
+  "id": "things",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance",
+    "projects"
+  ],
+  "tags": [
+    "things",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "No mandatory payment identified in the cited resource; donations are separate.",
+    "zh-cn": "所引资源未列出强制付费；捐赠另计。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Things theme repository",
+      "url": "https://github.com/colineckert/obsidian-things",
+      "checked_at": "2026-10-07",
+      "supports": "Theme inspiration, light/dark styling, installation, preview and MIT notice."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "minimal"
+  ],
+  "assets": [
+    {
+      "id": "things",
+      "path": "assets/themes/things/preview.png",
+      "url": "https://raw.githubusercontent.com/colineckert/obsidian-things/9b8bef93d3919f7693ac78597beaa35bbbd4cfff/assets/main-demo.png",
+      "source_page": "https://github.com/colineckert/obsidian-things/blob/9b8bef93d3919f7693ac78597beaa35bbbd4cfff/assets/main-demo.png",
+      "commit": "9b8bef93d3919f7693ac78597beaa35bbbd4cfff",
+      "sha256": "24535ca8596734a051812a46dd5184f88aac721cdf0ef178b522a5b867e68f79",
+      "author": "Colin Eckert; theme derived from Minimal",
+      "license_path": "assets/themes/things/LICENSE.upstream.txt",
+      "license": "MIT (upstream repository)",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Upstream repository MIT notice retained; screenshot is an upstream illustration, not our compatibility test. Third-party marks remain with their owners.",
+      "alt": {
+        "en": "Things theme",
+        "zh-cn": "Things 主题"
+      }
+    }
+  ],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Things",
+      "summary": "A Things-inspired theme with light and dark modes and custom checkbox styles.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "bf2508ee2751cb237199e195e97bf15fc0418d453c31c767f5a32743b51ce1b4",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Things",
+      "summary": "借鉴 Things 设计风格，提供明暗模式和多种复选框样式。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "a98416a83b088eebd5e004296fcf0a82b43de0e1a34da230715f3cf9b81ae9c5",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

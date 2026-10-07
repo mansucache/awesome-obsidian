@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-day-planner",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "obsidian-day-planner",
+    "plugin",
+    "plugins-tasks"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Day Planner",
+      "url": "https://github.com/ivan-lednev/obsidian-day-planner",
+      "checked_at": "2026-10-07",
+      "supports": "Schedule tasks as time blocks on an editable timeline and track time spent."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Day Planner",
+      "summary": "Schedule tasks as time blocks on an editable timeline and track time spent.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "10619a14d149902ea2cbbbc831d61144de087ef70ba3ccbc23422fcd4f8c2a08",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Day Planner",
+      "summary": "把任务安排到可编辑时间线上，并记录投入时间。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9270a1b980861852e5aa1af9aeee2078d4d2113d28ad9e03e133dc72bee1d403",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

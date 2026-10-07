@@ -1,0 +1,75 @@
+{
+  "id": "table-editor-obsidian",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "table-editor-obsidian",
+    "plugin",
+    "plugins-tables"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Advanced Tables",
+      "url": "https://github.com/tgrosinger/advanced-tables-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Move between Markdown table cells and align rows while editing."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Advanced Tables",
+      "summary": "Move between Markdown table cells and align rows while editing.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6ba9383a86f1a7c718e73a6aad5b962e52d4e8376bf9c6dcd6232c6674ad66d2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Advanced Tables",
+      "summary": "在编辑时切换 Markdown 表格单元格并对齐行列。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "55823161231d44cceefe4f1ec261c9312a5ab3400bf54104c1ee197a6806e56c",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

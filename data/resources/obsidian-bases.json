@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-bases",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects",
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-bases",
+    "official"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Bases",
+      "url": "https://obsidian.md/help/bases",
+      "checked_at": "2026-10-07",
+      "supports": "Create database-style views of notes with property filters, sorting and formulas."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Bases",
+      "summary": "Create database-style views of notes with property filters, sorting and formulas.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "468aa746d7f8ad2fb7e2855154e8bf738711d08268ef0039b20c2a444ae3a3dd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Bases",
+      "summary": "用属性筛选、排序和公式，把笔记组织成数据库式视图。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "93aaf90311381e0936ed96d9c573e593697bd093ac1a47e50778f7e0bc13388b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

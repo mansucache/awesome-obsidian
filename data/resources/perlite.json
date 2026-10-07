@@ -1,0 +1,71 @@
+{
+  "id": "perlite",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "perlite",
+    "integration",
+    "integrations-publish"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Perlite",
+      "url": "https://github.com/secure-77/Perlite",
+      "checked_at": "2026-10-07",
+      "supports": "Browse a Markdown vault through a self-hosted web interface."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Perlite",
+      "summary": "Browse a Markdown vault through a self-hosted web interface.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "64c93b8de8057b1ec83a1928f39bac13b7ce15aa03bc99f0b1d871cc33d630b8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Perlite",
+      "summary": "通过自托管网页浏览 Markdown 资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9d451055cecc7e7d1fcdaae1e394f2ad9c48490ff54dfc78b35a9cefafc0de12",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

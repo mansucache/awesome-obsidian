@@ -1,0 +1,77 @@
+{
+  "id": "ai-templater",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "ai-templater",
+    "plugin",
+    "ai-agents"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "AI for Templater",
+      "url": "https://github.com/tfthacker/obsidian-ai-templater",
+      "checked_at": "2026-10-07",
+      "supports": "Call OpenAI-compatible language models from Templater scripts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "AI for Templater",
+      "summary": "Call OpenAI-compatible language models from Templater scripts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "660251c9280f6bdbf65752418d35609015fc8586b05f8856c512ae43eb126d34",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "AI for Templater",
+      "summary": "在 Templater 脚本中调用兼容 OpenAI 的语言模型。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c225b19f05d081023626811f1babf8d652ef0c768e43f4183423252ccea0f5ca",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

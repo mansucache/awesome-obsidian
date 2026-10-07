@@ -1,0 +1,76 @@
+{
+  "id": "ai-latex-generator",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "research",
+    "reading"
+  ],
+  "tags": [
+    "ai-latex-generator",
+    "plugin",
+    "ai-audio-study"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "AI LaTeX Generator",
+      "url": "https://github.com/aaaaayushh/ai-latex-generator",
+      "checked_at": "2026-10-07",
+      "supports": "Convert a selected natural-language formula description into LaTeX using Ollama."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "AI LaTeX Generator",
+      "summary": "Convert a selected natural-language formula description into LaTeX using Ollama.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "86beae6a31ee03ab64d7d73905ab2c6143903ecdbb41059288dfd84913cdd89a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "AI LaTeX Generator",
+      "summary": "通过 Ollama，将选中的自然语言公式描述转换为 LaTeX。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "95ebd079e3e9ee97aeb81d45cbd14d1850ac2ca5e5753780eed38ee8bf944cd3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

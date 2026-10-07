@@ -1,0 +1,74 @@
+{
+  "id": "flashcards-obsidian",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "reading"
+  ],
+  "tags": [
+    "flashcards-obsidian",
+    "plugin",
+    "plugins-study"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Flashcards",
+      "url": "https://github.com/reuseman/flashcards-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Turn note content into Anki flashcards through Anki integration."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Flashcards",
+      "summary": "Turn note content into Anki flashcards through Anki integration.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "af703dd18ebe8fac4fd3db3f850c96a2dce061bd347c2269f773cf3d7bf57302",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Flashcards",
+      "summary": "通过 Anki 集成，将笔记内容转换为闪卡。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "faa9c0d873b9e02e25e9554d77f90f46eb9c58122548507ce9ffc8363fec41dd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

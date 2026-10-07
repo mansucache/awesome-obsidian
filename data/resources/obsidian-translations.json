@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-translations",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian-translations",
+    "developer",
+    "development-build"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Translations",
+      "url": "https://github.com/obsidianmd/obsidian-translations",
+      "checked_at": "2026-10-07",
+      "supports": "Contribute translations for Obsidian's interface."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Translations",
+      "summary": "Contribute translations for Obsidian's interface.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "71bdcda1a76c0ad6ba020d39196b5a0614ed07df8852b3a3ab25d0201b93e039",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Translations",
+      "summary": "参与 Obsidian 界面翻译。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d67b11907a6a2de541a789fba2cf82689a4cce61000e121d068de80d7ee76165",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

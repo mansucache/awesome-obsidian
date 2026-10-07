@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-smart-typography",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-smart-typography",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Smart Typography",
+      "url": "https://github.com/mgmeyers/obsidian-smart-typography",
+      "checked_at": "2026-10-07",
+      "supports": "Convert typed quotes, dashes and dots into typographic punctuation."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Smart Typography",
+      "summary": "Convert typed quotes, dashes and dots into typographic punctuation.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "766abf815ef56dc4d92ac7e7c4e39bbffe290091fb895e62d4376f90fc9df876",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Smart Typography",
+      "summary": "把输入的引号、连字符和句点转换为排版标点。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ae181670d564e981a80541922be0c12117d3a7d47cbdfacffbfdb038527113d2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

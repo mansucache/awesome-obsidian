@@ -1,0 +1,72 @@
+{
+  "id": "how-i-use-obsidian",
+  "type": "article",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "how-i-use-obsidian",
+    "article"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "How I use Obsidian",
+      "url": "https://stephango.com/vault",
+      "checked_at": "2026-10-07",
+      "supports": "See how Steph Ango uses categories, properties, templates and links in a personal vault."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "kepano-vault"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "How I use Obsidian",
+      "summary": "See how Steph Ango uses categories, properties, templates and links in a personal vault.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0e1422d7fa167a2c9b965b0271c6aece02ff2805dcca8d045fd5463b7ca4e1ee",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "How I use Obsidian",
+      "summary": "了解 Steph Ango 如何用分类、属性、模板和链接组织个人资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "55f98b3154fc008759a9523fe9118949fd0296947a5a8178f8e5cf88784b99b1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

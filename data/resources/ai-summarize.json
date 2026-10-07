@@ -1,0 +1,77 @@
+{
+  "id": "ai-summarize",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "ai-summarize",
+    "plugin",
+    "ai-organize"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "AI Summarize",
+      "url": "https://github.com/ravenwits/obsidian-ai-summarize",
+      "checked_at": "2026-10-07",
+      "supports": "Create note summaries and folder digests with an OpenAI model."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "AI Summarize",
+      "summary": "Create note summaries and folder digests with an OpenAI model.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ba9bb25e2b8753bb2603da9ec19c900d4c28add53e8fa7fcf80b257606e723fd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "AI Summarize",
+      "summary": "使用 OpenAI 模型生成笔记摘要与文件夹内容汇总。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "36e99616f985813bc4b8c101b157f5958184e680e1380d234adee326f6582aa7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

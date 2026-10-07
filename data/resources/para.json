@@ -1,0 +1,71 @@
+{
+  "id": "para",
+  "type": "article",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects",
+    "knowledge"
+  ],
+  "tags": [
+    "para",
+    "article"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "The PARA Method",
+      "url": "https://fortelabs.com/blog/para/",
+      "checked_at": "2026-10-07",
+      "supports": "Organize notes into Projects, Areas, Resources and Archives around actionable work."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "The PARA Method",
+      "summary": "Organize notes into Projects, Areas, Resources and Archives around actionable work.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "64327c0bd3c06065d96caf429ed77c81a69f3fcdbc7eecd036392bd29ff466e5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "PARA 方法",
+      "summary": "围绕行动，把笔记组织为项目、领域、资源和归档四类。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6f6478e517c28bdcce3ad3dc273124cdc9064f6500791225cd6c2f5535ba77a9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

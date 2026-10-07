@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-meta-bind-plugin",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-meta-bind-plugin",
+    "plugin",
+    "plugins-tables"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Meta Bind",
+      "url": "https://github.com/mprojectscode/obsidian-meta-bind-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Add property inputs, calculated displays and clickable buttons inside notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Meta Bind",
+      "summary": "Add property inputs, calculated displays and clickable buttons inside notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "59574785af242b56b8c1e3619ebbbcd482133967a03e8352793f17f80284aa62",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Meta Bind",
+      "summary": "在笔记中添加属性输入控件、数据显示与操作按钮。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "4f29561812539db1f7cdf7c2eb63c8dbbc5d496e52cdd86de85c6bfea19a515d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "ideaverse-lite",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "ideaverse-lite",
+    "vault",
+    "templates-personal"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Ideaverse Lite",
+      "url": "https://www.linkingyourthinking.com/ideaverse-for-obsidian/onboarding-ideaverse",
+      "checked_at": "2026-10-07",
+      "supports": "Explore a free linked-note starter vault with maps and example notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Ideaverse Lite",
+      "summary": "Explore a free linked-note starter vault with maps and example notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3a0e83691579c809c2f177cc8aea8d9bc46d7b2bc37976c71bd3413a8d82aaa6",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Ideaverse Lite",
+      "summary": "通过免费的起步资料库学习内容地图与笔记链接。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3f812c3ce994f05074b72185d570f23d8e9f26bdf0e84df0d7287229ace280cb",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

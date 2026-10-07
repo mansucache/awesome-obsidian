@@ -1,0 +1,75 @@
+{
+  "id": "execute-code",
+  "type": "plugin",
+  "category": "development",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "execute-code",
+    "plugin",
+    "development-testing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Execute Code",
+      "url": "https://github.com/twibiral/obsidian-execute-code",
+      "checked_at": "2026-10-07",
+      "supports": "Run supported code blocks locally and display their output beneath the code."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Execute Code",
+      "summary": "Run supported code blocks locally and display their output beneath the code.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "06fc7c6fd9fc9869b3b0ed5edaf0d83eeae496618895b0d314c960cd8ba47c7e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Execute Code",
+      "summary": "在本地运行支持的代码块，并在代码下显示输出。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "4bc8f7e440c0f9692464d983f11f0397006bea3f88faa768cd382c0da3815d61",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

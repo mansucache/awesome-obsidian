@@ -1,0 +1,75 @@
+{
+  "id": "projects-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "projects-workflow",
+    "workflow",
+    "workflows-guides"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "From a project goal to next actions",
+      "url": "https://help.obsidian.md/Linking+notes+and+files/Internal+links",
+      "checked_at": "2026-10-07",
+      "supports": "Connect outcomes, tasks and weekly reviews in a project note."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "kanban",
+    "periodic-notes",
+    "tasks"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "From a project goal to next actions",
+      "summary": "Connect outcomes, tasks and weekly reviews in a project note.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "39ac7b6a48e0f4de0e409d00e28eb78d5b66ff8f8ae49cf2a22e3b8ef7bd381a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "从项目目标到下一步行动",
+      "summary": "用项目笔记连接交付目标、任务与每周复盘。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "24ce07149707b6bbea87368f1de9113226fadc8ab119774972199b1e87a58df6",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

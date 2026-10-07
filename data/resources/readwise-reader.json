@@ -1,0 +1,77 @@
+{
+  "id": "readwise-reader",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "research"
+  ],
+  "tags": [
+    "readwise-reader",
+    "integration"
+  ],
+  "pricing": "paid",
+  "cost_note": {
+    "en": "Paid service; consult the current plans.",
+    "zh-cn": "收费服务，具体条件见当前套餐。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Readwise Reader",
+      "url": "https://readwise.io/read",
+      "checked_at": "2026-10-07",
+      "supports": "Read articles and PDFs, then export highlights to Obsidian through Readwise."
+    },
+    {
+      "title": "Readwise pricing",
+      "url": "https://readwise.io/pricing",
+      "checked_at": "2026-10-07",
+      "supports": "Subscription pricing."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Readwise Reader",
+      "summary": "Read articles and PDFs, then export highlights to Obsidian through Readwise.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "015ab967b8e1c7eb58c67851993691166a6b28553f52cea81cfb02f26f2c31fa",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Readwise Reader",
+      "summary": "阅读文章和 PDF，并通过 Readwise 将高亮内容导出到 Obsidian。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "73e60f2b051263a9537361841f95803c73d6184eee461ab6cf69e27223aa70d7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

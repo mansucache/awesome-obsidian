@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-checklist-plugin",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "obsidian-checklist-plugin",
+    "plugin",
+    "plugins-tasks"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Checklist",
+      "url": "https://github.com/delashum/obsidian-checklist-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Collect checklists from multiple notes into a single sidebar."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Checklist",
+      "summary": "Collect checklists from multiple notes into a single sidebar.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c0b91430759c4d628acf578d175a32a7cd6e9e1bb2b10942c9e38d344db71fcc",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Checklist",
+      "summary": "把多篇笔记中的任务清单汇总到同一侧边栏。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f90016bd6916843d3eed470b9b719d8015faaa731dbcf31b31c6039bc2be723f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

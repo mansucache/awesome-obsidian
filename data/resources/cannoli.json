@@ -1,0 +1,73 @@
+{
+  "id": "cannoli",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai",
+    "projects"
+  ],
+  "tags": [
+    "cannoli",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "The plugin is free; model or speech providers may charge separately.",
+    "zh-cn": "插件免费，模型或语音服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Cannoli",
+      "url": "https://github.com/DeabLabs/cannoli",
+      "checked_at": "2026-10-07",
+      "supports": "Build executable AI workflows with cards and arrows in Obsidian Canvas."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Cannoli",
+      "summary": "Build executable AI workflows with cards and arrows in Obsidian Canvas.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "581dba129ac91acecc1359bb4a071bf7b9ca169ef33ce151cbb9595673bbf7f2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Cannoli",
+      "summary": "用 Obsidian Canvas 中的卡片和连线搭建可运行的 AI 工作流。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "92a5704f88c32e619537a92c1c4afd0be479540b33075c38e44a96ce3c66a27f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

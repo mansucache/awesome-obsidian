@@ -1,0 +1,75 @@
+{
+  "id": "lapel",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "lapel",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Lapel",
+      "url": "https://github.com/liamcain/obsidian-lapel",
+      "checked_at": "2026-10-07",
+      "supports": "Show heading levels in the editor gutter to inspect document structure."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Lapel",
+      "summary": "Show heading levels in the editor gutter to inspect document structure.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6502fe3a6675195e76d37b07b4455ecf5df15139cdc748b54e28eb62ec06b29e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Lapel",
+      "summary": "在编辑器侧边显示标题层级，帮助检查文章结构。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "82871fdb9629cf54048da2efee19a67f780d80f0ceb707a4024982dad951e7d3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "companion",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "companion",
+    "plugin",
+    "ai-chat"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Companion",
+      "url": "https://github.com/rizerphe/obsidian-companion",
+      "checked_at": "2026-10-07",
+      "supports": "Suggest inline text completions using the surrounding note as context."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Companion",
+      "summary": "Suggest inline text completions using the surrounding note as context.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "595f89998465581dbdb80919f14e9b1259479b09289dae769953c721b24472e9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Companion",
+      "summary": "根据笔记上下文，在输入位置提供文本补全建议。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9200874abd9856f72e180f4147849202e7bbe48b82f43f6e06253723d8aeef67",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

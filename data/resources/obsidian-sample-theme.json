@@ -1,0 +1,73 @@
+{
+  "id": "obsidian-sample-theme",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian-sample-theme",
+    "developer",
+    "development-build"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Sample Theme",
+      "url": "https://github.com/obsidianmd/obsidian-sample-theme",
+      "checked_at": "2026-10-07",
+      "supports": "Use the official starter files to create and submit an Obsidian theme."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Sample Theme",
+      "summary": "Use the official starter files to create and submit an Obsidian theme.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "10dd16147b4bc22d1c28e736f9b525c603785d9b41da0cfc3bf0582786d2c644",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Sample Theme",
+      "summary": "使用官方起步文件制作并提交 Obsidian 主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "eb0e0e40be75935d09056d09a894eac82078148fd2a6e5fff345d3aac43adfba",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

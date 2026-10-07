@@ -1,0 +1,92 @@
+{
+  "id": "vanilla-amoled",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "vanilla-amoled",
+    "theme",
+    "appearance-themes"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "ISC",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Vanilla AMOLED",
+      "url": "https://github.com/sakuraisayeki/vanilla-amoled-theme",
+      "checked_at": "2026-10-07",
+      "supports": "Use a black-background variation of the default interface."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "vanilla-amoled",
+      "path": "assets/themes/vanilla-amoled/preview.png",
+      "url": "https://raw.githubusercontent.com/sakuraisayeki/vanilla-amoled-theme/7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f/sample-screenshot-sm.png",
+      "source_page": "https://github.com/sakuraisayeki/vanilla-amoled-theme/blob/7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f/sample-screenshot-sm.png",
+      "commit": "7aaa2aec0ad4ab820c23c1fc6b02aeb751c72d7f",
+      "sha256": "89031f70a5af76986b858469eba109e22fb4635bfbefda83ee82f15258ddc86d",
+      "author": "sakuraisayeki",
+      "license_path": "assets/themes/vanilla-amoled/LICENSE.upstream.txt",
+      "license": "ISC",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Image from sakuraisayeki/vanilla-amoled-theme; upstream license retained.",
+      "alt": {
+        "en": "Vanilla AMOLED theme",
+        "zh-cn": "Vanilla AMOLED 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Vanilla AMOLED",
+      "summary": "Use a black-background variation of the default interface.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a9ee03468538ff82cc4c6871d572948dad1af49aef14624928b33ce04416912b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Vanilla AMOLED",
+      "summary": "使用以黑色背景呈现的默认界面变体。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "86ae87e71287db0bc25c3631c8f8704716b5732232740a97f9b6b98d2b1996be",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

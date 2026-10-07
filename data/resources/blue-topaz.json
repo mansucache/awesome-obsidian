@@ -1,0 +1,91 @@
+{
+  "id": "blue-topaz",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "blue-topaz",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Blue Topaz",
+      "url": "https://github.com/PKM-er/Blue-Topaz_Obsidian-css",
+      "checked_at": "2026-10-07",
+      "supports": "A blue-accented theme with configurable layouts and visual styles."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "blue-topaz",
+      "path": "assets/themes/blue-topaz/preview.png",
+      "url": "https://raw.githubusercontent.com/PKM-er/Blue-Topaz_Obsidian-css/54821893b8f293f9c738580f59d4f1beec5c4284/preview_Blue%20Topaz.png",
+      "source_page": "https://github.com/PKM-er/Blue-Topaz_Obsidian-css/blob/54821893b8f293f9c738580f59d4f1beec5c4284/preview_Blue%20Topaz.png",
+      "commit": "54821893b8f293f9c738580f59d4f1beec5c4284",
+      "sha256": "02f1e991a6a2068cc49ebcb114ccadc4b65bcfd750e9e3bd1ddff1b2579b1baa",
+      "author": "Blue Topaz contributors",
+      "license_path": "assets/themes/blue-topaz/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Unmodified image from PKM-er/Blue-Topaz_Obsidian-css; upstream MIT notice retained.",
+      "alt": {
+        "en": "Blue Topaz theme",
+        "zh-cn": "Blue Topaz 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Blue Topaz",
+      "summary": "A blue-accented theme with configurable layouts and visual styles.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f03abe085baa0be39bc5a00279db967b017ba6408c8df7c3d242ffafada38dbf",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Blue Topaz",
+      "summary": "以蓝色为主调，可配置布局和视觉样式的主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "dd36be6ac48b03df0a4cc2db4acc6fc9ae03852c3b585d234665a65e14eb97df",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

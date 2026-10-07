@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-properties",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-properties",
+    "official",
+    "official-writing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Properties",
+      "url": "https://help.obsidian.md/Editing+and+formatting/Properties",
+      "checked_at": "2026-10-07",
+      "supports": "Give notes structured fields such as status, date and tags."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Properties",
+      "summary": "Give notes structured fields such as status, date and tags.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fd2f68d1558188f05c8cda8a929e9c83e192909ce77d00933098b1f9968b7e9b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Properties",
+      "summary": "为笔记添加状态、日期、标签等结构化字段。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f890136dbec0d3a786e27f4672146e800d019a72f2a7f82e3c7d51a154f90e95",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

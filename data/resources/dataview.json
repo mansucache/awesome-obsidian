@@ -1,0 +1,81 @@
+{
+  "id": "dataview",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "projects",
+    "research"
+  ],
+  "tags": [
+    "dataview",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "No mandatory payment identified in the cited resource; donations are separate.",
+    "zh-cn": "所引资源未列出强制付费；捐赠另计。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Dataview repository",
+      "url": "https://github.com/blacksmithgu/obsidian-dataview",
+      "checked_at": "2026-10-07",
+      "supports": "Query language, metadata, MIT license, JavaScript access boundary."
+    },
+    {
+      "title": "Dataview documentation",
+      "url": "https://blacksmithgu.github.io/obsidian-dataview/",
+      "checked_at": "2026-10-07",
+      "supports": "Query and metadata reference."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "templater",
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Dataview",
+      "summary": "Query note properties to build reading lists, task views and tables.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "e4fba96c545297012c1d63b139c525039a8c1bee0bf1fe4df2dc2e92fac4f812",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Dataview",
+      "summary": "查询笔记属性，自动生成阅读清单、任务视图和数据表格。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "dd8b2c7de6af0f4f3a7520884c2f7cd12db0adaacb6a69898011e0a28dd4da73",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

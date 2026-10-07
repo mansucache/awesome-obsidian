@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-tracker",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-tracker",
+    "plugin",
+    "plugins-visual"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Tracker",
+      "url": "https://github.com/pyrochlore/obsidian-tracker",
+      "checked_at": "2026-10-07",
+      "supports": "Collect values from notes and plot habits, progress or other personal metrics."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Tracker",
+      "summary": "Collect values from notes and plot habits, progress or other personal metrics.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "45dfab85d72970de1ae91953f792c3979615674a4ddb26d1d77417aaccf94f7a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Tracker",
+      "summary": "从笔记收集数值，绘制习惯、进度等指标图表。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e53802e48258edd7fc6da353f4fede5960ebdb1bca15451d7fda96c666472e10",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

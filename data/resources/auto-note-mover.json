@@ -1,0 +1,75 @@
+{
+  "id": "auto-note-mover",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "auto-note-mover",
+    "plugin",
+    "plugins-maintenance"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Auto Note Mover",
+      "url": "https://github.com/farux/obsidian-auto-note-mover",
+      "checked_at": "2026-10-07",
+      "supports": "Move notes to folders according to rules based on tags or titles."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Auto Note Mover",
+      "summary": "Move notes to folders according to rules based on tags or titles.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3b729ef71bc4becbc24b14e5e6d44b60795f2968ff5710ac74ce6ffba8ddaf80",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Auto Note Mover",
+      "summary": "按标签或标题规则将笔记移动到指定文件夹。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "bddeb6e763808bcdbd96457d7ead0598db04f341669ed2e3700cd2c1e2cd6fda",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

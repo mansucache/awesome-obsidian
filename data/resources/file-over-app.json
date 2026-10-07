@@ -1,0 +1,70 @@
+{
+  "id": "file-over-app",
+  "type": "article",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "file-over-app",
+    "article"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "File over app",
+      "url": "https://stephango.com/file-over-app",
+      "checked_at": "2026-10-07",
+      "supports": "Understand why durable, controllable files matter when choosing a note-taking system."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "File over app",
+      "summary": "Understand why durable, controllable files matter when choosing a note-taking system.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fde0c2b813875c48f51e04485c5dc51cddb78184bbfd606b4d0260eeef5c2b70",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "File over app",
+      "summary": "理解选择笔记系统时，为什么应重视可长期保存和自主控制的文件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "168bd28185063379c288cd26c628da454a0c98b31b6ecc368ae9c98553a4c488",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

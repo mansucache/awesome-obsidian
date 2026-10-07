@@ -1,0 +1,71 @@
+{
+  "id": "steph-evergreen",
+  "type": "article",
+  "category": "methods",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "steph-evergreen",
+    "article",
+    "methods-design"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Evergreen Notes — Steph Ango",
+      "url": "https://stephango.com/evergreen-notes",
+      "checked_at": "2026-10-07",
+      "supports": "Write reusable ideas as notes that can develop and connect over time."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Evergreen Notes — Steph Ango",
+      "summary": "Write reusable ideas as notes that can develop and connect over time.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a2e120044e20a9024988535dc2b0f0c02d3c5087e744fc6a997edc0b134f6838",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Evergreen Notes — Steph Ango",
+      "summary": "把可复用的想法写成能够持续发展、相互连接的笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8ee97a21841ddf4facae0032ee81a4f68d7456d107a6987d78528e0739843999",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

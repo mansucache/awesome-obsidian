@@ -1,0 +1,76 @@
+{
+  "id": "pdf-plus",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "reading"
+  ],
+  "tags": [
+    "pdf-plus",
+    "plugin",
+    "plugins-study"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "PDF++",
+      "url": "https://github.com/ryotaushio/obsidian-pdf-plus",
+      "checked_at": "2026-10-07",
+      "supports": "Annotate PDFs and link notes to passages or regions inside a document."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "PDF++",
+      "summary": "Annotate PDFs and link notes to passages or regions inside a document.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "dd10a8f1d9a908480487ac3d2e3ab1a46e4fd47f0e828c4219a3c87a41fe3296",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "PDF++",
+      "summary": "批注 PDF，并把笔记链接到文档中的段落或区域。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a698d3d08064500732a7ed3c1e0a3e5c6f0a41fab87405ecb1a6d991c9d8c573",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

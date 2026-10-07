@@ -1,0 +1,71 @@
+{
+  "id": "cyanvoxel-vault",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "appearance"
+  ],
+  "tags": [
+    "cyanvoxel-vault",
+    "vault"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "CyanVoxel’s Vault Template",
+      "url": "https://github.com/CyanVoxel/Obsidian-Vault-Template",
+      "checked_at": "2026-10-07",
+      "supports": "Explore a personal vault layout with coordinated CSS snippets and a companion video tour."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "CyanVoxel’s Vault Template",
+      "summary": "Explore a personal vault layout with coordinated CSS snippets and a companion video tour.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8c0ad757a27e015275d41d9bf2ffd496c544d635d266e12484ab5b7257060109",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "CyanVoxel’s Vault Template",
+      "summary": "参考搭配 CSS 片段的个人资料库布局，并结合作者视频了解配置。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "54f3b0ba87d068c30393cf3bf0c4f68faf275cdf55d5eb22aa80fd1d1034c548",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "obsidian-help",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-help",
+    "official"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Help",
+      "url": "https://obsidian.md/help/",
+      "checked_at": "2026-10-07",
+      "supports": "Look up setup instructions, core features and everyday operations in the official help."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Help",
+      "summary": "Look up setup instructions, core features and everyday operations in the official help.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e855c241d7172c4ae7a8d0ebd169dcb1799677c967f360c98f9a770768e1fbd9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian 官方帮助",
+      "summary": "查阅安装配置、核心功能和日常操作的官方说明。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1b0bf139b1a69b252f05296db1c38687e5182fbc30d5ac08bed3f663c8be7833",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "remotely-save",
+  "type": "plugin",
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "sync"
+  ],
+  "tags": [
+    "remotely-save",
+    "plugin",
+    "integrations-sync"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "source-available",
+  "license": "Mixed licenses; see upstream LICENSE",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Remotely Save",
+      "url": "https://github.com/remotely-save/remotely-save",
+      "checked_at": "2026-10-07",
+      "supports": "Sync notes with supported cloud storage, with optional paid sync features."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Remotely Save",
+      "summary": "Sync notes with supported cloud storage, with optional paid sync features.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "497a012e16028b8849811ea72954ece903fa9b5989ca6f2fef54e9c42f6eff48",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Remotely Save",
+      "summary": "通过支持的云存储同步笔记，部分同步功能可选付费。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "c866bdea108699ac7453fe0399adadc8802a79db259887401a378ac0e78b9de9",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

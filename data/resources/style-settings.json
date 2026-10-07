@@ -1,0 +1,74 @@
+{
+  "id": "style-settings",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "style-settings",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Style Settings",
+      "url": "https://github.com/community-archive/obsidian-style-settings",
+      "checked_at": "2026-10-07",
+      "supports": "Adjust supported theme, plugin and CSS snippet options from a settings panel."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "minimal",
+    "anuppuccin",
+    "catppuccin"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Style Settings",
+      "summary": "Adjust supported theme, plugin and CSS snippet options from a settings panel.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "29ee66dd12cd7952ec8e805e1df303d15342c5f4b6efeea2f5acebdf328e2d21",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Style Settings",
+      "summary": "在设置面板中调整兼容主题、插件和 CSS 片段的外观选项。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "33eb078c8644be85e65099e1772b5c91965314c0ac1f9817cfe406aaafe842b1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

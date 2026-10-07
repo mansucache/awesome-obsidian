@@ -1,0 +1,75 @@
+{
+  "id": "iconic",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "iconic",
+    "plugin",
+    "plugins-interface"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Iconic",
+      "url": "https://github.com/gfxholo/iconic",
+      "checked_at": "2026-10-07",
+      "supports": "Choose icons and colors for files, tags, tabs and other interface elements."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Iconic",
+      "summary": "Choose icons and colors for files, tags, tabs and other interface elements.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "934a27ec9b74b69f294593640476bdc1f573ca69e389ff8a1a84bf601f12f0f7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Iconic",
+      "summary": "为文件、标签、标签页等界面元素设置图标和颜色。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "eb64785b79c01815e53b0db76ac590356700af31af5d31a6069cc7bc0293d28b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

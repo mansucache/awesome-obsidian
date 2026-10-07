@@ -1,0 +1,77 @@
+{
+  "id": "ai-tagger",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "ai-tagger",
+    "plugin",
+    "ai-organize"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "AI Tagger",
+      "url": "https://github.com/lucagrippa/obsidian-ai-tagger",
+      "checked_at": "2026-10-07",
+      "supports": "Suggest tags from your existing vocabulary using a language model."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "AI Tagger",
+      "summary": "Suggest tags from your existing vocabulary using a language model.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a035c8d8e0a40cd6b232036041773c2231e56134d4951e4202a0e37b7b25a02c",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "AI Tagger",
+      "summary": "通过语言模型，结合已有标签为笔记推荐标签。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "e35bf5cc24f0d1bbecd1267c02102f14170c42a14eacbc3f56858d8631de7e1b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

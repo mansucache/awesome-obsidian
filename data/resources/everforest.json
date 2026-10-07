@@ -1,0 +1,92 @@
+{
+  "id": "everforest",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "everforest",
+    "theme",
+    "appearance-themes"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Everforest",
+      "url": "https://github.com/0xglitchbyte/obsidian_everforest",
+      "checked_at": "2026-10-07",
+      "supports": "Use a forest-inspired palette with muted greens."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "everforest",
+      "path": "assets/themes/everforest/preview.png",
+      "url": "https://raw.githubusercontent.com/0xglitchbyte/obsidian_everforest/0b125d77156e1965e0b9489caccece65034582fb/dark_v2.png",
+      "source_page": "https://github.com/0xglitchbyte/obsidian_everforest/blob/0b125d77156e1965e0b9489caccece65034582fb/dark_v2.png",
+      "commit": "0b125d77156e1965e0b9489caccece65034582fb",
+      "sha256": "9f57ff90124e993d046247125493daec7bbb17dcc9f6db8760b9095c169e2b43",
+      "author": "0xglitchbyte",
+      "license_path": "assets/themes/everforest/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Image from 0xglitchbyte/obsidian_everforest; upstream license retained.",
+      "alt": {
+        "en": "Everforest theme",
+        "zh-cn": "Everforest 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Everforest",
+      "summary": "Use a forest-inspired palette with muted greens.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b9b43ae81b9c279e6e235461ad9bf592acb43b8e8da9aa462b1c37ddc5233d61",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Everforest",
+      "summary": "使用以森林为灵感的柔和绿色配色。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8c04f8df607631c9fdb29908476eadb521d2455329522cce6daa16732f52672b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

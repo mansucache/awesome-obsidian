@@ -1,0 +1,71 @@
+{
+  "id": "blue-topaz-vault",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "blue-topaz-vault",
+    "vault",
+    "templates-examples"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Blue Topaz Example Vault",
+      "url": "https://github.com/cumany/Blue-topaz-examples",
+      "checked_at": "2026-10-07",
+      "supports": "Explore a Chinese example vault combining dashboards, plugins and theme layouts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Blue Topaz Example Vault",
+      "summary": "Explore a Chinese example vault combining dashboards, plugins and theme layouts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "927c0dc02c98279ffb2e2cba051b349ecc2ec6f132f19f3a8413189da4cdab03",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Blue Topaz Example Vault",
+      "summary": "通过中文示例库了解仪表盘、插件与主题布局的组合。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9d4279c853c212bd03942ebfd23f9c4914b296dccdca5adb8aedf5d4884ff46e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

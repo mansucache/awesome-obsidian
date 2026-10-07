@@ -1,0 +1,71 @@
+{
+  "id": "sailkite-snippets",
+  "type": "integration",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "sailkite-snippets",
+    "integration",
+    "appearance-css"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "sailKite's Snippets and Demos",
+      "url": "https://github.com/sailKiteV/Obsidian-Snippets-and-Demos",
+      "checked_at": "2026-10-07",
+      "supports": "Adapt CSS snippets and Markdown demonstrations for custom note layouts."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "sailKite's Snippets and Demos",
+      "summary": "Adapt CSS snippets and Markdown demonstrations for custom note layouts.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1c37082db2e492453473db3e8a93cf6af70eed367bc5059e7b71146c138662cb",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "sailKite's Snippets and Demos",
+      "summary": "用 CSS 片段与 Markdown 示例调整笔记布局。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6b490160ed031aa2c12f564acd4f13c66a1cd3840028aa62bfea8812adf67e7c",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

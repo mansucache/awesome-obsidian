@@ -1,0 +1,77 @@
+{
+  "id": "tars",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "tars",
+    "plugin",
+    "ai-chat"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Tars",
+      "url": "https://github.com/tarslab/obsidian-tars",
+      "checked_at": "2026-10-07",
+      "supports": "Generate text through tag-triggered prompts with multiple model providers."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Tars",
+      "summary": "Generate text through tag-triggered prompts with multiple model providers.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "12c63792ad755d7e2ca77270f2bc74ef87c178cb5416745453f23e909e661c9f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Tars",
+      "summary": "通过标签触发提示词，调用多种模型服务生成文本。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "dcf6d32e6f9d397aff4cd983c040093414cca86808599b23d95a47f894c4db9d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "importer",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "importer",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Importer",
+      "url": "https://github.com/obsidianmd/obsidian-importer",
+      "checked_at": "2026-10-07",
+      "supports": "Convert notes from apps such as Notion, Evernote and OneNote into Markdown."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Importer",
+      "summary": "Convert notes from apps such as Notion, Evernote and OneNote into Markdown.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "768b25aa546365328b6265085864f94b4202bb8026529c97344cb5e8dd8d7e38",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Importer",
+      "summary": "把 Notion、Evernote、OneNote 等应用中的笔记转换为 Markdown。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3e191f850d6ccee6f47438633f3e51561be6f75a35d6c0a592f43cd2e8cfa077",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

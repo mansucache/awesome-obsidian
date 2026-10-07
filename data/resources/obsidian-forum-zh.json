@@ -1,0 +1,70 @@
+{
+  "id": "obsidian-forum-zh",
+  "type": "community",
+  "category": "learning",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-forum-zh",
+    "community"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "zh-cn"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Chinese Forum",
+      "url": "https://forum-zh.obsidian.md/",
+      "checked_at": "2026-10-07",
+      "supports": "Discuss plugins, note-taking methods and troubleshooting in Chinese."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Chinese Forum",
+      "summary": "Discuss plugins, note-taking methods and troubleshooting in Chinese.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f5d1783f3e8f9c472d9dcb312e5101cdf8d1700edb3169491cbd3da5c31de60d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian 中文论坛",
+      "summary": "用中文讨论插件、笔记方法和使用问题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9378de2966ca1fea5f413882d7e75815ae1170538ac5693d5fcde469a3f9e7b3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

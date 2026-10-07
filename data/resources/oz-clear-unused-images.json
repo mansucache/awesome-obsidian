@@ -1,0 +1,75 @@
+{
+  "id": "oz-clear-unused-images",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "oz-clear-unused-images",
+    "plugin",
+    "plugins-maintenance"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Clear Unused Images",
+      "url": "https://github.com/ozntel/oz-clear-unused-images-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Find and remove images no longer referenced by Markdown notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Clear Unused Images",
+      "summary": "Find and remove images no longer referenced by Markdown notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "de947113b66778815c1e4b03797dc2c3f01dbfe0d2ac38af62d61ec2f1212fe6",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Clear Unused Images",
+      "summary": "查找并移除不再被 Markdown 笔记引用的图片。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f665f50ba31de3f985cbc13d8b92ef9e913aa7bb3492f2c9cfe4d516b250b41d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "dataview-example-vault",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "research"
+  ],
+  "tags": [
+    "dataview-example-vault",
+    "vault"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Dataview Example Vault",
+      "url": "https://github.com/s-blu/obsidian_dataview_example_vault",
+      "checked_at": "2026-10-07",
+      "supports": "Learn Dataview with sample data, basic queries and JavaScript examples in a downloadable vault."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Dataview Example Vault",
+      "summary": "Learn Dataview with sample data, basic queries and JavaScript examples in a downloadable vault.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "cfdc94b895320723d527a60542e38a4c97c00d7d18b6096ca600940bd387aa82",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Dataview Example Vault",
+      "summary": "在可下载的示例库中，结合样本数据学习 Dataview 查询与 JavaScript 用法。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f9e25d5459ea328c82eef00508c3861313d4da0c80032e000a2eafa6ccc0cf9d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

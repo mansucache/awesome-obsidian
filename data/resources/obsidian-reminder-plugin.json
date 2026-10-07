@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-reminder-plugin",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "obsidian-reminder-plugin",
+    "plugin",
+    "plugins-tasks"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Reminder",
+      "url": "https://github.com/uphy/obsidian-reminder",
+      "checked_at": "2026-10-07",
+      "supports": "Add date-and-time reminders to Markdown task items."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Reminder",
+      "summary": "Add date-and-time reminders to Markdown task items.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1d55b731e05ed689bd64fe3087a869c1945818844a7ccbb519e83a05366d9f7f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Reminder",
+      "summary": "为 Markdown 任务条目添加日期与时间提醒。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "445b4bb038abe47119401652eb2242d84209bc049b0cdf96868c63924a9490e0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

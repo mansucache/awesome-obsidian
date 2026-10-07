@@ -1,0 +1,73 @@
+{
+  "id": "obsidian-api",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian-api",
+    "developer"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian API",
+      "url": "https://github.com/obsidianmd/obsidian-api",
+      "checked_at": "2026-10-07",
+      "supports": "Use the official TypeScript definitions when developing Obsidian plugins."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "sample-plugin",
+    "developer-docs"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian API",
+      "summary": "Use the official TypeScript definitions when developing Obsidian plugins.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "78535e6db7b5589f41c6ddf48c3942b5b9a179e092dc9a85485a3cb5128fca5b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian API",
+      "summary": "开发 Obsidian 插件时使用官方 TypeScript 类型定义。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "501765742ea1ac66caa7672c9d2ee5ea6cf02ca62a2d26fc3663d1090b89c258",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "chat-stream",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "chat-stream",
+    "plugin",
+    "ai-agents"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Chat Stream",
+      "url": "https://github.com/rpggio/obsidian-chat-stream",
+      "checked_at": "2026-10-07",
+      "supports": "Branch AI conversations on Canvas while choosing which ancestor notes provide context."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Chat Stream",
+      "summary": "Branch AI conversations on Canvas while choosing which ancestor notes provide context.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "07cfd137bc2e758b5eaecb28d90d9e7c7e30981fe89f87b61a0cbd56bcbbb6d2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Chat Stream",
+      "summary": "在 Canvas 中分支展开 AI 对话，并选择上游笔记作为上下文。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "48f9c1e28586dc48ddb3bb736ad06884cb1ccd8455e8c6a484c09f6a10ecc225",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

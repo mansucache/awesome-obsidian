@@ -1,0 +1,70 @@
+{
+  "id": "tasks",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "tasks",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Tasks",
+      "url": "https://github.com/obsidian-tasks-group/obsidian-tasks",
+      "checked_at": "2026-10-07",
+      "supports": "Track tasks across your vault with due dates, recurring tasks and filtered views."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Tasks",
+      "summary": "Track tasks across your vault with due dates, recurring tasks and filtered views.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "bf3dfb3af1d100becf2f10575213ed06b3103d9fc8ced892383de773994abe25",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Tasks",
+      "summary": "跨笔记汇总任务，支持截止日期、重复任务与筛选视图。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3bd913c5d6eb2adfa0d538fafaa8a4663143b195b39cb598bc902ffc493c6d5b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

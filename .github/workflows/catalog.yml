@@ -1,0 +1,19 @@
+name: Catalog checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Validate bilingual catalog
+        run: python3 scripts/catalog.py check --release
+      - name: Run integrity tests
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Build static site
+        run: python3 scripts/catalog.py build --release
+      - name: Check generated Markdown is current
+        run: git diff --exit-code -- README.md README.zh-CN.md docs/samples.en.md docs/samples.zh-cn.md

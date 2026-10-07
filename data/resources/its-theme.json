@@ -1,0 +1,91 @@
+{
+  "id": "its-theme",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "its-theme",
+    "theme"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL-2.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "ITS Theme",
+      "url": "https://github.com/SlRvb/Obsidian--ITS-Theme",
+      "checked_at": "2026-10-07",
+      "supports": "A customizable theme with light and dark modes and detailed reading styles."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "its-theme",
+      "path": "assets/themes/its-theme/preview.png",
+      "url": "https://raw.githubusercontent.com/SlRvb/Obsidian--ITS-Theme/95924dce2d8025a116c54e586e8cf55e3150de68/Images/Darkmode.png",
+      "source_page": "https://github.com/SlRvb/Obsidian--ITS-Theme/blob/95924dce2d8025a116c54e586e8cf55e3150de68/Images/Darkmode.png",
+      "commit": "95924dce2d8025a116c54e586e8cf55e3150de68",
+      "sha256": "cb2ad3ec1327e4ba31836d5e948a272c7344bea1db500114452f30cf2c727a23",
+      "author": "SlRvb",
+      "license_path": "assets/themes/its-theme/LICENSE.upstream.txt",
+      "license": "GPL-2.0",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Unmodified image from SlRvb/Obsidian--ITS-Theme; upstream GPL-2.0 notice retained.",
+      "alt": {
+        "en": "ITS Theme theme",
+        "zh-cn": "ITS Theme 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "ITS Theme",
+      "summary": "A customizable theme with light and dark modes and detailed reading styles.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a5868473326ad35508fef613456beb1a1f5243e77fc7d16b5c7b42468b98b9f2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "ITS Theme",
+      "summary": "提供明暗模式与细致阅读样式的可定制主题。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7e097a6ce3313a354675a16e94f38179f858eaeaaa7a2f8170ab5ebe044d0bac",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "reading-workflow",
+  "type": "workflow",
+  "category": "workflows",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "knowledge",
+    "writing"
+  ],
+  "tags": [
+    "reading-workflow",
+    "workflow"
+  ],
+  "pricing": "not-applicable",
+  "cost_note": {
+    "en": "Baseline uses ordinary notes and links; optional tools have their own costs.",
+    "zh-cn": "基础流程使用普通笔记与链接；可选工具各自计费。"
+  },
+  "openness": "not-applicable",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en",
+    "zh-cn"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Help",
+      "url": "https://obsidian.md/help/",
+      "checked_at": "2026-10-07",
+      "supports": "Basic notes and linking entry points."
+    },
+    {
+      "title": "Web Clipper",
+      "url": "https://obsidian.md/clipper",
+      "checked_at": "2026-10-07",
+      "supports": "Optional capture tool; workflow steps below are original editorial design."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "dataview",
+    "kepano-vault",
+    "obsidian-skills",
+    "obsidian-sync",
+    "templater",
+    "web-clipper",
+    "zettelkasten-introduction"
+  ],
+  "assets": [],
+  "revision": 3,
+  "locales": {
+    "en": {
+      "title": "From a saved article to a usable note",
+      "summary": "Turn a saved article into a linked note you can find and reuse.",
+      "status": "current",
+      "based_on_revision": 3,
+      "content_sha256": "b96f3f67259c55357755569ff9093e841ac294a83fcfed55efaf01ff60e101f5",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "从保存文章到可用笔记",
+      "summary": "把保存的文章整理成能找回、能复用的关联笔记。",
+      "status": "current",
+      "based_on_revision": 3,
+      "content_sha256": "3b03a3ddbfbe26ac699f080478c729d8a9cb103bcad223d4d98ad4650526daeb",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

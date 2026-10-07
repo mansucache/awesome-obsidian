@@ -1,0 +1,75 @@
+{
+  "id": "editing-toolbar",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "editing-toolbar",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Editing Toolbar",
+      "url": "https://github.com/pkm-er/obsidian-editing-toolbar",
+      "checked_at": "2026-10-07",
+      "supports": "Apply formatting and custom editing commands from a configurable toolbar."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Editing Toolbar",
+      "summary": "Apply formatting and custom editing commands from a configurable toolbar.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a4fa2359520975253b32252b24715c701342ec756643fcb265625d8500b7d99a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Editing Toolbar",
+      "summary": "通过可配置工具栏应用格式与自定义编辑命令。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7f756a96fee312c1717b4c54b34480f0e18232d6809a13358bc00df66a83133d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "natural-language-dates",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects",
+    "knowledge"
+  ],
+  "tags": [
+    "natural-language-dates",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Natural Language Dates",
+      "url": "https://github.com/argenos/nldates-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Turn natural-language date expressions into dates and links to daily notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Natural Language Dates",
+      "summary": "Turn natural-language date expressions into dates and links to daily notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1e8daf5d6f14ee766906eb3c3f4755b8ade7d8686554e45bf733eacdf2f3711c",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Natural Language Dates",
+      "summary": "把自然语言日期转换为日期文本或每日笔记链接。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8ebac4c5790db1189bb97bdf295dcac8c4741c3cb21c19c26ddac8e5dc47eff6",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

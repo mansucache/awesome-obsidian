@@ -1,0 +1,70 @@
+{
+  "id": "kanban",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "kanban",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Kanban",
+      "url": "https://github.com/community-archive/obsidian-kanban",
+      "checked_at": "2026-10-07",
+      "supports": "Organize tasks on boards stored as Markdown notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Kanban",
+      "summary": "Organize tasks on boards stored as Markdown notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "561529e1acda584d3463f8d452fae84bc27f4123de1244079f480ef991789da8",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Kanban",
+      "summary": "用看板组织任务，并将内容保存为 Markdown 笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2dada915d909971122f2a281a505ca125dd9278d8a2e0ac492caee228137e08a",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

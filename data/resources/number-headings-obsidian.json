@@ -1,0 +1,75 @@
+{
+  "id": "number-headings-obsidian",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "number-headings-obsidian",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Number Headings",
+      "url": "https://github.com/onlyafly/number-headings-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Add or update hierarchical numbering across document headings."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Number Headings",
+      "summary": "Add or update hierarchical numbering across document headings.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "71bae07a867a0290787f07c5543fa126936ac0ac2e32c1197219554b461130bf",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Number Headings",
+      "summary": "为文档标题添加或更新分级编号。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3818bc9b058728fd4a2e7078e8f550883625c991caea9e9699f0a6ee289b15c2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-releases",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian-releases",
+    "developer",
+    "development-build"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Releases",
+      "url": "https://github.com/obsidianmd/obsidian-releases",
+      "checked_at": "2026-10-07",
+      "supports": "Find the official registries used to distribute community plugins and themes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Releases",
+      "summary": "Find the official registries used to distribute community plugins and themes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b3d35ac61df641f4bc3bc9e2f2a0208f3be6f7eef959e5ef8f83b9e208cbfdfd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Releases",
+      "summary": "查阅社区插件与主题分发所用的官方注册表。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1e28f75d2621a5dede8c41ce694c851dba18a2b7bae477a9d813712963d44f8e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

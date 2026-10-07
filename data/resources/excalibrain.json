@@ -1,0 +1,73 @@
+{
+  "id": "excalibrain",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "research"
+  ],
+  "tags": [
+    "excalibrain",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "ExcaliBrain",
+      "url": "https://github.com/zsviczian/excalibrain",
+      "checked_at": "2026-10-07",
+      "supports": "Navigate note relationships through an interactive graph built with Excalidraw."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "excalidraw"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "ExcaliBrain",
+      "summary": "Navigate note relationships through an interactive graph built with Excalidraw.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9528be25abd28ec6cfc48047aa150952ab4e24d394a49b820ce09f786194bb64",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "ExcaliBrain",
+      "summary": "通过基于 Excalidraw 的交互图谱浏览笔记之间的关系。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "92dbd99d6ed789fb05ce0abfb909169e0634a88e2bfb8bd275193d2e16558b26",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

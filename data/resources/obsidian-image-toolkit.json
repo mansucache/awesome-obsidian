@@ -1,0 +1,73 @@
+{
+  "id": "obsidian-image-toolkit",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-image-toolkit",
+    "plugin",
+    "plugins-media"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Image Toolkit",
+      "url": "https://github.com/obsidian-community/obsidian-image-toolkit",
+      "checked_at": "2026-10-07",
+      "supports": "Open images in a viewer with zoom, rotation and other viewing controls."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Image Toolkit",
+      "summary": "Open images in a viewer with zoom, rotation and other viewing controls.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9988c904303f7935fb493d8b67844709a9435d412f24204f59723e29e7a69f20",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Image Toolkit",
+      "summary": "在支持缩放、旋转等操作的查看器中打开图片。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "219964037962dc113ee7c10f57c649773b9843767ea6400e9d23f75d75c4b0be",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

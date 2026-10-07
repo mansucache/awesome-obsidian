@@ -1,13 +1,7 @@
-![Awesome Obsidian — Plugins, Themes, AI and Workflows](assets/banners/awesome-obsidian.png)
+# Resource catalog
 
-# Awesome Obsidian
+[English](../README.md) · [中文](../README.zh-CN.md)
 
-A community guide to Obsidian resources, use cases and workflows. Read this catalog directly on GitHub or in a Markdown reader; the website adds search, filters and easier browsing.
-
-[简体中文](README.zh-CN.md) · [Contributing](CONTRIBUTING.md)
-
-
-<!-- catalog:start -->
 221 entries · 15 illustrated themes · 6 workflow guides
 
 ## Start with a task
@@ -254,63 +248,63 @@ A community guide to Obsidian resources, use cases and workflows. Read this cata
 
 - <a id="resource-anuppuccin"></a>[AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) — Customize palettes, layouts and colorful folders through Style Settings.
 
-![AnuPpuccin theme](assets/themes/anuppuccin/preview.webp)
+![AnuPpuccin theme](../assets/themes/anuppuccin/preview.webp)
 
 - <a id="resource-blue-topaz"></a>[Blue Topaz](https://github.com/PKM-er/Blue-Topaz_Obsidian-css) — A blue-accented theme with configurable layouts and visual styles.
 
-![Blue Topaz theme](assets/themes/blue-topaz/preview.png)
+![Blue Topaz theme](../assets/themes/blue-topaz/preview.png)
 
 - <a id="resource-catppuccin"></a>[Catppuccin](https://github.com/catppuccin/obsidian) — A pastel theme with one light and three dark color palettes.
 
-![Catppuccin theme](assets/themes/catppuccin/preview.png)
+![Catppuccin theme](../assets/themes/catppuccin/preview.png)
 
 - <a id="resource-dracula"></a>[Dracula](https://github.com/dracula/obsidian) — A dark theme with the Dracula palette and contrasting syntax colors.
 
-![Dracula theme](assets/themes/dracula/preview.png)
+![Dracula theme](../assets/themes/dracula/preview.png)
 
 - <a id="resource-its-theme"></a>[ITS Theme](https://github.com/SlRvb/Obsidian--ITS-Theme) — A customizable theme with light and dark modes and detailed reading styles.
 
-![ITS Theme theme](assets/themes/its-theme/preview.png)
+![ITS Theme theme](../assets/themes/its-theme/preview.png)
 
 - <a id="resource-minimal"></a>[Minimal](https://github.com/kepano/obsidian-minimal) — A customizable theme with adjustable colors, typography and layouts.
 
-![Minimal theme](assets/themes/minimal/preview.png)
+![Minimal theme](../assets/themes/minimal/preview.png)
 
 - <a id="resource-primary"></a>[Primary](https://github.com/primary-theme/obsidian) — A warm, playful theme with light and dark modes and carefully styled interface details.
 
-![Primary theme](assets/themes/primary/preview.png)
+![Primary theme](../assets/themes/primary/preview.png)
 
 - <a id="resource-things"></a>[Things](https://github.com/colineckert/obsidian-things) — A Things-inspired theme with light and dark modes and custom checkbox styles.
 
-![Things theme](assets/themes/things/preview.png)
+![Things theme](../assets/themes/things/preview.png)
 
 - <a id="resource-everforest"></a>[Everforest](https://github.com/0xglitchbyte/obsidian_everforest) — Use a forest-inspired palette with muted greens.
 
-![Everforest theme](assets/themes/everforest/preview.png)
+![Everforest theme](../assets/themes/everforest/preview.png)
 
 - <a id="resource-shimmering-focus"></a>[Shimmering Focus](https://github.com/chrisgrieser/shimmering-focus) — Reduce interface chrome to focus on reading and writing.
 
-![Shimmering Focus theme](assets/themes/shimmering-focus/preview.webp)
+![Shimmering Focus theme](../assets/themes/shimmering-focus/preview.webp)
 
 - <a id="resource-prism"></a>[Prism](https://github.com/damiankorcz/Prism-Theme) — Customize light and dark layouts with multiple color schemes.
 
-![Prism theme](assets/themes/prism/preview.png)
+![Prism theme](../assets/themes/prism/preview.png)
 
 - <a id="resource-border"></a>[Border](https://github.com/akifyss/obsidian-border) — Separate workspace panels with clear boundaries and adjustable styling.
 
-![Border theme](assets/themes/border/preview.png)
+![Border theme](../assets/themes/border/preview.png)
 
 - <a id="resource-maple"></a>[Maple](https://github.com/subframe7536/obsidian-theme-maple) — Combine restrained colors with readable note typography.
 
-![Maple theme](assets/themes/maple/preview.png)
+![Maple theme](../assets/themes/maple/preview.png)
 
 - <a id="resource-vanilla-amoled"></a>[Vanilla AMOLED](https://github.com/sakuraisayeki/vanilla-amoled-theme) — Use a black-background variation of the default interface.
 
-![Vanilla AMOLED theme](assets/themes/vanilla-amoled/preview.png)
+![Vanilla AMOLED theme](../assets/themes/vanilla-amoled/preview.png)
 
 - <a id="resource-rose-pine"></a>[Rose Pine](https://github.com/rose-pine/obsidian) — Write with warm, subdued colors inspired by the Rosé Pine palette.
 
-![Rose Pine theme](assets/themes/rose-pine/preview.png)
+![Rose Pine theme](../assets/themes/rose-pine/preview.png)
 
 
 <a id="topic-appearance-css"></a>
@@ -479,12 +473,12 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 ## Workflows
 
-- <a id="resource-reading-workflow"></a>[From a saved article to a usable note](content/en/reading-workflow.md) — Turn a saved article into a linked note you can find and reuse.
-- <a id="resource-research-workflow"></a>[From a question to a sourced answer](content/en/research-workflow.md) — Compare sources and connect each conclusion to its evidence.
-- <a id="resource-writing-workflow"></a>[From linked notes to a finished draft](content/en/writing-workflow.md) — Turn source notes into an outline, draft and exportable article.
-- <a id="resource-learning-workflow"></a>[From course notes to usable knowledge](content/en/learning-workflow.md) — Practice recall, record mistakes and apply concepts in a small task.
-- <a id="resource-projects-workflow"></a>[From a project goal to next actions](content/en/projects-workflow.md) — Connect outcomes, tasks and weekly reviews in a project note.
-- <a id="resource-ai-workflow"></a>[Use AI with a focused set of notes](content/en/ai-workflow.md) — Ask source-based questions and review proposed note changes before applying them.
+- <a id="resource-reading-workflow"></a>[From a saved article to a usable note](../content/en/reading-workflow.md) — Turn a saved article into a linked note you can find and reuse.
+- <a id="resource-research-workflow"></a>[From a question to a sourced answer](../content/en/research-workflow.md) — Compare sources and connect each conclusion to its evidence.
+- <a id="resource-writing-workflow"></a>[From linked notes to a finished draft](../content/en/writing-workflow.md) — Turn source notes into an outline, draft and exportable article.
+- <a id="resource-learning-workflow"></a>[From course notes to usable knowledge](../content/en/learning-workflow.md) — Practice recall, record mistakes and apply concepts in a small task.
+- <a id="resource-projects-workflow"></a>[From a project goal to next actions](../content/en/projects-workflow.md) — Connect outcomes, tasks and weekly reviews in a project note.
+- <a id="resource-ai-workflow"></a>[Use AI with a focused set of notes](../content/en/ai-workflow.md) — Ask source-based questions and review proposed note changes before applying them.
 
 
 <a id="category-methods"></a>
@@ -573,16 +567,5 @@ Model APIs, subscriptions and cloud services may have separate costs.
 - <a id="resource-hot-reload"></a>[Hot Reload](https://github.com/pjeby/hot-reload) — Reload plugins under development when their files change.
 - <a id="resource-plugin-reloader"></a>[Plugin Reloader](https://github.com/benature/obsidian-plugin-reloader) — Reload a selected plugin from a command or hotkey during development.
 - <a id="resource-obsidian-linter-rules"></a>[Obsidian ESLint Plugin](https://github.com/obsidianmd/eslint-plugin) — Check plugin code against Obsidian-specific API and development rules.
-<!-- catalog:end -->
 
-[Image credits](assets/README.md)
-
-## Acknowledgements
-
-Thanks to these community lists for resource leads and ideas for organizing the catalog:
-
-- [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian)
-- [obsidian-pkm-vault/awesome-obsidian-vault](https://github.com/obsidian-pkm-vault/awesome-obsidian-vault)
-- [PKM-er/awesome-obsidian-zh](https://github.com/PKM-er/awesome-obsidian-zh)
-- [awesome-obsidian/awesome-obsidian](https://github.com/awesome-obsidian/awesome-obsidian)
-- [danielrosehill/Awesome-Obsidian-AI-Tools](https://github.com/danielrosehill/Awesome-Obsidian-AI-Tools)
+[Image credits / 图片来源与许可](../assets/README.md)

@@ -1,0 +1,77 @@
+{
+  "id": "bmo-chatbot",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "bmo-chatbot",
+    "plugin",
+    "ai-chat"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "BMO Chatbot",
+      "url": "https://github.com/longy2k/obsidian-bmo-chatbot",
+      "checked_at": "2026-10-07",
+      "supports": "Chat with configurable AI personas using local or cloud model providers."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "BMO Chatbot",
+      "summary": "Chat with configurable AI personas using local or cloud model providers.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2b2d27cf2f5841ece2daf75034c30d4e4f822be06b552687edd85074a42ef29f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "BMO Chatbot",
+      "summary": "通过本地或云端模型，与可配置角色的 AI 助手对话。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f740c0f4e8b163f767789d1042246a9865d77aeb967c6895796b0467dc0fa342",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

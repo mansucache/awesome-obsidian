@@ -1,0 +1,73 @@
+{
+  "id": "copilot",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai",
+    "writing"
+  ],
+  "tags": [
+    "copilot",
+    "plugin"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Free entry with optional paid features, services or courses.",
+    "zh-cn": "提供免费入口，部分功能、服务或课程另收费。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Copilot",
+      "url": "https://github.com/logancyang/obsidian-copilot",
+      "checked_at": "2026-10-07",
+      "supports": "Chat with note context and run agents such as Codex or Claude Code inside Obsidian."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Copilot",
+      "summary": "Chat with note context and run agents such as Codex or Claude Code inside Obsidian.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "fdd4d08dc67af17f449efae7bb932f9db51979c887a01f39774b2f08fd463f5b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Copilot",
+      "summary": "结合笔记上下文对话，并在 Obsidian 中运行 Codex、Claude Code 等 Agent。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "3d255fc97bddf4769ba427044acb10c75fcdd13b5c7151a1a287512a054fb0bf",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

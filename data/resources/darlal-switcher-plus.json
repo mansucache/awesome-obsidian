@@ -1,0 +1,75 @@
+{
+  "id": "darlal-switcher-plus",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "darlal-switcher-plus",
+    "plugin",
+    "plugins-search"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Quick Switcher++",
+      "url": "https://github.com/darlal/obsidian-switcher-plus",
+      "checked_at": "2026-10-07",
+      "supports": "Find open tabs, headings and other symbols through an extended quick switcher."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Quick Switcher++",
+      "summary": "Find open tabs, headings and other symbols through an extended quick switcher.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "68a8035e1f9efaa2141358dd1834bf5c6745349be2b0a0534f7362c60fd019a4",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Quick Switcher++",
+      "summary": "通过增强快速切换器查找已打开标签页、标题等位置。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ba3ff7e32802754bed0f59a3b7215c02ec80733830707d867a9048eeae49e421",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

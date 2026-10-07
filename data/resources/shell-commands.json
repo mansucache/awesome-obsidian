@@ -1,0 +1,72 @@
+{
+  "id": "shell-commands",
+  "type": "plugin",
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "shell-commands",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Shell commands",
+      "url": "https://github.com/Taitava/obsidian-shellcommands",
+      "checked_at": "2026-10-07",
+      "supports": "Run configured terminal commands with note variables and insert their output into notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Shell commands",
+      "summary": "Run configured terminal commands with note variables and insert their output into notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "147c85fdc15a37d616544f83b050ee921e45b64e713658704516cd7a560651ce",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Shell commands",
+      "summary": "结合笔记变量运行预设终端命令，并把输出写入笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8839c2c04e2d5829897a9344a6dd9699d59d5aa01ea83c39be3cac6266d32e67",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

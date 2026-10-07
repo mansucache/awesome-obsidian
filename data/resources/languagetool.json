@@ -1,0 +1,75 @@
+{
+  "id": "languagetool",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "languagetool",
+    "plugin",
+    "plugins-writing"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "LanguageTool",
+      "url": "https://github.com/wrenger/obsidian-languagetool",
+      "checked_at": "2026-10-07",
+      "supports": "Check spelling and grammar through a LanguageTool server or service."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "LanguageTool",
+      "summary": "Check spelling and grammar through a LanguageTool server or service.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "af5a862cbab071ed735604a1aa58ef8679fb377d6781ad5dd719afad0a8ce4ff",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "LanguageTool",
+      "summary": "通过 LanguageTool 服务器或服务检查拼写与语法。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b8de2046ca67f8829ab0b857836c21aa445a4d48cdfbeeebabafa6ce04f1abee",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

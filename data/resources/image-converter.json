@@ -1,0 +1,75 @@
+{
+  "id": "image-converter",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "image-converter",
+    "plugin",
+    "plugins-media"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Image Converter",
+      "url": "https://github.com/xryul/obsidian-image-converter",
+      "checked_at": "2026-10-07",
+      "supports": "Convert, resize and compress images inside your vault."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Image Converter",
+      "summary": "Convert, resize and compress images inside your vault.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "436ee621dbb14f71d2ea6737fcae9cde16d020d7d83401007354297f122c903f",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Image Converter",
+      "summary": "在资料库内转换图片格式、调整尺寸和压缩图片。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f32e821b4be6bde0c98519c56b9b53159fb36b4820d74ce158c7696834a7beda",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

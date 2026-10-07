@@ -1,0 +1,72 @@
+{
+  "id": "developer-docs",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "developer-docs",
+    "developer"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Developer Docs",
+      "url": "https://docs.obsidian.md/",
+      "checked_at": "2026-10-07",
+      "supports": "Read official guides for building plugins and themes and working with the API."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "sample-plugin"
+  ],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian Developer Docs",
+      "summary": "Read official guides for building plugins and themes and working with the API.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a4f2270942f565729642bce985d3a4c116465a97a6712ef7eb003b7ddd9994a7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Developer Docs",
+      "summary": "查阅插件、主题开发及 API 使用的官方文档。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "89d0307054857aabd621944b7ed826ac28fca1e7064be6cc128ca524adf23cb0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

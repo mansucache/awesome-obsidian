@@ -1,0 +1,71 @@
+{
+  "id": "markdownload",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "markdownload",
+    "integration",
+    "integrations-collect"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "Apache-2.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "MarkDownload",
+      "url": "https://github.com/deathau/markdownload",
+      "checked_at": "2026-10-07",
+      "supports": "Save browser pages as Markdown files for your vault."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "MarkDownload",
+      "summary": "Save browser pages as Markdown files for your vault.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "72df5cda5f830ee3308006225a6f24818675edc1f35dfe7760fb7ab7569afdc7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "MarkDownload",
+      "summary": "将浏览器网页保存为可放入资料库的 Markdown 文件。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2e26dc00e14f9ecb81cb8e8dac2039e0862b4284dfaeeaa1d2d5e25f2650ee43",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

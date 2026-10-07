@@ -1,0 +1,77 @@
+{
+  "id": "smart-composer",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "smart-composer",
+    "plugin",
+    "ai-chat"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Smart Composer",
+      "url": "https://github.com/glowingjade/obsidian-smart-composer",
+      "checked_at": "2026-10-07",
+      "supports": "Ask questions with note context and apply suggested edits to the vault."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Smart Composer",
+      "summary": "Ask questions with note context and apply suggested edits to the vault.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9f6c5eba54a37afc61f6d37916f31d8aac05dd881120a9c12d30d0bd7d2d815e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Smart Composer",
+      "summary": "结合笔记上下文提问，并将建议修改应用到资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "645229dd5a85a6524e8132c3fe986cf514c85808d09e70c1986f21000b616483",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

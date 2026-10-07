@@ -1,0 +1,75 @@
+{
+  "id": "ollama-chat",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "ollama-chat",
+    "plugin",
+    "ai-retrieval"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Ollama Chat",
+      "url": "https://github.com/brumik/obsidian-ollama-chat",
+      "checked_at": "2026-10-07",
+      "supports": "Ask questions about your notes using Ollama and a local retrieval setup."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Ollama Chat",
+      "summary": "Ask questions about your notes using Ollama and a local retrieval setup.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9da49d75228dcddb26debfb845e78c003b41294c5c61ed203da1238058ceaafa",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Ollama Chat",
+      "summary": "通过 Ollama 与本地检索配置，围绕笔记内容提问。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "bf410ccdfd38cfe02dc256a9a64f5da09bb0b1f5acf34d268c2f3eee42969229",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

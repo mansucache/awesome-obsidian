@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-full-calendar",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "obsidian-full-calendar",
+    "plugin",
+    "plugins-tasks"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Full Calendar",
+      "url": "https://github.com/obsidian-community/obsidian-full-calendar",
+      "checked_at": "2026-10-07",
+      "supports": "Manage events in calendar views with each local event stored as a note."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Full Calendar",
+      "summary": "Manage events in calendar views with each local event stored as a note.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "aa87850823cc1afb6f2d1f9f37ded4da4a2a41894ca44388e700b8aa22c10dc0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Full Calendar",
+      "summary": "用日历视图管理事件，并将本地事件分别保存为笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "be0fbe475b54d124c5e26eed378d9f59f9e45dd969effeea72528004f05371a1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

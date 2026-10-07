@@ -1,0 +1,75 @@
+{
+  "id": "better-word-count",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "better-word-count",
+    "plugin",
+    "plugins-writing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Better Word Count",
+      "url": "https://github.com/lukeleppan/better-word-count",
+      "checked_at": "2026-10-07",
+      "supports": "Count words in selected text while editing a draft."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Better Word Count",
+      "summary": "Count words in selected text while editing a draft.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "676905e3709d01603cb8d9d503e512f829b510b30043a0e935f9bc81d468f3e7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Better Word Count",
+      "summary": "编辑文稿时统计选中文本的字词数量。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "f75fd468e8ff275e8a158b935c1b2798ba4cd619e25158db686a6c796d939b85",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

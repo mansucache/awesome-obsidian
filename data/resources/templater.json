@@ -1,0 +1,81 @@
+{
+  "id": "templater",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "reading",
+    "writing",
+    "projects"
+  ],
+  "tags": [
+    "templater",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "No mandatory payment identified in the cited resource; donations are separate.",
+    "zh-cn": "所引资源未列出强制付费；捐赠另计。"
+  },
+  "openness": "open-source",
+  "license": "AGPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Templater repository",
+      "url": "https://github.com/SilentVoid13/Templater",
+      "checked_at": "2026-10-07",
+      "supports": "Project identity and AGPL-3.0 license."
+    },
+    {
+      "title": "Templater introduction",
+      "url": "https://silentvoid13.github.io/Templater/introduction.html",
+      "checked_at": "2026-10-07",
+      "supports": "Variables, functions and JavaScript execution."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "dataview",
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Templater",
+      "summary": "Generate notes from templates with variables, functions and JavaScript.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "842a609fc6334589998c8652bb5d90099c323b7574a31a720d40042978a18475",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Templater",
+      "summary": "通过变量、函数和 JavaScript 自动生成笔记内容。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "b7b1391341ba6c551906899f1ad09f9602f76fdeb0f54af08b1d371c89ff026c",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

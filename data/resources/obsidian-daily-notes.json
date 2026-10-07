@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-daily-notes",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-daily-notes",
+    "official",
+    "official-writing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Daily Notes",
+      "url": "https://help.obsidian.md/Plugins/Daily+notes",
+      "checked_at": "2026-10-07",
+      "supports": "Create dated notes for daily logs, capture and reflection."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Daily Notes",
+      "summary": "Create dated notes for daily logs, capture and reflection.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "d465d6f0ab652a6a6504ddf60c318a0e57c6f4e59759b7c5b7e9d6e233ecf743",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Daily Notes",
+      "summary": "创建按日期组织的笔记，用于日志、随手记录和复盘。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "1fded3f66a30532e00403003498cfd267ebeb09af26f66c065141b5c98842139",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "file-tree-alternative",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "file-tree-alternative",
+    "plugin",
+    "plugins-search"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "File Tree Alternative",
+      "url": "https://github.com/ozntel/file-tree-alternative",
+      "checked_at": "2026-10-07",
+      "supports": "Browse folders and files in separate panes instead of one file tree."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "File Tree Alternative",
+      "summary": "Browse folders and files in separate panes instead of one file tree.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8fe14848df1963e7ade52f747af9024907b5fa38197dd8f2604082cde00eab36",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "File Tree Alternative",
+      "summary": "分别在文件夹和文件面板中浏览资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6970e2d8db45bb5a1ca380b20e7b5946820f72b57645d77870b786c6d9d40ca0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

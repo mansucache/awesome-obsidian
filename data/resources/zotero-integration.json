@@ -1,0 +1,71 @@
+{
+  "id": "zotero-integration",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "reading"
+  ],
+  "tags": [
+    "zotero-integration",
+    "plugin"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "GPL-3.0",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Zotero Integration",
+      "url": "https://github.com/community-archive/obsidian-zotero-integration",
+      "checked_at": "2026-10-07",
+      "supports": "Import Zotero citations, bibliographies and PDF annotations into research notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Zotero Integration",
+      "summary": "Import Zotero citations, bibliographies and PDF annotations into research notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a490e9838ef9d93bafcb47483867a5bf87e4e2866a8b6c4a4759fb225b809518",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Zotero Integration",
+      "summary": "把 Zotero 引文、参考文献和 PDF 批注导入研究笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "40d9b6b28c68811dd655ca9c0aebbb33ba6958b3024d30e41d14263721830ef3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

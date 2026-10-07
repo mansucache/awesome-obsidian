@@ -1,0 +1,92 @@
+{
+  "id": "rose-pine",
+  "type": "theme",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "rose-pine",
+    "theme",
+    "appearance-themes"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Rose Pine",
+      "url": "https://github.com/rose-pine/obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Write with warm, subdued colors inspired by the Rosé Pine palette."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [
+    "style-settings"
+  ],
+  "assets": [
+    {
+      "id": "rose-pine",
+      "path": "assets/themes/rose-pine/preview.png",
+      "url": "https://raw.githubusercontent.com/rose-pine/obsidian/08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e/thumbnail.png",
+      "source_page": "https://github.com/rose-pine/obsidian/blob/08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e/thumbnail.png",
+      "commit": "08a7e5d35eb7c502a228f6a5ecfa4b3426dd9f7e",
+      "sha256": "7de5c94e13dad429e204f498e5c5c4c583bcedea09e94f46b6239c89e53c1afb",
+      "author": "rose-pine",
+      "license_path": "assets/themes/rose-pine/LICENSE.upstream.txt",
+      "license": "MIT",
+      "mode": "mixed",
+      "kind": "upstream-preview",
+      "rights": "Image from rose-pine/obsidian; upstream license retained.",
+      "alt": {
+        "en": "Rose Pine theme",
+        "zh-cn": "Rose Pine 主题"
+      }
+    }
+  ],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Rose Pine",
+      "summary": "Write with warm, subdued colors inspired by the Rosé Pine palette.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b87bb672bb65f0b694c5625d69c6866f9e67045a79788a3f89d36b38c57eb53c",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Rose Pine",
+      "summary": "使用 Rosé Pine 风格的温暖、柔和配色。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "39581b651508e562bc188cacd33b101d1ff484922110f78fef1d4e6632221a18",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

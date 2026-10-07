@@ -1,0 +1,75 @@
+{
+  "id": "writing-goals",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "writing-goals",
+    "plugin",
+    "plugins-writing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Writing Goals",
+      "url": "https://github.com/lynchjames/obsidian-writing-goals",
+      "checked_at": "2026-10-07",
+      "supports": "Set writing targets for individual notes or folders and track progress."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Writing Goals",
+      "summary": "Set writing targets for individual notes or folders and track progress.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "9acdb1595091bc7cff596d2b2f2a95dfef3cf16942e6b4edd1e03b5bcd68db00",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Writing Goals",
+      "summary": "为单篇笔记或文件夹设置写作目标并跟踪进度。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2752860749001c682b4c445a266cf2228785009f885add294f84a9423e7a0d66",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

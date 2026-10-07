@@ -1,0 +1,71 @@
+{
+  "id": "bramses-vault",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "projects"
+  ],
+  "tags": [
+    "bramses-vault",
+    "vault"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Bramses’ Highly Opinionated Vault",
+      "url": "https://github.com/bramses/bramses-highly-opinionated-vault-2023",
+      "checked_at": "2026-10-07",
+      "supports": "Explore a Zettelkasten-oriented vault with project workflows, templates and tutorials."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Bramses’ Highly Opinionated Vault",
+      "summary": "Explore a Zettelkasten-oriented vault with project workflows, templates and tutorials.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "aee05f99b60473ef84defe95f72969d8ca186ca80bdc73e2c0a1820334596d14",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Bramses’ Highly Opinionated Vault",
+      "summary": "参考包含项目流程、模板与教程的卡片盒笔记示例库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "85cd7e1ef18a0d6d6ee9f74991385abce513131bed2b9336263fabb41a690eb7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

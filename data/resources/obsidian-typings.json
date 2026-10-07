@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-typings",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian-typings",
+    "developer",
+    "development-build"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian Typings",
+      "url": "https://github.com/obsidian-typings/obsidian-typings",
+      "checked_at": "2026-10-07",
+      "supports": "Explore community TypeScript definitions that extend the official API types."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Obsidian Typings",
+      "summary": "Explore community TypeScript definitions that extend the official API types.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "8a68a263351660a220bb08ded2f921142f365649a57c14d10126962fe2d3bce5",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian Typings",
+      "summary": "查阅补充官方 API 类型的社区 TypeScript 定义。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "55504706893ac0f48abf38753f8ba42fe82759e98d6422e0422a933f400bd98e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

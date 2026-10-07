@@ -1,0 +1,77 @@
+{
+  "id": "obsidian-livesync",
+  "type": "plugin",
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "sync"
+  ],
+  "tags": [
+    "obsidian-livesync",
+    "plugin",
+    "integrations-sync"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Self-hosted LiveSync",
+      "url": "https://github.com/vrtmrz/obsidian-livesync",
+      "checked_at": "2026-10-07",
+      "supports": "Sync vaults through a self-hosted CouchDB or supported object-storage backend."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Self-hosted LiveSync",
+      "summary": "Sync vaults through a self-hosted CouchDB or supported object-storage backend.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "6e60d0ca1f12fa5c23b0416ddc616310c077fc8b3e4fc2770098999587ac2c75",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Self-hosted LiveSync",
+      "summary": "通过自建 CouchDB 或支持的对象存储后端同步资料库。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "eb2a4c30d947a87f6eea3879c772c62e97d5b45318f5e7cd8a1f2730dcb79b1d",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "kepano-vault",
+  "type": "vault",
+  "category": "templates",
+  "secondary_categories": [],
+  "scenarios": [
+    "knowledge",
+    "reading"
+  ],
+  "tags": [
+    "kepano-vault",
+    "vault"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "No mandatory payment identified in the cited resource; donations are separate.",
+    "zh-cn": "所引资源未列出强制付费；捐赠另计。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Vault repository",
+      "url": "https://github.com/kepano/kepano-obsidian",
+      "checked_at": "2026-10-07",
+      "supports": "Folder layout, download/open instructions and MIT license."
+    },
+    {
+      "title": "How I use Obsidian",
+      "url": "https://stephango.com/vault",
+      "checked_at": "2026-10-07",
+      "supports": "Author explanation of categories, references, clippings and tools."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "minimal",
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "kepano’s Obsidian vault",
+      "summary": "A personal vault template with example notes, categories and reusable templates.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "89eb264ce357f9b869ec2da8a42984ab5889fa75b99c9fe79c5c14f18577b8dc",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "kepano 的 Obsidian 示例库",
+      "summary": "包含示例笔记、分类和可复用模板的个人资料库。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "44044f65005e947d844e104bff9fea79d9b5fad8c628fca89db07bf2f7b975f0",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

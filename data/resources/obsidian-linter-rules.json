@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-linter-rules",
+  "type": "developer",
+  "category": "development",
+  "secondary_categories": [],
+  "scenarios": [
+    "development"
+  ],
+  "tags": [
+    "obsidian-linter-rules",
+    "developer",
+    "development-testing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian ESLint Plugin",
+      "url": "https://github.com/obsidianmd/eslint-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Check plugin code against Obsidian-specific API and development rules."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian ESLint Plugin",
+      "summary": "Check plugin code against Obsidian-specific API and development rules.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5e0671c514ba81162072c2fb970f4d08eee8bea0901a202460ec3283aac07bbd",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian ESLint Plugin",
+      "summary": "按 Obsidian API 与开发规则检查插件代码。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "886cb5b9489a456b17ccb7f638962757445cea5038356480014657890ca74732",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

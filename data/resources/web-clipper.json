@@ -1,0 +1,87 @@
+{
+  "id": "web-clipper",
+  "type": "integration",
+  "category": "integrations",
+  "secondary_categories": [
+    "ai"
+  ],
+  "scenarios": [
+    "reading",
+    "research"
+  ],
+  "tags": [
+    "web-clipper",
+    "integration"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "The extension is free; optional model-provider charges are separate.",
+    "zh-cn": "扩展免费；可选模型服务的费用另计。"
+  },
+  "openness": "open-source",
+  "license": null,
+  "platforms": [
+    "browser"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Web Clipper",
+      "url": "https://obsidian.md/clipper",
+      "checked_at": "2026-10-07",
+      "supports": "Official browser extension and capture purpose."
+    },
+    {
+      "title": "Web Clipper repository",
+      "url": "https://github.com/obsidianmd/obsidian-clipper",
+      "checked_at": "2026-10-07",
+      "supports": "Open source implementation and license."
+    },
+    {
+      "title": "Interpreter documentation",
+      "url": "https://obsidian.md/help/web-clipper/interpreter",
+      "checked_at": "2026-10-07",
+      "supports": "Optional model processing and external/local provider data flow."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary sources and bilingual copy reviewed for this sample.",
+      "zh-cn": "本样本核对了一手资料及双语说明。"
+    },
+    "limitations": {
+      "en": "No installation, purchase, device compatibility test or end-to-end workflow trial. Maintainer review pending.",
+      "zh-cn": "未安装、购买或进行设备兼容性与完整流程实测；待维护者审核。"
+    }
+  },
+  "related": [
+    "reading-workflow"
+  ],
+  "assets": [],
+  "revision": 2,
+  "locales": {
+    "en": {
+      "title": "Obsidian Web Clipper",
+      "summary": "Save web pages and highlights to Obsidian, with optional AI processing.",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "892d4db8570dcacbf5f5fba0b8e82376bac5e1b0678fef61aa944a6ab0db5811",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    },
+    "zh-cn": {
+      "title": "Obsidian Web Clipper",
+      "summary": "将网页与高亮内容保存到 Obsidian，可选用 AI 处理。",
+      "status": "current",
+      "based_on_revision": 2,
+      "content_sha256": "72a050f9548ad67fe3cb2f55e2c273257e058c1a11b44f8db81f21ac31535b3d",
+      "review": "ai-source-and-language-review; maintainer acceptance pending"
+    }
+  }
+}

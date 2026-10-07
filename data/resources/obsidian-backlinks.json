@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-backlinks",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "learning"
+  ],
+  "tags": [
+    "obsidian-backlinks",
+    "official",
+    "official-linking"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Backlinks",
+      "url": "https://help.obsidian.md/Plugins/Backlinks",
+      "checked_at": "2026-10-07",
+      "supports": "Find notes that link to the current note and mentions that could become links."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Backlinks",
+      "summary": "Find notes that link to the current note and mentions that could become links.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8e22b4e5ead563dbc08e05cd604522b8620b705b8bfca1e5375e317370a1c4be",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Backlinks",
+      "summary": "查看指向当前笔记的链接，以及尚未建立链接的提及。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "2a4ea71bad4c7182b670e6a0dd6d406161b549e867979abec47332d978044b46",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

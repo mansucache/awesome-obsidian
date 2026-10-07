@@ -1,0 +1,70 @@
+{
+  "id": "css-snippets",
+  "type": "integration",
+  "category": "appearance",
+  "secondary_categories": [],
+  "scenarios": [
+    "appearance"
+  ],
+  "tags": [
+    "css-snippets",
+    "integration"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Obsidian CSS Snippets",
+      "url": "https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "checked_at": "2026-10-07",
+      "supports": "Pick individual CSS snippets to customize interface elements and note presentation."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Obsidian CSS Snippets",
+      "summary": "Pick individual CSS snippets to customize interface elements and note presentation.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ab30ee3934f965dfcd43183088ad40a584e31cb8c9b3f06d13d27155e446921b",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Obsidian CSS Snippets",
+      "summary": "按需选用 CSS 片段，调整界面元素与笔记呈现。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "0325797715a3b8f09a3fcd66d28a68605574f31b27998f7ef932131c538bb409",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

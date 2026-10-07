@@ -1,0 +1,75 @@
+{
+  "id": "pomodoro-timer",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "projects"
+  ],
+  "tags": [
+    "pomodoro-timer",
+    "plugin",
+    "plugins-tasks"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Pomodoro Timer",
+      "url": "https://github.com/eatgrass/obsidian-pomodoro-timer",
+      "checked_at": "2026-10-07",
+      "supports": "Run adjustable work and break intervals to structure focused sessions."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Pomodoro Timer",
+      "summary": "Run adjustable work and break intervals to structure focused sessions.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "588b48f02e224cb8cfa06762e0cb371648edc92f423291aa2148e94e672078c3",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Pomodoro Timer",
+      "summary": "用可调节的工作与休息计时组织专注时段。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "8ff2a5536272d028fff07414b1e6ca52d4f80a664e048a2e75f447ecce20ac16",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

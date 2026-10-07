@@ -1,0 +1,75 @@
+{
+  "id": "url-into-selection",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "url-into-selection",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "unknown",
+  "license": null,
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Paste URL into selection",
+      "url": "https://github.com/denolehov/obsidian-url-into-selection",
+      "checked_at": "2026-10-07",
+      "supports": "Turn selected text into a Markdown link by pasting a URL over it."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Paste URL into selection",
+      "summary": "Turn selected text into a Markdown link by pasting a URL over it.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "5c19da7dc64df756bad6e8bb831976ed5d4f99cf5f413004047246377df8be60",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Paste URL into selection",
+      "summary": "将网址粘贴到选中文本上，直接生成 Markdown 链接。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "b234b3940a31b2ed30851239d928648061f07647a702a6f56e9b02931ec3ce16",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

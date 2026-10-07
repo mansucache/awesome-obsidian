@@ -1,0 +1,75 @@
+{
+  "id": "obsidian-footnotes",
+  "type": "plugin",
+  "category": "plugins",
+  "secondary_categories": [],
+  "scenarios": [
+    "writing"
+  ],
+  "tags": [
+    "obsidian-footnotes",
+    "plugin",
+    "plugins-editing"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Footnote Shortcut",
+      "url": "https://github.com/michabrugger/obsidian-footnotes",
+      "checked_at": "2026-10-07",
+      "supports": "Create, navigate and edit footnotes with keyboard commands."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Footnote Shortcut",
+      "summary": "Create, navigate and edit footnotes with keyboard commands.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7a50407f52fd73a6af04d2fb2521c33c2f844f41733508532c320337395a5152",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Footnote Shortcut",
+      "summary": "通过键盘命令创建、跳转和编辑脚注。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "58ac86aca3d0b8292cb947d65ea0e60a0fb0595f940874030c94962406ca85a1",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

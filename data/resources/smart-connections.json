@@ -1,0 +1,73 @@
+{
+  "id": "smart-connections",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai",
+    "knowledge"
+  ],
+  "tags": [
+    "smart-connections",
+    "plugin"
+  ],
+  "pricing": "optional-payment",
+  "cost_note": {
+    "en": "Free entry with optional paid features, services or courses.",
+    "zh-cn": "提供免费入口，部分功能、服务或课程另收费。"
+  },
+  "openness": "source-available",
+  "license": "Smart Plugins License",
+  "platforms": [
+    "unknown"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Smart Connections",
+      "url": "https://github.com/brianpetro/obsidian-smart-connections",
+      "checked_at": "2026-10-07",
+      "supports": "Surface semantically related notes and excerpts with local embeddings."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Smart Connections",
+      "summary": "Surface semantically related notes and excerpts with local embeddings.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "28c643fe822ffb9e36d4a4bd194cc6351ac3645870130f19af10dda354e1ab75",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Smart Connections",
+      "summary": "使用本地向量模型，发现与当前内容语义相关的笔记和摘录。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "06642ef5ca3414e8686df6d543e65baeec7b0d375e50937abf024880c671a5b2",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

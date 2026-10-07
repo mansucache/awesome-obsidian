@@ -1,0 +1,77 @@
+{
+  "id": "packup4ai",
+  "type": "plugin",
+  "category": "ai",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "ai"
+  ],
+  "tags": [
+    "packup4ai",
+    "plugin",
+    "ai-organize"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "packUp4AI",
+      "url": "https://github.com/shuxueshuxue/PackUp4AI",
+      "checked_at": "2026-10-07",
+      "supports": "Bundle linked notes and backlinks into focused context for external AI tools."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "packUp4AI",
+      "summary": "Bundle linked notes and backlinks into focused context for external AI tools.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "99d7bce1de125c4103d15f67d96f07ce40f81cbc5cb1cca3065fe0cc0cc5bca7",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "packUp4AI",
+      "summary": "将链接与反向链接关联的笔记打包，作为外部 AI 工具的上下文。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "45d9aa6e73cf7a8f8bc7fe13a21710271c62c0d01f02aeb35453606e55096ce4",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

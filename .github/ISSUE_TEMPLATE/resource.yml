@@ -1,0 +1,31 @@
+name: Suggest a resource / 推荐资源
+description: Share a useful Obsidian resource / 推荐有用途的 Obsidian 资源
+title: "[Resource] "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name / 名称
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official page or repository / 原始页面或仓库
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: One sentence explaining the use case / 用一句话说明用途
+      description: English or Chinese is welcome. / 中英文均可。
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category / 建议分类
+  - type: textarea
+    id: cost
+    attributes:
+      label: Cost, dependencies and supporting links / 费用、依赖与依据链接

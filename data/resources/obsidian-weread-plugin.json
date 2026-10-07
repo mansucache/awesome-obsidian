@@ -1,0 +1,77 @@
+{
+  "id": "obsidian-weread-plugin",
+  "type": "plugin",
+  "category": "integrations",
+  "secondary_categories": [
+    "plugins"
+  ],
+  "scenarios": [
+    "knowledge"
+  ],
+  "tags": [
+    "obsidian-weread-plugin",
+    "plugin",
+    "integrations-collect"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Resource pricing; external services or hosting may have separate costs.",
+    "zh-cn": "此处为资源费用，外部服务或托管可能单独收费。"
+  },
+  "openness": "open-source",
+  "license": "MIT",
+  "platforms": [
+    "windows",
+    "macos",
+    "linux",
+    "ios",
+    "android"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Weread",
+      "url": "https://github.com/zhaohongxuan/obsidian-weread-plugin",
+      "checked_at": "2026-10-07",
+      "supports": "Sync highlights and annotations from WeRead into reading notes."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Weread",
+      "summary": "Sync highlights and annotations from WeRead into reading notes.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "a1aa48883d1658e05fb1aadbb19dc6b5b142cae934c7152ac3c7092e046c9bc0",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Weread",
+      "summary": "将微信读书中的划线与批注同步为阅读笔记。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "733a2b644a0746a0348bbf775ac85a4992cd03cc7b8f053bb280642f549ddd16",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}

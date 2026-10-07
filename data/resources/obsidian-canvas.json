@@ -1,0 +1,71 @@
+{
+  "id": "obsidian-canvas",
+  "type": "official",
+  "category": "official",
+  "secondary_categories": [],
+  "scenarios": [
+    "research",
+    "projects"
+  ],
+  "tags": [
+    "obsidian-canvas",
+    "official"
+  ],
+  "pricing": "free",
+  "cost_note": {
+    "en": "Free resource; external services may have separate charges.",
+    "zh-cn": "资源免费，外部服务可能单独收费。"
+  },
+  "openness": "proprietary",
+  "license": null,
+  "platforms": [
+    "not-applicable"
+  ],
+  "languages": [
+    "en"
+  ],
+  "level": "index",
+  "publication": "sample",
+  "status": "documented",
+  "sources": [
+    {
+      "title": "Canvas",
+      "url": "https://obsidian.md/canvas",
+      "checked_at": "2026-10-07",
+      "supports": "Arrange notes, images and web pages on an infinite canvas for visual thinking."
+    }
+  ],
+  "verification": {
+    "level": "documentation-reviewed",
+    "date": "2026-10-07",
+    "scope": {
+      "en": "Primary resource page and short description.",
+      "zh-cn": "资源原始页面与简短介绍。"
+    },
+    "limitations": {
+      "en": "Source review only.",
+      "zh-cn": "来源核对。"
+    }
+  },
+  "related": [],
+  "assets": [],
+  "revision": 1,
+  "locales": {
+    "en": {
+      "title": "Canvas",
+      "summary": "Arrange notes, images and web pages on an infinite canvas for visual thinking.",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "7b3fe0e83da11f27592c2d08d2e78ab5d330d27bed84627a5a840c06fb8df61e",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    },
+    "zh-cn": {
+      "title": "Canvas",
+      "summary": "在无限画布中排列笔记、图片和网页，进行视觉化思考。",
+      "status": "current",
+      "based_on_revision": 1,
+      "content_sha256": "ebc7f30dff588ea7a33dcf565af5e0a04ba73f6ff6395d4bfe434bbd1d8a4e77",
+      "review": "primary-source-and-bilingual-copy-reviewed"
+    }
+  }
+}
