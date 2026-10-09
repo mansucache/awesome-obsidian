@@ -639,6 +639,11 @@
 
 [图片来源与许可](assets/README.md)
 
+## 相关清单
+
+- [Awesome Markdown](https://github.com/mansucache/awesome-markdown) — 比较 Markdown 写作、开发、协作、转换与发布工具。
+- [Awesome Typora](https://github.com/mansucache/awesome-typora) — 查找 Typora 插件、主题、模板与工具。
+
 ## 致谢
 
 感谢这些社区清单提供的资源线索与组织思路：
