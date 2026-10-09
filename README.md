@@ -639,6 +639,11 @@ Model APIs, subscriptions and cloud services may have separate costs.
 
 [Image credits](assets/README.md)
 
+## Related collections
+
+- [Awesome Markdown](https://github.com/mansucache/awesome-markdown) — Compare Markdown tools for writing, development, collaboration, conversion and publishing.
+- [Awesome Typora](https://github.com/mansucache/awesome-typora) — Explore Typora plugins, themes, templates and tools.
+
 ## Acknowledgements
 
 Thanks to these community lists for resource leads and ideas for organizing the catalog:
